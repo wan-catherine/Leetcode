@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/LongestSubstringWithoutRepeatingCharacters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_longest_substring_without_repeating_characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_longest_substring_without_repeating_characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_longest_substring_without_repeating_characters.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +54,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="40" />
-          <entry key="py" value="2231" />
+          <entry key="py" value="2233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="2231" />
+          <entry key="Python" value="2233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -88,20 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/LongestSubstringWithoutRepeatingCharacters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_longest_substring_without_repeating_characters.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -147,8 +145,8 @@
         <option value="$PROJECT_DIR$/problems/TwoSum.py" />
         <option value="$PROJECT_DIR$/test/test_two_sum.py" />
         <option value="$PROJECT_DIR$/problems/test_longest_substring_without_repeating_characters.py" />
-        <option value="$PROJECT_DIR$/test/test_longest_substring_without_repeating_characters.py" />
         <option value="$PROJECT_DIR$/problems/LongestSubstringWithoutRepeatingCharacters.py" />
+        <option value="$PROJECT_DIR$/test/test_longest_substring_without_repeating_characters.py" />
       </list>
     </option>
   </component>
@@ -355,9 +353,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_longest_substring_without_repeating_characters_py - 2018.08.07 at 22h 51m 45s.xml">
-      <configuration name="Unittests in test_longest_substring_without_repeating_characters.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_longest_substring_without_repeating_characters_py - 2018.08.07 at 22h 51m 57s.xml">
       <configuration name="Unittests in test_longest_substring_without_repeating_characters.py" configurationId="tests" />
     </history-entry>
@@ -383,6 +378,9 @@
       <configuration name="Unittests in test_longest_substring_without_repeating_characters.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_longest_substring_without_repeating_characters_py - 2018.08.07 at 23h 09m 35s.xml">
+      <configuration name="Unittests in test_longest_substring_without_repeating_characters.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_longest_substring_without_repeating_characters_py - 2018.08.07 at 23h 10m 59s.xml">
       <configuration name="Unittests in test_longest_substring_without_repeating_characters.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -479,20 +477,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_longest_substring_without_repeating_characters.py">
+    <entry file="file://$PROJECT_DIR$/problems/LongestSubstringWithoutRepeatingCharacters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/LongestSubstringWithoutRepeatingCharacters.py">
+    <entry file="file://$PROJECT_DIR$/test/test_longest_substring_without_repeating_characters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="90">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

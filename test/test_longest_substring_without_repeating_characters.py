@@ -4,7 +4,7 @@ from problems.LongestSubstringWithoutRepeatingCharacters import Solution
 class TestSolution(TestCase):
     def test_length_longest_substring_with_same_characters(self):
         solution = Solution()
-        res = solution.lengthOfLongestSubstring("bb")
+        res = solution.lengthOfLongestSubstring("bbbb")
         self.assertEquals(1, res)
 
     def test_length_longest_substring_with_different_characters(self):
