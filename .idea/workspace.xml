@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/StringToInteger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_string_to_integer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/PalindromeNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_palindrome_number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_row_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_row_one_column Coverage Results" MODIFIED="1533946361570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number Coverage Results" MODIFIED="1534192140322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_one_empty_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_one_empty_list Coverage Results" MODIFIED="1533772116332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_empty_pair.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_empty_pair Coverage Results" MODIFIED="1534027753976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_string_to_integer_py.coverage" NAME="Unittests in test_string_to_integer.py Coverage Results" MODIFIED="1534089916660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -24,6 +25,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_same_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_same_characters Coverage Results" MODIFIED="1533695771963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_characters Coverage Results" MODIFIED="1533695912965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_median_of_two_sorted_arrays_py.coverage" NAME="Unittests in test_median_of_two_sorted_arrays.py Coverage Results" MODIFIED="1533772139167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_palindrome_number_py.coverage" NAME="Unittests in test_palindrome_number.py Coverage Results" MODIFIED="1534192192723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_same_long_list Coverage Results" MODIFIED="1533771172413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_two_sum_TestTwoSum_test_two_sum_with_negetive_integers.coverage" NAME="Unittests for test_two_sum.TestTwoSum.test_two_sum_with_negetive_integers Coverage Results" MODIFIED="1533589325445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_best_time_buy_sell_stock_py.coverage" NAME="Unittests in test_best_time_buy_sell_stock.py Coverage Results" MODIFIED="1534000305261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -38,6 +40,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_by_one_string.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_by_one_string Coverage Results" MODIFIED="1533697667902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_empty.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_empty Coverage Results" MODIFIED="1533946357084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_four_pairs.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_four_pairs Coverage Results" MODIFIED="1534028275818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_long_non_palindrome_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number Coverage Results" MODIFIED="1534192238211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_no_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_no_repeating_characters Coverage Results" MODIFIED="1533695839507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_simple.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_simple Coverage Results" MODIFIED="1533771169029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_after_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_after_same_long_list Coverage Results" MODIFIED="1533771288030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -57,38 +60,38 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="26" />
+          <entry key="py" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="26" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="237" />
+          <entry key="Python Console" value="244" />
           <entry key="dummy" value="40" />
-          <entry key="py" value="5329" />
+          <entry key="py" value="5589" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="5566" />
+          <entry key="Python" value="5833" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -96,20 +99,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/StringToInteger.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/PalindromeNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_string_to_integer.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_palindrome_number.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -160,6 +163,8 @@
         <option value="$PROJECT_DIR$/problems/MaximumLengthPairChain.py" />
         <option value="$PROJECT_DIR$/test/test_string_to_integer.py" />
         <option value="$PROJECT_DIR$/problems/StringToInteger.py" />
+        <option value="$PROJECT_DIR$/problems/PalindromeNumber.py" />
+        <option value="$PROJECT_DIR$/test/test_palindrome_number.py" />
       </list>
     </option>
   </component>
@@ -170,10 +175,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="665" />
-    <option name="width" value="1238" />
-    <option name="height" value="777" />
+    <option name="x" value="308" />
+    <option name="y" value="121" />
+    <option name="width" value="930" />
+    <option name="height" value="566" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_string_to_integer.py">
+  <component name="RunManager" selected="Python tests.Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,7 +265,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_four_pairs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,11 +276,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_four_pairs&quot;" />
+      <option name="_new_target" value="&quot;test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_three_pairs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,7 +291,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_three_pairs&quot;" />
+      <option name="_new_target" value="&quot;test_palindrome_number.TestSolution.test_palindrome_with_positive_number&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -305,7 +310,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_maximum_length_pair_chain.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_palindrome_number.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,7 +321,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_maximum_length_pair_chain.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_palindrome_number.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -336,19 +341,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_three_pairs" />
-      <item itemvalue="Python tests.Unittests in test_maximum_length_pair_chain.py" />
-      <item itemvalue="Python tests.Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_four_pairs" />
       <item itemvalue="Python tests.Unittests in test_string_to_integer.py" />
       <item itemvalue="Python tests.Unittests for test_string_to_integer.TestSolution.test_myAtoi_with_strange_number" />
+      <item itemvalue="Python tests.Unittests in test_palindrome_number.py" />
+      <item itemvalue="Python tests.Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number" />
+      <item itemvalue="Python tests.Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number" />
+        <item itemvalue="Python tests.Unittests in test_palindrome_number.py" />
+        <item itemvalue="Python tests.Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number" />
         <item itemvalue="Python tests.Unittests in test_string_to_integer.py" />
         <item itemvalue="Python tests.Unittests for test_string_to_integer.TestSolution.test_myAtoi_with_strange_number" />
-        <item itemvalue="Python tests.Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_four_pairs" />
-        <item itemvalue="Python tests.Unittests in test_maximum_length_pair_chain.py" />
-        <item itemvalue="Python tests.Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_three_pairs" />
       </list>
     </recent_temporary>
   </component>
@@ -366,24 +371,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_string_to_integer_py - 2018.08.12 at 11h 31m 51s.xml">
-      <configuration name="Unittests in test_string_to_integer.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_string_to_integer_py - 2018.08.12 at 11h 33m 36s.xml">
-      <configuration name="Unittests in test_string_to_integer.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_string_to_integer_py - 2018.08.12 at 11h 45m 00s.xml">
-      <configuration name="Unittests in test_string_to_integer.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_string_to_integer_py - 2018.08.12 at 11h 45m 32s.xml">
-      <configuration name="Unittests in test_string_to_integer.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_string_to_integer_py - 2018.08.12 at 11h 59m 34s.xml">
-      <configuration name="Unittests in test_string_to_integer.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_string_to_integer_py - 2018.08.12 at 12h 02m 33s.xml">
-      <configuration name="Unittests in test_string_to_integer.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_string_to_integer_py - 2018.08.12 at 12h 03m 04s.xml">
       <configuration name="Unittests in test_string_to_integer.py" configurationId="tests" />
     </history-entry>
@@ -396,17 +383,35 @@
     <history-entry file="Unittests_for_test_string_to_integer_TestSolution_test_myAtoi_with_strange_number - 2018.08.12 at 12h 04m 56s.xml">
       <configuration name="Unittests for test_string_to_integer.TestSolution.test_myAtoi_with_strange_number" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_string_to_integer_py - 2018.08.12 at 12h 05m 17s.xml">
+      <configuration name="Unittests in test_string_to_integer.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_palindrome_number_py - 2018.08.13 at 16h 26m 44s.xml">
+      <configuration name="Unittests in test_palindrome_number.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_number - 2018.08.13 at 16h 27m 05s.xml">
+      <configuration name="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_palindrome_number_py - 2018.08.13 at 16h 28m 00s.xml">
+      <configuration name="Unittests in test_palindrome_number.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_number - 2018.08.13 at 16h 29m 26s.xml">
+      <configuration name="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_palindrome_number_py - 2018.08.13 at 16h 29m 52s.xml">
+      <configuration name="Unittests in test_palindrome_number.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="665" width="1238" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24665552" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19899665" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43941605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30364963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -624,16 +629,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_string_to_integer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="626">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -642,8 +644,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/StringToInteger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="262">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/PalindromeNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_palindrome_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
