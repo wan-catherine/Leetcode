@@ -1,5 +1,5 @@
 class Solution:
-    def intToRoman(self, num):
+    def intToRoman_first(self, num):
         """
         :type num: int
         :rtype: str
@@ -51,4 +51,17 @@ class Solution:
             elif num < 4:
                 res += "I" * num
                 num = 0
+        return  res
+
+    def intToRoman(self, num):
+        dictValueSymbol = {1000:"M", 900:"CM", 500:"D", 400:"CD", 100:"C", 90:"XC"
+            , 50:"L", 40:"XL", 10:"X", 9:"IX", 5:"V", 4:"IV", 1:"I"}
+        values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+        res = ""
+        for i in values:
+            n = num // i
+            if n == 0:
+                continue
+            res += n * dictValueSymbol[i]
+            num = num % i
         return  res
