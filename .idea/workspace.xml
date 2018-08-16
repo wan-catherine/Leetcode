@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/ContainerWithMostWater.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_container_with_most_water.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/ContainerWithMostWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/ContainerWithMostWater.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_simple.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_simple Coverage Results" MODIFIED="1533771169029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_after_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_after_same_long_list Coverage Results" MODIFIED="1533771288030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_solution_py.coverage" NAME="Unittests in test_add_two_numbers.py Coverage Results" MODIFIED="1533578197980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three Coverage Results" MODIFIED="1534289670742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three Coverage Results" MODIFIED="1534372217686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_two_sum_py.coverage" NAME="Unittests in test_two_sum.py Coverage Results" MODIFIED="1533590488825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution.coverage" NAME="Unittests for test_container_with_most_water.TestSolution Coverage Results" MODIFIED="1534289664290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_reverse_integer_py.coverage" NAME="Unittests in test_reverse_integer.py Coverage Results" MODIFIED="1533919252749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -44,7 +43,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_empty_pair.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_empty_pair Coverage Results" MODIFIED="1534027753976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_string_to_integer_py.coverage" NAME="Unittests in test_string_to_integer.py Coverage Results" MODIFIED="1534089916660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_maximum_length_pair_chain_py.coverage" NAME="Unittests in test_maximum_length_pair_chain.py Coverage Results" MODIFIED="1534028220916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_container_with_most_water_py.coverage" NAME="Unittests in test_container_with_most_water.py Coverage Results" MODIFIED="1534301731097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_container_with_most_water_py.coverage" NAME="Unittests in test_container_with_most_water.py Coverage Results" MODIFIED="1534378555927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_mix_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_mix_same_long_list Coverage Results" MODIFIED="1533771250405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_same_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_same_characters Coverage Results" MODIFIED="1533695771963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_median_of_two_sorted_arrays_py.coverage" NAME="Unittests in test_median_of_two_sorted_arrays.py Coverage Results" MODIFIED="1533772139167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -61,10 +60,11 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_by_empty_string.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_by_empty_string Coverage Results" MODIFIED="1533696503350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_60.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_60 Coverage Results" MODIFIED="1534196660688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_two.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two Coverage Results" MODIFIED="1534289324790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_16.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16 Coverage Results" MODIFIED="1534378525560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_long_non_palindrome_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number Coverage Results" MODIFIED="1534192238211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_no_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_no_repeating_characters Coverage Results" MODIFIED="1533695839507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_string_to_integer_TestSolution_test_myAtoi_with_strange_number.coverage" NAME="Unittests for test_string_to_integer.TestSolution.test_myAtoi_with_strange_number Coverage Results" MODIFIED="1534089895984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample Coverage Results" MODIFIED="1534289321209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample Coverage Results" MODIFIED="1534371014446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_zigzag_conversion_py.coverage" NAME="Unittests in test_zigzag_conversion.py Coverage Results" MODIFIED="1533946728685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_600.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_600 Coverage Results" MODIFIED="1534196874980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_different_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_different_characters Coverage Results" MODIFIED="1533695808476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -77,39 +77,39 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="37" />
+          <entry key="py" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="37" />
+          <entry key="Python" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="384" />
+          <entry key="Python Console" value="440" />
           <entry key="dummy" value="40" />
-          <entry key="py" value="7900" />
+          <entry key="py" value="8433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="8284" />
+          <entry key="Python" value="8873" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -120,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/IntegerToRoman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="57" column="68" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="57" selection-end-column="68" />
+            <state relative-caret-position="855">
+              <caret line="57" column="68" selection-start-line="56" selection-start-column="9" selection-end-line="57" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -129,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_integer_to_roman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="390">
               <caret line="27" column="28" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="28" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -142,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/problems/RomanToInteger.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
+              <caret line="11" column="37" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -150,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problems/ContainerWithMostWater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="188">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -159,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_container_with_most_water.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -169,9 +169,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/diff_tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/unittest/case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="578" selection-start-line="578" selection-end-line="578" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/contextlib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_roman_to_integer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="420">
               <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -240,7 +267,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
     <option name="y" value="37" />
     <option name="width" value="1239" />
@@ -361,6 +388,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_container_with_most_water.TestSolution.test_maxArea_with_sample_16&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -373,21 +415,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_container_with_most_water.TestSolution.test_maxArea_with_sample_three&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_container_with_most_water.TestSolution.test_maxArea_with_sample_two&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -410,16 +437,16 @@
       <item itemvalue="Python tests.Unittests in test_container_with_most_water.py" />
       <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample" />
       <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three" />
-      <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two" />
       <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in test_container_with_most_water.py" />
+        <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16" />
         <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three" />
-        <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two" />
         <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample" />
+        <item itemvalue="Python tests.Unittests for test_container_with_most_water.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -437,48 +464,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.14 at 19h 29m 26s.xml">
+    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.15 at 18h 18m 26s.xml">
       <configuration name="Unittests in test_container_with_most_water.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.14 at 19h 31m 37s.xml">
-      <configuration name="Unittests in test_container_with_most_water.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.14 at 19h 34m 01s.xml">
-      <configuration name="Unittests in test_container_with_most_water.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_container_with_most_water_TestSolution - 2018.08.14 at 19h 34m 24s.xml">
-      <configuration name="Unittests for test_container_with_most_water.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three - 2018.08.14 at 19h 34m 30s.xml">
+    <history-entry file="Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three - 2018.08.15 at 18h 21m 36s.xml">
       <configuration name="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.14 at 19h 34m 51s.xml">
+    <history-entry file="Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three - 2018.08.15 at 18h 22m 14s.xml">
+      <configuration name="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three - 2018.08.15 at 18h 22m 20s.xml">
+      <configuration name="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three - 2018.08.15 at 18h 27m 09s.xml">
+      <configuration name="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three - 2018.08.15 at 18h 31m 51s.xml">
+      <configuration name="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.15 at 18h 32m 12s.xml">
       <configuration name="Unittests in test_container_with_most_water.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.14 at 19h 46m 59s.xml">
+    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.15 at 20h 12m 23s.xml">
       <configuration name="Unittests in test_container_with_most_water.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.14 at 19h 47m 33s.xml">
+    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.15 at 20h 12m 48s.xml">
       <configuration name="Unittests in test_container_with_most_water.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.14 at 22h 10m 22s.xml">
-      <configuration name="Unittests in test_container_with_most_water.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_container_with_most_water_py - 2018.08.14 at 22h 55m 31s.xml">
-      <configuration name="Unittests in test_container_with_most_water.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_16 - 2018.08.15 at 20h 15m 46s.xml">
+      <configuration name="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="37" width="1239" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2021721" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20568562" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46715328" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26164383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46715328" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42919707" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -549,6 +576,22 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/ContainerWithMostWater.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/ContainerWithMostWater.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
@@ -728,25 +771,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/IntegerToRoman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="57" column="68" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="57" selection-end-column="68" />
+        <state relative-caret-position="855">
+          <caret line="57" column="68" selection-start-line="56" selection-start-column="9" selection-end-line="57" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_integer_to_roman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="390">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_roman_to_integer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -756,14 +789,45 @@
     <entry file="file://$PROJECT_DIR$/problems/RomanToInteger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
+          <caret line="11" column="37" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_roman_to_integer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/diff_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="578" selection-start-line="578" selection-end-line="578" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_container_with_most_water.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="285">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -772,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/ContainerWithMostWater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="188">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
         </state>
       </provider>
     </entry>
