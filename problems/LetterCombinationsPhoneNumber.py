@@ -1,5 +1,5 @@
 class Solution:
-    def letterCombinations(self, digits):
+    def letterCombinations_my_answer(self, digits):
         """
         :type digits: str
         :rtype: List[str]
@@ -26,3 +26,18 @@ class Solution:
                         res[j + times * k + count] += letters[k]
                         j += 1
         return  res
+
+    def letterCombinations(self, digits):
+        mapping = {2: "abc", 3: "def", 4: "ghi", 5: "jkl", 6: "mno", 7: "pqrs", 8: "tuv", 9: "wxyz"}
+        if not digits:
+            return []
+        rtn = set({""})
+
+        for digit in digits:
+            tmp = set()
+            chars = mapping[int(digit)]
+            for char in chars:
+                for item in rtn:
+                    tmp.add(item + char)
+            rtn = tmp
+        return list(rtn)
