@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/ValidParentheses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_valid_parentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/MergeTwoSortedLists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_merge_two_sorted_lists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,6 +63,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_mix_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_mix_same_long_list Coverage Results" MODIFIED="1533771250405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_same_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_same_characters Coverage Results" MODIFIED="1533695771963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_end.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_end Coverage Results" MODIFIED="1534693825492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_two_sorted_lists_TestSolution_test_mergeTwoLists.coverage" NAME="Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists Coverage Results" MODIFIED="1534803411170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_median_of_two_sorted_arrays_py.coverage" NAME="Unittests in test_median_of_two_sorted_arrays.py Coverage Results" MODIFIED="1533772139167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_3.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_3 Coverage Results" MODIFIED="1534283534245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_three_sum_closest_TestSolution_test_threeSumClosest_81.coverage" NAME="Unittests for test_three_sum_closest.TestSolution.test_threeSumClosest_81 Coverage Results" MODIFIED="1534546590370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -100,39 +101,39 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="59" />
+          <entry key="py" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="59" />
+          <entry key="Python" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="820" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="12737" />
+          <entry key="py" value="13232" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="13557" />
+          <entry key="Python" value="14052" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -141,19 +142,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/ValidParentheses.py">
+        <entry file="file://$PROJECT_DIR$/problems/MergeTwoSortedLists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="510">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_valid_parentheses.py">
+        <entry file="file://$PROJECT_DIR$/problems/TwoSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_merge_two_sorted_lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_add_two_numbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="16" column="18" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -176,9 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sourcecode/AddTwoNumbers.py" />
-        <option value="$PROJECT_DIR$/sourcecode/TwoSum.py" />
-        <option value="$PROJECT_DIR$/problems/AddTwoNumbers.py" />
         <option value="$PROJECT_DIR$/test/test_solution.py" />
         <option value="$PROJECT_DIR$/test/test_add_two_numbers.py" />
         <option value="$PROJECT_DIR$/problems/test_two_sum.py" />
@@ -227,6 +246,9 @@
         <option value="$PROJECT_DIR$/problems/test_valid_parentheses.py" />
         <option value="$PROJECT_DIR$/test/test_valid_parentheses.py" />
         <option value="$PROJECT_DIR$/problems/ValidParentheses.py" />
+        <option value="$PROJECT_DIR$/problems/test_merge_two_sorted_lists.py" />
+        <option value="$PROJECT_DIR$/test/test_merge_two_sorted_lists.py" />
+        <option value="$PROJECT_DIR$/problems/MergeTwoSortedLists.py" />
       </list>
     </option>
   </component>
@@ -296,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_valid_parentheses.py">
+  <component name="RunManager" selected="Python tests.Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,7 +348,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,7 +359,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_remove_nth_node.TestSolution.test_removeNthFromEnd_two&quot;" />
+      <option name="_new_target" value="&quot;test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -403,18 +425,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in test_remove_nth_node.py" />
-      <item itemvalue="Python tests.Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_two" />
       <item itemvalue="Python tests.Unittests in test_valid_parentheses.py" />
       <item itemvalue="Python tests.Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_right" />
       <item itemvalue="Python tests.Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_left" />
+      <item itemvalue="Python tests.Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists" />
         <item itemvalue="Python tests.Unittests in test_valid_parentheses.py" />
         <item itemvalue="Python tests.Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_left" />
         <item itemvalue="Python tests.Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_right" />
         <item itemvalue="Python tests.Unittests in test_remove_nth_node.py" />
-        <item itemvalue="Python tests.Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_two" />
       </list>
     </recent_temporary>
   </component>
@@ -432,21 +454,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_first - 2018.08.19 at 11h 50m 34s.xml">
-      <configuration name="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_first" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_remove_nth_node_py - 2018.08.19 at 11h 51m 35s.xml">
-      <configuration name="Unittests in test_remove_nth_node.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd - 2018.08.19 at 11h 51m 45s.xml">
-      <configuration name="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_two - 2018.08.19 at 11h 51m 48s.xml">
-      <configuration name="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_remove_nth_node_py - 2018.08.19 at 13h 04m 26s.xml">
-      <configuration name="Unittests in test_remove_nth_node.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_valid_parentheses_py - 2018.08.19 at 18h 24m 24s.xml">
       <configuration name="Unittests in test_valid_parentheses.py" configurationId="tests" />
     </history-entry>
@@ -462,17 +469,32 @@
     <history-entry file="Unittests_for_test_valid_parentheses_TestSolution_test_isValid_with_only_left - 2018.08.19 at 18h 27m 54s.xml">
       <configuration name="Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_left" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_valid_parentheses_py - 2018.08.19 at 18h 28m 17s.xml">
+      <configuration name="Unittests in test_valid_parentheses.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_merge_two_sorted_lists_TestSolution_test_mergeTwoLists - 2018.08.20 at 18h 04m 06s.xml">
+      <configuration name="Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_merge_two_sorted_lists_TestSolution_test_mergeTwoLists - 2018.08.20 at 18h 04m 55s.xml">
+      <configuration name="Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_merge_two_sorted_lists_TestSolution_test_mergeTwoLists - 2018.08.20 at 18h 05m 11s.xml">
+      <configuration name="Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_merge_two_sorted_lists_TestSolution_test_mergeTwoLists - 2018.08.20 at 18h 09m 53s.xml">
+      <configuration name="Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29431438" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2993311" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34014598" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34014598" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42335767" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,6 +575,11 @@
           <line>31</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/MergeTwoSortedLists.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -610,13 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_two_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -834,19 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_two_numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="18" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,9 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,16 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/TwoSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -891,20 +885,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ValidParentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_valid_parentheses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="485">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ValidParentheses.py">
+    <entry file="file://$PROJECT_DIR$/test/test_two_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="390">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_two_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="16" column="18" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/TwoSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_merge_two_sorted_lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/MergeTwoSortedLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
         </state>
       </provider>
     </entry>
