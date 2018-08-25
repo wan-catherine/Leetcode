@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="" />
+    <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/problems/ImplementStrStr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/test_Implement_strStr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,56 +16,23 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_row_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_row_one_column Coverage Results" MODIFIED="1533946361570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_1994.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_1994 Coverage Results" MODIFIED="1534196385906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number Coverage Results" MODIFIED="1534192140322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number Coverage Results" MODIFIED="1534196321291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_first.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_first Coverage Results" MODIFIED="1534693834385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_solution_TestSolution_test_addTwoNumbers_with_different_long_numbers.coverage" NAME="Unittests for test_solution.TestSolution.test_addTwoNumbers_with_different_long_numbers Coverage Results" MODIFIED="1533573737592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_column Coverage Results" MODIFIED="1533946354065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_with_two.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_with_two Coverage Results" MODIFIED="1534616182138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_characters Coverage Results" MODIFIED="1533695912965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_palindrome_number_py.coverage" NAME="Unittests in test_palindrome_number.py Coverage Results" MODIFIED="1534192192723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_parentheses_TestSolution_test_isValid_with_only_left.coverage" NAME="Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_left Coverage Results" MODIFIED="1534717674000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_500.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_500 Coverage Results" MODIFIED="1534284299616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_solution_TestSolution_test_addTwoNumbers_with_both_zero.coverage" NAME="Unittests for test_solution.TestSolution.test_addTwoNumbers_with_both_zero Coverage Results" MODIFIED="1533572913385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_1.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_1 Coverage Results" MODIFIED="1534693584733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_add_two_numbers_py.coverage" NAME="Unittests in test_add_two_numbers.py Coverage Results" MODIFIED="1533583794670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_three_pairs.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_three_pairs Coverage Results" MODIFIED="1534028096112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_remove_nth_node_py.coverage" NAME="Unittests in test_remove_nth_node.py Coverage Results" MODIFIED="1534698265845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_integer_to_roman_py.coverage" NAME="Unittests in test_integer_to_roman.py Coverage Results" MODIFIED="1534197833567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_generate_parenthesis_py.coverage" NAME="Unittests in test_generate_parenthesis.py Coverage Results" MODIFIED="1534811417967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution_test_threeSum_with_new_list.coverage" NAME="Unittests for test_3Sum.TestSolution.test_threeSum_with_new_list Coverage Results" MODIFIED="1534463701529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution.coverage" NAME="Unittests for test_3Sum.TestSolution Coverage Results" MODIFIED="1534460361075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_by_one_string.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_by_one_string Coverage Results" MODIFIED="1533697667902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_empty.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_empty Coverage Results" MODIFIED="1533946357084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_roman_to_integer_py.coverage" NAME="Unittests in test_roman_to_integer.py Coverage Results" MODIFIED="1534284378990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_four_pairs.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_four_pairs Coverage Results" MODIFIED="1534028275818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534894333931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_simple.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_simple Coverage Results" MODIFIED="1533771169029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_after_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_after_same_long_list Coverage Results" MODIFIED="1533771288030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_parentheses_TestSolution_test_isValid_with_only_right.coverage" NAME="Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_right Coverage Results" MODIFIED="1534717588849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_generate_parenthesis_TestSolution_test_generateParenthesis_3.coverage" NAME="Unittests for test_generate_parenthesis.TestSolution.test_generateParenthesis_3 Coverage Results" MODIFIED="1534888741602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_three_sum_closest_py.coverage" NAME="Unittests in test_three_sum_closest.py Coverage Results" MODIFIED="1534546644634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution.coverage" NAME="Unittests for test_remove_nth_node.TestSolution Coverage Results" MODIFIED="1534691919015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_solution_py.coverage" NAME="Unittests in test_add_two_numbers.py Coverage Results" MODIFIED="1533578197980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three Coverage Results" MODIFIED="1534372217686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_two_sum_py.coverage" NAME="Unittests in test_two_sum.py Coverage Results" MODIFIED="1533590488825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution.coverage" NAME="Unittests for test_container_with_most_water.TestSolution Coverage Results" MODIFIED="1534289664290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_valid_parentheses_py.coverage" NAME="Unittests in test_valid_parentheses.py Coverage Results" MODIFIED="1534717696745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_TestSolution_test_removeDuplicates_three.coverage" NAME="Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates_three Coverage Results" MODIFIED="1534977937448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_longest_common_prefix_py.coverage" NAME="Unittests in test_longest_common_prefix.py Coverage Results" MODIFIED="1534456383796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_reverse_integer_py.coverage" NAME="Unittests in test_reverse_integer.py Coverage Results" MODIFIED="1533919252749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_four_rows.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_four_rows Coverage Results" MODIFIED="1533946350729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_11.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_11 Coverage Results" MODIFIED="1534196449069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_empty.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_empty Coverage Results" MODIFIED="1534609234206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_1695.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_1695 Coverage Results" MODIFIED="1534284185759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_common_prefix_TestSolution_test_longestCommonPrefix_with_no_common.coverage" NAME="Unittests for test_longest_common_prefix.TestSolution.test_longestCommonPrefix_with_no_common Coverage Results" MODIFIED="1534456168619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_one_empty_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_one_empty_list Coverage Results" MODIFIED="1533772116332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_empty_pair.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_empty_pair Coverage Results" MODIFIED="1534027753976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_string_to_integer_py.coverage" NAME="Unittests in test_string_to_integer.py Coverage Results" MODIFIED="1534089916660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_maximum_length_pair_chain_py.coverage" NAME="Unittests in test_maximum_length_pair_chain.py Coverage Results" MODIFIED="1534028220916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$LetterCombinationsPhoneNumber.coverage" NAME="LetterCombinationsPhoneNumber Coverage Results" MODIFIED="1534608616253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_container_with_most_water_py.coverage" NAME="Unittests in test_container_with_most_water.py Coverage Results" MODIFIED="1534378555927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_mix_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_mix_same_long_list Coverage Results" MODIFIED="1533771250405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test.test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534893693639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_same_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_same_characters Coverage Results" MODIFIED="1533695771963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_end.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_end Coverage Results" MODIFIED="1534693825492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_two_sorted_lists_TestSolution_test_mergeTwoLists.coverage" NAME="Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists Coverage Results" MODIFIED="1534803411170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -69,35 +40,75 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_median_of_two_sorted_arrays_py.coverage" NAME="Unittests in test_median_of_two_sorted_arrays.py Coverage Results" MODIFIED="1533772139167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_3.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_3 Coverage Results" MODIFIED="1534283534245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_three_sum_closest_TestSolution_test_threeSumClosest_81.coverage" NAME="Unittests for test_three_sum_closest.TestSolution.test_threeSumClosest_81 Coverage Results" MODIFIED="1534546590370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_same_long_list Coverage Results" MODIFIED="1533771172413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_two_sum_TestTwoSum_test_two_sum_with_negetive_integers.coverage" NAME="Unittests for test_two_sum.TestTwoSum.test_two_sum_with_negetive_integers Coverage Results" MODIFIED="1533589325445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_best_time_buy_sell_stock_py.coverage" NAME="Unittests in test_best_time_buy_sell_stock.py Coverage Results" MODIFIED="1534000305261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_TestSolution_test_max_profit_with_only_one_number.coverage" NAME="Unittests for test_best_time_buy_sell_stock.TestSolution.test_max_profit_with_only_one_number Coverage Results" MODIFIED="1534000353040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_element_TestSolution_test_removeElement.coverage" NAME="Unittests for test_remove_element.TestSolution.test_removeElement Coverage Results" MODIFIED="1535063089564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_9.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_9 Coverage Results" MODIFIED="1534284105097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_three.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_three Coverage Results" MODIFIED="1534196326962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution.coverage" NAME="Unittests for test_Implement_strStr.TestSolution Coverage Results" MODIFIED="1535161020430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_longest_substring_without_repeating_characters_py.coverage" NAME="Unittests in test_longest_substring_without_repeating_characters.py Coverage Results" MODIFIED="1533697859516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_at_start.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_at_start Coverage Results" MODIFIED="1533696952955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_60.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_60 Coverage Results" MODIFIED="1534196660688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_two.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two Coverage Results" MODIFIED="1534289324790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_16.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16 Coverage Results" MODIFIED="1534378525560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_3Sum_py.coverage" NAME="Unittests in test_3Sum.py Coverage Results" MODIFIED="1534463902185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_no_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_no_repeating_characters Coverage Results" MODIFIED="1533695839507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_0.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_0 Coverage Results" MODIFIED="1535148313322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample Coverage Results" MODIFIED="1534371014446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_zigzag_conversion_py.coverage" NAME="Unittests in test_zigzag_conversion.py Coverage Results" MODIFIED="1533946728685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_different_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_different_characters Coverage Results" MODIFIED="1533695808476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number Coverage Results" MODIFIED="1534196321291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_first.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_first Coverage Results" MODIFIED="1534693834385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_column Coverage Results" MODIFIED="1533946354065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_with_two.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_with_two Coverage Results" MODIFIED="1534616182138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_characters Coverage Results" MODIFIED="1533695912965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_parentheses_TestSolution_test_isValid_with_only_left.coverage" NAME="Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_left Coverage Results" MODIFIED="1534717674000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_solution_TestSolution_test_addTwoNumbers_with_both_zero.coverage" NAME="Unittests for test_solution.TestSolution.test_addTwoNumbers_with_both_zero Coverage Results" MODIFIED="1533572913385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_1.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_1 Coverage Results" MODIFIED="1534693584733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_add_two_numbers_py.coverage" NAME="Unittests in test_add_two_numbers.py Coverage Results" MODIFIED="1533583794670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_three_pairs.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_three_pairs Coverage Results" MODIFIED="1534028096112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_generate_parenthesis_py.coverage" NAME="Unittests in test_generate_parenthesis.py Coverage Results" MODIFIED="1534811417967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution_test_threeSum_with_new_list.coverage" NAME="Unittests for test_3Sum.TestSolution.test_threeSum_with_new_list Coverage Results" MODIFIED="1534463701529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution.coverage" NAME="Unittests for test_3Sum.TestSolution Coverage Results" MODIFIED="1534460361075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_empty.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_empty Coverage Results" MODIFIED="1535148309927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_four.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_four Coverage Results" MODIFIED="1535150045259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_four_pairs.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_four_pairs Coverage Results" MODIFIED="1534028275818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534894333931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_simple.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_simple Coverage Results" MODIFIED="1533771169029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_parentheses_TestSolution_test_isValid_with_only_right.coverage" NAME="Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_right Coverage Results" MODIFIED="1534717588849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_three_sum_closest_py.coverage" NAME="Unittests in test_three_sum_closest.py Coverage Results" MODIFIED="1534546644634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution.coverage" NAME="Unittests for test_remove_nth_node.TestSolution Coverage Results" MODIFIED="1534691919015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_solution_py.coverage" NAME="Unittests in test_add_two_numbers.py Coverage Results" MODIFIED="1533578197980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three Coverage Results" MODIFIED="1534372217686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution.coverage" NAME="Unittests for test_container_with_most_water.TestSolution Coverage Results" MODIFIED="1534289664290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_valid_parentheses_py.coverage" NAME="Unittests in test_valid_parentheses.py Coverage Results" MODIFIED="1534717696745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_TestSolution_test_removeDuplicates_three.coverage" NAME="Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates_three Coverage Results" MODIFIED="1534977937448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_reverse_integer_py.coverage" NAME="Unittests in test_reverse_integer.py Coverage Results" MODIFIED="1533919252749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_11.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_11 Coverage Results" MODIFIED="1534196449069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_three.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_three Coverage Results" MODIFIED="1535148538459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_common_prefix_TestSolution_test_longestCommonPrefix_with_no_common.coverage" NAME="Unittests for test_longest_common_prefix.TestSolution.test_longestCommonPrefix_with_no_common Coverage Results" MODIFIED="1534456168619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_one_empty_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_one_empty_list Coverage Results" MODIFIED="1533772116332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_empty_pair.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_empty_pair Coverage Results" MODIFIED="1534027753976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_string_to_integer_py.coverage" NAME="Unittests in test_string_to_integer.py Coverage Results" MODIFIED="1534089916660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_equal.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_equal Coverage Results" MODIFIED="1535148738006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_container_with_most_water_py.coverage" NAME="Unittests in test_container_with_most_water.py Coverage Results" MODIFIED="1534378555927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_mix_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_mix_same_long_list Coverage Results" MODIFIED="1533771250405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test.test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534893693639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_same_long_list Coverage Results" MODIFIED="1533771172413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_best_time_buy_sell_stock_py.coverage" NAME="Unittests in test_best_time_buy_sell_stock.py Coverage Results" MODIFIED="1534000305261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_9.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_9 Coverage Results" MODIFIED="1534284105097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_three.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_three Coverage Results" MODIFIED="1534196326962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr Coverage Results" MODIFIED="1535149586428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_three_rows.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_three_rows Coverage Results" MODIFIED="1533946346928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_two.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_two Coverage Results" MODIFIED="1534693907949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_by_empty_string.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_by_empty_string Coverage Results" MODIFIED="1533696503350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_letter_combinations_py.coverage" NAME="Unittests in test_letter_combinations.py Coverage Results" MODIFIED="1534615751201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_60.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_60 Coverage Results" MODIFIED="1534196660688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_two.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two Coverage Results" MODIFIED="1534289324790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_16.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16 Coverage Results" MODIFIED="1534378525560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_long_non_palindrome_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number Coverage Results" MODIFIED="1534192238211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution_test_threeSum_with_list.coverage" NAME="Unittests for test_3Sum.TestSolution.test_threeSum_with_list Coverage Results" MODIFIED="1534460315701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_3Sum_py.coverage" NAME="Unittests in test_3Sum.py Coverage Results" MODIFIED="1534463902185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_no_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_no_repeating_characters Coverage Results" MODIFIED="1533695839507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_TestSolution_test_removeDuplicates.coverage" NAME="Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates Coverage Results" MODIFIED="1534977903846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd Coverage Results" MODIFIED="1534693905096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_string_to_integer_TestSolution_test_myAtoi_with_strange_number.coverage" NAME="Unittests for test_string_to_integer.TestSolution.test_myAtoi_with_strange_number Coverage Results" MODIFIED="1534089895984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample Coverage Results" MODIFIED="1534371014446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_swap_pairs_TestSolution.coverage" NAME="Unittests for test_swap_pairs.TestSolution Coverage Results" MODIFIED="1534894392427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_zigzag_conversion_py.coverage" NAME="Unittests in test_zigzag_conversion.py Coverage Results" MODIFIED="1533946728685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_600.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_600 Coverage Results" MODIFIED="1534196874980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists.coverage" NAME="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists Coverage Results" MODIFIED="1535065270522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_different_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_different_characters Coverage Results" MODIFIED="1533695808476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_at_end.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_at_end Coverage Results" MODIFIED="1533696193253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -107,39 +118,40 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="78" />
+          <entry key="py" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="78" />
+          <entry key="Python" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="1041" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="15414" />
+          <entry key="py" value="15851" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="16455" />
+          <entry key="Python" value="16892" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -147,53 +159,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/SwapNodesPairs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/MergeKSortedLists.py">
+        <entry file="file://$PROJECT_DIR$/problems/ImplementStrStr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/test_merge_k_lists.py">
+        <entry file="file://$PROJECT_DIR$/problems/test_Implement_strStr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_swap_pairs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_add_two_numbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="18" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="35">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -216,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ReverseInteger.py" />
-        <option value="$PROJECT_DIR$/test/test_zigzag_conversion.py" />
         <option value="$PROJECT_DIR$/problems/ZigZagConversion.py" />
         <option value="$PROJECT_DIR$/test/test_best_time_buy_sell_stock.py" />
         <option value="$PROJECT_DIR$/test/test_best_time_buy_sell_stock_ii.py" />
@@ -267,6 +244,8 @@
         <option value="$PROJECT_DIR$/test/test_remove_element.py" />
         <option value="$PROJECT_DIR$/problems/test_merge_k_lists.py" />
         <option value="$PROJECT_DIR$/problems/MergeKSortedLists.py" />
+        <option value="$PROJECT_DIR$/problems/test_Implement_strStr.py" />
+        <option value="$PROJECT_DIR$/problems/ImplementStrStr.py" />
       </list>
     </option>
   </component>
@@ -276,10 +255,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1238" />
-    <option name="height" value="777" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1159" />
+    <option name="y" value="665" />
+    <option name="width" value="80" />
+    <option name="height" value="22" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -287,6 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,7 +289,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_merge_k_lists.TestSolution.test_mergeKLists">
+  <component name="RunManager" selected="Python tests.Unittests for test_Implement_strStr.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -366,7 +346,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Implement_strStr.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,84 +357,84 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_merge_k_lists.TestSolution.test_mergeKLists&quot;" />
+      <option name="_new_target" value="&quot;test_Implement_strStr.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_remove_duplicates.TestSolution.test_removeDuplicates&quot;" />
+      <option name="_new_target" value="&quot;test_Implement_strStr.TestSolution.test_strStr&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr_equal" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_remove_duplicates.TestSolution.test_removeDuplicates_three&quot;" />
+      <option name="_new_target" value="&quot;test_Implement_strStr.TestSolution.test_strStr_equal&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_remove_element.TestSolution.test_removeElement" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr_four" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_remove_element.TestSolution.test_removeElement&quot;" />
+      <option name="_new_target" value="&quot;test_Implement_strStr.TestSolution.test_strStr_four&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_swap_pairs.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_swap_pairs.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_Implement_strStr.TestSolution.test_strStr_three&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_swap_pairs.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates" />
-      <item itemvalue="Python tests.Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates_three" />
-      <item itemvalue="Python tests.Unittests for test_remove_element.TestSolution.test_removeElement" />
-      <item itemvalue="Python tests.Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" />
+      <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution.test_strStr_three" />
+      <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution.test_strStr_equal" />
+      <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution.test_strStr_four" />
+      <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution.test_strStr" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" />
-        <item itemvalue="Python tests.Unittests for test_remove_element.TestSolution.test_removeElement" />
-        <item itemvalue="Python tests.Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates_three" />
-        <item itemvalue="Python tests.Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates" />
-        <item itemvalue="Python tests.Unittests for test_swap_pairs.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution.test_strStr_four" />
+        <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution.test_strStr" />
+        <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution.test_strStr_equal" />
+        <item itemvalue="Python tests.Unittests for test_Implement_strStr.TestSolution.test_strStr_three" />
       </list>
     </recent_temporary>
   </component>
@@ -472,47 +452,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 18h 50m 38s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution_test_strStr_four - 2018.08.24 at 18h 17m 27s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr_four" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 18h 51m 04s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution_test_strStr_four - 2018.08.24 at 18h 18m 43s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr_four" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 18h 51m 17s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution - 2018.08.24 at 18h 24m 36s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 18h 53m 13s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution_test_strStr - 2018.08.24 at 18h 26m 26s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 18h 54m 27s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution - 2018.08.24 at 18h 26m 39s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 18h 54m 53s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution_test_strStr_four - 2018.08.24 at 18h 27m 12s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr_four" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 18h 55m 11s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution_test_strStr_four - 2018.08.24 at 18h 28m 36s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr_four" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 18h 58m 40s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution_test_strStr_four - 2018.08.24 at 18h 33m 04s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr_four" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 18h 59m 51s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution_test_strStr_four - 2018.08.24 at 18h 34m 05s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution.test_strStr_four" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists - 2018.08.23 at 19h 00m 48s.xml">
-      <configuration name="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists" configurationId="tests" />
+    <history-entry file="Unittests_for_test_Implement_strStr_TestSolution - 2018.08.24 at 18h 34m 16s.xml">
+      <configuration name="Unittests for test_Implement_strStr.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1238" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31354514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32943144" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34014598" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34014598" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42335767" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -598,6 +578,11 @@
           <line>18</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/ImplementStrStr.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -621,20 +606,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/MedianOfTwoSortedArrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_best_time_buy_sell_stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_best_time_buy_sell_stock_ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -929,10 +900,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_remove_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/RemoveElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/SwapNodesPairs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/test_merge_k_lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -956,37 +951,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_remove_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/RemoveElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/test_merge_k_lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/MergeKSortedLists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="552">
+          <caret line="41" column="24" selection-start-line="12" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/test_Implement_strStr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ImplementStrStr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
