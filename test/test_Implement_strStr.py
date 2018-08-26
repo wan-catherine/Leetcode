@@ -36,3 +36,8 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.strStr("aaa","aaa")
         self.assertEqual(0, res)
+
+    def test_find_pattern(self):
+        solution = Solution()
+        res = solution.findPattern("acbacdabcy")
+        self.assertEqual([0,0,0,0,1,2,0,1,0,0], res)
