@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/MaximumSubarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_max_subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/SearchRotatedSortedArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_search_rotated_sorted_array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -23,6 +23,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution.coverage" NAME="Unittests for test_divide_two_integers.TestSolution Coverage Results" MODIFIED="1535408768395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_solution_TestSolution_test_addTwoNumbers_with_different_long_numbers.coverage" NAME="Unittests for test_solution.TestSolution.test_addTwoNumbers_with_different_long_numbers Coverage Results" MODIFIED="1533573737592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_palindrome_number_py.coverage" NAME="Unittests in test_palindrome_number.py Coverage Results" MODIFIED="1534192192723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution Coverage Results" MODIFIED="1535819345872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_single.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray_single Coverage Results" MODIFIED="1535771695431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_500.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_500 Coverage Results" MODIFIED="1534284299616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_long.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_long Coverage Results" MODIFIED="1535510905536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -47,6 +48,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_four_rows.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_four_rows Coverage Results" MODIFIED="1533946350729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_next_permutation_TestSolution.coverage" NAME="Unittests for test_next_permutation.TestSolution Coverage Results" MODIFIED="1535667697782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_empty.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_empty Coverage Results" MODIFIED="1534609234206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_three.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_three Coverage Results" MODIFIED="1535819342437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_1695.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_1695 Coverage Results" MODIFIED="1534284185759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_maximum_length_pair_chain_py.coverage" NAME="Unittests in test_maximum_length_pair_chain.py Coverage Results" MODIFIED="1534028220916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$LetterCombinationsPhoneNumber.coverage" NAME="LetterCombinationsPhoneNumber Coverage Results" MODIFIED="1534608616253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
@@ -64,6 +66,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_longest_substring_without_repeating_characters_py.coverage" NAME="Unittests in test_longest_substring_without_repeating_characters.py Coverage Results" MODIFIED="1533697859516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_at_start.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_at_start Coverage Results" MODIFIED="1533696952955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray Coverage Results" MODIFIED="1535771490178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search Coverage Results" MODIFIED="1535819034526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_60.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_60 Coverage Results" MODIFIED="1534196660688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_two.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two Coverage Results" MODIFIED="1534289324790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_16.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16 Coverage Results" MODIFIED="1534378525560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -107,6 +110,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution.coverage" NAME="Unittests for test_container_with_most_water.TestSolution Coverage Results" MODIFIED="1534289664290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_find_pattern.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_find_pattern Coverage Results" MODIFIED="1535299710328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_valid_parentheses_py.coverage" NAME="Unittests in test_valid_parentheses.py Coverage Results" MODIFIED="1534717696745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_two.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two Coverage Results" MODIFIED="1535819156274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_TestSolution_test_removeDuplicates_three.coverage" NAME="Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates_three Coverage Results" MODIFIED="1534977937448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_empty_empty.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_empty_empty Coverage Results" MODIFIED="1535587029874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_reverse_integer_py.coverage" NAME="Unittests in test_reverse_integer.py Coverage Results" MODIFIED="1533919252749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -133,6 +137,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_by_empty_string.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_by_empty_string Coverage Results" MODIFIED="1533696503350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution_test_divide_1.coverage" NAME="Unittests for test_divide_two_integers.TestSolution.test_divide_1 Coverage Results" MODIFIED="1535408649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_letter_combinations_py.coverage" NAME="Unittests in test_letter_combinations.py Coverage Results" MODIFIED="1534615751201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_no.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no Coverage Results" MODIFIED="1535819037455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_long_non_palindrome_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number Coverage Results" MODIFIED="1534192238211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_super_long.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_super_long Coverage Results" MODIFIED="1535510686902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution_test_threeSum_with_list.coverage" NAME="Unittests for test_3Sum.TestSolution.test_threeSum_with_list Coverage Results" MODIFIED="1534460315701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -143,6 +148,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_three.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_three Coverage Results" MODIFIED="1535592900019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_600.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_600 Coverage Results" MODIFIED="1534196874980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists.coverage" NAME="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists Coverage Results" MODIFIED="1535065270522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one Coverage Results" MODIFIED="1535819062859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_at_end.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_at_end Coverage Results" MODIFIED="1533696193253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -152,7 +158,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
@@ -161,143 +167,56 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="1" />
-          <entry key="py" value="101" />
+          <entry key="py" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="101" />
+          <entry key="Python" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="1320" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="21314" />
+          <entry key="py" value="22128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="22634" />
+          <entry key="Python" value="23448" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py">
+        <entry file="file://$PROJECT_DIR$/problems/SearchRotatedSortedArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/NextPermutation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_next_permutation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/LongestValidParentheses.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="156">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/MaximumSubarray.py">
+        <entry file="file://$PROJECT_DIR$/test/test_search_rotated_sorted_array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_max_subarray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_longest_valid_parentheses.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_substring_concatenation_all_words.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_divide_two_integers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_Implement_strStr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="312">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -320,8 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/LongestCommonPrefix.py" />
-        <option value="$PROJECT_DIR$/problems/3Sum.py" />
         <option value="$PROJECT_DIR$/test/test_3Sum.py" />
         <option value="$PROJECT_DIR$/problems/ThreeSum.py" />
         <option value="$PROJECT_DIR$/test/test_three_sum_closest.py" />
@@ -371,6 +288,8 @@
         <option value="$PROJECT_DIR$/problems/test_max_subarray.py" />
         <option value="$PROJECT_DIR$/test/test_max_subarray.py" />
         <option value="$PROJECT_DIR$/problems/MaximumSubarray.py" />
+        <option value="$PROJECT_DIR$/problems/SearchRotatedSortedArray.py" />
+        <option value="$PROJECT_DIR$/test/test_search_rotated_sorted_array.py" />
       </list>
     </option>
   </component>
@@ -380,8 +299,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="330" />
+    <option name="y" value="118" />
     <option name="width" value="1238" />
     <option name="height" value="777" />
   </component>
@@ -391,7 +311,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -408,6 +327,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_max_subarray.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -465,7 +385,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_longest_valid_parentheses.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -476,11 +396,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_longest_valid_parentheses.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_search_rotated_sorted_array.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_max_subarray.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -491,11 +411,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_max_subarray.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_search_rotated_sorted_array.TestSolution.test_search_no&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -506,11 +426,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_max_subarray.TestSolution.test_maxSubArray&quot;" />
+      <option name="_new_target" value="&quot;test_search_rotated_sorted_array.TestSolution.test_search_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray_negative" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -521,11 +441,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_max_subarray.TestSolution.test_maxSubArray_negative&quot;" />
+      <option name="_new_target" value="&quot;test_search_rotated_sorted_array.TestSolution.test_search_three&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray_single" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -536,24 +456,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_max_subarray.TestSolution.test_maxSubArray_single&quot;" />
+      <option name="_new_target" value="&quot;test_search_rotated_sorted_array.TestSolution.test_search_two&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_longest_valid_parentheses.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution.test_maxSubArray" />
-      <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution.test_maxSubArray_negative" />
-      <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution.test_maxSubArray_single" />
-      <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" />
+      <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no" />
+      <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" />
+      <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_three" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution.test_maxSubArray_single" />
-        <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution.test_maxSubArray_negative" />
-        <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution.test_maxSubArray" />
-        <item itemvalue="Python tests.Unittests for test_longest_valid_parentheses.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_three" />
+        <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" />
+        <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" />
+        <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no" />
       </list>
     </recent_temporary>
   </component>
@@ -571,48 +491,49 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray - 2018.08.31 at 23h 01m 49s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one - 2018.09.01 at 12h 22m 16s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray - 2018.08.31 at 23h 02m 19s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search - 2018.09.01 at 12h 23m 54s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray - 2018.08.31 at 23h 03m 35s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_no - 2018.09.01 at 12h 23m 57s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray - 2018.08.31 at 23h 08m 52s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one - 2018.09.01 at 12h 24m 00s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray - 2018.08.31 at 23h 10m 16s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one - 2018.09.01 at 12h 24m 12s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray - 2018.08.31 at 23h 11m 12s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one - 2018.09.01 at 12h 24m 50s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray - 2018.08.31 at 23h 11m 30s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_two - 2018.09.01 at 12h 25m 17s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_negative - 2018.08.31 at 23h 12m 24s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray_negative" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_two - 2018.09.01 at 12h 25m 48s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_negative - 2018.08.31 at 23h 13m 38s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray_negative" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_two - 2018.09.01 at 12h 28m 37s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_single - 2018.08.31 at 23h 14m 55s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray_single" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution - 2018.09.01 at 12h 28m 50s.xml">
+      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1238" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30936456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31438127" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34014598" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4890511" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37226278" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -743,6 +664,11 @@
           <line>9</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/SearchRotatedSortedArray.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -788,20 +714,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/ContainerWithMostWater.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_longest_common_prefix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/ThreeSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1078,37 +990,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/NextPermutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_next_permutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_longest_valid_parentheses.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,9 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,9 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1136,9 +1015,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_max_subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/MaximumSubarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1149,20 +1039,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_max_subarray.py">
+    <entry file="file://$PROJECT_DIR$/test/test_next_permutation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/MaximumSubarray.py">
+    <entry file="file://$PROJECT_DIR$/problems/NextPermutation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="335">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/SearchRotatedSortedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_search_rotated_sorted_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
