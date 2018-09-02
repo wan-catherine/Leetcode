@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/SearchRotatedSortedArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_search_rotated_sorted_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/ValidSudoku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_valid_udoku.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -68,6 +68,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray Coverage Results" MODIFIED="1535771490178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search Coverage Results" MODIFIED="1535819034526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_60.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_60 Coverage Results" MODIFIED="1534196660688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku_false.coverage" NAME="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku_false Coverage Results" MODIFIED="1535895652671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_two.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two Coverage Results" MODIFIED="1534289324790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_16.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16 Coverage Results" MODIFIED="1534378525560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_single.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_single Coverage Results" MODIFIED="1535299244447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -127,6 +128,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test.test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534893693639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution Coverage Results" MODIFIED="1535511892944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_same_long_list Coverage Results" MODIFIED="1533771172413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku.coverage" NAME="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku Coverage Results" MODIFIED="1535896021085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_best_time_buy_sell_stock_py.coverage" NAME="Unittests in test_best_time_buy_sell_stock.py Coverage Results" MODIFIED="1534000305261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_9.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_9 Coverage Results" MODIFIED="1534284105097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_three.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_three Coverage Results" MODIFIED="1534196326962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -136,6 +138,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_k_group_TestSolution.coverage" NAME="Unittests for test_reverse_k_group.TestSolution Coverage Results" MODIFIED="1535292912812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_by_empty_string.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_by_empty_string Coverage Results" MODIFIED="1533696503350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution_test_divide_1.coverage" NAME="Unittests for test_divide_two_integers.TestSolution.test_divide_1 Coverage Results" MODIFIED="1535408649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_udoku_TestSolution.coverage" NAME="Unittests for test_valid_udoku.TestSolution Coverage Results" MODIFIED="1535895888250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_letter_combinations_py.coverage" NAME="Unittests in test_letter_combinations.py Coverage Results" MODIFIED="1534615751201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_no.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no Coverage Results" MODIFIED="1535819037455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_long_non_palindrome_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number Coverage Results" MODIFIED="1534192238211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -158,7 +161,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
@@ -169,54 +172,75 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="4" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="1" />
-          <entry key="py" value="103" />
+          <entry key="py" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="103" />
+          <entry key="Python" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="1320" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="22128" />
+          <entry key="py" value="22676" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="23448" />
+          <entry key="Python" value="23996" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/SearchRotatedSortedArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="720">
+              <caret line="48" column="20" selection-start-line="7" selection-start-column="8" selection-end-line="48" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/ValidSudoku.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="60" lean-forward="true" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_valid_udoku.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_search_rotated_sorted_array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="30">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -239,8 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_3Sum.py" />
-        <option value="$PROJECT_DIR$/problems/ThreeSum.py" />
         <option value="$PROJECT_DIR$/test/test_three_sum_closest.py" />
         <option value="$PROJECT_DIR$/problems/ThreeSumClosest.py" />
         <option value="$PROJECT_DIR$/test/test_letter_combinations.py" />
@@ -290,6 +312,8 @@
         <option value="$PROJECT_DIR$/problems/MaximumSubarray.py" />
         <option value="$PROJECT_DIR$/problems/SearchRotatedSortedArray.py" />
         <option value="$PROJECT_DIR$/test/test_search_rotated_sorted_array.py" />
+        <option value="$PROJECT_DIR$/test/test_valid_udoku.py" />
+        <option value="$PROJECT_DIR$/problems/ValidSudoku.py" />
       </list>
     </option>
   </component>
@@ -299,9 +323,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="330" />
-    <option name="y" value="118" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1238" />
     <option name="height" value="777" />
   </component>
@@ -355,7 +378,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_valid_udoku.TestSolution.test_isValidSudoku">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -400,36 +423,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search_rotated_sorted_array.TestSolution.test_search_no&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search_rotated_sorted_array.TestSolution.test_search_one&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -445,7 +438,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_valid_udoku.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -456,24 +449,54 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_search_rotated_sorted_array.TestSolution.test_search_two&quot;" />
+      <option name="_new_target" value="&quot;test_valid_udoku.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_valid_udoku.TestSolution.test_isValidSudoku&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku_false" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_valid_udoku.TestSolution.test_isValidSudoku_false&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" />
-      <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no" />
-      <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" />
       <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_three" />
+      <item itemvalue="Python tests.Unittests for test_valid_udoku.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" />
+      <item itemvalue="Python tests.Unittests for test_valid_udoku.TestSolution.test_isValidSudoku_false" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" />
+        <item itemvalue="Python tests.Unittests for test_valid_udoku.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_valid_udoku.TestSolution.test_isValidSudoku_false" />
         <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_three" />
-        <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" />
-        <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" />
-        <item itemvalue="Python tests.Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no" />
       </list>
     </recent_temporary>
   </component>
@@ -491,45 +514,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one - 2018.09.01 at 12h 22m 16s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku - 2018.09.02 at 09h 42m 24s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search - 2018.09.01 at 12h 23m 54s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku - 2018.09.02 at 09h 42m 27s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_no - 2018.09.01 at 12h 23m 57s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku - 2018.09.02 at 09h 42m 46s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one - 2018.09.01 at 12h 24m 00s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku - 2018.09.02 at 09h 44m 25s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one - 2018.09.01 at 12h 24m 12s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution - 2018.09.02 at 09h 44m 48s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one - 2018.09.01 at 12h 24m 50s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku - 2018.09.02 at 09h 44m 52s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_two - 2018.09.01 at 12h 25m 17s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku - 2018.09.02 at 09h 44m 59s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_two - 2018.09.01 at 12h 25m 48s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku - 2018.09.02 at 09h 45m 57s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_two - 2018.09.01 at 12h 28m 37s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku - 2018.09.02 at 09h 46m 38s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_rotated_sorted_array_TestSolution - 2018.09.01 at 12h 28m 50s.xml">
-      <configuration name="Unittests for test_search_rotated_sorted_array.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku - 2018.09.02 at 09h 47m 01s.xml">
+      <configuration name="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1238" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1238" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31438127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32441473" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34014598" />
@@ -543,6 +565,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329927" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -664,11 +687,6 @@
           <line>9</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/SearchRotatedSortedArray.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -714,20 +732,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/ThreeSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_3Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/FourSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1062,15 +1066,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/SearchRotatedSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="720">
+          <caret line="48" column="20" selection-start-line="7" selection-start-column="8" selection-end-line="48" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_search_rotated_sorted_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="30">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ValidSudoku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="60" lean-forward="true" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_valid_udoku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
