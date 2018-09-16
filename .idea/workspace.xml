@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/SpiralMatrixII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_spiral_matrix_ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/PermutationSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_permutation_sequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -75,6 +75,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution.coverage" NAME="Unittests for test_Implement_strStr.TestSolution Coverage Results" MODIFIED="1535299938371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_longest_substring_without_repeating_characters_py.coverage" NAME="Unittests in test_longest_substring_without_repeating_characters.py Coverage Results" MODIFIED="1533697859516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_at_start.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_at_start Coverage Results" MODIFIED="1533696952955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_permutation_sequence_TestSolution.coverage" NAME="Unittests for test_permutation_sequence.TestSolution Coverage Results" MODIFIED="1537120106681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray Coverage Results" MODIFIED="1535771490178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_first_missing_positive_TestSolution_test_firstMissingPositive_one_one.coverage" NAME="Unittests for test_first_missing_positive.TestSolution.test_firstMissingPositive_one_one Coverage Results" MODIFIED="1536357625121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search Coverage Results" MODIFIED="1535819034526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -89,6 +90,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum2_TestSolution_test_combinationSum2.coverage" NAME="Unittests for test_combination_sum2.TestSolution.test_combinationSum2 Coverage Results" MODIFIED="1536195722347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_3Sum_py.coverage" NAME="Unittests in test_3Sum.py Coverage Results" MODIFIED="1534463902185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_no_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_no_repeating_characters Coverage Results" MODIFIED="1533695839507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_permutation_sequence_TestSolution_test_getPermutation_4.coverage" NAME="Unittests for test_permutation_sequence.TestSolution.test_getPermutation_4 Coverage Results" MODIFIED="1537119979516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_insert_position_TestSolution.coverage" NAME="Unittests for test_search_insert_position.TestSolution Coverage Results" MODIFIED="1535249645312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_multiply_strings_TestSolution_test_multiply_more.coverage" NAME="Unittests for test_multiply_strings.TestSolution.test_multiply_more Coverage Results" MODIFIED="1536277331231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_spiral_matrix_ii_TestSolution.coverage" NAME="Unittests for test_spiral_matrix_ii.TestSolution Coverage Results" MODIFIED="1537018818960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -200,7 +202,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="44" />
+          <entry key="project.closed" value="45" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="13" />
@@ -209,35 +211,35 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="10" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="1" />
-          <entry key="py" value="149" />
+          <entry key="py" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="149" />
+          <entry key="Python" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2621" />
+          <entry key="Python Console" value="2622" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="32585" />
+          <entry key="py" value="33042" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="35206" />
+          <entry key="Python" value="35664" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -245,42 +247,24 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/SpiralMatrix.py">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/PermutationSequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-302">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_spiral_matrix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="98">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1537120102000" expanded="true" signature="703:706" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/SpiralMatrixII.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_spiral_matrix_ii.py">
+        <entry file="file://$PROJECT_DIR$/test/test_permutation_sequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -303,8 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_find_first_last_position_element_sorted_array.py" />
-        <option value="$PROJECT_DIR$/problems/FindFirstLastPositionElementSortedArray.py" />
         <option value="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" />
         <option value="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" />
         <option value="$PROJECT_DIR$/test/test_next_permutation.py" />
@@ -354,6 +336,8 @@
         <option value="$PROJECT_DIR$/problems/LengthLastWord.py" />
         <option value="$PROJECT_DIR$/test/test_spiral_matrix_ii.py" />
         <option value="$PROJECT_DIR$/problems/SpiralMatrixII.py" />
+        <option value="$PROJECT_DIR$/test/test_permutation_sequence.py" />
+        <option value="$PROJECT_DIR$/problems/PermutationSequence.py" />
       </list>
     </option>
   </component>
@@ -419,7 +403,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_spiral_matrix_ii.TestSolution.test_generateMatrix">
+  <component name="RunManager" selected="Python tests.Unittests for test_permutation_sequence.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -449,7 +433,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_length_last_word.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_permutation_sequence.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -460,11 +444,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_length_last_word.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_permutation_sequence.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_merge_intervals.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_permutation_sequence.TestSolution.test_getPermutation_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -475,7 +459,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_merge_intervals.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_permutation_sequence.TestSolution.test_getPermutation_4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -526,18 +510,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_spiral_matrix.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_merge_intervals.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_length_last_word.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_spiral_matrix_ii.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_spiral_matrix_ii.TestSolution.test_generateMatrix" />
+      <item itemvalue="Python tests.Unittests for test_permutation_sequence.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_permutation_sequence.TestSolution.test_getPermutation_4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_permutation_sequence.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_permutation_sequence.TestSolution.test_getPermutation_4" />
         <item itemvalue="Python tests.Unittests for test_spiral_matrix_ii.TestSolution.test_generateMatrix" />
         <item itemvalue="Python tests.Unittests for test_spiral_matrix_ii.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_spiral_matrix.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_length_last_word.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_merge_intervals.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -555,55 +539,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_merge_intervals_TestSolution - 2018.09.14 at 18h 59m 24s.xml">
-      <configuration name="Unittests for test_merge_intervals.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_merge_intervals_TestSolution_test_merge_3 - 2018.09.14 at 19h 00m 22s.xml">
-      <configuration name="Unittests for test_merge_intervals.TestSolution.test_merge_3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_merge_intervals_TestSolution_test_merge_3 - 2018.09.14 at 19h 01m 28s.xml">
-      <configuration name="Unittests for test_merge_intervals.TestSolution.test_merge_3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_merge_intervals_TestSolution - 2018.09.14 at 19h 03m 37s.xml">
-      <configuration name="Unittests for test_merge_intervals.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_merge_intervals_TestSolution - 2018.09.14 at 19h 03m 56s.xml">
-      <configuration name="Unittests for test_merge_intervals.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_merge_intervals_TestSolution - 2018.09.14 at 19h 04m 32s.xml">
-      <configuration name="Unittests for test_merge_intervals.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_length_last_word_TestSolution - 2018.09.14 at 20h 26m 39s.xml">
-      <configuration name="Unittests for test_length_last_word.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_spiral_matrix_TestSolution - 2018.09.15 at 09h 22m 40s.xml">
-      <configuration name="Unittests for test_spiral_matrix.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_spiral_matrix_ii_TestSolution - 2018.09.15 at 09h 40m 19s.xml">
-      <configuration name="Unittests for test_spiral_matrix_ii.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_spiral_matrix_ii_TestSolution_test_generateMatrix - 2018.09.15 at 09h 41m 47s.xml">
+    <history-entry file="Unittests_for_test_spiral_matrix_ii_TestSolution_test_generateMatrix - 2018.09.15 at 09h 43m 02s.xml">
       <configuration name="Unittests for test_spiral_matrix_ii.TestSolution.test_generateMatrix" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_permutation_sequence_TestSolution - 2018.09.16 at 13h 41m 54s.xml">
+      <configuration name="Unittests for test_permutation_sequence.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_permutation_sequence_TestSolution - 2018.09.16 at 13h 42m 28s.xml">
+      <configuration name="Unittests for test_permutation_sequence.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_permutation_sequence_TestSolution_test_getPermutation_4 - 2018.09.16 at 13h 43m 16s.xml">
+      <configuration name="Unittests for test_permutation_sequence.TestSolution.test_getPermutation_4" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_permutation_sequence_TestSolution - 2018.09.16 at 13h 43m 30s.xml">
+      <configuration name="Unittests for test_permutation_sequence.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_permutation_sequence_TestSolution_test_getPermutation_4 - 2018.09.16 at 13h 44m 53s.xml">
+      <configuration name="Unittests for test_permutation_sequence.TestSolution.test_getPermutation_4" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_permutation_sequence_TestSolution - 2018.09.16 at 13h 45m 06s.xml">
+      <configuration name="Unittests for test_permutation_sequence.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_permutation_sequence_TestSolution_test_getPermutation_4 - 2018.09.16 at 13h 45m 40s.xml">
+      <configuration name="Unittests for test_permutation_sequence.TestSolution.test_getPermutation_4" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_permutation_sequence_TestSolution - 2018.09.16 at 13h 45m 52s.xml">
+      <configuration name="Unittests for test_permutation_sequence.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_permutation_sequence_TestSolution_test_getPermutation_4 - 2018.09.16 at 13h 48m 18s.xml">
+      <configuration name="Unittests for test_permutation_sequence.TestSolution.test_getPermutation_4" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1922" y="665" width="1238" height="777" extended-state="6" />
+    <frame x="1920" y="665" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26003346" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26421404" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34014598" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4131387" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4131387" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34014598" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329927" />
@@ -759,8 +743,8 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/SpiralMatrixII.py</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/problems/PermutationSequence.py</url>
+          <line>10</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
@@ -833,20 +817,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_longest_valid_parentheses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_substring_concatenation_all_words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_divide_two_integers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1138,9 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,9 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1168,13 +1132,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/SpiralMatrixII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_spiral_matrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_spiral_matrix_ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1185,20 +1160,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_spiral_matrix_ii.py">
+    <entry file="file://$PROJECT_DIR$/test/test_permutation_sequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/SpiralMatrixII.py">
+    <entry file="file://$PROJECT_DIR$/problems/PermutationSequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="98">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <marker date="1537120102000" expanded="true" signature="703:706" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
