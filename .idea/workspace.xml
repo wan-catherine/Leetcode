@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/PlusOne.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_plus_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/AddBinary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_add_binary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -45,6 +45,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_empty.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_empty Coverage Results" MODIFIED="1533946357084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_roman_to_integer_py.coverage" NAME="Unittests in test_roman_to_integer.py Coverage Results" MODIFIED="1534284378990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_paths_TestSolution.coverage" NAME="Unittests for test_unique_paths.TestSolution Coverage Results" MODIFIED="1537228291744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_binary_TestSolution_test_addBinary.coverage" NAME="Unittests for test_add_binary.TestSolution.test_addBinary Coverage Results" MODIFIED="1537578515444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_TestSolution_test_canJump_zero.coverage" NAME="Unittests for test_jump_game.TestSolution.test_canJump_zero Coverage Results" MODIFIED="1536704658099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_spiral_matrix_TestSolution_test_spiralOrder.coverage" NAME="Unittests for test_spiral_matrix.TestSolution.test_spiralOrder Coverage Results" MODIFIED="1536879833730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_after_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_after_same_long_list Coverage Results" MODIFIED="1533771288030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -98,6 +99,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_insert_position_TestSolution.coverage" NAME="Unittests for test_search_insert_position.TestSolution Coverage Results" MODIFIED="1535249645312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_multiply_strings_TestSolution_test_multiply_more.coverage" NAME="Unittests for test_multiply_strings.TestSolution.test_multiply_more Coverage Results" MODIFIED="1536277331231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_spiral_matrix_ii_TestSolution.coverage" NAME="Unittests for test_spiral_matrix_ii.TestSolution Coverage Results" MODIFIED="1537018818960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_binary_TestSolution_test_addBinary_4.coverage" NAME="Unittests for test_add_binary.TestSolution.test_addBinary_4 Coverage Results" MODIFIED="1537578606836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_0.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_0 Coverage Results" MODIFIED="1535299181693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample Coverage Results" MODIFIED="1534371014446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_zigzag_conversion_py.coverage" NAME="Unittests in test_zigzag_conversion.py Coverage Results" MODIFIED="1533946728685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -107,6 +109,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_k_group_TestSolution_test_reverseKGroup.coverage" NAME="Unittests for test_reverse_k_group.TestSolution.test_reverseKGroup Coverage Results" MODIFIED="1535292880878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_empty.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_empty Coverage Results" MODIFIED="1535586915215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_paths_TestSolution_test_uniquePaths_7.coverage" NAME="Unittests for test_unique_paths.TestSolution.test_uniquePaths_7 Coverage Results" MODIFIED="1537226723338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$AddBinary.coverage" NAME="AddBinary Coverage Results" MODIFIED="1537578568856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number Coverage Results" MODIFIED="1534196321291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_first.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_first Coverage Results" MODIFIED="1534693834385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_column Coverage Results" MODIFIED="1533946354065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -148,6 +151,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_find_pattern.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_find_pattern Coverage Results" MODIFIED="1535299710328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_valid_parentheses_py.coverage" NAME="Unittests in test_valid_parentheses.py Coverage Results" MODIFIED="1534717696745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_two.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two Coverage Results" MODIFIED="1535819156274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_binary_TestSolution.coverage" NAME="Unittests for test_add_binary.TestSolution Coverage Results" MODIFIED="1537579135898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku.coverage" NAME="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku Coverage Results" MODIFIED="1536014836483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_TestSolution_test_removeDuplicates_three.coverage" NAME="Unittests for test_remove_duplicates.TestSolution.test_removeDuplicates_three Coverage Results" MODIFIED="1534977937448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_empty_empty.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_empty_empty Coverage Results" MODIFIED="1535587029874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -211,10 +215,10 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="49" />
+          <entry key="project.closed" value="50" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="14" />
+          <entry key="project.open.time.10" value="15" />
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.17" value="1" />
@@ -223,32 +227,32 @@
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="12" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="1" />
-          <entry key="py" value="163" />
+          <entry key="py" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="163" />
+          <entry key="Python" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2679" />
+          <entry key="Python Console" value="2781" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="35028" />
+          <entry key="py" value="35463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="37707" />
+          <entry key="Python" value="38244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -258,28 +262,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/UniquePathsII.py">
+        <entry file="file://$PROJECT_DIR$/problems/PlusOne.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/MinimumPathSum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="32" selection-start-line="6" selection-start-column="8" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="285">
+              <caret line="19" column="18" selection-start-line="6" selection-start-column="8" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/PlusOne.py">
+        <entry file="file://$PROJECT_DIR$/problems/AddBinary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_add_binary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -287,8 +294,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_plus_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="30">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -383,8 +390,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_search_rotated_sorted_array.py" />
-        <option value="$PROJECT_DIR$/test/test_valid_udoku.py" />
         <option value="$PROJECT_DIR$/problems/ValidSudoku.py" />
         <option value="$PROJECT_DIR$/test/test_sudoku_solver.py" />
         <option value="$PROJECT_DIR$/problems/CountAndSay.py" />
@@ -434,6 +439,8 @@
         <option value="$PROJECT_DIR$/problems/MinimumPathSum.py" />
         <option value="$PROJECT_DIR$/test/test_plus_one.py" />
         <option value="$PROJECT_DIR$/problems/PlusOne.py" />
+        <option value="$PROJECT_DIR$/test/test_add_binary.py" />
+        <option value="$PROJECT_DIR$/problems/AddBinary.py" />
       </list>
     </option>
   </component>
@@ -504,7 +511,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_plus_one.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_add_binary.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -525,7 +532,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="MinimumPathSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="AddBinary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -538,7 +545,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/MinimumPathSum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/AddBinary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -556,7 +563,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_minimum_path_sum.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_add_binary.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -567,7 +574,37 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimum_path_sum.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_add_binary.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_add_binary.TestSolution.test_addBinary" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_binary.TestSolution.test_addBinary&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_add_binary.TestSolution.test_addBinary_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_binary.TestSolution.test_addBinary_4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -586,50 +623,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_unique_paths.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_unique_paths.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_unique_paths_ii.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_unique_paths_ii.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_unique_paths.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_unique_paths_ii.TestSolution" />
-      <item itemvalue="Python.MinimumPathSum" />
-      <item itemvalue="Python tests.Unittests for test_minimum_path_sum.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_plus_one.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_add_binary.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_add_binary.TestSolution.test_addBinary" />
+      <item itemvalue="Python.AddBinary" />
+      <item itemvalue="Python tests.Unittests for test_add_binary.TestSolution.test_addBinary_4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_add_binary.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_add_binary.TestSolution.test_addBinary_4" />
+        <item itemvalue="Python.AddBinary" />
+        <item itemvalue="Python tests.Unittests for test_add_binary.TestSolution.test_addBinary" />
         <item itemvalue="Python tests.Unittests for test_plus_one.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_minimum_path_sum.TestSolution" />
-        <item itemvalue="Python.MinimumPathSum" />
-        <item itemvalue="Python tests.Unittests for test_unique_paths_ii.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_unique_paths.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -647,42 +654,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_unique_paths_TestSolution - 2018.09.17 at 19h 48m 35s.xml">
-      <configuration name="Unittests for test_unique_paths.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution - 2018.09.21 at 21h 06m 17s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_unique_paths_TestSolution - 2018.09.17 at 19h 50m 38s.xml">
-      <configuration name="Unittests for test_unique_paths.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution_test_addBinary - 2018.09.21 at 21h 07m 04s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution.test_addBinary" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_unique_paths_TestSolution - 2018.09.17 at 19h 51m 31s.xml">
-      <configuration name="Unittests for test_unique_paths.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution_test_addBinary - 2018.09.21 at 21h 07m 48s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution.test_addBinary" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_unique_paths_ii_TestSolution - 2018.09.18 at 22h 04m 53s.xml">
-      <configuration name="Unittests for test_unique_paths_ii.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution - 2018.09.21 at 21h 08m 08s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_unique_paths_ii_TestSolution - 2018.09.18 at 22h 06m 06s.xml">
-      <configuration name="Unittests for test_unique_paths_ii.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution_test_addBinary - 2018.09.21 at 21h 08m 29s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution.test_addBinary" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_unique_paths_ii_TestSolution - 2018.09.18 at 22h 06m 18s.xml">
-      <configuration name="Unittests for test_unique_paths_ii.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution_test_addBinary - 2018.09.21 at 21h 08m 35s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution.test_addBinary" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_minimum_path_sum_TestSolution - 2018.09.19 at 19h 59m 20s.xml">
-      <configuration name="Unittests for test_minimum_path_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution_test_addBinary_4 - 2018.09.21 at 21h 09m 36s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution.test_addBinary_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_minimum_path_sum_TestSolution - 2018.09.19 at 20h 00m 06s.xml">
-      <configuration name="Unittests for test_minimum_path_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution_test_addBinary_4 - 2018.09.21 at 21h 09m 57s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution.test_addBinary_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_minimum_path_sum_TestSolution - 2018.09.19 at 20h 00m 47s.xml">
-      <configuration name="Unittests for test_minimum_path_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution_test_addBinary_4 - 2018.09.21 at 21h 10m 50s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution.test_addBinary_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_plus_one_TestSolution - 2018.09.20 at 18h 13m 54s.xml">
-      <configuration name="Unittests for test_plus_one.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_add_binary_TestSolution - 2018.09.21 at 21h 17m 51s.xml">
+      <configuration name="Unittests for test_add_binary.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1922" y="665" width="1238" height="777" extended-state="6" />
+    <frame x="1921" y="665" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28093645" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28511706" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -860,6 +867,16 @@
           <line>31</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/AddBinary.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/AddBinary.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -930,20 +947,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_count_and_say.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/CountAndSay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/GroupAnagrams.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1223,6 +1226,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/MinimumPathSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="32" selection-start-line="6" selection-start-column="8" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_plus_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_minimum_path_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1283,27 +1303,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/MinimumPathSum.py">
+    <entry file="file://$PROJECT_DIR$/problems/PlusOne.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="32" selection-start-line="6" selection-start-column="8" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="6" selection-start-column="8" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_plus_one.py">
+    <entry file="file://$PROJECT_DIR$/test/test_add_binary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/PlusOne.py">
+    <entry file="file://$PROJECT_DIR$/problems/AddBinary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
