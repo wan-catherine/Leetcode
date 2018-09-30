@@ -35,8 +35,13 @@ class TestSolution(TestCase):
         res = solution.exist(board, "ABCESEEEFS")
         self.assertEqual(True, res)
 
-    # def test_exist_output(self):
-    #     solution = Solution()
-    #     board = [["a","a","a","a"],["a","a","a","a"],["a","a","a","a"],["a","a","a","a"],["a","a","a","b"]]
-    #     res = solution.exist(board, "aaaaaaaaaaaaaaaaaaaa")
-    #     self.assertEqual(False, res)
+    def test_exist_output(self):
+        solution = Solution()
+        board = [["a","a","a","a"],["a","a","a","a"],["a","a","a","a"],["a","a","a","a"],["a","a","a","b"]]
+        res = solution.exist(board, "aaaaaaaaaaaaaaaaaaaa")
+        self.assertEqual(False, res)
+
+    def test_exist_one(self):
+        solution = Solution()
+        res = solution.exist([["a"]], "b")
+        self.assertEqual(False, res)

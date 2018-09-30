@@ -10,46 +10,28 @@ class Solution:
         if board == None:
             return False
 
-        row = len(board)
-        col = len(board[0])
-
-        if row * col < len(word):
-            return False
-
         directions = [(0,1),(0,-1),(1,0),(-1,0)]
-        starts = []
-        for i in range(row):
-            for j in range(col):
-                if board[i][j] == word[0]:
-                    starts.append((i,j))
-
-        if len(starts) == 0:
-            return False
-
-        last = [(-1,-1)]
-        return self.isValid(board,1, word, starts, directions, last)
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                if self.isValid(board, 0, word, i, j, directions):
+                    return True
+        return False
 
 
-    def isValid(self, board, index, word, starts, directions, last):
-        row = len(board)
-        col = len(board[0])
+    def isValid(self, board, index, word, row, col, directions):
         if index == len(word):
             return True
+        if row >= len(board) or row < 0 or col < 0 or col >= len(board[0]) or board[row][col] != word[index]:
+            return False
 
+        temp, board[row][col] = board[row][col], ''
         flag = False
-        for i,j in starts:
-            next = []
-            tx,ty = i, j
-            newLast = last.copy()
-            newLast.append((i,j))
-            for x,y in directions:
-                if tx+x >= row or tx+x < 0 or ty+y < 0 or ty+y >= col:
-                    continue
-                if board[tx+x][ty+y] == word[index] and (tx+x, ty+y) not in last:
-                    next.append((tx+x,ty+y))
-                    flag = self.isValid(board,index+1,word, next, directions,newLast)
-                if flag == True:
-                    return flag
+
+        for x,y in directions:
+            flag =  flag or self.isValid(board,index+1, word, row+x, col+y, directions)
+            # if flag == True:
+            #     break
+        board[row][col] = temp
         return flag
 
 
