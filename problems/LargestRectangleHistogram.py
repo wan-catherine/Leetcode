@@ -57,3 +57,32 @@ class Solution:
             right = len(heights)
         return value*(right - left - 1)
 
+    def largestRectangleArea(self, heights):
+        if len(heights) == 0:
+            return 0
+        # if len(heights) == 1:
+        #     return heights[0]
+
+        indexes = []
+        i = 0
+        res = 0
+        length = len(heights)
+        heights.append(-1)
+        while True:
+            if i < length and (len(indexes) == 0 or heights[i] >= heights[indexes[-1]]):
+                indexes.append(i)
+                i += 1
+            else:
+                while len(indexes) > 0 and heights[indexes[-1]] > heights[i]:
+                    index = indexes.pop()
+                    if len(indexes) > 0:
+                        temp = (i - indexes[-1] - 1)*heights[index]
+                    else:
+                        temp = i*heights[index]
+                    res = temp if temp > res else res
+            if i < length and len(indexes) == 0:
+                heights[i - 1] = heights[i]
+                indexes.append(i - 1)
+            if i == length and len(indexes) == 0:
+                break
+        return res
