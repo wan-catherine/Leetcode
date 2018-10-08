@@ -32,6 +32,6 @@ class Solution:
         """
         lastpos = len(nums) - 1
         for i in range(len(nums) - 1, -1, -1):
-            if i + nums[i] >= lastpos:
+            if nums[i] >= lastpos - i:
                 lastpos = i
         return lastpos == 0
