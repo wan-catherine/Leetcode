@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/GrayCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_gray_code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -75,6 +73,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_first.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_first Coverage Results" MODIFIED="1534693834385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_characters Coverage Results" MODIFIED="1533695912965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist Coverage Results" MODIFIED="1538323998132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution.coverage" NAME="Unittests for test_scramble_string.TestSolution Coverage Results" MODIFIED="1539530702085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_intervals_TestSolution_test_merge_3.coverage" NAME="Unittests for test_merge_intervals.TestSolution.test_merge_3 Coverage Results" MODIFIED="1536966044878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_add_two_numbers_py.coverage" NAME="Unittests in test_add_two_numbers.py Coverage Results" MODIFIED="1533583794670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_three_pairs.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_three_pairs Coverage Results" MODIFIED="1534028096112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -90,6 +89,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_simple.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_simple Coverage Results" MODIFIED="1533771169029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_parentheses_TestSolution_test_isValid_with_only_right.coverage" NAME="Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_right Coverage Results" MODIFIED="1534717588849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_three_sum_closest_py.coverage" NAME="Unittests in test_three_sum_closest.py Coverage Results" MODIFIED="1534546644634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution_test_isScramble_one.coverage" NAME="Unittests for test_scramble_string.TestSolution.test_isScramble_one Coverage Results" MODIFIED="1539529628701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_solution_py.coverage" NAME="Unittests in test_add_two_numbers.py Coverage Results" MODIFIED="1533578197980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution.coverage" NAME="Unittests for test_container_with_most_water.TestSolution Coverage Results" MODIFIED="1534289664290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_find_pattern.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_find_pattern Coverage Results" MODIFIED="1535299710328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -103,6 +103,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_common_prefix_TestSolution_test_longestCommonPrefix_with_no_common.coverage" NAME="Unittests for test_longest_common_prefix.TestSolution.test_longestCommonPrefix_with_no_common Coverage Results" MODIFIED="1534456168619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_empty_pair.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_empty_pair Coverage Results" MODIFIED="1534027753976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_valid_parentheses_TestSolution.coverage" NAME="Unittests for test_longest_valid_parentheses.TestSolution Coverage Results" MODIFIED="1535675814565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_subsets_ii_TestSolution.coverage" NAME="Unittests for test_subsets_ii.TestSolution Coverage Results" MODIFIED="1539444379092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_container_with_most_water_py.coverage" NAME="Unittests in test_container_with_most_water.py Coverage Results" MODIFIED="1534378555927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test.test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534893693639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution Coverage Results" MODIFIED="1535511892944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -122,11 +123,13 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution_test_setZeroes_single_row.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution.test_setZeroes_single_row Coverage Results" MODIFIED="1537830412988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_swap_pairs_TestSolution.coverage" NAME="Unittests for test_swap_pairs.TestSolution Coverage Results" MODIFIED="1534894392427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_three.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_three Coverage Results" MODIFIED="1535592900019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution_test_isScramble_two.coverage" NAME="Unittests for test_scramble_string.TestSolution.test_isScramble_two Coverage Results" MODIFIED="1539529631341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combinations_TestSolution.coverage" NAME="Unittests for test_combinations.TestSolution Coverage Results" MODIFIED="1538090469823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_at_end.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_at_end Coverage Results" MODIFIED="1533696193253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_from_sorted_array_ii_TestSolution_test_removeDuplicates_3.coverage" NAME="Unittests for test_remove_duplicates_from_sorted_array_ii.TestSolution.test_removeDuplicates_3 Coverage Results" MODIFIED="1538435604626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_1994.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_1994 Coverage Results" MODIFIED="1534196385906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_ii_TestSolution.coverage" NAME="Unittests for test_jump_game_ii.TestSolution Coverage Results" MODIFIED="1538962577020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution_test_isScramble_long.coverage" NAME="Unittests for test_scramble_string.TestSolution.test_isScramble_long Coverage Results" MODIFIED="1539530695262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution_test_search_3.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution.test_search_3 Coverage Results" MODIFIED="1538529243423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_palindrome_number_py.coverage" NAME="Unittests in test_palindrome_number.py Coverage Results" MODIFIED="1534192192723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_from_sorted_array_ii_TestSolution_test_removeDuplicates_check.coverage" NAME="Unittests for test_remove_duplicates_from_sorted_array_ii.TestSolution.test_removeDuplicates_check Coverage Results" MODIFIED="1538435164806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -247,6 +250,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_paths_TestSolution_test_uniquePaths.coverage" NAME="Unittests for test_unique_paths.TestSolution.test_uniquePaths Coverage Results" MODIFIED="1537226950471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_TestSolution_test_combinationSum.coverage" NAME="Unittests for test_combination_sum.TestSolution.test_combinationSum Coverage Results" MODIFIED="1536108280050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_sorted_list_ii_TestSolution.coverage" NAME="Unittests for test_remove_duplicates_sorted_list_ii.TestSolution Coverage Results" MODIFIED="1538612872131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_subsets_ii_TestSolution_test_subsetsWithDup.coverage" NAME="Unittests for test_subsets_ii.TestSolution.test_subsetsWithDup Coverage Results" MODIFIED="1539444423450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_three.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_three Coverage Results" MODIFIED="1534196326962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_three_rows.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_three_rows Coverage Results" MODIFIED="1533946346928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_intervals_TestSolution_test_merge.coverage" NAME="Unittests for test_merge_intervals.TestSolution.test_merge Coverage Results" MODIFIED="1536965197868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -259,6 +263,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_paths_ii_TestSolution.coverage" NAME="Unittests for test_unique_paths_ii.TestSolution Coverage Results" MODIFIED="1537322778604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution.coverage" NAME="Unittests for test_simplify_path.TestSolution Coverage Results" MODIFIED="1537624237130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_no.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no Coverage Results" MODIFIED="1535819037455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution_test_isScramble.coverage" NAME="Unittests for test_scramble_string.TestSolution.test_isScramble Coverage Results" MODIFIED="1539530448012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_group_anagrams_TestSolution.coverage" NAME="Unittests for test_group_anagrams.TestSolution Coverage Results" MODIFIED="1535994555783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_intervals_TestSolution.coverage" NAME="Unittests for test_merge_intervals.TestSolution Coverage Results" MODIFIED="1536966272630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_long_non_palindrome_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number Coverage Results" MODIFIED="1534192238211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -278,44 +283,44 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="72" />
+          <entry key="project.closed" value="75" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="26" />
+          <entry key="project.open.time.10" value="27" />
           <entry key="project.open.time.11" value="7" />
-          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="18" />
-          <entry key="project.opened" value="73" />
+          <entry key="project.opened" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="218" />
+          <entry key="py" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="218" />
+          <entry key="Python" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="3911" />
+          <entry key="Python Console" value="4009" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="50216" />
+          <entry key="py" value="51257" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="54127" />
+          <entry key="Python" value="55266" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -324,20 +329,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/GrayCode.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/ScrambleString.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="267">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_gray_code.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_scramble_string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="267">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -360,11 +365,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_minimum_path_sum.py" />
-        <option value="$PROJECT_DIR$/problems/MinimumPathSum.py" />
-        <option value="$PROJECT_DIR$/test/test_plus_one.py" />
-        <option value="$PROJECT_DIR$/problems/PlusOne.py" />
-        <option value="$PROJECT_DIR$/test/test_add_binary.py" />
         <option value="$PROJECT_DIR$/problems/AddBinary.py" />
         <option value="$PROJECT_DIR$/test/test_simplify_path.py" />
         <option value="$PROJECT_DIR$/problems/SimplifyPath.py" />
@@ -411,6 +411,11 @@
         <option value="$PROJECT_DIR$/problems/MergeSortedArray.py" />
         <option value="$PROJECT_DIR$/test/test_gray_code.py" />
         <option value="$PROJECT_DIR$/problems/GrayCode.py" />
+        <option value="$PROJECT_DIR$/test/test_scramble_string  .py" />
+        <option value="$PROJECT_DIR$/test/test_subsets_ii.py" />
+        <option value="$PROJECT_DIR$/problems/SubsetsII.py" />
+        <option value="$PROJECT_DIR$/problems/ScrambleString.py" />
+        <option value="$PROJECT_DIR$/test/test_scramble_string.py" />
       </list>
     </option>
   </component>
@@ -420,8 +425,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1919" />
     <option name="y" value="665" />
     <option name="width" value="1238" />
     <option name="height" value="777" />
@@ -432,7 +437,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -454,6 +458,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,7 +486,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_gray_code.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_scramble_string.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -511,7 +516,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_gray_code.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_scramble_string.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -522,11 +527,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_gray_code.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_scramble_string.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_gray_code.TestSolution.test_grayCode_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -537,11 +542,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_gray_code.TestSolution.test_grayCode_three&quot;" />
+      <option name="_new_target" value="&quot;test_scramble_string.TestSolution.test_isScramble&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_maximal_rectangle.TestSolution.test_maximalRectangle" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble_long" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -552,11 +557,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_maximal_rectangle.TestSolution.test_maximalRectangle&quot;" />
+      <option name="_new_target" value="&quot;test_scramble_string.TestSolution.test_isScramble_long&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_merge_sorted_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -567,11 +572,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_merge_sorted_array.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_scramble_string.TestSolution.test_isScramble_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_merge_sorted_array.TestSolution.test_merge" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -582,24 +587,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_merge_sorted_array.TestSolution.test_merge&quot;" />
+      <option name="_new_target" value="&quot;test_scramble_string.TestSolution.test_isScramble_two&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_maximal_rectangle.TestSolution.test_maximalRectangle" />
-      <item itemvalue="Python tests.Unittests for test_merge_sorted_array.TestSolution.test_merge" />
-      <item itemvalue="Python tests.Unittests for test_merge_sorted_array.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_gray_code.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_gray_code.TestSolution.test_grayCode_three" />
+      <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution.test_isScramble" />
+      <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution.test_isScramble_two" />
+      <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution.test_isScramble_long" />
+      <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution.test_isScramble_one" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_gray_code.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_gray_code.TestSolution.test_grayCode_three" />
-        <item itemvalue="Python tests.Unittests for test_merge_sorted_array.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_merge_sorted_array.TestSolution.test_merge" />
-        <item itemvalue="Python tests.Unittests for test_maximal_rectangle.TestSolution.test_maximalRectangle" />
+        <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution.test_isScramble_long" />
+        <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution.test_isScramble" />
+        <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution.test_isScramble_two" />
+        <item itemvalue="Python tests.Unittests for test_scramble_string.TestSolution.test_isScramble_one" />
       </list>
     </recent_temporary>
   </component>
@@ -617,48 +622,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_maximal_rectangle_TestSolution_test_maximalRectangle - 2018.10.09 at 19h 38m 25s.xml">
-      <configuration name="Unittests for test_maximal_rectangle.TestSolution.test_maximalRectangle" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution_test_isScramble_long - 2018.10.14 at 11h 04m 26s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble_long" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_maximal_rectangle_TestSolution_test_maximalRectangle - 2018.10.09 at 19h 38m 34s.xml">
-      <configuration name="Unittests for test_maximal_rectangle.TestSolution.test_maximalRectangle" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution_test_isScramble - 2018.10.14 at 11h 07m 06s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_sorted_array_TestSolution_test_merge - 2018.10.10 at 22h 23m 52s.xml">
-      <configuration name="Unittests for test_merge_sorted_array.TestSolution.test_merge" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution_test_isScramble_one - 2018.10.14 at 11h 07m 08s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_sorted_array_TestSolution_test_merge - 2018.10.10 at 22h 27m 36s.xml">
-      <configuration name="Unittests for test_merge_sorted_array.TestSolution.test_merge" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution_test_isScramble_two - 2018.10.14 at 11h 07m 11s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_merge_sorted_array_TestSolution - 2018.10.10 at 23h 01m 31s.xml">
-      <configuration name="Unittests for test_merge_sorted_array.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution_test_isScramble_long - 2018.10.14 at 11h 07m 55s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble_long" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_gray_code_TestSolution - 2018.10.11 at 18h 24m 15s.xml">
-      <configuration name="Unittests for test_gray_code.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution_test_isScramble_long - 2018.10.14 at 11h 19m 57s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble_long" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_gray_code_TestSolution - 2018.10.11 at 18h 25m 04s.xml">
-      <configuration name="Unittests for test_gray_code.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution - 2018.10.14 at 11h 20m 39s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_gray_code_TestSolution_test_grayCode_three - 2018.10.11 at 18h 26m 47s.xml">
-      <configuration name="Unittests for test_gray_code.TestSolution.test_grayCode_three" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution_test_isScramble - 2018.10.14 at 11h 20m 48s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_gray_code_TestSolution - 2018.10.11 at 18h 26m 59s.xml">
-      <configuration name="Unittests for test_gray_code.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution - 2018.10.14 at 11h 20m 57s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_gray_code_TestSolution_test_grayCode_three - 2018.10.11 at 18h 27m 51s.xml">
-      <configuration name="Unittests for test_gray_code.TestSolution.test_grayCode_three" configurationId="tests" />
+    <history-entry file="Unittests_for_test_scramble_string_TestSolution_test_isScramble_long - 2018.10.14 at 11h 23m 13s.xml">
+      <configuration name="Unittests for test_scramble_string.TestSolution.test_isScramble_long" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="665" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28344482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29264215" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35182482" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42773724" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3620438" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42773724" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -677,27 +682,29 @@
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24247491" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29264215" />
+      <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28759125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35182482" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42773724" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34014598" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.329927" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.34890512" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329927" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -870,6 +877,11 @@
           <line>24</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/ScrambleString.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -955,34 +967,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_sqrt_x.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_plus_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/SqrtX.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/SetMatrixZeroes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_set_matrix_zeroes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1060,13 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_subsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_word_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -1078,13 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/Subsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1218,13 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/JumpGameII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/AddTwoNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1285,26 +1248,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_gray_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/GrayCode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="109">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_gray_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/JumpGameII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/Subsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_subsets_ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_subsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/SubsetsII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ScrambleString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_scramble_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
