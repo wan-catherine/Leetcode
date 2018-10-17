@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/RestoreIPAddresses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_restore_ip_addresses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/SameTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -304,44 +301,44 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="78" />
+          <entry key="project.closed" value="79" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="28" />
           <entry key="project.open.time.11" value="7" />
-          <entry key="project.open.time.12" value="5" />
+          <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="20" />
-          <entry key="project.opened" value="79" />
+          <entry key="project.opened" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="237" />
+          <entry key="py" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="237" />
+          <entry key="Python" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4009" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="54460" />
+          <entry key="py" value="54876" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="58469" />
+          <entry key="Python" value="58885" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -359,11 +356,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="525">
+              <caret line="35" column="18" selection-start-line="13" selection-start-column="8" selection-end-line="35" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/SameTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -371,8 +377,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -407,7 +413,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_search_2D_matrix.py" />
         <option value="$PROJECT_DIR$/test/test_sort_colors.py" />
         <option value="$PROJECT_DIR$/problems/SortColors.py" />
         <option value="$PROJECT_DIR$/test/test_combinations.py" />
@@ -458,6 +463,7 @@
         <option value="$PROJECT_DIR$/problems/RestoreIPAddresses.py" />
         <option value="$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py" />
         <option value="$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py" />
+        <option value="$PROJECT_DIR$/problems/SameTree.py" />
       </list>
     </option>
   </component>
@@ -481,7 +487,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -503,6 +508,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -666,9 +672,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_reverse_linked_list_ii_TestSolution_test_reverseBetween_three - 2018.10.15 at 19h 22m 49s.xml">
-      <configuration name="Unittests for test_reverse_linked_list_ii.TestSolution.test_reverseBetween_three" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_reverse_linked_list_ii_TestSolution_test_reverseBetween_two - 2018.10.15 at 19h 22m 52s.xml">
       <configuration name="Unittests for test_reverse_linked_list_ii.TestSolution.test_reverseBetween_two" configurationId="tests" />
     </history-entry>
@@ -696,17 +699,20 @@
     <history-entry file="Unittests_for_test_binary_tree_inorder_traversal_TestSolution_test_inorderTraversal - 2018.10.16 at 21h 52m 38s.xml">
       <configuration name="Unittests for test_binary_tree_inorder_traversal.TestSolution.test_inorderTraversal" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_binary_tree_inorder_traversal_TestSolution_test_inorderTraversal - 2018.10.16 at 21h 53m 12s.xml">
+      <configuration name="Unittests for test_binary_tree_inorder_traversal.TestSolution.test_inorderTraversal" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="665" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19565217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31020066" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3620438" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3620438" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4029197" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1021,13 +1027,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_minimum_path_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_unique_paths_ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1347,6 +1346,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_restore_ip_addresses.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1357,20 +1366,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py">
+    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="35" column="18" selection-start-line="13" selection-start-column="8" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py">
+    <entry file="file://$PROJECT_DIR$/problems/SameTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="345">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
