@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversalII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_binary_tree_level_order_traversal_ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/ConvertSortedArrayBinarySearchTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/PathSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_convert_sorted_array_binary_search_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_path_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -56,6 +58,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_from_sorted_array_ii_TestSolution_test_removeDuplicates.coverage" NAME="Unittests for test_remove_duplicates_from_sorted_array_ii.TestSolution.test_removeDuplicates Coverage Results" MODIFIED="1538433957066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_maximum_length_pair_chain_py.coverage" NAME="Unittests in test_maximum_length_pair_chain.py Coverage Results" MODIFIED="1534028220916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$LetterCombinationsPhoneNumber.coverage" NAME="LetterCombinationsPhoneNumber Coverage Results" MODIFIED="1534608616253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_TestSolution.coverage" NAME="Unittests for test_path_sum.TestSolution Coverage Results" MODIFIED="1540683029049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_inorder_traversal_TestSolution_test_inorderTraversal.coverage" NAME="Unittests for test_binary_tree_inorder_traversal.TestSolution.test_inorderTraversal Coverage Results" MODIFIED="1539741192729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_11.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_11 Coverage Results" MODIFIED="1539573600401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_end.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_end Coverage Results" MODIFIED="1534693825492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -77,6 +80,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gray_code_TestSolution_test_grayCode_three.coverage" NAME="Unittests for test_gray_code.TestSolution.test_grayCode_three Coverage Results" MODIFIED="1539296858008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution_test_search_4.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution.test_search_4 Coverage Results" MODIFIED="1538529639747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_eight.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_eight Coverage Results" MODIFIED="1539573477880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_TestSolution_test_hasPathSum.coverage" NAME="Unittests for test_path_sum.TestSolution.test_hasPathSum Coverage Results" MODIFIED="1540681761382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_trapping_rain_water_TestSolution_test_trap.coverage" NAME="Unittests for test_trapping_rain_water.TestSolution.test_trap Coverage Results" MODIFIED="1536507268089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_empty.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_empty Coverage Results" MODIFIED="1535586915215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_paths_TestSolution_test_uniquePaths_7.coverage" NAME="Unittests for test_unique_paths.TestSolution.test_uniquePaths_7 Coverage Results" MODIFIED="1537226723338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -98,6 +102,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution_test_simplifyPath_cornor.coverage" NAME="Unittests for test_simplify_path.TestSolution.test_simplifyPath_cornor Coverage Results" MODIFIED="1537623949095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_negative.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray_negative Coverage Results" MODIFIED="1535771618556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534894333931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$PathSum.coverage" NAME="PathSum Coverage Results" MODIFIED="1540680496815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_four.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_four Coverage Results" MODIFIED="1539573466096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_TestSolution_test_canJump.coverage" NAME="Unittests for test_jump_game.TestSolution.test_canJump Coverage Results" MODIFIED="1536704550700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_simple.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_simple Coverage Results" MODIFIED="1533771169029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -231,6 +236,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution_test_largestRectangleArea_special.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution.test_largestRectangleArea_special Coverage Results" MODIFIED="1538932695579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number Coverage Results" MODIFIED="1534196321291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_restore_ip_addresses_TestSolution_test_restoreIpAddresses.coverage" NAME="Unittests for test_restore_ip_addresses.TestSolution.test_restoreIpAddresses Coverage Results" MODIFIED="1539903657400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_TestSolution_test_hasPathSum_one.coverage" NAME="Unittests for test_path_sum.TestSolution.test_hasPathSum_one Coverage Results" MODIFIED="1540681916838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_column Coverage Results" MODIFIED="1533946354065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_with_two.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_with_two Coverage Results" MODIFIED="1534616182138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution_test_simplifyPath.coverage" NAME="Unittests for test_simplify_path.TestSolution.test_simplifyPath Coverage Results" MODIFIED="1537623863348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -317,44 +323,45 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="88" />
+          <entry key="project.closed" value="89" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="28" />
           <entry key="project.open.time.11" value="9" />
           <entry key="project.open.time.12" value="6" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="23" />
-          <entry key="project.opened" value="89" />
+          <entry key="project.opened" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="265" />
+          <entry key="py" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="265" />
+          <entry key="Python" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4145" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="59471" />
+          <entry key="py" value="60150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="63616" />
+          <entry key="Python" value="64295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -375,29 +382,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversalII.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="18" selection-start-line="13" selection-start-column="8" selection-end-line="30" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal_ii.py">
+        <entry file="file://$PROJECT_DIR$/problems/PathSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="570">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_path_sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -406,10 +404,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal.py">
+        <entry file="file://$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="45">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -429,10 +427,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/RemoveDuplicatesSortedList.py" />
-        <option value="$PROJECT_DIR$/problems/RemoveDuplicatesFromSortedList.py" />
-        <option value="$PROJECT_DIR$/problems/LargestRectangleHistogram.py" />
-        <option value="$PROJECT_DIR$/test/test_largest_rectangle_in_histogramn.py" />
         <option value="$PROJECT_DIR$/problems/JumpGame.py" />
         <option value="$PROJECT_DIR$/test/test_jump_game_ii.py" />
         <option value="$PROJECT_DIR$/problems/JumpGameII.py" />
@@ -480,6 +474,10 @@
         <option value="$PROJECT_DIR$/problems/ConstructBinaryTreeInorderPostorderTraversal.py" />
         <option value="$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversalII.py" />
         <option value="$PROJECT_DIR$/test/test_binary_tree_level_order_traversal_ii.py" />
+        <option value="$PROJECT_DIR$/problems/ConvertSortedArrayBinarySearchTree.py" />
+        <option value="$PROJECT_DIR$/test/test_convert_sorted_array_binary_search_tree.py" />
+        <option value="$PROJECT_DIR$/test/test_path_sum.py" />
+        <option value="$PROJECT_DIR$/problems/PathSum.py" />
       </list>
     </option>
   </component>
@@ -490,9 +488,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
+    <option name="x" value="2105" />
     <option name="y" value="665" />
-    <option name="width" value="1238" />
+    <option name="width" value="1239" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -552,7 +550,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_binary_tree_level_order_traversal_ii.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_path_sum.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -572,6 +570,28 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="PathSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/PathSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -597,7 +617,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_construct_binary_tree_inorder_postorder_traversal.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_path_sum.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -608,11 +628,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_construct_binary_tree_inorder_postorder_traversal.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_path_sum.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_construct_binary_tree_preorder_inorder_traversal.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -623,11 +643,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_construct_binary_tree_preorder_inorder_traversal.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_path_sum.TestSolution.test_hasPathSum&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_symmetric_tree.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -638,39 +658,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_symmetric_tree.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_zigzag_level_order.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_zigzag_level_order.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_path_sum.TestSolution.test_hasPathSum_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_symmetric_tree.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_zigzag_level_order.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_construct_binary_tree_preorder_inorder_traversal.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_construct_binary_tree_inorder_postorder_traversal.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_binary_tree_level_order_traversal_ii.TestSolution" />
+      <item itemvalue="Python.PathSum" />
+      <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution.test_hasPathSum" />
+      <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution.test_hasPathSum_one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution.test_hasPathSum_one" />
+        <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution.test_hasPathSum" />
+        <item itemvalue="Python.PathSum" />
         <item itemvalue="Python tests.Unittests for test_binary_tree_level_order_traversal_ii.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_construct_binary_tree_inorder_postorder_traversal.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_construct_binary_tree_preorder_inorder_traversal.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_zigzag_level_order.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_symmetric_tree.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -688,47 +693,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_construct_binary_tree_preorder_inorder_traversal_TestSolution - 2018.10.25 at 19h 16m 34s.xml">
-      <configuration name="Unittests for test_construct_binary_tree_preorder_inorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution_test_hasPathSum - 2018.10.27 at 19h 05m 10s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_construct_binary_tree_preorder_inorder_traversal_TestSolution - 2018.10.25 at 19h 16m 57s.xml">
-      <configuration name="Unittests for test_construct_binary_tree_preorder_inorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution - 2018.10.27 at 19h 05m 50s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_construct_binary_tree_preorder_inorder_traversal_TestSolution - 2018.10.25 at 19h 18m 40s.xml">
-      <configuration name="Unittests for test_construct_binary_tree_preorder_inorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution - 2018.10.27 at 19h 06m 15s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_construct_binary_tree_preorder_inorder_traversal_TestSolution - 2018.10.25 at 19h 19m 43s.xml">
-      <configuration name="Unittests for test_construct_binary_tree_preorder_inorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution - 2018.10.27 at 19h 08m 16s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_construct_binary_tree_preorder_inorder_traversal_TestSolution - 2018.10.25 at 19h 19m 54s.xml">
-      <configuration name="Unittests for test_construct_binary_tree_preorder_inorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution_test_hasPathSum - 2018.10.27 at 19h 09m 13s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_construct_binary_tree_inorder_postorder_traversal_TestSolution - 2018.10.25 at 19h 35m 29s.xml">
-      <configuration name="Unittests for test_construct_binary_tree_inorder_postorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution_test_hasPathSum - 2018.10.27 at 19h 09m 21s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_construct_binary_tree_inorder_postorder_traversal_TestSolution - 2018.10.25 at 19h 39m 59s.xml">
-      <configuration name="Unittests for test_construct_binary_tree_inorder_postorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution_test_hasPathSum_one - 2018.10.27 at 19h 11m 43s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_construct_binary_tree_inorder_postorder_traversal_TestSolution - 2018.10.25 at 19h 41m 45s.xml">
-      <configuration name="Unittests for test_construct_binary_tree_inorder_postorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution_test_hasPathSum_one - 2018.10.27 at 19h 12m 38s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_construct_binary_tree_inorder_postorder_traversal_TestSolution - 2018.10.25 at 19h 41m 55s.xml">
-      <configuration name="Unittests for test_construct_binary_tree_inorder_postorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution - 2018.10.27 at 19h 29m 59s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_binary_tree_level_order_traversal_ii_TestSolution - 2018.10.26 at 20h 05m 35s.xml">
-      <configuration name="Unittests for test_binary_tree_level_order_traversal_ii.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_path_sum_TestSolution - 2018.10.27 at 19h 30m 29s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="665" width="1238" height="777" extended-state="6" />
+    <frame x="1920" y="665" width="1239" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3411371" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34670007" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3620438" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3620438" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4029197" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1063,34 +1068,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_jump_game_ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_partition_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/PartitionList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/MaximalRectangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/LargestRectangleHistogram.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -1238,13 +1215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/SameTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1270,13 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="41" selection-start-line="25" selection-start-column="12" selection-end-line="34" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1385,9 +1348,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="18" selection-start-line="13" selection-start-column="8" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal_ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="39" selection-start-line="4" selection-start-column="4" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversalII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_convert_sorted_array_binary_search_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ConvertSortedArrayBinarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1401,34 +1416,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal.py">
+    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="304">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="34" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py">
+    <entry file="file://$PROJECT_DIR$/test/test_path_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="18" selection-start-line="13" selection-start-column="8" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversalII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal_ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/PathSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
