@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/PathSumII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_path_sum_ii.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -38,6 +36,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution_test_search_2.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution.test_search_2 Coverage Results" MODIFIED="1538529065651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_empty.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_empty Coverage Results" MODIFIED="1533946357084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution_test_setZeroes_special.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution.test_setZeroes_special Coverage Results" MODIFIED="1537830405618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_insert_interval_TestSolution_test_insert_two.coverage" NAME="Unittests for test_insert_interval.TestSolution.test_insert_two Coverage Results" MODIFIED="1540742642778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist_new.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist_new Coverage Results" MODIFIED="1538324008604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_TestSolution_test_canJump_zero.coverage" NAME="Unittests for test_jump_game.TestSolution.test_canJump_zero Coverage Results" MODIFIED="1536704658099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution Coverage Results" MODIFIED="1537831455609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -76,6 +75,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_multiply_strings_TestSolution_test_multiply_more.coverage" NAME="Unittests for test_multiply_strings.TestSolution.test_multiply_more Coverage Results" MODIFIED="1536277331231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_binary_TestSolution_test_addBinary_4.coverage" NAME="Unittests for test_add_binary.TestSolution.test_addBinary_4 Coverage Results" MODIFIED="1537578606836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gray_code_TestSolution_test_grayCode_three.coverage" NAME="Unittests for test_gray_code.TestSolution.test_grayCode_three Coverage Results" MODIFIED="1539296858008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_insert_interval_TestSolution_test_insert_three.coverage" NAME="Unittests for test_insert_interval.TestSolution.test_insert_three Coverage Results" MODIFIED="1540742647211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution_test_search_4.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution.test_search_4 Coverage Results" MODIFIED="1538529639747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_eight.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_eight Coverage Results" MODIFIED="1539573477880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_TestSolution_test_hasPathSum.coverage" NAME="Unittests for test_path_sum.TestSolution.test_hasPathSum Coverage Results" MODIFIED="1540681761382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -190,6 +190,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_next_permutation_TestSolution.coverage" NAME="Unittests for test_next_permutation.TestSolution Coverage Results" MODIFIED="1535667697782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_1695.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_1695 Coverage Results" MODIFIED="1534284185759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_level_order_TestSolution.coverage" NAME="Unittests for test_zigzag_level_order.TestSolution Coverage Results" MODIFIED="1540426342854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_insert_interval_TestSolution_test_insert.coverage" NAME="Unittests for test_insert_interval.TestSolution.test_insert Coverage Results" MODIFIED="1540742631851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_nqueen_TestSolution_test_solveNQueens.coverage" NAME="Unittests for test_nqueen.TestSolution.test_solveNQueens Coverage Results" MODIFIED="1538341278116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_same_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_same_characters Coverage Results" MODIFIED="1533695771963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_two_sorted_lists_TestSolution_test_mergeTwoLists.coverage" NAME="Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists Coverage Results" MODIFIED="1534803411170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -197,6 +198,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution_test_setZeroes.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution.test_setZeroes Coverage Results" MODIFIED="1537831366201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_3.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_3 Coverage Results" MODIFIED="1534283534245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_three_sum_closest_TestSolution_test_threeSumClosest_81.coverage" NAME="Unittests for test_three_sum_closest.TestSolution.test_threeSumClosest_81 Coverage Results" MODIFIED="1534546590370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_insert_interval_TestSolution_test_insert_one.coverage" NAME="Unittests for test_insert_interval.TestSolution.test_insert_one Coverage Results" MODIFIED="1540742636082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_TestSolution_test_max_profit_with_only_one_number.coverage" NAME="Unittests for test_best_time_buy_sell_stock.TestSolution.test_max_profit_with_only_one_number Coverage Results" MODIFIED="1534000353040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_element_TestSolution_test_removeElement.coverage" NAME="Unittests for test_remove_element.TestSolution.test_removeElement Coverage Results" MODIFIED="1535063089564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution.coverage" NAME="Unittests for test_Implement_strStr.TestSolution Coverage Results" MODIFIED="1535299938371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -205,6 +207,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_at_start.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_at_start Coverage Results" MODIFIED="1533696952955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_sorted_list_ii_TestSolution_test_deleteDuplicates_1.coverage" NAME="Unittests for test_remove_duplicates_sorted_list_ii.TestSolution.test_deleteDuplicates_1 Coverage Results" MODIFIED="1538611729099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray Coverage Results" MODIFIED="1535771490178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_insert_interval_TestSolution.coverage" NAME="Unittests for test_insert_interval.TestSolution Coverage Results" MODIFIED="1540742778081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search Coverage Results" MODIFIED="1535819034526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_60.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_60 Coverage Results" MODIFIED="1534196660688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_image_TestSolution_test_rotate_four.coverage" NAME="Unittests for test_rotate_image.TestSolution.test_rotate_four Coverage Results" MODIFIED="1536618731040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -323,7 +326,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="89" />
+          <entry key="project.closed" value="90" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="28" />
@@ -335,33 +338,33 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="11" />
-          <entry key="project.open.time.9" value="23" />
-          <entry key="project.opened" value="90" />
+          <entry key="project.open.time.9" value="24" />
+          <entry key="project.opened" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="273" />
+          <entry key="py" value="275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="273" />
+          <entry key="Python" value="275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4145" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="60526" />
+          <entry key="py" value="61198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="64671" />
+          <entry key="Python" value="65343" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -370,65 +373,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/InsertInterval.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_insert_interval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/PathSum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/PathSumII.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_path_sum_ii.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_path_sum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -478,8 +439,6 @@
         <option value="$PROJECT_DIR$/test/test_validate_binary_search_tree.py" />
         <option value="$PROJECT_DIR$/test/test_unique_binary_search_trees_ii.py" />
         <option value="$PROJECT_DIR$/problems/UniqueBinarySearchTreesII.py" />
-        <option value="$PROJECT_DIR$/test/test_insert_interval.py" />
-        <option value="$PROJECT_DIR$/problems/InsertInterval.py" />
         <option value="$PROJECT_DIR$/problems/MaximumDepthBinaryTree.py" />
         <option value="$PROJECT_DIR$/test/test_binary_tree_level_order_traversal.py" />
         <option value="$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py" />
@@ -499,6 +458,8 @@
         <option value="$PROJECT_DIR$/problems/PathSum.py" />
         <option value="$PROJECT_DIR$/test/test_path_sum_ii.py" />
         <option value="$PROJECT_DIR$/problems/PathSumII.py" />
+        <option value="$PROJECT_DIR$/test/test_insert_interval.py" />
+        <option value="$PROJECT_DIR$/problems/InsertInterval.py" />
       </list>
     </option>
   </component>
@@ -508,8 +469,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2105" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
     <option name="y" value="665" />
     <option name="width" value="1239" />
     <option name="height" value="777" />
@@ -571,7 +532,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_path_sum_ii.TestSolution.test_pathSum">
+  <component name="RunManager" selected="Python tests.Unittests for test_insert_interval.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -601,7 +562,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_path_sum.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_insert_interval.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -612,11 +573,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_path_sum.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_insert_interval.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_insert_interval.TestSolution.test_insert" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -627,11 +588,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_path_sum.TestSolution.test_hasPathSum&quot;" />
+      <option name="_new_target" value="&quot;test_insert_interval.TestSolution.test_insert&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_insert_interval.TestSolution.test_insert_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -642,11 +603,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_path_sum.TestSolution.test_hasPathSum_one&quot;" />
+      <option name="_new_target" value="&quot;test_insert_interval.TestSolution.test_insert_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_path_sum_ii.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_insert_interval.TestSolution.test_insert_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -657,11 +618,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_path_sum_ii.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_insert_interval.TestSolution.test_insert_three&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_path_sum_ii.TestSolution.test_pathSum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_insert_interval.TestSolution.test_insert_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -672,24 +633,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_path_sum_ii.TestSolution.test_pathSum&quot;" />
+      <option name="_new_target" value="&quot;test_insert_interval.TestSolution.test_insert_two&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution.test_hasPathSum" />
-      <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution.test_hasPathSum_one" />
-      <item itemvalue="Python tests.Unittests for test_path_sum_ii.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_path_sum_ii.TestSolution.test_pathSum" />
+      <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution.test_insert" />
+      <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution.test_insert_one" />
+      <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution.test_insert_three" />
+      <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution.test_insert_two" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_path_sum_ii.TestSolution.test_pathSum" />
-        <item itemvalue="Python tests.Unittests for test_path_sum_ii.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution.test_hasPathSum_one" />
-        <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution.test_hasPathSum" />
+        <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution.test_insert_three" />
+        <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution.test_insert_two" />
+        <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution.test_insert_one" />
+        <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution.test_insert" />
       </list>
     </recent_temporary>
   </component>
@@ -707,47 +668,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_path_sum_TestSolution_test_hasPathSum - 2018.10.27 at 19h 09m 13s.xml">
-      <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution_test_insert_two - 2018.10.28 at 12h 01m 38s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution.test_insert_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_path_sum_TestSolution_test_hasPathSum - 2018.10.27 at 19h 09m 21s.xml">
-      <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution_test_insert - 2018.10.28 at 12h 01m 48s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution.test_insert" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_path_sum_TestSolution_test_hasPathSum_one - 2018.10.27 at 19h 11m 43s.xml">
-      <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution - 2018.10.28 at 12h 03m 43s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_path_sum_TestSolution_test_hasPathSum_one - 2018.10.27 at 19h 12m 38s.xml">
-      <configuration name="Unittests for test_path_sum.TestSolution.test_hasPathSum_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution_test_insert - 2018.10.28 at 12h 03m 52s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution.test_insert" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_path_sum_TestSolution - 2018.10.27 at 19h 29m 59s.xml">
-      <configuration name="Unittests for test_path_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution_test_insert_one - 2018.10.28 at 12h 03m 56s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution.test_insert_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_path_sum_TestSolution - 2018.10.27 at 19h 30m 29s.xml">
-      <configuration name="Unittests for test_path_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution_test_insert_three - 2018.10.28 at 12h 04m 00s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution.test_insert_three" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_path_sum_ii_TestSolution - 2018.10.27 at 19h 55m 59s.xml">
-      <configuration name="Unittests for test_path_sum_ii.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution_test_insert_two - 2018.10.28 at 12h 04m 02s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution.test_insert_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_path_sum_ii_TestSolution - 2018.10.27 at 19h 56m 21s.xml">
-      <configuration name="Unittests for test_path_sum_ii.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution_test_insert_three - 2018.10.28 at 12h 04m 23s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution.test_insert_three" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_path_sum_ii_TestSolution_test_pathSum - 2018.10.27 at 19h 57m 52s.xml">
-      <configuration name="Unittests for test_path_sum_ii.TestSolution.test_pathSum" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution - 2018.10.28 at 12h 05m 04s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_path_sum_ii_TestSolution_test_pathSum - 2018.10.27 at 19h 58m 29s.xml">
-      <configuration name="Unittests for test_path_sum_ii.TestSolution.test_pathSum" configurationId="tests" />
+    <history-entry file="Unittests_for_test_insert_interval_TestSolution - 2018.10.28 at 12h 05m 59s.xml">
+      <configuration name="Unittests for test_insert_interval.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="665" width="1239" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34670007" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.35254803" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3620438" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34452555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4029197" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -998,8 +959,8 @@
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/PathSumII.py</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/problems/InsertInterval.py</url>
+          <line>17</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
@@ -1164,13 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="576" selection-start-line="576" selection-end-line="576" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/DecodeWays.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
@@ -1273,9 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
           <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-          <folding>
-            <marker date="1540135710000" expanded="true" signature="422:1377" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1304,13 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/InsertInterval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1367,9 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1398,9 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1408,16 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_insert_interval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1439,26 +1367,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_path_sum_ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/PathSumII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="582" selection-start-line="582" selection-end-line="582" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_insert_interval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/InsertInterval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
