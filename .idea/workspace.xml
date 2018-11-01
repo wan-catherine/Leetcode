@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/MinimumDepthBinaryTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/BalancedBinaryTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -330,45 +330,46 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="92" />
+          <entry key="project.closed" value="93" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="29" />
           <entry key="project.open.time.11" value="9" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="25" />
-          <entry key="project.opened" value="93" />
+          <entry key="project.opened" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="283" />
+          <entry key="py" value="284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="283" />
+          <entry key="Python" value="284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4198" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="62242" />
+          <entry key="py" value="62457" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="66440" />
+          <entry key="Python" value="66655" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -395,11 +396,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/MinimumDepthBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="52" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="26" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/BalancedBinaryTree.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -443,7 +453,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/MergeSortedArray.py" />
         <option value="$PROJECT_DIR$/test/test_gray_code.py" />
         <option value="$PROJECT_DIR$/problems/GrayCode.py" />
         <option value="$PROJECT_DIR$/test/test_scramble_string  .py" />
@@ -494,6 +503,7 @@
         <option value="$PROJECT_DIR$/test/test_pascal_triangle_ii.py" />
         <option value="$PROJECT_DIR$/problems/PascalTriangleII.py" />
         <option value="$PROJECT_DIR$/problems/MinimumDepthBinaryTree.py" />
+        <option value="$PROJECT_DIR$/problems/BalancedBinaryTree.py" />
       </list>
     </option>
   </component>
@@ -503,10 +513,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2004" />
     <option name="y" value="665" />
-    <option name="width" value="1239" />
+    <option name="width" value="1240" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -517,7 +527,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -539,6 +548,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -734,10 +744,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="665" width="1239" height="777" extended-state="0" />
+    <frame x="1920" y="665" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.358396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36363637" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1087,13 +1097,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/Subsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_subsets_ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1416,6 +1419,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/PascalTriangleII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_pascal_triangle_ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1436,17 +1446,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/PascalTriangleII.py">
+    <entry file="file://$PROJECT_DIR$/problems/MinimumDepthBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="390">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="26" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/MinimumDepthBinaryTree.py">
+    <entry file="file://$PROJECT_DIR$/problems/BalancedBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
