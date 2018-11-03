@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/ConvertSortedListBinarySearchTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/FlattenBinaryTreeLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_flatten_binary_tree_linked_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -118,6 +119,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_plus_one_TestSolution.coverage" NAME="Unittests for test_plus_one.TestSolution Coverage Results" MODIFIED="1537481655547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_ii_TestSolution.coverage" NAME="Unittests for test_path_sum_ii.TestSolution Coverage Results" MODIFIED="1540684581735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_construct_binary_tree_inorder_postorder_traversal_TestSolution.coverage" NAME="Unittests for test_construct_binary_tree_inorder_postorder_traversal.TestSolution Coverage Results" MODIFIED="1540510915371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_flatten_binary_tree_linked_list_TestSolution_test_flatten.coverage" NAME="Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten Coverage Results" MODIFIED="1541209522821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_reverse_integer_py.coverage" NAME="Unittests in test_reverse_integer.py Coverage Results" MODIFIED="1533919252749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_spiral_matrix_TestSolution_test_spiralOrder_more.coverage" NAME="Unittests for test_spiral_matrix.TestSolution.test_spiralOrder_more Coverage Results" MODIFIED="1536880115817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_11.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_11 Coverage Results" MODIFIED="1534196449069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -330,7 +332,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="94" />
+          <entry key="project.closed" value="95" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="30" />
@@ -341,35 +343,35 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="25" />
-          <entry key="project.opened" value="95" />
+          <entry key="project.opened" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="285" />
+          <entry key="py" value="288" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="285" />
+          <entry key="Python" value="288" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4203" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="62723" />
+          <entry key="py" value="63123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="66926" />
+          <entry key="Python" value="67326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -377,72 +379,33 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/PascalTriangle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="18" selection-start-line="9" selection-start-column="8" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/PascalTriangleII.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/MinimumDepthBinaryTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="52" selection-start-line="13" selection-start-column="8" selection-end-line="26" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/BalancedBinaryTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/ConvertSortedListBinarySearchTree.py">
+        <entry file="file://$PROJECT_DIR$/problems/FlattenBinaryTreeLinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="350">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_pascal_triangle_ii.py">
+        <entry file="file://$PROJECT_DIR$/test/test_flatten_binary_tree_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_pascal_triangle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="60">
               <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -462,8 +425,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/GrayCode.py" />
-        <option value="$PROJECT_DIR$/test/test_scramble_string  .py" />
         <option value="$PROJECT_DIR$/test/test_subsets_ii.py" />
         <option value="$PROJECT_DIR$/problems/SubsetsII.py" />
         <option value="$PROJECT_DIR$/problems/ScrambleString.py" />
@@ -513,6 +474,8 @@
         <option value="$PROJECT_DIR$/problems/MinimumDepthBinaryTree.py" />
         <option value="$PROJECT_DIR$/problems/BalancedBinaryTree.py" />
         <option value="$PROJECT_DIR$/problems/ConvertSortedListBinarySearchTree.py" />
+        <option value="$PROJECT_DIR$/test/test_flatten_binary_tree_linked_list.py" />
+        <option value="$PROJECT_DIR$/problems/FlattenBinaryTreeLinkedList.py" />
       </list>
     </option>
   </component>
@@ -536,6 +499,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -557,7 +521,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,7 +548,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_pascal_triangle_ii.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -645,7 +608,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_insert_interval.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -656,7 +619,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_insert_interval.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_flatten_binary_tree_linked_list.TestSolution.test_flatten&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -691,19 +654,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_convert_sorted_array_binary_search_tree.TestSolution.test_sortedArrayToBST" />
       <item itemvalue="Python tests.Unittests for TestSolution.test_generate" />
       <item itemvalue="Python tests.Unittests for test_pascal_triangle.TestSolution.test_generate" />
       <item itemvalue="Python tests.Unittests for test_pascal_triangle_ii.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" />
         <item itemvalue="Python tests.Unittests for test_pascal_triangle_ii.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_pascal_triangle.TestSolution.test_generate" />
         <item itemvalue="Python tests.Unittests for TestSolution.test_generate" />
         <item itemvalue="Python tests.Unittests for test_convert_sorted_array_binary_search_tree.TestSolution.test_sortedArrayToBST" />
-        <item itemvalue="Python tests.Unittests for test_insert_interval.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -721,15 +684,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_insert_interval_TestSolution - 2018.10.28 at 12h 05m 59s.xml">
-      <configuration name="Unittests for test_insert_interval.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_insert_interval_TestSolution - 2018.10.28 at 12h 06m 18s.xml">
-      <configuration name="Unittests for test_insert_interval.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_convert_sorted_array_binary_search_tree_TestSolution_test_sortedArrayToBST - 2018.10.29 at 19h 57m 33s.xml">
-      <configuration name="Unittests for test_convert_sorted_array_binary_search_tree.TestSolution.test_sortedArrayToBST" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_pascal_triangle_TestSolution_test_generate - 2018.10.29 at 20h 16m 07s.xml">
       <configuration name="Unittests for test_pascal_triangle.TestSolution.test_generate" configurationId="tests" />
     </history-entry>
@@ -751,12 +705,21 @@
     <history-entry file="Unittests_for_test_pascal_triangle_ii_TestSolution - 2018.10.29 at 20h 26m 54s.xml">
       <configuration name="Unittests for test_pascal_triangle_ii.TestSolution" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_flatten_binary_tree_linked_list_TestSolution_test_flatten - 2018.11.02 at 21h 38m 30s.xml">
+      <configuration name="Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_flatten_binary_tree_linked_list_TestSolution_test_flatten - 2018.11.02 at 21h 39m 21s.xml">
+      <configuration name="Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_flatten_binary_tree_linked_list_TestSolution_test_flatten - 2018.11.02 at 21h 40m 33s.xml">
+      <configuration name="Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="665" width="1238" height="777" extended-state="6" />
+    <frame x="1920" y="665" width="1238" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36956522" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37541807" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -769,7 +732,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34014598" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.34890512" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.34890512" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329927" />
@@ -1021,6 +984,11 @@
           <line>13</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/FlattenBinaryTreeLinkedList.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1106,20 +1074,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_subsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/SubsetsII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/ScrambleString.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1344,13 +1298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/PathSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1437,21 +1384,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_pascal_triangle_ii.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="45">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_pascal_triangle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="60">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1464,8 +1405,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/ConvertSortedListBinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="231">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_flatten_binary_tree_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/FlattenBinaryTreeLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
         </state>
       </provider>
     </entry>
