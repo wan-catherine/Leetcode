@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -66,6 +64,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_test_swap_pairs_TestSolution.coverage" NAME="Unittests for test.test_swap_pairs.TestSolution Coverage Results" MODIFIED="1534893672601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_median_of_two_sorted_arrays_py.coverage" NAME="Unittests in test_median_of_two_sorted_arrays.py Coverage Results" MODIFIED="1533772139167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_binary_search_trees_TestSolution.coverage" NAME="Unittests for test_unique_binary_search_trees.TestSolution Coverage Results" MODIFIED="1539991838618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sudoku_solver_TestSolution.coverage" NAME="Unittests for test_sudoku_solver.TestSolution Coverage Results" MODIFIED="1541350799612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_permutationsII_TestSolution_test_permuteUnique_copy.coverage" NAME="Unittests for test_permutationsII.TestSolution.test_permuteUnique_copy Coverage Results" MODIFIED="1536418263575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_two_sum_TestTwoSum_test_two_sum_with_negetive_integers.coverage" NAME="Unittests for test_two_sum.TestTwoSum.test_two_sum_with_negetive_integers Coverage Results" MODIFIED="1533589325445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_permutation_sequence_TestSolution.coverage" NAME="Unittests for test_permutation_sequence.TestSolution Coverage Results" MODIFIED="1537120106681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -280,7 +279,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three Coverage Results" MODIFIED="1534372217686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_two.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_two Coverage Results" MODIFIED="1535819156274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_binary_TestSolution.coverage" NAME="Unittests for test_add_binary.TestSolution Coverage Results" MODIFIED="1537579135898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku.coverage" NAME="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku Coverage Results" MODIFIED="1536014836483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku.coverage" NAME="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku Coverage Results" MODIFIED="1541350889750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_empty_empty.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_empty_empty Coverage Results" MODIFIED="1535587029874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_ii_TestSolution_test_jump.coverage" NAME="Unittests for test_jump_game_ii.TestSolution.test_jump Coverage Results" MODIFIED="1538961577158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution_test_search_1.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution.test_search_1 Coverage Results" MODIFIED="1538529070666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -334,12 +333,12 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="96" />
+          <entry key="project.closed" value="97" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="30" />
           <entry key="project.open.time.11" value="9" />
-          <entry key="project.open.time.12" value="6" />
+          <entry key="project.open.time.12" value="7" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -348,32 +347,32 @@
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="11" />
           <entry key="project.open.time.9" value="26" />
-          <entry key="project.opened" value="97" />
+          <entry key="project.opened" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="291" />
+          <entry key="py" value="293" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="291" />
+          <entry key="Python" value="293" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="4203" />
+          <entry key="Python Console" value="4228" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="63854" />
+          <entry key="py" value="64577" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="68057" />
+          <entry key="Python" value="68805" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -382,23 +381,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNode.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/SudokuSolver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="-132">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <marker date="1541351001000" expanded="true" signature="49:109" ph="..." />
+                <marker date="1541351001000" expanded="true" signature="593:782" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_sudoku_solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -418,8 +418,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ScrambleString.py" />
-        <option value="$PROJECT_DIR$/test/test_scramble_string.py" />
         <option value="$PROJECT_DIR$/test/test_decode_ways.py" />
         <option value="$PROJECT_DIR$/problems/DecodeWays.py" />
         <option value="$PROJECT_DIR$/test/test_reverse_linked_list_ii.py" />
@@ -469,6 +467,8 @@
         <option value="$PROJECT_DIR$/problems/FlattenBinaryTreeLinkedList.py" />
         <option value="$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node.py" />
         <option value="$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNode.py" />
+        <option value="$PROJECT_DIR$/problems/SudokuSolver.py" />
+        <option value="$PROJECT_DIR$/test/test_sudoku_solver.py" />
       </list>
     </option>
   </component>
@@ -492,6 +492,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -513,7 +514,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -541,7 +541,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_populating_next_right_pointers_each_node.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_sudoku_solver.TestSolution.test_solveSudoku">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -586,36 +586,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_pascal_triangle.TestSolution.test_generate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pascal_triangle.TestSolution.test_generate&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_pascal_triangle_ii.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pascal_triangle_ii.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_populating_next_right_pointers_each_node.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -646,20 +616,50 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_sudoku_solver.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sudoku_solver.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sudoku_solver.TestSolution.test_solveSudoku&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_pascal_triangle.TestSolution.test_generate" />
-      <item itemvalue="Python tests.Unittests for test_pascal_triangle_ii.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" />
       <item itemvalue="Python tests.Unittests for test_populating_next_right_pointers_each_node.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_populating_next_right_pointers_each_node.TestSolution.test_connect" />
+      <item itemvalue="Python tests.Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" />
+      <item itemvalue="Python tests.Unittests for test_sudoku_solver.TestSolution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" />
+        <item itemvalue="Python tests.Unittests for test_sudoku_solver.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_populating_next_right_pointers_each_node.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_populating_next_right_pointers_each_node.TestSolution.test_connect" />
         <item itemvalue="Python tests.Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" />
-        <item itemvalue="Python tests.Unittests for test_pascal_triangle_ii.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_pascal_triangle.TestSolution.test_generate" />
       </list>
     </recent_temporary>
   </component>
@@ -677,48 +677,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_pascal_triangle_ii_TestSolution - 2018.10.29 at 20h 26m 54s.xml">
-      <configuration name="Unittests for test_pascal_triangle_ii.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku - 2018.11.04 at 11h 50m 09s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_flatten_binary_tree_linked_list_TestSolution_test_flatten - 2018.11.02 at 21h 38m 30s.xml">
-      <configuration name="Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku - 2018.11.04 at 11h 51m 38s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_flatten_binary_tree_linked_list_TestSolution_test_flatten - 2018.11.02 at 21h 39m 21s.xml">
-      <configuration name="Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution - 2018.11.04 at 11h 52m 14s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_flatten_binary_tree_linked_list_TestSolution_test_flatten - 2018.11.02 at 21h 40m 33s.xml">
-      <configuration name="Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku - 2018.11.04 at 11h 54m 37s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_flatten_binary_tree_linked_list_TestSolution_test_flatten - 2018.11.02 at 21h 45m 54s.xml">
-      <configuration name="Unittests for test_flatten_binary_tree_linked_list.TestSolution.test_flatten" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku - 2018.11.04 at 11h 55m 03s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_populating_next_right_pointers_each_node_TestSolution - 2018.11.03 at 10h 33m 36s.xml">
-      <configuration name="Unittests for test_populating_next_right_pointers_each_node.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku - 2018.11.04 at 11h 56m 18s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_populating_next_right_pointers_each_node_TestSolution_test_connect - 2018.11.03 at 10h 35m 04s.xml">
-      <configuration name="Unittests for test_populating_next_right_pointers_each_node.TestSolution.test_connect" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku - 2018.11.04 at 11h 58m 31s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_populating_next_right_pointers_each_node_TestSolution_test_connect - 2018.11.03 at 10h 37m 33s.xml">
-      <configuration name="Unittests for test_populating_next_right_pointers_each_node.TestSolution.test_connect" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku - 2018.11.04 at 11h 59m 50s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_populating_next_right_pointers_each_node_TestSolution - 2018.11.03 at 10h 38m 39s.xml">
-      <configuration name="Unittests for test_populating_next_right_pointers_each_node.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution - 2018.11.04 at 11h 59m 59s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_populating_next_right_pointers_each_node_TestSolution - 2018.11.03 at 10h 39m 24s.xml">
-      <configuration name="Unittests for test_populating_next_right_pointers_each_node.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sudoku_solver_TestSolution_test_solveSudoku - 2018.11.04 at 12h 01m 30s.xml">
+      <configuration name="Unittests for test_sudoku_solver.TestSolution.test_solveSudoku" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="665" width="1238" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38127092" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.38795987" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6160584" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4029197" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5109489" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35182482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -853,11 +853,6 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/SudokuSolver.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/MultiplyStrings.py</url>
           <line>15</line>
           <option name="timeStamp" value="45" />
@@ -987,8 +982,23 @@
           <line>16</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/SudokuSolver.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/SudokuSolver.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="num" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
@@ -1072,20 +1082,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/DecodeWays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="77" column="18" selection-start-line="52" selection-start-column="8" selection-end-line="77" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_decode_ways.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_add_binary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1415,20 +1411,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNode.py">
+    <entry file="file://$PROJECT_DIR$/problems/SudokuSolver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="-132">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <marker date="1541351001000" expanded="true" signature="49:109" ph="..." />
+            <marker date="1541351001000" expanded="true" signature="593:782" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_sudoku_solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
