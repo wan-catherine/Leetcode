@@ -21,3 +21,14 @@ class Solution(object):
             res = temp
 
         return min(res)
+
+    #from last row to the first row
+    def minimumTotal_better(self, triangle):
+        lastRow = triangle[-1]
+
+        for row in reversed(triangle[:-1]):
+            tempRow = row[:]
+            for i in range(0, len(row)):
+                tempRow[i] += min(lastRow[i], lastRow[i + 1])
+            lastRow = tempRow
+        return lastRow[0]
