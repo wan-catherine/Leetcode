@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNodeII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node_ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/SingleNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_single_number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
@@ -230,6 +230,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_image_TestSolution_test_rotate_four.coverage" NAME="Unittests for test_rotate_image.TestSolution.test_rotate_four Coverage Results" MODIFIED="1536618731040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_two.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two Coverage Results" MODIFIED="1534289324790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_permutations_TestSolution_test_permute.coverage" NAME="Unittests for test_permutations.TestSolution.test_permute Coverage Results" MODIFIED="1536369074713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_single_number_TestSolution.coverage" NAME="Unittests for test_single_number.TestSolution Coverage Results" MODIFIED="1541768197949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_16.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_16 Coverage Results" MODIFIED="1534378525560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_single.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_single Coverage Results" MODIFIED="1535299244447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum2_TestSolution_test_combinationSum2.coverage" NAME="Unittests for test_combination_sum2.TestSolution.test_combinationSum2 Coverage Results" MODIFIED="1536195722347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -346,11 +347,11 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="101" />
+          <entry key="project.closed" value="102" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="30" />
-          <entry key="project.open.time.11" value="9" />
+          <entry key="project.open.time.11" value="10" />
           <entry key="project.open.time.12" value="7" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
@@ -361,32 +362,32 @@
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="12" />
           <entry key="project.open.time.9" value="27" />
-          <entry key="project.opened" value="102" />
+          <entry key="project.opened" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="305" />
+          <entry key="py" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="305" />
+          <entry key="Python" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4228" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="66549" />
+          <entry key="py" value="66725" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="70777" />
+          <entry key="Python" value="70953" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -396,31 +397,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNodeII.py">
+        <entry file="file://$PROJECT_DIR$/problems/SingleNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node_ii.py">
+        <entry file="file://$PROJECT_DIR$/test/test_single_number.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -440,8 +432,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_unique_binary_search_trees .py" />
-        <option value="$PROJECT_DIR$/test/test_unique_binary_search_trees.py" />
         <option value="$PROJECT_DIR$/problems/UniqueBinarySearchTrees.py" />
         <option value="$PROJECT_DIR$/problems/ValidateBinarySearchTree.py" />
         <option value="$PROJECT_DIR$/test/test_validate_binary_search_tree.py" />
@@ -491,6 +481,8 @@
         <option value="$PROJECT_DIR$/problems/ValidPalindrome.py" />
         <option value="$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node_ii.py" />
         <option value="$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNodeII.py" />
+        <option value="$PROJECT_DIR$/test/test_single_number.py" />
+        <option value="$PROJECT_DIR$/problems/SingleNumber.py" />
       </list>
     </option>
   </component>
@@ -500,8 +492,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1851" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2009" />
     <option name="y" value="665" />
     <option name="width" value="1238" />
     <option name="height" value="777" />
@@ -514,6 +506,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -535,7 +528,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,7 +555,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect">
+  <component name="RunManager" selected="Python tests.Unittests for test_single_number.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -593,21 +585,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit_four" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit_four&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -620,6 +597,21 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_single_number.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_single_number.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -669,19 +661,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit_four" />
       <item itemvalue="Python tests.Unittests for test_valid_palindrome.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_valid_palindrome.TestSolution.test_isPalindrome_two" />
       <item itemvalue="Python tests.Unittests for test_valid_palindrome.TestSolution.test_isPalindrome_three" />
       <item itemvalue="Python tests.Unittests for test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect" />
+      <item itemvalue="Python tests.Unittests for test_single_number.TestSolution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_single_number.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect" />
         <item itemvalue="Python tests.Unittests for test_valid_palindrome.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_valid_palindrome.TestSolution.test_isPalindrome_three" />
         <item itemvalue="Python tests.Unittests for test_valid_palindrome.TestSolution.test_isPalindrome_two" />
-        <item itemvalue="Python tests.Unittests for test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit_four" />
       </list>
     </recent_temporary>
   </component>
@@ -699,15 +691,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_valid_palindrome_TestSolution - 2018.11.07 at 18h 15m 52s.xml">
-      <configuration name="Unittests for test_valid_palindrome.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_valid_palindrome_TestSolution - 2018.11.07 at 18h 16m 16s.xml">
-      <configuration name="Unittests for test_valid_palindrome.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_valid_palindrome_TestSolution - 2018.11.07 at 18h 16m 37s.xml">
-      <configuration name="Unittests for test_valid_palindrome.TestSolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_valid_palindrome_TestSolution_test_isPalindrome_two - 2018.11.07 at 18h 18m 00s.xml">
       <configuration name="Unittests for test_valid_palindrome.TestSolution.test_isPalindrome_two" configurationId="tests" />
     </history-entry>
@@ -729,18 +712,27 @@
     <history-entry file="Unittests_for_test_populating_next_right_pointers_each_node_ii_TestSolution_test_connect - 2018.11.08 at 18h 24m 55s.xml">
       <configuration name="Unittests for test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_populating_next_right_pointers_each_node_ii_TestSolution_test_connect - 2018.11.08 at 18h 26m 16s.xml">
+      <configuration name="Unittests for test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_single_number_TestSolution - 2018.11.09 at 07h 54m 20s.xml">
+      <configuration name="Unittests for test_single_number.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_single_number_TestSolution - 2018.11.09 at 07h 56m 38s.xml">
+      <configuration name="Unittests for test_single_number.TestSolution" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1851" y="665" width="1238" height="777" extended-state="0" />
+    <frame x="1921" y="665" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3285953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33361205" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5109489" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35182482" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5109489" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35182482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1114,20 +1106,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/UniqueBinarySearchTrees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ValidateBinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="37" column="41" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/UniqueBinarySearchTreesII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
@@ -1410,9 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1434,9 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1447,6 +1419,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNodeII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node_ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -1460,20 +1446,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node_ii.py">
+    <entry file="file://$PROJECT_DIR$/test/test_single_number.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNodeII.py">
+    <entry file="file://$PROJECT_DIR$/problems/SingleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
