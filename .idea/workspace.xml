@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/SumRootLeafNumbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_sum_root_leaf_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
     </list>
@@ -94,6 +91,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_ii_TestSolution_test_maxProfit.coverage" NAME="Unittests for test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit Coverage Results" MODIFIED="1541549362085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers_two.coverage" NAME="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_two Coverage Results" MODIFIED="1541863077796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_first.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_first Coverage Results" MODIFIED="1534693834385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one.coverage" NAME="Unittests for test_count_and_say.TestSolution.test_countAndSay_one Coverage Results" MODIFIED="1541872236323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_characters Coverage Results" MODIFIED="1533695912965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist Coverage Results" MODIFIED="1538323998132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution.coverage" NAME="Unittests for test_scramble_string.TestSolution Coverage Results" MODIFIED="1539530702085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -144,6 +142,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test.test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534893693639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution Coverage Results" MODIFIED="1535511892944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku.coverage" NAME="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku Coverage Results" MODIFIED="1535896021085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_count_and_say_TestSolution.coverage" NAME="Unittests for test_count_and_say.TestSolution Coverage Results" MODIFIED="1541871790227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_9.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_9 Coverage Results" MODIFIED="1534284105097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr Coverage Results" MODIFIED="1535299178392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_two.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_two Coverage Results" MODIFIED="1534693907949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -257,6 +256,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_k_group_TestSolution_test_reverseKGroup.coverage" NAME="Unittests for test_reverse_k_group.TestSolution.test_reverseKGroup Coverage Results" MODIFIED="1535292880878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_three.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_three Coverage Results" MODIFIED="1539573463486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$AddBinary.coverage" NAME="AddBinary Coverage Results" MODIFIED="1537578568856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_count_and_say_TestSolution_test_countAndSay.coverage" NAME="Unittests for test_count_and_say.TestSolution.test_countAndSay Coverage Results" MODIFIED="1541871807255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution_test_largestRectangleArea_special.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution.test_largestRectangleArea_special Coverage Results" MODIFIED="1538932695579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number Coverage Results" MODIFIED="1534196321291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_restore_ip_addresses_TestSolution_test_restoreIpAddresses.coverage" NAME="Unittests for test_restore_ip_addresses.TestSolution.test_restoreIpAddresses Coverage Results" MODIFIED="1539903657400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -373,26 +373,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="311" />
+          <entry key="py" value="313" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="311" />
+          <entry key="Python" value="313" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4255" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="67951" />
+          <entry key="py" value="68303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="72206" />
+          <entry key="Python" value="72558" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -402,19 +402,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/SumRootLeafNumbers.py">
+        <entry file="file://$PROJECT_DIR$/problems/CountAndSay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="81">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_sum_root_leaf_numbers.py">
+        <entry file="file://$PROJECT_DIR$/test/test_count_and_say.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="135">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -437,8 +437,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/UniqueBinarySearchTreesII.py" />
-        <option value="$PROJECT_DIR$/problems/MaximumDepthBinaryTree.py" />
         <option value="$PROJECT_DIR$/test/test_binary_tree_level_order_traversal.py" />
         <option value="$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py" />
         <option value="$PROJECT_DIR$/test/test_symmetric_tree.py" />
@@ -488,6 +486,8 @@
         <option value="$PROJECT_DIR$/problems/SingleNumberII.py" />
         <option value="$PROJECT_DIR$/test/test_sum_root_leaf_numbers.py" />
         <option value="$PROJECT_DIR$/problems/SumRootLeafNumbers.py" />
+        <option value="$PROJECT_DIR$/test/test_count_and_say.py" />
+        <option value="$PROJECT_DIR$/problems/CountAndSay.py" />
       </list>
     </option>
   </component>
@@ -560,7 +560,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_sum_root_leaf_numbers.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_count_and_say.TestSolution.test_countAndSay_one">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -590,7 +590,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_single_number_ii.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_count_and_say.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -601,7 +601,37 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_single_number_ii.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_count_and_say.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_count_and_say.TestSolution.test_countAndSay&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_count_and_say.TestSolution.test_countAndSay_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -635,50 +665,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_one&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_two&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_single_number_ii.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_sum_root_leaf_numbers.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers" />
-      <item itemvalue="Python tests.Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_one" />
-      <item itemvalue="Python tests.Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_two" />
+      <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution.test_countAndSay" />
+      <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution.test_countAndSay_one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution.test_countAndSay_one" />
+        <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution.test_countAndSay" />
+        <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_sum_root_leaf_numbers.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers" />
-        <item itemvalue="Python tests.Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_one" />
-        <item itemvalue="Python tests.Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_two" />
-        <item itemvalue="Python tests.Unittests for test_single_number_ii.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -696,35 +696,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers_one - 2018.11.10 at 10h 46m 50s.xml">
-      <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers - 2018.11.10 at 10h 47m 23s.xml">
-      <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution - 2018.11.10 at 10h 47m 32s.xml">
-      <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution - 2018.11.10 at 10h 50m 54s.xml">
-      <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution - 2018.11.10 at 10h 54m 18s.xml">
-      <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers - 2018.11.10 at 10h 56m 09s.xml">
-      <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers - 2018.11.10 at 10h 56m 27s.xml">
-      <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers - 2018.11.10 at 10h 57m 03s.xml">
-      <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers - 2018.11.10 at 10h 57m 11s.xml">
-      <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_sum_root_leaf_numbers_TestSolution - 2018.11.10 at 10h 57m 14s.xml">
       <configuration name="Unittests for test_sum_root_leaf_numbers.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_count_and_say_TestSolution - 2018.11.10 at 12h 43m 10s.xml">
+      <configuration name="Unittests for test_count_and_say.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay - 2018.11.10 at 12h 43m 27s.xml">
+      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 43m 43s.xml">
+      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 44m 00s.xml">
+      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 45m 59s.xml">
+      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 46m 12s.xml">
+      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 47m 36s.xml">
+      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 48m 00s.xml">
+      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 50m 26s.xml">
+      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -736,8 +736,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5109489" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47445256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5109489" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47445256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1026,6 +1026,11 @@
           <line>20</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/CountAndSay.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1116,20 +1121,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/SymmetricTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_zigzag_level_order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/BinaryTreeZigzagLevelOrderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1459,6 +1450,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/SumRootLeafNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_sum_root_leaf_numbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-165">
@@ -1469,10 +1467,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/SumRootLeafNumbers.py">
+    <entry file="file://$PROJECT_DIR$/test/test_count_and_say.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="135">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/CountAndSay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
