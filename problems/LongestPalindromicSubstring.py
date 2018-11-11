@@ -1,10 +1,10 @@
 class Solution(object):
-    def longestPalindrome(self, s):
+    def longestPalindrome_self_slow_but_pass(self, s):
         """
         :type s: str
         :rtype: str
         """
-        if s == None or len(s) <= 1:
+        if s == None or len(s) <= 1 or s == s[::-1]:
             return s
 
         i = 1
@@ -52,7 +52,25 @@ class Solution(object):
             return s[0]
         return res
 
+    def longestPalindrome(self, s):
+        if len(s) == 1 or s == s[::-1]:
+            return s
 
+        start = 0
+        max_len = 1
+        for i in range(1, len(s)):
+            odd = s[i - max_len - 1: i + 1]
+            even = s[i - max_len: i + 1]
+            if i - max_len - 1 >= 0 and odd == odd[::-1]:
+
+                start = i - max_len - 1
+                max_len += 2
+                continue
+            if i - max_len >= 0 and even == even[::-1]:
+                start = i - max_len
+                max_len += 1
+
+        return s[start: start + max_len]
 
 
 

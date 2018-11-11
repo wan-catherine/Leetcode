@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/LongestPalindromicSubstring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_longest_palindromic_substring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/LongestPalindromicSubstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/LongestPalindromicSubstring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_substring_concatenation_all_words.py" afterDir="false" />
     </list>
@@ -311,6 +309,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_image_TestSolution_test_rotate.coverage" NAME="Unittests for test_rotate_image.TestSolution.test_rotate Coverage Results" MODIFIED="1536618247131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_string_to_integer_py.coverage" NAME="Unittests in test_string_to_integer.py Coverage Results" MODIFIED="1534089916660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_TestSolution.coverage" NAME="Unittests for test_combination_sum.TestSolution Coverage Results" MODIFIED="1536107443770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_palindromic_substring_TestSolution_test_longestPalindrome.coverage" NAME="Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome Coverage Results" MODIFIED="1541961214110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_equal.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_equal Coverage Results" MODIFIED="1535148738006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_mix_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_mix_same_long_list Coverage Results" MODIFIED="1533771250405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_multiply_strings_TestSolution_test_multiply.coverage" NAME="Unittests for test_multiply_strings.TestSolution.test_multiply Coverage Results" MODIFIED="1536275405021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -391,13 +390,13 @@
         <counts>
           <entry key="Python Console" value="4276" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="69384" />
+          <entry key="py" value="69471" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="73660" />
+          <entry key="Python" value="73747" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -409,8 +408,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problems/LongestPalindromicSubstring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="274">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -418,8 +417,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_longest_palindromic_substring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -565,7 +564,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_longest_palindromic_substring.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -593,21 +592,6 @@
       <tasks />
       <arguments />
       <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_count_and_say.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_count_and_say.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -655,6 +639,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_longest_palindromic_substring.TestSolution.test_longestPalindrome&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -671,19 +670,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution.test_countAndSay" />
       <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution.test_countAndSay_one" />
       <item itemvalue="Python tests.Unittests for test_longest_palindromic_substring.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome_two" />
+      <item itemvalue="Python tests.Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome" />
         <item itemvalue="Python tests.Unittests for test_longest_palindromic_substring.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome_two" />
         <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution.test_countAndSay_one" />
         <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution.test_countAndSay" />
-        <item itemvalue="Python tests.Unittests for test_count_and_say.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -701,18 +700,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 44m 00s.xml">
-      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 45m 59s.xml">
-      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 46m 12s.xml">
-      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 47m 36s.xml">
-      <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one - 2018.11.10 at 12h 48m 00s.xml">
       <configuration name="Unittests for test_count_and_say.TestSolution.test_countAndSay_one" configurationId="tests" />
     </history-entry>
@@ -731,6 +718,18 @@
     <history-entry file="Unittests_for_test_longest_palindromic_substring_TestSolution - 2018.11.11 at 11h 10m 22s.xml">
       <configuration name="Unittests for test_longest_palindromic_substring.TestSolution" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_longest_palindromic_substring_TestSolution_test_longestPalindrome_two - 2018.11.11 at 11h 10m 56s.xml">
+      <configuration name="Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome_two" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_longest_palindromic_substring_TestSolution - 2018.11.11 at 11h 11m 01s.xml">
+      <configuration name="Unittests for test_longest_palindromic_substring.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_longest_palindromic_substring_TestSolution_test_longestPalindrome - 2018.11.11 at 13h 32m 49s.xml">
+      <configuration name="Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_longest_palindromic_substring_TestSolution_test_longestPalindrome - 2018.11.11 at 13h 33m 34s.xml">
+      <configuration name="Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="665" width="1238" height="777" extended-state="6" />
@@ -741,7 +740,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5109489" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24087591" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47445256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1468,8 +1467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_longest_palindromic_substring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -1478,8 +1477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/LongestPalindromicSubstring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="274">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
         </state>
       </provider>
     </entry>
