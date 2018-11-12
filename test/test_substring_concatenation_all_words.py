@@ -9,8 +9,14 @@ class TestSolution(TestCase):
 
     def test_findSubstring_six(self):
         solution = Solution()
+        res = solution.findSubstring("foobarfoobar", ["foo", "bar"])
+        self.assertEqual([0,3,6], res)
+
+    def test_findSubstring_three(self):
+        solution = Solution()
         res = solution.findSubstring("barfoofoobarthefoobarman", ["bar", "foo", "the"])
         self.assertEqual([6,9,12], res)
+
 
     def test_findSubstring_zero(self):
         solution = Solution()
@@ -26,3 +32,8 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.findSubstring("", [])
         self.assertEqual([], res)
+
+    def test_findSubstring_same(self):
+        solution = Solution()
+        res = solution.findSubstring("aaaaaaaa", ["aa", "aa", "aa"])
+        self.assertEqual([0,1,2], res)

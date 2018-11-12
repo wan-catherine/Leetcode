@@ -1,7 +1,7 @@
 # SubstringConcatenationAllWords
 import re
 class Solution:
-    def findSubstring(self, s, words):
+    def findSubstring_before(self, s, words):
         """
         :type s: str
         :type words: List[str]
@@ -38,8 +38,9 @@ class Solution:
             if wordCount[currentWord] > wordRes[currentWord] - 1:
                 self.clearDice(wordCount)
                 wordCount[currentWord] = 1
+                i = i - count + 1
                 count = 1
-                
+
             else:
                 wordCount[currentWord] += 1
                 count += 1
@@ -58,3 +59,30 @@ class Solution:
     def clearDice(self, wordCount):
         for i in wordCount:
             wordCount[i] = 0
+
+    def findSubstring(self, s, words):
+        if words == None or len(words) == 0 or len(words[0]) == 0:
+            return []
+        words = sorted(words)
+        numWords = len(words)
+        lenWords = len(words) * len(words[0])
+        if s == None or len(s) < lenWords:
+            return []
+
+        i = 0
+        temp = []
+        res = []
+        while i <= len(s) - lenWords:
+            index = i
+            temp = []
+            for j in words:
+                temp.append(s[index:index+len(words[0])])
+                index += len(words[0])
+            temp = sorted(temp)
+            if temp == words:
+                res.append(i)
+            #     i += len(words[0])
+            # else:
+            i += 1
+
+        return res
