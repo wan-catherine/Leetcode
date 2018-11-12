@@ -70,19 +70,23 @@ class Solution:
             return []
 
         i = 0
+        wordLen = len(words[0])
         temp = []
         res = []
         while i <= len(s) - lenWords:
             index = i
             temp = []
             for j in words:
-                temp.append(s[index:index+len(words[0])])
+                temp.append(s[index:index+wordLen])
                 index += len(words[0])
             temp = sorted(temp)
             if temp == words:
                 res.append(i)
-            #     i += len(words[0])
-            # else:
-            i += 1
+                if s[i] not in s[i+1:i + wordLen]:
+                    i += wordLen
+                else:
+                    i += s[i+1:i+wordLen].index(s[i]) + 1
+            else:
+                i += 1
 
         return res
