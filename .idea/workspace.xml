@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/WordBreak.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_word_break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/GasStation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_gas_station.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,6 +48,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring Coverage Results" MODIFIED="1542051768949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_first_missing_positive_TestSolution_test_firstMissingPositive_empty.coverage" NAME="Unittests for test_first_missing_positive.TestSolution.test_firstMissingPositive_empty Coverage Results" MODIFIED="1536283398828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_two_sum_py.coverage" NAME="Unittests in test_two_sum.py Coverage Results" MODIFIED="1533590488825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gas_station_TestSolution_test_canCompleteCircuit.coverage" NAME="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit Coverage Results" MODIFIED="1542240824157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_populating_next_right_pointers_each_node_TestSolution.coverage" NAME="Unittests for test_populating_next_right_pointers_each_node.TestSolution Coverage Results" MODIFIED="1541256039094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_linked_list_ii_TestSolution_test_reverseBetween.coverage" NAME="Unittests for test_reverse_linked_list_ii.TestSolution.test_reverseBetween Coverage Results" MODIFIED="1539644581095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_longest_common_prefix_py.coverage" NAME="Unittests in test_longest_common_prefix.py Coverage Results" MODIFIED="1534456383796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -107,6 +108,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_add_two_numbers_py.coverage" NAME="Unittests in test_add_two_numbers.py Coverage Results" MODIFIED="1533583794670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_three_pairs.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_three_pairs Coverage Results" MODIFIED="1534028096112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_symmetric_tree_TestSolution.coverage" NAME="Unittests for test_symmetric_tree.TestSolution Coverage Results" MODIFIED="1540424905888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gas_station_TestSolution.coverage" NAME="Unittests for test_gas_station.TestSolution Coverage Results" MODIFIED="1542246902855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution_test_threeSum_with_new_list.coverage" NAME="Unittests for test_3Sum.TestSolution.test_threeSum_with_new_list Coverage Results" MODIFIED="1534463701529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution.coverage" NAME="Unittests for test_max_subarray.TestSolution Coverage Results" MODIFIED="1535771722767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution.coverage" NAME="Unittests for test_decode_ways.TestSolution Coverage Results" MODIFIED="1539573604142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -297,6 +299,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution_test_largestRectangleArea.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution.test_largestRectangleArea Coverage Results" MODIFIED="1538932502593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_first_missing_positive_TestSolution_test_firstMissingPositive.coverage" NAME="Unittests for test_first_missing_positive.TestSolution.test_firstMissingPositive Coverage Results" MODIFIED="1536359970617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers.coverage" NAME="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers Coverage Results" MODIFIED="1541865431230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gas_station_TestSolution_test_canCompleteCircuit_two.coverage" NAME="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit_two Coverage Results" MODIFIED="1542246833440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_trapping_rain_water_TestSolution.coverage" NAME="Unittests for test_trapping_rain_water.TestSolution Coverage Results" MODIFIED="1536517086042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_ii_TestSolution_test_pathSum.coverage" NAME="Unittests for test_path_sum_ii.TestSolution.test_pathSum Coverage Results" MODIFIED="1540684747456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution Coverage Results" MODIFIED="1542052792212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -363,7 +366,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="106" />
+          <entry key="project.closed" value="107" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="30" />
@@ -376,34 +379,34 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="12" />
+          <entry key="project.open.time.8" value="13" />
           <entry key="project.open.time.9" value="30" />
-          <entry key="project.opened" value="107" />
+          <entry key="project.opened" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="319" />
+          <entry key="py" value="321" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="319" />
+          <entry key="Python" value="321" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="4380" />
+          <entry key="Python Console" value="4395" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="70782" />
+          <entry key="py" value="71397" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="75162" />
+          <entry key="Python" value="75792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -413,19 +416,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/WordBreak.py">
+        <entry file="file://$PROJECT_DIR$/problems/GasStation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="264">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+              <folding>
+                <marker date="1542246897000" expanded="true" signature="1101:1103" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_word_break.py">
+        <entry file="file://$PROJECT_DIR$/test/test_gas_station.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+            <state relative-caret-position="210">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -448,8 +454,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_construct_binary_tree_preorder_inorder_traversal.py" />
-        <option value="$PROJECT_DIR$/problems/ConstructBinaryTreePreorderInorderTraversal.py" />
         <option value="$PROJECT_DIR$/test/test_construct_binary_tree_inorder_postorder_traversal.py" />
         <option value="$PROJECT_DIR$/problems/ConstructBinaryTreeInorderPostorderTraversal.py" />
         <option value="$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversalII.py" />
@@ -499,6 +503,8 @@
         <option value="$PROJECT_DIR$/problems/SubstringConcatenationAllWords.py" />
         <option value="$PROJECT_DIR$/test/test_word_break.py" />
         <option value="$PROJECT_DIR$/problems/WordBreak.py" />
+        <option value="$PROJECT_DIR$/test/test_gas_station.py" />
+        <option value="$PROJECT_DIR$/problems/GasStation.py" />
       </list>
     </option>
   </component>
@@ -571,7 +577,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_word_break.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_gas_station.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -601,6 +607,51 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_gas_station.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_gas_station.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_gas_station.TestSolution.test_canCompleteCircuit&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_gas_station.TestSolution.test_canCompleteCircuit_two&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_word_break.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -613,21 +664,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_word_break.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_word_break.TestSolution.test_wordBreak&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -646,50 +682,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_word_break.TestSolution.test_wordBreak_one&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_word_break.TestSolution.test_wordBreak_two&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_word_break.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_word_break.TestSolution.test_wordBreak" />
-      <item itemvalue="Python tests.Unittests for test_word_break.TestSolution.test_wordBreak_one" />
-      <item itemvalue="Python tests.Unittests for test_word_break.TestSolution.test_wordBreak_two" />
       <item itemvalue="Python tests.Unittests for test_word_break.TestSolution.test_wordBreak_four" />
+      <item itemvalue="Python tests.Unittests for test_gas_station.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_gas_station.TestSolution.test_canCompleteCircuit" />
+      <item itemvalue="Python tests.Unittests for test_gas_station.TestSolution.test_canCompleteCircuit_two" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_gas_station.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_gas_station.TestSolution.test_canCompleteCircuit_two" />
+        <item itemvalue="Python tests.Unittests for test_gas_station.TestSolution.test_canCompleteCircuit" />
         <item itemvalue="Python tests.Unittests for test_word_break.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_word_break.TestSolution.test_wordBreak_four" />
-        <item itemvalue="Python tests.Unittests for test_word_break.TestSolution.test_wordBreak_two" />
-        <item itemvalue="Python tests.Unittests for test_word_break.TestSolution.test_wordBreak_one" />
-        <item itemvalue="Python tests.Unittests for test_word_break.TestSolution.test_wordBreak" />
       </list>
     </recent_temporary>
   </component>
@@ -707,55 +713,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_word_break_TestSolution_test_wordBreak_three - 2018.11.13 at 20h 11m 14s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak_three" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution - 2018.11.14 at 19h 12m 57s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_word_break_TestSolution_test_wordBreak_three - 2018.11.13 at 20h 13m 28s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak_three" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution - 2018.11.14 at 19h 13m 11s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_word_break_TestSolution - 2018.11.13 at 20h 18m 59s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution_test_canCompleteCircuit - 2018.11.14 at 19h 16m 05s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_word_break_TestSolution_test_wordBreak - 2018.11.13 at 20h 19m 05s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution - 2018.11.14 at 19h 16m 28s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_word_break_TestSolution_test_wordBreak_one - 2018.11.13 at 20h 19m 08s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution - 2018.11.14 at 20h 24m 23s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_word_break_TestSolution_test_wordBreak_two - 2018.11.13 at 20h 19m 15s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak_two" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution - 2018.11.14 at 20h 25m 20s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_word_break_TestSolution_test_wordBreak_two - 2018.11.13 at 20h 20m 12s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak_two" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution - 2018.11.14 at 20h 25m 50s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_word_break_TestSolution - 2018.11.13 at 20h 20m 16s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution - 2018.11.14 at 20h 52m 21s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_word_break_TestSolution_test_wordBreak_four - 2018.11.13 at 20h 29m 16s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak_four" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution_test_canCompleteCircuit_two - 2018.11.14 at 20h 53m 44s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_word_break_TestSolution_test_wordBreak_four - 2018.11.13 at 20h 30m 06s.xml">
-      <configuration name="Unittests for test_word_break.TestSolution.test_wordBreak_four" configurationId="tests" />
+    <history-entry file="Unittests_for_test_gas_station_TestSolution_test_canCompleteCircuit_two - 2018.11.14 at 20h 54m 17s.xml">
+      <configuration name="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit_two" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="665" width="1239" height="777" extended-state="6" />
+    <frame x="1921" y="665" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.35672516" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35618728" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49343064" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47445256" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47445256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34014598" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.34890512" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.34890512" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329927" />
@@ -1037,6 +1043,16 @@
           <line>87</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/GasStation.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/GasStation.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1127,20 +1143,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="39" selection-start-line="4" selection-start-column="4" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversalII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1464,20 +1466,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/WordBreak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_word_break.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/WordBreak.py">
+    <entry file="file://$PROJECT_DIR$/test/test_gas_station.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/GasStation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+          <folding>
+            <marker date="1542246897000" expanded="true" signature="1101:1103" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
