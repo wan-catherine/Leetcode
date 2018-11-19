@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/FindMinimumRotatedSortedArrayII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_Find_minimum_Rotated_Sorted_Array_II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/CompareVersionNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_compare_version_numbers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,6 +179,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_from_sorted_array_ii_TestSolution_test_removeDuplicates_3.coverage" NAME="Unittests for test_remove_duplicates_from_sorted_array_ii.TestSolution.test_removeDuplicates_3 Coverage Results" MODIFIED="1538435604626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_restore_ip_addresses_TestSolution.coverage" NAME="Unittests for test_restore_ip_addresses.TestSolution Coverage Results" MODIFIED="1539904020889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_1994.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_1994 Coverage Results" MODIFIED="1534196385906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion_two.coverage" NAME="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_two Coverage Results" MODIFIED="1542669902533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_ii_TestSolution.coverage" NAME="Unittests for test_jump_game_ii.TestSolution Coverage Results" MODIFIED="1538962577020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution_test_isScramble_long.coverage" NAME="Unittests for test_scramble_string.TestSolution.test_isScramble_long Coverage Results" MODIFIED="1539530695262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_iii_TestSolution_test_maxProfit.coverage" NAME="Unittests for test_best_time_buy_sell_stock_iii.TestSolution.test_maxProfit Coverage Results" MODIFIED="1542473972432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -233,6 +233,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_length_last_word_TestSolution.coverage" NAME="Unittests for test_length_last_word.TestSolution Coverage Results" MODIFIED="1536971198800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution_test_setZeroes.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution.test_setZeroes Coverage Results" MODIFIED="1537831366201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_iii_TestSolution_test_maxProfit_two.coverage" NAME="Unittests for test_best_time_buy_sell_stock_iii.TestSolution.test_maxProfit_two Coverage Results" MODIFIED="1542473982225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion.coverage" NAME="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion Coverage Results" MODIFIED="1542669893310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_3.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_3 Coverage Results" MODIFIED="1534283534245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_three_sum_closest_TestSolution_test_threeSumClosest_81.coverage" NAME="Unittests for test_three_sum_closest.TestSolution.test_threeSumClosest_81 Coverage Results" MODIFIED="1534546590370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_insert_interval_TestSolution_test_insert_one.coverage" NAME="Unittests for test_insert_interval.TestSolution.test_insert_one Coverage Results" MODIFIED="1540742636082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -249,6 +250,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_insert_interval_TestSolution.coverage" NAME="Unittests for test_insert_interval.TestSolution Coverage Results" MODIFIED="1540742778081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_majority_element_TestSolution_test_majorityElement.coverage" NAME="Unittests for test_majority_element.TestSolution.test_majorityElement Coverage Results" MODIFIED="1542558740025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search Coverage Results" MODIFIED="1535819034526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_compare_version_numbers_TestSolution.coverage" NAME="Unittests for test_compare_version_numbers.TestSolution Coverage Results" MODIFIED="1542670130717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_60.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_60 Coverage Results" MODIFIED="1534196660688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_image_TestSolution_test_rotate_four.coverage" NAME="Unittests for test_rotate_image.TestSolution.test_rotate_four Coverage Results" MODIFIED="1536618731040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_two.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two Coverage Results" MODIFIED="1534289324790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -280,6 +282,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_count_and_say_TestSolution_test_countAndSay.coverage" NAME="Unittests for test_count_and_say.TestSolution.test_countAndSay Coverage Results" MODIFIED="1541871807255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution_test_largestRectangleArea_special.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution.test_largestRectangleArea_special Coverage Results" MODIFIED="1538932695579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_iii_TestSolution_test_maxProfit_three.coverage" NAME="Unittests for test_best_time_buy_sell_stock_iii.TestSolution.test_maxProfit_three Coverage Results" MODIFIED="1542474130821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion_one.coverage" NAME="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_one Coverage Results" MODIFIED="1542669948900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number Coverage Results" MODIFIED="1534196321291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_restore_ip_addresses_TestSolution_test_restoreIpAddresses.coverage" NAME="Unittests for test_restore_ip_addresses.TestSolution.test_restoreIpAddresses Coverage Results" MODIFIED="1539903657400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_TestSolution_test_hasPathSum_one.coverage" NAME="Unittests for test_path_sum.TestSolution.test_hasPathSum_one Coverage Results" MODIFIED="1540681916838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -383,7 +386,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="113" />
+          <entry key="project.closed" value="114" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="30" />
@@ -404,26 +407,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="345" />
+          <entry key="py" value="347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="345" />
+          <entry key="Python" value="347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="4429" />
+          <entry key="Python Console" value="4461" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="73848" />
+          <entry key="py" value="74252" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="78277" />
+          <entry key="Python" value="78713" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -436,28 +439,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/FindMinimumRotatedSortedArray.py">
+        <entry file="file://$PROJECT_DIR$/problems/CompareVersionNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="246">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/FindMinimumRotatedSortedArrayII.py">
+        <entry file="file://$PROJECT_DIR$/test/test_compare_version_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_Find_minimum_Rotated_Sorted_Array_II.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -480,8 +474,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_pascal_triangle_ii.py" />
-        <option value="$PROJECT_DIR$/problems/PascalTriangleII.py" />
         <option value="$PROJECT_DIR$/problems/MinimumDepthBinaryTree.py" />
         <option value="$PROJECT_DIR$/problems/BalancedBinaryTree.py" />
         <option value="$PROJECT_DIR$/problems/ConvertSortedListBinarySearchTree.py" />
@@ -531,6 +523,8 @@
         <option value="$PROJECT_DIR$/problems/FindMinimumRotatedSortedArray.py" />
         <option value="$PROJECT_DIR$/test/test_Find_minimum_Rotated_Sorted_Array_II.py" />
         <option value="$PROJECT_DIR$/problems/FindMinimumRotatedSortedArrayII.py" />
+        <option value="$PROJECT_DIR$/test/test_compare_version_numbers.py" />
+        <option value="$PROJECT_DIR$/problems/CompareVersionNumbers.py" />
       </list>
     </option>
   </component>
@@ -603,7 +597,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_compare_version_numbers.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -648,7 +642,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_four" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_compare_version_numbers.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -659,11 +653,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_four&quot;" />
+      <option name="_new_target" value="&quot;test_compare_version_numbers.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -674,11 +668,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_one&quot;" />
+      <option name="_new_target" value="&quot;test_compare_version_numbers.TestSolution.test_compareVersion&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -689,11 +683,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_three&quot;" />
+      <option name="_new_target" value="&quot;test_compare_version_numbers.TestSolution.test_compareVersion_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -704,24 +698,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_two&quot;" />
+      <option name="_new_target" value="&quot;test_compare_version_numbers.TestSolution.test_compareVersion_two&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_one" />
-      <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_two" />
-      <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_three" />
-      <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_four" />
       <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_compare_version_numbers.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_compare_version_numbers.TestSolution.test_compareVersion" />
+      <item itemvalue="Python tests.Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_one" />
+      <item itemvalue="Python tests.Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_two" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_compare_version_numbers.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_one" />
+        <item itemvalue="Python tests.Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_two" />
+        <item itemvalue="Python tests.Unittests for test_compare_version_numbers.TestSolution.test_compareVersion" />
         <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_four" />
-        <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_one" />
-        <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_two" />
-        <item itemvalue="Python tests.Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_three" />
       </list>
     </recent_temporary>
   </component>
@@ -739,35 +733,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_one - 2018.11.19 at 17h 45m 07s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion - 2018.11.19 at 18h 24m 41s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_one - 2018.11.19 at 17h 45m 18s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution - 2018.11.19 at 18h 24m 50s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin - 2018.11.19 at 17h 45m 52s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion - 2018.11.19 at 18h 24m 53s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_two - 2018.11.19 at 17h 50m 16s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_two" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion_one - 2018.11.19 at 18h 24m 59s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_three - 2018.11.19 at 17h 50m 58s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_three" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion_two - 2018.11.19 at 18h 25m 04s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_three - 2018.11.19 at 17h 51m 26s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_three" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion_one - 2018.11.19 at 18h 25m 42s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_two - 2018.11.19 at 17h 51m 28s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_two" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion_one - 2018.11.19 at 18h 26m 07s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_one" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_one - 2018.11.19 at 17h 51m 31s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution - 2018.11.19 at 18h 27m 25s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_four - 2018.11.19 at 17h 52m 22s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_four" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution - 2018.11.19 at 18h 27m 30s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution - 2018.11.19 at 18h 01m 29s.xml">
-      <configuration name="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_compare_version_numbers_TestSolution - 2018.11.19 at 18h 28m 50s.xml">
+      <configuration name="Unittests for test_compare_version_numbers.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -779,7 +773,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3708029" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3708029" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47445256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1079,6 +1073,11 @@
           <line>36</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/CompareVersionNumbers.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1169,20 +1168,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1488,6 +1473,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/FindMinimumRotatedSortedArrayII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/FindMinimumRotatedSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1497,18 +1489,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_Find_minimum_Rotated_Sorted_Array_II.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="-84">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/FindMinimumRotatedSortedArrayII.py">
+    <entry file="file://$PROJECT_DIR$/problems/CompareVersionNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="246">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_compare_version_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
