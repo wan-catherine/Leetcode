@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/FindPeakElement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_find_peak_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/ReverseBits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_reverse_bits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,6 +87,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_ii_TestSolution_test_jump_zero.coverage" NAME="Unittests for test_jump_game_ii.TestSolution.test_jump_zero Coverage Results" MODIFIED="1538941462964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_four.coverage" NAME="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_four Coverage Results" MODIFIED="1542667942559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_palindromic_substring_TestSolution.coverage" NAME="Unittests for test_longest_palindromic_substring.TestSolution Coverage Results" MODIFIED="1541952661023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_bits_TestSolution.coverage" NAME="Unittests for test_reverse_bits.TestSolution Coverage Results" MODIFIED="1543276533211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_multiply_strings_TestSolution_test_multiply_more.coverage" NAME="Unittests for test_multiply_strings.TestSolution.test_multiply_more Coverage Results" MODIFIED="1536277331231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_binary_TestSolution_test_addBinary_4.coverage" NAME="Unittests for test_add_binary.TestSolution.test_addBinary_4 Coverage Results" MODIFIED="1537578606836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gray_code_TestSolution_test_grayCode_three.coverage" NAME="Unittests for test_gray_code.TestSolution.test_grayCode_three Coverage Results" MODIFIED="1539296858008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -400,7 +401,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="119" />
+          <entry key="project.closed" value="120" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="32" />
@@ -414,33 +415,33 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="16" />
-          <entry key="project.open.time.9" value="36" />
-          <entry key="project.opened" value="120" />
+          <entry key="project.open.time.9" value="37" />
+          <entry key="project.opened" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="358" />
+          <entry key="py" value="361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="358" />
+          <entry key="Python" value="361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="4552" />
+          <entry key="Python Console" value="4656" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="76195" />
+          <entry key="py" value="76371" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="80747" />
+          <entry key="Python" value="81027" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -452,20 +453,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/FindPeakElement.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/FactorialTrailingZeroes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/ReverseBits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_find_peak_element.py">
+        <entry file="file://$PROJECT_DIR$/test/test_reverse_bits.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -488,8 +498,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/BestTimeBuySellStockII.py" />
-        <option value="$PROJECT_DIR$/test/test_best_time_buy_sell_stock_ii.py" />
         <option value="$PROJECT_DIR$/problems/BestTimeToBuySellStockII.py" />
         <option value="$PROJECT_DIR$/test/test_valid_palindrome.py" />
         <option value="$PROJECT_DIR$/problems/ValidPalindrome.py" />
@@ -539,6 +547,8 @@
         <option value="$PROJECT_DIR$/problems/MaximumProductSubarray.py" />
         <option value="$PROJECT_DIR$/test/test_find_peak_element.py" />
         <option value="$PROJECT_DIR$/problems/FindPeakElement.py" />
+        <option value="$PROJECT_DIR$/test/test_reverse_bits.py" />
+        <option value="$PROJECT_DIR$/problems/ReverseBits.py" />
       </list>
     </option>
   </component>
@@ -611,7 +621,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_find_peak_element.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_reverse_bits.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -671,21 +681,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_four" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_maximum_product_subarray.TestSolution.test_maxProduct_four&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_seven" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -716,20 +711,35 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_reverse_bits.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_reverse_bits.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_maximum_product_subarray.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_four" />
       <item itemvalue="Python tests.Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_six" />
       <item itemvalue="Python tests.Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_seven" />
       <item itemvalue="Python tests.Unittests for test_find_peak_element.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_reverse_bits.TestSolution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_reverse_bits.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_find_peak_element.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_seven" />
         <item itemvalue="Python tests.Unittests for test_maximum_product_subarray.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_six" />
-        <item itemvalue="Python tests.Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_four" />
       </list>
     </recent_temporary>
   </component>
@@ -747,24 +757,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct_four - 2018.11.24 at 13h 04m 34s.xml">
-      <configuration name="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_four" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_maximum_product_subarray_TestSolution - 2018.11.24 at 13h 04m 38s.xml">
-      <configuration name="Unittests for test_maximum_product_subarray.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_maximum_product_subarray_TestSolution - 2018.11.24 at 13h 04m 48s.xml">
-      <configuration name="Unittests for test_maximum_product_subarray.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct_six - 2018.11.24 at 13h 05m 42s.xml">
-      <configuration name="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_six" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_maximum_product_subarray_TestSolution - 2018.11.24 at 13h 05m 46s.xml">
-      <configuration name="Unittests for test_maximum_product_subarray.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct_seven - 2018.11.24 at 13h 07m 02s.xml">
-      <configuration name="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_seven" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct_seven - 2018.11.24 at 13h 07m 16s.xml">
       <configuration name="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_seven" configurationId="tests" />
     </history-entry>
@@ -777,18 +769,36 @@
     <history-entry file="Unittests_for_test_find_peak_element_TestSolution - 2018.11.25 at 10h 40m 41s.xml">
       <configuration name="Unittests for test_find_peak_element.TestSolution" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_find_peak_element_TestSolution - 2018.11.25 at 10h 41m 06s.xml">
+      <configuration name="Unittests for test_find_peak_element.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_reverse_bits_TestSolution - 2018.11.26 at 18h 52m 36s.xml">
+      <configuration name="Unittests for test_reverse_bits.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_reverse_bits_TestSolution - 2018.11.26 at 18h 52m 48s.xml">
+      <configuration name="Unittests for test_reverse_bits.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_reverse_bits_TestSolution - 2018.11.26 at 18h 53m 10s.xml">
+      <configuration name="Unittests for test_reverse_bits.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_reverse_bits_TestSolution - 2018.11.26 at 18h 54m 11s.xml">
+      <configuration name="Unittests for test_reverse_bits.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_reverse_bits_TestSolution - 2018.11.26 at 18h 54m 43s.xml">
+      <configuration name="Unittests for test_reverse_bits.TestSolution" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="665" width="1238" height="777" extended-state="6" />
+    <frame x="1920" y="665" width="1238" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.3603679" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.36622074" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3708029" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3678832" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3708029" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3678832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1197,20 +1207,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_populating_next_right_pointers_each_node_ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/PopulatingNextRightPointersEachNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/SingleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1487,13 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/FactorialTrailingZeroes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/MaximumProductSubarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -1505,9 +1494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1515,9 +1501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1525,26 +1508,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_find_peak_element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/FindPeakElement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/FactorialTrailingZeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_reverse_bits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ReverseBits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
