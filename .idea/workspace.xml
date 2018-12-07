@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/MinimumSizeSubarraySum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_minimum_size_subarray_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/RemoveLinkedListElements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_remove_linked_list_elements.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_no.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no Coverage Results" MODIFIED="1535510672353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_linked_list_elements_TestSolution.coverage" NAME="Unittests for test_remove_linked_list_elements.TestSolution Coverage Results" MODIFIED="1544225216991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_populating_next_right_pointers_each_node_TestSolution_test_connect.coverage" NAME="Unittests for test_populating_next_right_pointers_each_node.TestSolution.test_connect Coverage Results" MODIFIED="1541255718733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_TestSolution_test_rob_one.coverage" NAME="Unittests for test_house_robber.TestSolution.test_rob_one Coverage Results" MODIFIED="1542772257339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_TestSolution.coverage" NAME="Unittests for test_jump_game.TestSolution Coverage Results" MODIFIED="1536704701733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -123,6 +124,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution_test_canFinish_four.coverage" NAME="Unittests for test_course_schedule.TestSolution.test_canFinish_four Coverage Results" MODIFIED="1543880615607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_ii_TestSolution.coverage" NAME="Unittests for test_best_time_buy_sell_stock_ii.TestSolution Coverage Results" MODIFIED="1541550446234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_break_TestSolution.coverage" NAME="Unittests for test_word_break.TestSolution Coverage Results" MODIFIED="1542163179442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_linked_list_elements_TestSolution_test_removeElements_two.coverage" NAME="Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements_two Coverage Results" MODIFIED="1544225396056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_nqueen_TestSolution_test_solveNQueens.coverage" NAME="Unittests for test_nqueen.TestSolution.test_solveNQueens Coverage Results" MODIFIED="1538341278116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_same_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_same_characters Coverage Results" MODIFIED="1533695771963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_two_sorted_lists_TestSolution_test_mergeTwoLists.coverage" NAME="Unittests for test_merge_two_sorted_lists.TestSolution.test_mergeTwoLists Coverage Results" MODIFIED="1534803411170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -409,6 +411,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_long_non_palindrome_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_long_non_palindrome_number Coverage Results" MODIFIED="1534192238211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_break_TestSolution_test_wordBreak_two.coverage" NAME="Unittests for test_word_break.TestSolution.test_wordBreak_two Coverage Results" MODIFIED="1542158412201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_string_to_integer_TestSolution_test_myAtoi_with_strange_number.coverage" NAME="Unittests for test_string_to_integer.TestSolution.test_myAtoi_with_strange_number Coverage Results" MODIFIED="1534089895984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_linked_list_elements_TestSolution_test_removeElements.coverage" NAME="Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements Coverage Results" MODIFIED="1544225367877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists.coverage" NAME="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists Coverage Results" MODIFIED="1535065270522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_sorted_array_TestSolution_test_merge.coverage" NAME="Unittests for test_merge_sorted_array.TestSolution.test_merge Coverage Results" MODIFIED="1539224729441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
@@ -419,7 +422,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="130" />
+          <entry key="project.closed" value="131" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="38" />
@@ -433,33 +436,33 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="16" />
-          <entry key="project.open.time.9" value="39" />
-          <entry key="project.opened" value="131" />
+          <entry key="project.open.time.9" value="40" />
+          <entry key="project.opened" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="381" />
+          <entry key="py" value="386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="381" />
+          <entry key="Python" value="386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4816" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="80176" />
+          <entry key="py" value="80618" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="84992" />
+          <entry key="Python" value="85434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -474,13 +477,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/BitwiseAndNumbersRange.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state>
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/MinimumSizeSubarraySum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
@@ -490,10 +493,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/RemoveLinkedListElements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_remove_linked_list_elements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_merge_k_lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="3" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_minimum_size_subarray_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="30">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -528,8 +564,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_word_break.py" />
-        <option value="$PROJECT_DIR$/problems/WordBreak.py" />
         <option value="$PROJECT_DIR$/test/test_gas_station.py" />
         <option value="$PROJECT_DIR$/problems/GasStation.py" />
         <option value="$PROJECT_DIR$/test/test_binary_tree_preorder_traversal.py" />
@@ -579,6 +613,8 @@
         <option value="$PROJECT_DIR$/problems/BitwiseAndNumbersRange.py" />
         <option value="$PROJECT_DIR$/test/test_minimum_size_subarray_sum.py" />
         <option value="$PROJECT_DIR$/problems/MinimumSizeSubarraySum.py" />
+        <option value="$PROJECT_DIR$/problems/RemoveLinkedListElements.py" />
+        <option value="$PROJECT_DIR$/test/test_remove_linked_list_elements.py" />
       </list>
     </option>
   </component>
@@ -588,9 +624,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="y" value="499" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1238" />
     <option name="height" value="777" />
   </component>
@@ -651,7 +686,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements_two">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -696,21 +731,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_four" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -726,7 +746,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_remove_linked_list_elements.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -737,11 +757,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_three&quot;" />
+      <option name="_new_target" value="&quot;test_remove_linked_list_elements.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -752,24 +772,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_two&quot;" />
+      <option name="_new_target" value="&quot;test_remove_linked_list_elements.TestSolution.test_removeElements&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_remove_linked_list_elements.TestSolution.test_removeElements_two&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen" />
-      <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_two" />
       <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_three" />
       <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_four" />
+      <item itemvalue="Python tests.Unittests for test_remove_linked_list_elements.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements" />
+      <item itemvalue="Python tests.Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements_two" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements_two" />
+        <item itemvalue="Python tests.Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements" />
+        <item itemvalue="Python tests.Unittests for test_remove_linked_list_elements.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_four" />
-        <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_two" />
-        <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen" />
-        <item itemvalue="Python tests.Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_three" />
       </list>
     </recent_temporary>
   </component>
@@ -787,18 +822,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_minimum_size_subarray_sum_TestSolution - 2018.12.06 at 22h 44m 57s.xml">
-      <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_minimum_size_subarray_sum_TestSolution_test_minSubArrayLen - 2018.12.06 at 22h 45m 01s.xml">
-      <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_minimum_size_subarray_sum_TestSolution_test_minSubArrayLen_two - 2018.12.06 at 22h 45m 04s.xml">
-      <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_minimum_size_subarray_sum_TestSolution_test_minSubArrayLen_two - 2018.12.06 at 22h 46m 20s.xml">
-      <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_two" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_minimum_size_subarray_sum_TestSolution - 2018.12.06 at 22h 46m 28s.xml">
       <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution" configurationId="tests" />
     </history-entry>
@@ -817,18 +840,30 @@
     <history-entry file="Unittests_for_test_minimum_size_subarray_sum_TestSolution_test_minSubArrayLen_four - 2018.12.06 at 22h 50m 50s.xml">
       <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_four" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_minimum_size_subarray_sum_TestSolution - 2018.12.06 at 22h 51m 09s.xml">
+      <configuration name="Unittests for test_minimum_size_subarray_sum.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_remove_linked_list_elements_TestSolution - 2018.12.07 at 18h 26m 33s.xml">
+      <configuration name="Unittests for test_remove_linked_list_elements.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_remove_linked_list_elements_TestSolution - 2018.12.07 at 18h 27m 23s.xml">
+      <configuration name="Unittests for test_remove_linked_list_elements.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_remove_linked_list_elements_TestSolution_test_removeElements - 2018.12.07 at 18h 29m 28s.xml">
+      <configuration name="Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="499" width="1238" height="777" extended-state="0" />
+    <frame x="-1" y="23" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.2550167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.25919732" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4160584" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4160584" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1162,6 +1197,11 @@
           <line>24</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/RemoveLinkedListElements.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1252,33 +1292,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/TwoSumII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" selection-start-line="7" selection-start-column="8" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_two_sum_ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BestTimeToBuySellStock.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BestTimeToBuySellStockII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/Combinations.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/CombinationSumII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-197" />
@@ -1561,8 +1574,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/BitwiseAndNumbersRange.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state>
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_minimum_size_subarray_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1576,20 +1599,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_minimum_size_subarray_sum.py">
+    <entry file="file://$PROJECT_DIR$/problems/MinimumSizeSubarraySum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="185">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_binary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/MinimumSizeSubarraySum.py">
+    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_inorder_traversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_merge_k_lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="3" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/RemoveLinkedListElements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_remove_linked_list_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
