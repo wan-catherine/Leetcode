@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/CourseScheduleII.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/CourseScheduleII.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_course_schedule_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_course_schedule_ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/CombinationSumIII.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_combination_sum_iii.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -240,6 +239,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gas_station_TestSolution_test_canCompleteCircuit.coverage" NAME="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit Coverage Results" MODIFIED="1542240824157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct_one.coverage" NAME="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_one Coverage Results" MODIFIED="1543081908493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution_test_divide.coverage" NAME="Unittests for test_divide_two_integers.TestSolution.test_divide Coverage Results" MODIFIED="1535408395730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_iii_TestSolution.coverage" NAME="Unittests for test_combination_sum_iii.TestSolution Coverage Results" MODIFIED="1544654913225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_TestSolution_test_rob.coverage" NAME="Unittests for test_house_robber.TestSolution.test_rob Coverage Results" MODIFIED="1542772042229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_empty.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_empty Coverage Results" MODIFIED="1534609234206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_from_sorted_array_ii_TestSolution_test_removeDuplicates.coverage" NAME="Unittests for test_remove_duplicates_from_sorted_array_ii.TestSolution.test_removeDuplicates Coverage Results" MODIFIED="1538433957066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -454,26 +454,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="395" />
+          <entry key="py" value="398" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="395" />
+          <entry key="Python" value="398" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="4887" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="82373" />
+          <entry key="py" value="82646" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="87260" />
+          <entry key="Python" value="87533" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -485,86 +485,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/PowerTwo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/KthLargestElementArray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/CountPrimes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <marker date="1544483174000" expanded="true" signature="469:573" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/CourseScheduleII.py">
+        <entry file="file://$PROJECT_DIR$/problems/CombinationSumIII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="225">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_course_schedule_ii.py">
+        <entry file="file://$PROJECT_DIR$/test/test_combination_sum_iii.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_count_primes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_kth_largest_element_array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_power_two.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -587,8 +521,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_best_time_buy_sell_stock_iii.py" />
-        <option value="$PROJECT_DIR$/problems/BestTimeBuySellStockIII.py" />
         <option value="$PROJECT_DIR$/problems/Majority Element.py" />
         <option value="$PROJECT_DIR$/problems/test_majority_element.py" />
         <option value="$PROJECT_DIR$/problems/MajorityElement.py" />
@@ -638,6 +570,8 @@
         <option value="$PROJECT_DIR$/problems/CountPrimes.py" />
         <option value="$PROJECT_DIR$/test/test_course_schedule_ii.py" />
         <option value="$PROJECT_DIR$/problems/CourseScheduleII.py" />
+        <option value="$PROJECT_DIR$/test/test_combination_sum_iii.py" />
+        <option value="$PROJECT_DIR$/problems/CombinationSumIII.py" />
       </list>
     </option>
   </component>
@@ -710,7 +644,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_course_schedule_ii.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_combination_sum_iii.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -740,6 +674,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_combination_sum_iii.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_combination_sum_iii.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_count_primes.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -767,21 +716,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_count_primes.TestSolution.test_countPrimes&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_count_primes.TestSolution.test_countPrimes_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_count_primes.TestSolution.test_countPrimes_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -817,18 +751,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_count_primes.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_count_primes.TestSolution.test_countPrimes_one" />
       <item itemvalue="Python tests.Unittests for test_count_primes.TestSolution.test_countPrimes" />
       <item itemvalue="Python tests.Unittests for test_course_schedule_ii.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_course_schedule_ii.TestSolution.test_findOrder_two" />
+      <item itemvalue="Python tests.Unittests for test_combination_sum_iii.TestSolution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_combination_sum_iii.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_course_schedule_ii.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_course_schedule_ii.TestSolution.test_findOrder_two" />
         <item itemvalue="Python tests.Unittests for test_count_primes.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_count_primes.TestSolution.test_countPrimes" />
-        <item itemvalue="Python tests.Unittests for test_count_primes.TestSolution.test_countPrimes_one" />
       </list>
     </recent_temporary>
   </component>
@@ -846,15 +780,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_count_primes_TestSolution - 2018.12.10 at 17h 54m 14s.xml">
-      <configuration name="Unittests for test_count_primes.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_count_primes_TestSolution_test_countPrimes - 2018.12.10 at 18h 00m 47s.xml">
-      <configuration name="Unittests for test_count_primes.TestSolution.test_countPrimes" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_count_primes_TestSolution - 2018.12.10 at 18h 01m 08s.xml">
-      <configuration name="Unittests for test_count_primes.TestSolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_count_primes_TestSolution_test_countPrimes - 2018.12.10 at 18h 01m 18s.xml">
       <configuration name="Unittests for test_count_primes.TestSolution.test_countPrimes" configurationId="tests" />
     </history-entry>
@@ -876,6 +801,15 @@
     <history-entry file="Unittests_for_test_course_schedule_ii_TestSolution - 2018.12.12 at 11h 01m 55s.xml">
       <configuration name="Unittests for test_course_schedule_ii.TestSolution" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_course_schedule_ii_TestSolution - 2018.12.12 at 11h 03m 08s.xml">
+      <configuration name="Unittests for test_course_schedule_ii.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_combination_sum_iii_TestSolution - 2018.12.12 at 17h 13m 15s.xml">
+      <configuration name="Unittests for test_combination_sum_iii.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_combination_sum_iii_TestSolution - 2018.12.12 at 17h 43m 33s.xml">
+      <configuration name="Unittests for test_combination_sum_iii.TestSolution" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="499" width="1238" height="777" extended-state="0" />
@@ -886,7 +820,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47591242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47591242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4160584" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1326,27 +1260,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/FindMinimumRotatedSortedArrayII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/FindMinimumRotatedSortedArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_Find_minimum_Rotated_Sorted_Array_II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/CompareVersionNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1634,7 +1547,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_count_primes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="45">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -1644,7 +1557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_kth_largest_element_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="45">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -1654,7 +1567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_power_two.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="45">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -1672,7 +1585,7 @@
     <entry file="file://$PROJECT_DIR$/test/test_course_schedule_ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -1681,8 +1594,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/CourseScheduleII.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="291">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/CombinationSumII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_combination_sum_iii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/CombinationSumIII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
