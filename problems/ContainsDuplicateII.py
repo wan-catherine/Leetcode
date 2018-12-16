@@ -5,7 +5,7 @@ class Solution:
         :type k: int
         :rtype: bool
         """
-        if nums == None or len(nums) < 1:
+        if nums == None or len(nums) < 1 or len(nums) == len(set(nums)):
             return False
 
         mapping = {}
