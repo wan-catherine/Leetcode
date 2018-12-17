@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/ContainsDuplicateIII.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_contains_duplicate_iii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/MaximalSquare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_maximal_square.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/ContainsDuplicateII.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/ContainsDuplicateII.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +110,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_climbing_stairs_TestSolution.coverage" NAME="Unittests for test_climbing_stairs.TestSolution Coverage Results" MODIFIED="1536801496175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution.coverage" NAME="Unittests for test_sort_colors.TestSolution Coverage Results" MODIFIED="1538017475322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_six.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_six Coverage Results" MODIFIED="1542051772231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximal_square_TestSolution.coverage" NAME="Unittests for test_maximal_square.TestSolution Coverage Results" MODIFIED="1545013801002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$ImplementStrStr.coverage" NAME="ImplementStrStr Coverage Results" MODIFIED="1535298956368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_integer_to_roman_py.coverage" NAME="Unittests in test_integer_to_roman.py Coverage Results" MODIFIED="1534197833567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_k_group_TestSolution_test_reverseKGroup_three.coverage" NAME="Unittests for test_reverse_k_group.TestSolution.test_reverseKGroup_three Coverage Results" MODIFIED="1535292953547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -337,6 +337,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_three.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_three Coverage Results" MODIFIED="1542051775872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combinations_TestSolution.coverage" NAME="Unittests for test_combinations.TestSolution Coverage Results" MODIFIED="1538090469823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers_one.coverage" NAME="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_one Coverage Results" MODIFIED="1541864810675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$MaximalSquare.coverage" NAME="MaximalSquare Coverage Results" MODIFIED="1545013236174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_ii_TestSolution.coverage" NAME="Unittests for test_jump_game_ii.TestSolution Coverage Results" MODIFIED="1538962577020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_number_islands_TestSolution.coverage" NAME="Unittests for test_number_islands.TestSolution Coverage Results" MODIFIED="1543680015597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution_test_isScramble_long.coverage" NAME="Unittests for test_scramble_string.TestSolution.test_isScramble_long Coverage Results" MODIFIED="1539530695262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -350,6 +351,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_roman_to_integer_py.coverage" NAME="Unittests in test_roman_to_integer.py Coverage Results" MODIFIED="1534284378990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_binary_TestSolution_test_addBinary.coverage" NAME="Unittests for test_add_binary.TestSolution.test_addBinary Coverage Results" MODIFIED="1537578515444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist_output.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist_output Coverage Results" MODIFIED="1538324084115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximal_square_TestSolution_test_maximalSquare_one.coverage" NAME="Unittests for test_maximal_square.TestSolution.test_maximalSquare_one Coverage Results" MODIFIED="1545013426507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_generate_parenthesis_TestSolution_test_generateParenthesis_3.coverage" NAME="Unittests for test_generate_parenthesis.TestSolution.test_generateParenthesis_3 Coverage Results" MODIFIED="1534888741602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_pascal_triangle_TestSolution_test_generate.coverage" NAME="Unittests for test_pascal_triangle.TestSolution.test_generate Coverage Results" MODIFIED="1540858638804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_palindrome_TestSolution.coverage" NAME="Unittests for test_valid_palindrome.TestSolution Coverage Results" MODIFIED="1541633427790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -449,11 +451,11 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="140" />
+          <entry key="project.closed" value="141" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="41" />
-          <entry key="project.open.time.11" value="15" />
+          <entry key="project.open.time.11" value="16" />
           <entry key="project.open.time.12" value="9" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="1" />
@@ -464,32 +466,32 @@
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="16" />
           <entry key="project.open.time.9" value="41" />
-          <entry key="project.opened" value="141" />
+          <entry key="project.opened" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="407" />
+          <entry key="py" value="409" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="407" />
+          <entry key="Python" value="409" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="4939" />
+          <entry key="Python Console" value="5034" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="84153" />
+          <entry key="py" value="84739" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="89092" />
+          <entry key="Python" value="89773" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -519,11 +521,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/ContainsDuplicateIII.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-86">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/MaximalSquare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_maximal_square.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -531,8 +554,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_contains_duplicate_iii.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="30">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -600,8 +623,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/FindMinimumRotatedSortedArrayII.py" />
-        <option value="$PROJECT_DIR$/test/test_compare_version_numbers.py" />
         <option value="$PROJECT_DIR$/problems/CompareVersionNumbers.py" />
         <option value="$PROJECT_DIR$/test/test_house_robber.py" />
         <option value="$PROJECT_DIR$/problems/HouseRobber.py" />
@@ -651,6 +672,8 @@
         <option value="$PROJECT_DIR$/problems/ContainsDuplicateII.py" />
         <option value="$PROJECT_DIR$/test/test_contains_duplicate_iii.py" />
         <option value="$PROJECT_DIR$/problems/ContainsDuplicateIII.py" />
+        <option value="$PROJECT_DIR$/test/test_maximal_square.py" />
+        <option value="$PROJECT_DIR$/problems/MaximalSquare.py" />
       </list>
     </option>
   </component>
@@ -723,7 +746,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_contains_duplicate_iii.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_maximal_square.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -743,6 +766,28 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="MaximalSquare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/MaximalSquare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -768,36 +813,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_one&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -813,7 +828,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_maximal_square.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -824,24 +839,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_two&quot;" />
+      <option name="_new_target" value="&quot;test_maximal_square.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_maximal_square.TestSolution.test_maximalSquare_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_maximal_square.TestSolution.test_maximalSquare_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate" />
-      <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_one" />
-      <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_two" />
       <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_three" />
+      <item itemvalue="Python tests.Unittests for test_maximal_square.TestSolution" />
+      <item itemvalue="Python.MaximalSquare" />
+      <item itemvalue="Python tests.Unittests for test_maximal_square.TestSolution.test_maximalSquare_one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_maximal_square.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_maximal_square.TestSolution.test_maximalSquare_one" />
+        <item itemvalue="Python.MaximalSquare" />
         <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_three" />
-        <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_two" />
-        <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate" />
-        <item itemvalue="Python tests.Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_one" />
       </list>
     </recent_temporary>
   </component>
@@ -859,55 +889,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate - 2018.12.16 at 11h 03m 01s.xml">
-      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution - 2018.12.16 at 11h 03m 13s.xml">
-      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate_one - 2018.12.16 at 11h 03m 18s.xml">
-      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate_two - 2018.12.16 at 11h 03m 21s.xml">
-      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate - 2018.12.16 at 11h 03m 25s.xml">
-      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate_two - 2018.12.16 at 11h 03m 28s.xml">
-      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate_two - 2018.12.16 at 11h 03m 35s.xml">
-      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate_three - 2018.12.16 at 11h 04m 29s.xml">
-      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_three" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate_three - 2018.12.16 at 11h 04m 49s.xml">
-      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_three" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution - 2018.12.16 at 11h 04m 57s.xml">
       <configuration name="Unittests for test_contains_duplicate_iii.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_contains_duplicate_iii_TestSolution - 2018.12.16 at 11h 12m 18s.xml">
+      <configuration name="Unittests for test_contains_duplicate_iii.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_maximal_square_TestSolution - 2018.12.16 at 21h 14m 50s.xml">
+      <configuration name="Unittests for test_maximal_square.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_maximal_square_TestSolution - 2018.12.16 at 21h 15m 18s.xml">
+      <configuration name="Unittests for test_maximal_square.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_maximal_square_TestSolution - 2018.12.16 at 21h 17m 22s.xml">
+      <configuration name="Unittests for test_maximal_square.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_maximal_square_TestSolution - 2018.12.16 at 21h 20m 45s.xml">
+      <configuration name="Unittests for test_maximal_square.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_maximal_square_TestSolution_test_maximalSquare_one - 2018.12.16 at 21h 22m 05s.xml">
+      <configuration name="Unittests for test_maximal_square.TestSolution.test_maximalSquare_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_maximal_square_TestSolution_test_maximalSquare_one - 2018.12.16 at 21h 22m 13s.xml">
+      <configuration name="Unittests for test_maximal_square.TestSolution.test_maximalSquare_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_maximal_square_TestSolution - 2018.12.16 at 21h 22m 17s.xml">
+      <configuration name="Unittests for test_maximal_square.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_maximal_square_TestSolution_test_maximalSquare_one - 2018.12.16 at 21h 23m 59s.xml">
+      <configuration name="Unittests for test_maximal_square.TestSolution.test_maximalSquare_one" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="499" width="1238" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.298495" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.3035117" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40145984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3051095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34014598" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.34890512" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.34890512" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329927" />
@@ -1349,20 +1379,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_reverse_words_string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_house_robber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_find_peak_element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1646,6 +1662,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ContainsDuplicateII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_contains_duplicate_iii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_contains_duplicate_ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1683,27 +1716,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_contains_duplicate_iii.py">
+    <entry file="file://$PROJECT_DIR$/problems/ContainsDuplicateIII.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="-86">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_maximal_square.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ContainsDuplicateII.py">
+    <entry file="file://$PROJECT_DIR$/problems/MaximalSquare.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/ContainsDuplicateIII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="180">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>
