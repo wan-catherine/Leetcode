@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/BestTimeBuySellStockWithCooldown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_Best_Time_Buy_Sell_Stock_With_Cooldown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/MaximumProductWordLengths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_maximum_product_word_lengths.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -472,10 +472,10 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="151" />
+          <entry key="project.closed" value="152" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="44" />
+          <entry key="project.open.time.10" value="45" />
           <entry key="project.open.time.11" value="21" />
           <entry key="project.open.time.12" value="10" />
           <entry key="project.open.time.13" value="4" />
@@ -487,32 +487,32 @@
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="16" />
           <entry key="project.open.time.9" value="42" />
-          <entry key="project.opened" value="152" />
+          <entry key="project.opened" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="432" />
+          <entry key="py" value="434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="432" />
+          <entry key="Python" value="434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="5252" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="89024" />
+          <entry key="py" value="89092" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="94276" />
+          <entry key="Python" value="94344" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -536,7 +536,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/RemoveInvalidParentheses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="690">
               <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
               <folding>
                 <marker date="1545943739000" expanded="true" signature="514:520" ph="..." />
@@ -547,11 +547,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/BestTimeBuySellStockWithCooldown.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="180">
+              <caret line="12" column="30" selection-start-line="6" selection-start-column="8" selection-end-line="12" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/MaximumProductWordLengths.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_maximum_product_word_lengths.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -559,8 +580,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_Best_Time_Buy_Sell_Stock_With_Cooldown.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="30">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -607,8 +628,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/ContainsDuplicate.py" />
-        <option value="$PROJECT_DIR$/problems/NumberIslands.py" />
         <option value="$PROJECT_DIR$/test/test_number_islands.py" />
         <option value="$PROJECT_DIR$/test/test_course_schedule  .py" />
         <option value="$PROJECT_DIR$/test/test_course_schedule.py" />
@@ -658,6 +677,8 @@
         <option value="$PROJECT_DIR$/problems/RemoveInvalidParentheses.py" />
         <option value="$PROJECT_DIR$/test/test_Best_Time_Buy_Sell_Stock_With_Cooldown.py" />
         <option value="$PROJECT_DIR$/problems/BestTimeBuySellStockWithCooldown.py" />
+        <option value="$PROJECT_DIR$/problems/MaximumProductWordLengths.py" />
+        <option value="$PROJECT_DIR$/test/test_maximum_product_word_lengths.py" />
       </list>
     </option>
   </component>
@@ -667,10 +688,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="y" value="499" />
-    <option name="width" value="1239" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1238" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -681,6 +701,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -702,7 +723,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -866,9 +886,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_remove_invalid_parentheses_TestSolution_test_removeInvalidParentheses_two - 2018.12.27 at 15h 36m 30s.xml">
-      <configuration name="Unittests for test_remove_invalid_parentheses.TestSolution.test_removeInvalidParentheses_two" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_remove_invalid_parentheses_TestSolution_test_removeInvalidParentheses_two - 2018.12.27 at 15h 37m 22s.xml">
       <configuration name="Unittests for test_remove_invalid_parentheses.TestSolution.test_removeInvalidParentheses_two" configurationId="tests" />
     </history-entry>
@@ -896,17 +913,20 @@
     <history-entry file="Unittests_for_test_Best_Time_Buy_Sell_Stock_With_Cooldown_TestSolution - 2018.12.28 at 11h 33m 02s.xml">
       <configuration name="Unittests for test_Best_Time_Buy_Sell_Stock_With_Cooldown.TestSolution" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_Best_Time_Buy_Sell_Stock_With_Cooldown_TestSolution - 2018.12.28 at 11h 33m 48s.xml">
+      <configuration name="Unittests for test_Best_Time_Buy_Sell_Stock_With_Cooldown.TestSolution" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="499" width="1239" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1238" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.35672516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.36287627" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40437958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40437958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41751826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1371,20 +1391,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_remove_linked_list_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_merge_k_lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="3" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_minimum_size_subarray_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1674,10 +1680,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/BestTimeToBuySellStock.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/RectangleArea.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/RemoveInvalidParentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+          <folding>
+            <marker date="1545943739000" expanded="true" signature="514:520" ph="..." />
+            <marker date="1545943739000" expanded="true" signature="541:830" ph="..." />
+            <marker date="1545943739000" expanded="true" signature="872:881" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_Best_Time_Buy_Sell_Stock_With_Cooldown.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1701,35 +1732,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/RemoveInvalidParentheses.py">
+    <entry file="file://$PROJECT_DIR$/problems/BestTimeBuySellStockWithCooldown.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-          <folding>
-            <marker date="1545943739000" expanded="true" signature="514:520" ph="..." />
-            <marker date="1545943739000" expanded="true" signature="541:830" ph="..." />
-            <marker date="1545943739000" expanded="true" signature="872:881" ph="..." />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="6" selection-start-column="8" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BestTimeToBuySellStock.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_Best_Time_Buy_Sell_Stock_With_Cooldown.py">
+    <entry file="file://$PROJECT_DIR$/problems/MaximumProductWordLengths.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_maximum_product_word_lengths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/BestTimeBuySellStockWithCooldown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
