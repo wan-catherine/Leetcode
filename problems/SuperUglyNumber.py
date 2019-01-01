@@ -65,6 +65,7 @@ class Solution:
             while fct[idx[i]] > i:
                 idx[i] += 1
             heapq.heappush(pq, (primes[i] * p[idx[i]], i))
+
         return p[-1]
 
 
