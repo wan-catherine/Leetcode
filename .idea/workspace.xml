@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/IntegerBreak.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_integer_break.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +96,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_count_and_say_TestSolution.coverage" NAME="Unittests for test_count_and_say.TestSolution Coverage Results" MODIFIED="1541871790227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr Coverage Results" MODIFIED="1535299178392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_partition_list_TestPartitionList.coverage" NAME="Unittests for test_partition_list.TestPartitionList Coverage Results" MODIFIED="1539008284631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_break_TestSolution.coverage" NAME="Unittests for test_integer_break.TestSolution Coverage Results" MODIFIED="1547164969760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_break_TestSolution.coverage" NAME="Unittests for test_integer_break.TestSolution Coverage Results" MODIFIED="1547246922344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_additive_number_TestSolution_test_isAdditiveNumber_one.coverage" NAME="Unittests for test_additive_number.TestSolution.test_isAdditiveNumber_one Coverage Results" MODIFIED="1546794703851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist_special.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist_special Coverage Results" MODIFIED="1538324002756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution Coverage Results" MODIFIED="1538530874182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -495,11 +493,11 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="164" />
+          <entry key="project.closed" value="165" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="50" />
-          <entry key="project.open.time.11" value="24" />
+          <entry key="project.open.time.11" value="25" />
           <entry key="project.open.time.12" value="11" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="2" />
@@ -510,7 +508,7 @@
           <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="16" />
           <entry key="project.open.time.9" value="43" />
-          <entry key="project.opened" value="165" />
+          <entry key="project.opened" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -529,13 +527,13 @@
         <counts>
           <entry key="Python Console" value="5447" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="93443" />
+          <entry key="py" value="93470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="98890" />
+          <entry key="Python" value="98917" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -559,8 +557,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problems/IntegerBreak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -568,7 +566,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_integer_break.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="120">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -715,8 +713,8 @@
         <option value="$PROJECT_DIR$/test/test_reverse_vowels_string.py" />
         <option value="$PROJECT_DIR$/test/test_power_of_four.py" />
         <option value="$PROJECT_DIR$/problems/PowerFour.py" />
-        <option value="$PROJECT_DIR$/problems/IntegerBreak.py" />
         <option value="$PROJECT_DIR$/test/test_integer_break.py" />
+        <option value="$PROJECT_DIR$/problems/IntegerBreak.py" />
       </list>
     </option>
   </component>
@@ -726,10 +724,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="499" />
-    <option name="width" value="1239" />
+    <option name="width" value="1238" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -789,7 +787,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_integer_break.TestSolution.test_integerBreak_one">
+  <component name="RunManager" selected="Python tests.Unittests for test_integer_break.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -903,8 +901,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_integer_break.TestSolution.test_integerBreak_one" />
         <item itemvalue="Python tests.Unittests for test_integer_break.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_integer_break.TestSolution.test_integerBreak_one" />
         <item itemvalue="Python tests.Unittests for test_integer_break.TestSolution.test_integerBreak_two" />
         <item itemvalue="Python tests.Unittests for test_power_of_four.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_reverse_vowels_string.TestSolution.test_reverseVowels_two" />
@@ -957,16 +955,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="499" width="1239" height="777" extended-state="6" />
+    <frame x="1920" y="499" width="1238" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.30994153" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.3152174" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40437958" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41167882" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41167882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1735,6 +1733,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/PowerFour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="6" selection-start-column="8" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_integer_break.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -1801,27 +1813,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/PowerFour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="6" selection-start-column="8" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_integer_break.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/IntegerBreak.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
