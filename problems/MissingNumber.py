@@ -14,6 +14,6 @@ class Solution:
         return i
 
     def missingNumber_effective(self, nums):
-        # Arithmetic progression sum 
+        # Arithmetic progression sum
         n = len(nums) + 1
         return int((0 + n - 1)*n/2 - sum(nums))
