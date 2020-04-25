@@ -16,16 +16,21 @@ class Solution:
         stack = [root]
         next = []
         res = []
-        while len(stack) > 0:
-            temp = []
+        while stack:
+            level_nodes = []
             for node in stack:
-                temp.append(node.val)
-                if node.left != None:
+                if not node:
+                    continue
+                level_nodes.append(node.val)
+                if node.left:
                     next.append(node.left)
-                if node.right != None:
+                if node.right:
                     next.append(node.right)
-            res.append(temp)
+            res.append(level_nodes)
             stack = next
             next = []
 
         return res
+
+
+

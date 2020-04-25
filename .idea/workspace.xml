@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/Utility.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_maximum_depth_binary_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/MaximumDepthBinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/MaximumDepthBinaryTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -257,7 +252,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one Coverage Results" MODIFIED="1535819062859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_row_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_row_one_column Coverage Results" MODIFIED="1533946361570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number Coverage Results" MODIFIED="1534192140322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_level_order_traversal_TestSolution.coverage" NAME="Unittests for test_binary_tree_level_order_traversal.TestSolution Coverage Results" MODIFIED="1540335211093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_level_order_traversal_TestSolution.coverage" NAME="Unittests for test_binary_tree_level_order_traversal.TestSolution Coverage Results" MODIFIED="1587858527121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_insert_position_TestSolution_test_searchInsert.coverage" NAME="Unittests for test_search_insert_position.TestSolution.test_searchInsert Coverage Results" MODIFIED="1535249622402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_linked_list_ii_TestSolution_test_reverseBetween_two.coverage" NAME="Unittests for test_reverse_linked_list_ii.TestSolution.test_reverseBetween_two Coverage Results" MODIFIED="1539645772512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution.coverage" NAME="Unittests for test_divide_two_integers.TestSolution Coverage Results" MODIFIED="1535408768395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
@@ -534,26 +529,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="504" />
+          <entry key="py" value="507" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="504" />
+          <entry key="Python" value="507" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="5624" />
+          <entry key="Python Console" value="5647" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="97631" />
+          <entry key="py" value="97960" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="103255" />
+          <entry key="Python" value="103607" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -566,19 +561,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/MaximumDepthBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="-58">
               <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_maximum_depth_binary_tree.py">
+        <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="84">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -606,7 +610,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_ugly_number.py" />
         <option value="$PROJECT_DIR$/problems/UglyNumber.py" />
         <option value="$PROJECT_DIR$/test/test_reverse_string.py" />
         <option value="$PROJECT_DIR$/problems/ReverseString.py" />
@@ -657,6 +660,7 @@
         <option value="$PROJECT_DIR$/problems/Utility.py" />
         <option value="$PROJECT_DIR$/test/test_maximum_depth_binary_tree.py" />
         <option value="$PROJECT_DIR$/problems/MaximumDepthBinaryTree.py" />
+        <option value="$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py" />
       </list>
     </option>
   </component>
@@ -667,10 +671,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1895" />
-    <option name="y" value="499" />
-    <option name="width" value="1239" />
-    <option name="height" value="777" />
+    <option name="x" value="1937" />
+    <option name="y" value="529" />
+    <option name="width" value="1243" />
+    <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -730,7 +734,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_maximum_depth_binary_tree.py">
+  <component name="RunManager" selected="Python tests.Unittests for test_binary_tree_level_order_traversal.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -760,7 +764,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_add_digits.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_binary_tree_level_order_traversal.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -771,7 +775,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_digits.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_binary_tree_level_order_traversal.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -836,19 +840,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_add_digits.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_find_difference.TestSolution.test_findTheDifference" />
       <item itemvalue="Python tests.Unittests for test_find_difference.TestSolution.test_findTheDifference_one" />
       <item itemvalue="Python tests.Unittests for test_maximum_depth_binary_tree.TestSolution.test_max_depth" />
       <item itemvalue="Python tests.Unittests in test_maximum_depth_binary_tree.py" />
+      <item itemvalue="Python tests.Unittests for test_binary_tree_level_order_traversal.TestSolution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_binary_tree_level_order_traversal.TestSolution" />
         <item itemvalue="Python tests.Unittests in test_maximum_depth_binary_tree.py" />
         <item itemvalue="Python tests.Unittests for test_maximum_depth_binary_tree.TestSolution.test_max_depth" />
         <item itemvalue="Python tests.Unittests for test_find_difference.TestSolution.test_findTheDifference_one" />
         <item itemvalue="Python tests.Unittests for test_find_difference.TestSolution.test_findTheDifference" />
-        <item itemvalue="Python tests.Unittests for test_add_digits.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -898,10 +902,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
+    <frame x="1920" y="499" width="1242" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.22185154" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.22166666" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1430,13 +1434,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/PowerFour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="6" selection-start-column="8" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/PowerThree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1683,15 +1680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal_ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1801,10 +1789,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_level_order_traversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/MaximumDepthBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="-58">
           <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
         </state>
       </provider>
     </entry>
