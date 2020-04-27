@@ -75,3 +75,20 @@ class Solution:
             height += 1
             node = node.left
         return height
+
+
+# it's a complete tree , so we can check the height of left and right subtree.
+# if height(left subtree) == height(right subtree), it means the left subtree is a full binary tree
+# if height(left subtree) != height(right subtree), it means the right subtree is a full binary tree
+# so we can recursively to check the subtree
+
+    def count_nodes(self, root):
+        if not root:
+            return 0
+        left_height = self.get_height(root.left)
+        right_height = self.get_height(root.right)
+
+        if left_height == right_height:
+            return self.count_nodes(root.right) + 1 << left_height
+        else:
+            return self.count_nodes(root.left) + 1 << right_height
