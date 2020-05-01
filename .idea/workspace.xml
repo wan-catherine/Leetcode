@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N518_Coin_Change_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_518_coin_change_2py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_416_partition_equal_subnet_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/N322_Coin_Change.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N322_Coin_Change.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,6 +144,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_palindromic_substring_TestSolution_test_longestPalindrome_two.coverage" NAME="Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome_two Coverage Results" MODIFIED="1541952656618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate_three.coverage" NAME="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_three Coverage Results" MODIFIED="1544976276365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution_test_largestRectangleArea_1.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution.test_largestRectangleArea_1 Coverage Results" MODIFIED="1538938655415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_416_partition_equal_subnet_sum_TestSolution.coverage" NAME="Unittests for test_416_partition_equal_subnet_sum.TestSolution Coverage Results" MODIFIED="1588375171982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_n_queens_2_TestSolution.coverage" NAME="Unittests for test_n_queens_2.TestSolution Coverage Results" MODIFIED="1538432904526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_next_permutation_TestSolution.coverage" NAME="Unittests for test_next_permutation.TestSolution Coverage Results" MODIFIED="1535667697782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_1695.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_1695 Coverage Results" MODIFIED="1534284185759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -378,6 +378,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_two.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_two Coverage Results" MODIFIED="1534693907949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_depth_binary_tree_TestSolution_test_max_depth.coverage" NAME="Unittests for test_maximum_depth_binary_tree.TestSolution.test_max_depth Coverage Results" MODIFIED="1587824859309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_by_empty_string.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_by_empty_string Coverage Results" MODIFIED="1533696503350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition.coverage" NAME="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition Coverage Results" MODIFIED="1588374968191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_happy_number_TestSolution.coverage" NAME="Unittests for test_happy_number.TestSolution Coverage Results" MODIFIED="1543965057496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_additive_number_TestSolution.coverage" NAME="Unittests for test_additive_number.TestSolution Coverage Results" MODIFIED="1546794949882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_letter_combinations_py.coverage" NAME="Unittests in test_letter_combinations.py Coverage Results" MODIFIED="1534615751201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -561,26 +562,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="530" />
+          <entry key="py" value="532" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="530" />
+          <entry key="Python" value="532" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="5812" />
+          <entry key="Python Console" value="5887" />
           <entry key="dummy" value="64" />
-          <entry key="py" value="107315" />
+          <entry key="py" value="107853" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="64" />
-          <entry key="Python" value="113127" />
+          <entry key="Python" value="113740" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -592,45 +593,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/N518_Coin_Change_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N322_Coin_Change.py">
+        <entry file="file://$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-              <folding>
-                <marker date="1588341624459" expanded="true" signature="92:792" ph="..." />
-                <marker date="1588341624459" expanded="true" signature="1531:1539" ph="..." />
-              </folding>
+            <state relative-caret-position="488">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_322_coin_change.py">
+        <entry file="file://$PROJECT_DIR$/test/test_416_partition_equal_subnet_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_518_coin_change_2py.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="105">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -659,8 +635,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_solution.py" />
-        <option value="$PROJECT_DIR$/test/test_additive_number.py" />
         <option value="$PROJECT_DIR$/problems/AdditiveNumber.py" />
         <option value="$PROJECT_DIR$/test/test_top_k_frequent_elements .py" />
         <option value="$PROJECT_DIR$/problems/TopKFrequentElements.py" />
@@ -710,6 +684,8 @@
         <option value="$PROJECT_DIR$/test/test_518_coin_change_2py.py" />
         <option value="$PROJECT_DIR$/problems/N518_Coin_Change_2.py" />
         <option value="$PROJECT_DIR$/problems/N322_Coin_Change.py" />
+        <option value="$PROJECT_DIR$/test/test_416_partition_equal_subnet_sum.py" />
+        <option value="$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py" />
       </list>
     </option>
   </component>
@@ -783,7 +759,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_322_coin_change.TestSolution.test_coinChange">
+  <component name="RunManager" selected="Python tests.Unittests for test_416_partition_equal_subnet_sum.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -813,21 +789,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_322_coin_change.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_322_coin_change.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_322_coin_change.TestSolution.test_coinChange" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -843,7 +804,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_322_coin_change.TestSolution.test_coinChange_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -854,7 +815,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_322_coin_change.TestSolution.test_coinChange_4&quot;" />
+      <option name="_new_target" value="&quot;test_416_partition_equal_subnet_sum.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_416_partition_equal_subnet_sum.TestSolution.test_canPartition&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -889,19 +865,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_322_coin_change.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_322_coin_change.TestSolution.test_coinChange_4" />
       <item itemvalue="Python tests.Unittests for test_518_coin_change_2py.TestSolution.test_change" />
       <item itemvalue="Python tests.Unittests for test_518_coin_change_2py.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_322_coin_change.TestSolution.test_coinChange" />
+      <item itemvalue="Python tests.Unittests for test_416_partition_equal_subnet_sum.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_416_partition_equal_subnet_sum.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition" />
         <item itemvalue="Python tests.Unittests for test_322_coin_change.TestSolution.test_coinChange" />
         <item itemvalue="Python tests.Unittests for test_518_coin_change_2py.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_518_coin_change_2py.TestSolution.test_change" />
-        <item itemvalue="Python tests.Unittests for test_322_coin_change.TestSolution.test_coinChange_4" />
-        <item itemvalue="Python tests.Unittests for test_322_coin_change.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -919,35 +895,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution - 2020.04.30 at 15h 29m 30s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution - 2020.04.30 at 15h 31m 12s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution_test_change - 2020.04.30 at 15h 32m 16s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution.test_change" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution - 2020.04.30 at 15h 35m 37s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution_test_change - 2020.04.30 at 15h 38m 14s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution.test_change" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution_test_change - 2020.05.01 at 09h 42m 52s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution.test_change" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution_test_change - 2020.05.01 at 09h 43m 49s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution.test_change" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution - 2020.05.01 at 09h 44m 02s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution - 2020.05.01 at 09h 45m 16s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_322_coin_change_TestSolution_test_coinChange - 2020.05.01 at 10h 00m 29s.xml">
       <configuration name="Unittests for test_322_coin_change.TestSolution.test_coinChange" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_416_partition_equal_subnet_sum_TestSolution - 2020.05.01 at 17h 14m 02s.xml">
+      <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_416_partition_equal_subnet_sum_TestSolution - 2020.05.01 at 18h 06m 42s.xml">
+      <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition - 2020.05.01 at 18h 09m 46s.xml">
+      <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition - 2020.05.01 at 18h 11m 19s.xml">
+      <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_416_partition_equal_subnet_sum_TestSolution - 2020.05.01 at 19h 10m 13s.xml">
+      <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition - 2020.05.01 at 19h 10m 22s.xml">
+      <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition - 2020.05.01 at 19h 10m 53s.xml">
+      <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_416_partition_equal_subnet_sum_TestSolution - 2020.05.01 at 19h 10m 56s.xml">
+      <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition - 2020.05.01 at 19h 17m 58s.xml">
+      <configuration name="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -968,7 +944,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22773723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2540146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41751826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -976,7 +952,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34014598" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.78978103" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.4569343" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329927" />
@@ -1460,6 +1436,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>len(dp)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>s[i] != s[j] and s[i] in vowels and s[j] in vowels</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1499,28 +1480,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>l[i-1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_add_digits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/FindDifference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" selection-start-line="7" selection-start-column="8" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/KthSmallestElementSortedMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -1789,6 +1751,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N322_Coin_Change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+          <folding>
+            <marker date="1588341624459" expanded="true" signature="92:792" ph="..." />
+            <marker date="1588341624459" expanded="true" signature="1531:1539" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N518_Coin_Change_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1806,14 +1779,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N322_Coin_Change.py">
+    <entry file="file://$PROJECT_DIR$/test/test_416_partition_equal_subnet_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <marker date="1588341624459" expanded="true" signature="92:792" ph="..." />
-            <marker date="1588341624459" expanded="true" signature="1531:1539" ph="..." />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
