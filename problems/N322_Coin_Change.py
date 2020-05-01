@@ -1,7 +1,7 @@
 from math import inf
 
 class Solution(object):
-    def coin_change(self, coins, amount):
+    def coin_change_best(self, coins, amount):
         if not coins:
             return -1
         if not amount:
@@ -27,7 +27,7 @@ class Solution(object):
         find(0, 0, amount)
         return self.ans if self.ans != float('inf') else -1
 
-    def coin_change_by_dp_table(self, coins, amount):
+    def coin_change(self, coins, amount):
         """
         :type coins: List[int]
         :type amount: int
@@ -46,6 +46,7 @@ class Solution(object):
                     res = min(res, dp_table[i - coin] + 1)
 
             dp_table[i] = -1 if res == float(inf) else res
+        print(dp_table)
         return dp_table[amount]
 
     def coin_change_by_memo(self, coins, amount):
