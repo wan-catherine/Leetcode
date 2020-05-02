@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/N322_Coin_Change.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N322_Coin_Change.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/N518_Coin_Change_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N518_Coin_Change_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_416_partition_equal_subnet_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_416_partition_equal_subnet_sum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -567,26 +565,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="536" />
+          <entry key="py" value="538" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="536" />
+          <entry key="Python" value="538" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="5887" />
           <entry key="dummy" value="64" />
-          <entry key="py" value="109016" />
+          <entry key="py" value="109742" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="64" />
-          <entry key="Python" value="114903" />
+          <entry key="Python" value="115629" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -598,20 +596,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="406">
+              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/N518_Coin_Change_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/N518_Coin_Change_2.py">
+        <entry file="file://$PROJECT_DIR$/test/test_322_coin_change.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="63">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/N322_Coin_Change.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <folding>
+                <marker date="1588431991615" expanded="true" signature="92:1833" ph="..." />
+                <marker date="1588431991615" expanded="true" signature="1366:1833" ph="..." />
+                <marker date="1588431991615" expanded="true" signature="2579:2587" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -696,10 +720,10 @@
         <option value="$PROJECT_DIR$/problems/N124_Binary_Tree_Maximum_Path_Sum.py" />
         <option value="$PROJECT_DIR$/test/test_322_coin_change.py" />
         <option value="$PROJECT_DIR$/test/test_518_coin_change_2py.py" />
-        <option value="$PROJECT_DIR$/problems/N322_Coin_Change.py" />
-        <option value="$PROJECT_DIR$/problems/N518_Coin_Change_2.py" />
         <option value="$PROJECT_DIR$/test/test_416_partition_equal_subnet_sum.py" />
         <option value="$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py" />
+        <option value="$PROJECT_DIR$/problems/N322_Coin_Change.py" />
+        <option value="$PROJECT_DIR$/problems/N518_Coin_Change_2.py" />
       </list>
     </option>
   </component>
@@ -953,7 +977,7 @@
     <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.27773145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.27773145" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1755,39 +1779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_322_coin_change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N322_Coin_Change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding>
-            <marker date="1588427775893" expanded="true" signature="92:1296" ph="..." />
-            <marker date="1588427775893" expanded="true" signature="829:1296" ph="..." />
-            <marker date="1588427775893" expanded="true" signature="2042:2050" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_518_coin_change_2py.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N518_Coin_Change_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1803,8 +1798,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="406">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_322_coin_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N322_Coin_Change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <marker date="1588431991615" expanded="true" signature="92:1833" ph="..." />
+            <marker date="1588431991615" expanded="true" signature="1366:1833" ph="..." />
+            <marker date="1588431991615" expanded="true" signature="2579:2587" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N518_Coin_Change_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>

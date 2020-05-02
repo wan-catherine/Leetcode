@@ -12,6 +12,16 @@ class Solution:
             db_table.append(row)
         return db_table[-1][-1]
 
+    # d[i][j] : by using the first i coins, the totally amount is j, then it means the number
+    # of coins that make up that amount j
+    # d[i][j] seperate two situations :
+    #         1. not used the ith coin : d[i-1][j]
+    #         2. used the ith coin : d[i][j - coins[i-1]]
+    # d[i][j] = d[i-1][j] + d[i][j-coins[i-1]]
+    # Here because we can reuse the number in coins, so for the second situation
+    # it will be d[i], because the coins there is infinite
+    # also need to check if j - coins[i-1] >= 0
+
     def change(self, amount, coins):
         dp = [1] + [0] * amount
         for i in range(1, len(coins) +1):

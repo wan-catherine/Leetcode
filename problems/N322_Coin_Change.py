@@ -27,6 +27,15 @@ class Solution(object):
         find(0, 0, amount)
         return self.ans if self.ans != float('inf') else -1
 
+    # d[i][j] : by using the first i coins, the totally amount is j, then it means the fewest
+    # number of coins that make up that amount j
+    # d[i][j] seperate two situations :
+    #         1. not used the ith coin : d[i-1][j]
+    #         2. used the ith coin : d[i][j - coins[i-1]] + 1
+    # d[i][j] = min( d[i-1][j] + d[i][j-coins[i-1]]+1)
+    # Here because we can reuse the coin in coins, so for the second situation
+    # it will be d[i], because the coins there is infinite
+    # also need to check if j - coins[i-1] >= 0
     def coin_change(self, coins, amount):
         dp = [0] + [-1] * amount
         for i in range(1, len(coins) + 1):
@@ -68,6 +77,7 @@ class Solution(object):
         memo = {}
         self.dp(coins, amount, memo)
         return memo.get(amount, -1)
+
 
     def dp(self, coins, amount, memo):
         if amount < 0:
