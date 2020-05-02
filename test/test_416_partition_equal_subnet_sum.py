@@ -7,3 +7,9 @@ class TestSolution(TestCase):
 
     def test_canPartition_1(self):
         self.assertEqual(False, Solution().canPartition([1,2,3,5]))
+
+    def test_canPartition_2(self):
+        self.assertEqual(False, Solution().canPartition([1,2,5]))
+
+    def test_canPartition_3(self):
+        self.assertEqual(True, Solution().canPartition([23,13,11,7,6,5,5]))

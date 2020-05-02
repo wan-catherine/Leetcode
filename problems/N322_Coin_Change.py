@@ -28,6 +28,19 @@ class Solution(object):
         return self.ans if self.ans != float('inf') else -1
 
     def coin_change(self, coins, amount):
+        dp = [0] + [-1] * amount
+        for i in range(1, len(coins) + 1):
+            temp = dp[:]
+            for j in range(1, amount + 1):
+                res = float(inf)
+                if temp[j] != -1:
+                    res = min(res,temp[j])
+                if j - coins[i-1] >= 0 and dp[j - coins[i-1]] != -1:
+                    res = min(res, dp[j - coins[i-1]] + 1)
+                dp[j] = -1 if res == float(inf) else res
+        return dp[-1]
+
+    def coin_change_before(self, coins, amount):
         """
         :type coins: List[int]
         :type amount: int
