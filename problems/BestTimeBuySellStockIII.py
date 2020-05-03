@@ -1,5 +1,8 @@
+from math import inf
+
+
 class Solution(object):
-    def maxProfit(self, prices):
+    def maxProfit_before(self, prices):
         """
         :type prices: List[int]
         :rtype: int
@@ -50,3 +53,13 @@ class Solution(object):
                 maxDiff = max(maxDiff, res[i-1][j-1] - prices[j-1])
                 res[i][j] = max(res[i][j-1], maxDiff+prices[j])
         return res[-1][-1]
+
+    def maxProfit(self, prices):
+        d_1_0, d_2_0 = 0, 0
+        d_1_1, d_2_1 = float(-inf), float(-inf)
+        for i in range(len(prices)):
+            d_1_0 = max(d_1_0, d_1_1 + prices[i])
+            d_1_1 = max(d_1_1, -prices[i])
+            d_2_0 = max(d_2_0, d_2_1 + prices[i])
+            d_2_1 = max(d_2_1, d_1_0 - prices[i])
+        return d_2_0

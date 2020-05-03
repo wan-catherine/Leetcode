@@ -17,6 +17,10 @@ class TestSolution(TestCase):
         res = solution.maxProfit([7,6,4,3,1])
         self.assertEqual(0, res)
 
+    def test_maxProfit_2(self):
+        res = Solution().maxProfit([1,2,4,2,5,7,2,4,9,0])
+        self.assertEqual(13, res)
+
     def test_maxProfit_three(self):
         solution = Solution()
         res = solution.maxProfit([2,5,7,1,4,3,1,3])
