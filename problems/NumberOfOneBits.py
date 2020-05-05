@@ -1,5 +1,5 @@
 class Solution(object):
-    def hammingWeight(self, n):
+    def hammingWeight_before(self, n):
         """
         :type n: int
         :rtype: int
@@ -10,3 +10,12 @@ class Solution(object):
             if i == "1":
                 count += 1
         return count
+
+    def hammingWeight(self, n):
+        result = 0
+        mask = 1
+        for i in range(32):
+            if n & mask:
+                result += 1
+            mask <<= 1
+        return result

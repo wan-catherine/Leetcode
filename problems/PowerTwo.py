@@ -1,5 +1,13 @@
+"""
+if a number is a power of two , then N & N-1 == 0
+for example:
+8&7 == 0
+ 1000
+ 0111
+&0000
+"""
 class Solution:
-    def isPowerOfTwo(self, n):
+    def isPowerOfTwo_before(self, n):
         """
         :type n: int
         :rtype: bool
@@ -13,3 +21,8 @@ class Solution:
             return True
         else:
             return False
+
+    def isPowerOfTwo(self, n):
+        if n == 0:
+            return False
+        return n & (n - 1) == 0
