@@ -1,3 +1,19 @@
+"""
+Here is how to define status transform formula :
+for string words1, and words2:
+d[i][j] = min edit path for transforming from words1[0:i+1] to words2[0:j+1]
+d[len(words1)][len(words2)] is the result
+
+now we have three operations here : replace, delete, insert
+so d[i][j] = min{d[i-1][j] + 1, d[i-1][j-1] + 1, d[i][j-1] + 1}
+d[i-1][j]  --> d[i][j] : if words1[:i] is same as words2[:j+1], so we delete the ith in words1
+d[i-1][j-1] --> d[i][j] : if words1[:i] is same as words2[:j], then we replace the words1[i] with words2[j]
+d[i][j-1] --> d[i][j] : if words1[:i+1] is same as words2[:j], then we insert words2[j] into words1
+
+how do we know the change path for the minimun edit path ?
+
+"""
+
 class Solution:
     def minDistance(self, word1, word2):
         """
