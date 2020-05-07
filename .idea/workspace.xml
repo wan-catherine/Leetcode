@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N993_Cousins_In_Binary_Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_993_cousins_in_binary_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bulb_switcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_bulb_switcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_summary_ranges.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_summary_ranges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/SortColors.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SortColors.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +128,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_single.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray_single Coverage Results" MODIFIED="1535771695431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_500.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_500 Coverage Results" MODIFIED="1534284299616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_climbing_stairs_TestSolution.coverage" NAME="Unittests for test_climbing_stairs.TestSolution Coverage Results" MODIFIED="1536801496175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution.coverage" NAME="Unittests for test_sort_colors.TestSolution Coverage Results" MODIFIED="1538017475322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution.coverage" NAME="Unittests for test_sort_colors.TestSolution Coverage Results" MODIFIED="1588884603241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_six.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_six Coverage Results" MODIFIED="1542051772231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximal_square_TestSolution.coverage" NAME="Unittests for test_maximal_square.TestSolution Coverage Results" MODIFIED="1545013801002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$ImplementStrStr.coverage" NAME="ImplementStrStr Coverage Results" MODIFIED="1535298956368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
@@ -291,6 +287,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange Coverage Results" MODIFIED="1535511769510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_518_coin_change_2py_TestSolution.coverage" NAME="Unittests for test_518_coin_change_2py.TestSolution Coverage Results" MODIFIED="1588428707963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_remove_nth_node_py.coverage" NAME="Unittests in test_remove_nth_node.py Coverage Results" MODIFIED="1534698265845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$SortColors.coverage" NAME="SortColors Coverage Results" MODIFIED="1588884053946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_empty.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_empty Coverage Results" MODIFIED="1533946357084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_break_TestSolution_test_wordBreak_three.coverage" NAME="Unittests for test_word_break.TestSolution.test_wordBreak_three Coverage Results" MODIFIED="1542157876757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rectangle_area_TestSolution_test_computeArea.coverage" NAME="Unittests for test_rectangle_area.TestSolution.test_computeArea Coverage Results" MODIFIED="1546356334998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -457,6 +454,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution_test_canFinish.coverage" NAME="Unittests for test_course_schedule.TestSolution.test_canFinish Coverage Results" MODIFIED="1543879540538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition_2.coverage" NAME="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition_2 Coverage Results" MODIFIED="1588430317749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_three_sum_closest_TestSolution_test_threeSumClosest_81.coverage" NAME="Unittests for test_three_sum_closest.TestSolution.test_threeSumClosest_81 Coverage Results" MODIFIED="1534546590370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution_test_sortColors.coverage" NAME="Unittests for test_sort_colors.TestSolution.test_sortColors Coverage Results" MODIFIED="1588884574865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_322_coin_change_TestSolution_test_coinChange_4.coverage" NAME="Unittests for test_322_coin_change.TestSolution.test_coinChange_4 Coverage Results" MODIFIED="1588427534619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_populating_next_right_pointers_each_node_ii_TestSolution_test_connect.coverage" NAME="Unittests for test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect Coverage Results" MODIFIED="1541719576098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_edit_distance_TestSolution_test_minDistance_three.coverage" NAME="Unittests for test_edit_distance.TestSolution.test_minDistance_three Coverage Results" MODIFIED="1547317601518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -590,26 +588,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="580" />
+          <entry key="py" value="582" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="580" />
+          <entry key="Python" value="582" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="6020" />
+          <entry key="Python Console" value="6118" />
           <entry key="dummy" value="65" />
-          <entry key="py" value="118591" />
+          <entry key="py" value="119343" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="124611" />
+          <entry key="Python" value="125461" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -621,11 +619,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/N993_Cousins_In_Binary_Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <marker date="1588872225239" expanded="true" signature="116:424" ph="..." />
               </folding>
@@ -633,14 +631,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_993_cousins_in_binary_tree.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/SortColors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="215">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_sort_colors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-115">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -684,7 +688,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_find_difference.py" />
         <option value="$PROJECT_DIR$/problems/KthSmallestElementSortedMatrix.py" />
         <option value="$PROJECT_DIR$/test/test_kth_smallest_element_sorted_matrix.py" />
         <option value="$PROJECT_DIR$/problems/GuessNumberHigherLower.py" />
@@ -735,6 +738,7 @@
         <option value="$PROJECT_DIR$/problems/N933_Cousins_In_Binary_Tree.py" />
         <option value="$PROJECT_DIR$/test/test_993_cousins_in_binary_tree.py" />
         <option value="$PROJECT_DIR$/problems/N993_Cousins_In_Binary_Tree.py" />
+        <option value="$PROJECT_DIR$/problems/SortColors.py" />
       </list>
     </option>
   </component>
@@ -744,7 +748,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="499" />
     <option name="width" value="1241" />
@@ -803,7 +807,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_993_cousins_in_binary_tree.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_sort_colors.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -823,6 +827,28 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
+    </configuration>
+    <configuration name="SortColors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/SortColors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
@@ -848,51 +874,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_10_regular_expression_matching.TestSolution.test_isMatch_5&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_6" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_10_regular_expression_matching.TestSolution.test_isMatch_6&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_7" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_10_regular_expression_matching.TestSolution.test_isMatch_7&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_993_cousins_in_binary_tree.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -908,20 +889,50 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_sort_colors.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sort_colors.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_sort_colors.TestSolution.test_sortColors" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sort_colors.TestSolution.test_sortColors&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_10_regular_expression_matching.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_5" />
-      <item itemvalue="Python tests.Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_6" />
-      <item itemvalue="Python tests.Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_7" />
       <item itemvalue="Python tests.Unittests for test_993_cousins_in_binary_tree.TestSolution" />
+      <item itemvalue="Python.SortColors" />
+      <item itemvalue="Python tests.Unittests for test_sort_colors.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_sort_colors.TestSolution.test_sortColors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_sort_colors.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_sort_colors.TestSolution.test_sortColors" />
+        <item itemvalue="Python.SortColors" />
         <item itemvalue="Python tests.Unittests for test_993_cousins_in_binary_tree.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_10_regular_expression_matching.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_7" />
-        <item itemvalue="Python tests.Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_6" />
-        <item itemvalue="Python tests.Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_5" />
       </list>
     </recent_temporary>
   </component>
@@ -939,35 +950,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution_test_isMatch_5 - 2020.05.06 at 18h 08m 00s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_5" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution - 2020.05.07 at 16h 41m 03s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution - 2020.05.06 at 18h 08m 27s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution - 2020.05.07 at 16h 41m 44s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution_test_isMatch_5 - 2020.05.06 at 18h 14m 35s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_5" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution - 2020.05.07 at 16h 42m 03s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution_test_isMatch_5 - 2020.05.06 at 18h 17m 11s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_5" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution - 2020.05.07 at 16h 43m 00s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution - 2020.05.06 at 18h 17m 15s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution_test_sortColors - 2020.05.07 at 16h 44m 48s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution.test_sortColors" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution_test_isMatch_6 - 2020.05.06 at 18h 18m 33s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_6" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution - 2020.05.07 at 16h 45m 00s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution - 2020.05.06 at 18h 28m 48s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution - 2020.05.07 at 16h 46m 39s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution_test_isMatch_7 - 2020.05.06 at 18h 29m 52s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_7" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution - 2020.05.07 at 16h 48m 34s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution - 2020.05.06 at 18h 41m 25s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution_test_sortColors - 2020.05.07 at 16h 49m 35s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution.test_sortColors" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_10_regular_expression_matching_TestSolution - 2020.05.06 at 19h 38m 09s.xml">
-      <configuration name="Unittests for test_10_regular_expression_matching.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_sort_colors_TestSolution - 2020.05.07 at 16h 50m 03s.xml">
+      <configuration name="Unittests for test_sort_colors.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -980,15 +991,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
+    <frame x="1920" y="499" width="1241" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.1943286" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.323603" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2671533" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3970803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4627737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1527,20 +1538,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/SearchInBinarySearchTree_700.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_search_in_a_binary_search_tree_700.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/DeleteNodeInBST_450.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1876,8 +1873,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_993_cousins_in_binary_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="84">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -1886,11 +1883,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N993_Cousins_In_Binary_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <marker date="1588872225239" expanded="true" signature="116:424" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_sort_colors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/SortColors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
         </state>
       </provider>
     </entry>
