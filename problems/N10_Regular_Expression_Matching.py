@@ -22,7 +22,7 @@ d[i][j] (i > 0, j > 0):
     else:
         d[i][j] = False  p[j-1] != s[i-1]
 
-I tried four time and finally accepted .
+I tried four times and finally accepted .
 The failed reason is the base situation. In the status transform formula, we use j-2, i-1, so when need to check when i=0,j=0 or 1.
 """
 
