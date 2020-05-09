@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/others/sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N367_Valid_Perfect_Square.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_367_valid_perfect_square.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/FindFirstLastPositionElementSortedArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/FindFirstLastPositionElementSortedArray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_find_first_last_position_element_sorted_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_find_first_last_position_element_sorted_array.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +13,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_no.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no Coverage Results" MODIFIED="1535510672353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_linked_list_elements_TestSolution.coverage" NAME="Unittests for test_remove_linked_list_elements.TestSolution Coverage Results" MODIFIED="1544225216991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_no.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no Coverage Results" MODIFIED="1589062432905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_populating_next_right_pointers_each_node_TestSolution_test_connect.coverage" NAME="Unittests for test_populating_next_right_pointers_each_node.TestSolution.test_connect Coverage Results" MODIFIED="1541255718733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_TestSolution_test_rob_one.coverage" NAME="Unittests for test_house_robber.TestSolution.test_rob_one Coverage Results" MODIFIED="1542772257339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_TestSolution.coverage" NAME="Unittests for test_jump_game.TestSolution Coverage Results" MODIFIED="1536704701733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -100,7 +99,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_subsets_ii_TestSolution.coverage" NAME="Unittests for test_subsets_ii.TestSolution Coverage Results" MODIFIED="1539444379092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_two.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_two Coverage Results" MODIFIED="1539573460006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_night.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_night Coverage Results" MODIFIED="1539573481271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution Coverage Results" MODIFIED="1535511892944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution Coverage Results" MODIFIED="1589062562242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_missing_number_TestSolution_test_missingNumber_two.coverage" NAME="Unittests for test_missing_number.TestSolution.test_missingNumber_two Coverage Results" MODIFIED="1547506276585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku.coverage" NAME="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku Coverage Results" MODIFIED="1535896021085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_bitwise_and_numbers_range_TestSolution.coverage" NAME="Unittests for test_bitwise_and_numbers_range.TestSolution Coverage Results" MODIFIED="1544052942887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -123,6 +122,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Add_Two_Numbers_Without_Add.coverage" NAME="Add_Two_Numbers_Without_Add Coverage Results" MODIFIED="1588702784630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion_two.coverage" NAME="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_two Coverage Results" MODIFIED="1542669902533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_delete_node_linked_list_TestSolution.coverage" NAME="Unittests for test_delete_node_linked_list.TestSolution Coverage Results" MODIFIED="1545400613483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_1.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_1 Coverage Results" MODIFIED="1589062690788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_iii_TestSolution_test_maxProfit.coverage" NAME="Unittests for test_best_time_buy_sell_stock_iii.TestSolution.test_maxProfit Coverage Results" MODIFIED="1542473972432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_ii_TestSolution_test_maxProfit_three.coverage" NAME="Unittests for test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit_three Coverage Results" MODIFIED="1541549790028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_invalid_parentheses_TestSolution_test_removeInvalidParentheses_two.coverage" NAME="Unittests for test_remove_invalid_parentheses.TestSolution.test_removeInvalidParentheses_two Coverage Results" MODIFIED="1545943497258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -289,8 +289,8 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_from_sorted_array_ii_TestSolution_test_removeDuplicates_dup.coverage" NAME="Unittests for test_remove_duplicates_from_sorted_array_ii.TestSolution.test_removeDuplicates_dup Coverage Results" MODIFIED="1538435310407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_single_number_ii_TestSolution.coverage" NAME="Unittests for test_single_number_ii.TestSolution Coverage Results" MODIFIED="1588713553880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_zero.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_zero Coverage Results" MODIFIED="1542051780018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange Coverage Results" MODIFIED="1535511769510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_518_coin_change_2py_TestSolution.coverage" NAME="Unittests for test_518_coin_change_2py.TestSolution Coverage Results" MODIFIED="1588428707963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange Coverage Results" MODIFIED="1589062388287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_remove_nth_node_py.coverage" NAME="Unittests in test_remove_nth_node.py Coverage Results" MODIFIED="1534698265845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$SortColors.coverage" NAME="SortColors Coverage Results" MODIFIED="1588884053946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_empty.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_empty Coverage Results" MODIFIED="1533946357084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -404,7 +404,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_n124_binary_tree_maximum_path_sum_TestSolution_test_maxPathSum.coverage" NAME="Unittests for test_n124_binary_tree_maximum_path_sum.TestSolution.test_maxPathSum Coverage Results" MODIFIED="1588173614152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_edit_distance_TestSolution.coverage" NAME="Unittests for test_edit_distance.TestSolution Coverage Results" MODIFIED="1547318294934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings Coverage Results" MODIFIED="1539573455072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_super_long.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_super_long Coverage Results" MODIFIED="1535510686902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_super_long.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_super_long Coverage Results" MODIFIED="1589062404502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_405_py.coverage" NAME="Unittests in test_405.py Coverage Results" MODIFIED="1587948971316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution_test_threeSum_with_list.coverage" NAME="Unittests for test_3Sum.TestSolution.test_threeSum_with_list Coverage Results" MODIFIED="1534460315701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_happy_number_TestSolution_test_isHappy.coverage" NAME="Unittests for test_happy_number.TestSolution.test_isHappy Coverage Results" MODIFIED="1543965184976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -427,7 +427,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_invalid_parentheses_TestSolution_test_removeInvalidParentheses_three.coverage" NAME="Unittests for test_remove_invalid_parentheses.TestSolution.test_removeInvalidParentheses_three Coverage Results" MODIFIED="1545943729331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_vowels_string_TestSolution_test_reverseVowels_one.coverage" NAME="Unittests for test_reverse_vowels_string.TestSolution.test_reverseVowels_one Coverage Results" MODIFIED="1546998637009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_subsets_TestSolution.coverage" NAME="Unittests for test_subsets.TestSolution Coverage Results" MODIFIED="1538169515025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_long.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_long Coverage Results" MODIFIED="1535510905536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_long.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_long Coverage Results" MODIFIED="1589062401739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_binary_search_trees_ii_TestSolution_test_generateTrees.coverage" NAME="Unittests for test_unique_binary_search_trees_ii.TestSolution.test_generateTrees Coverage Results" MODIFIED="1540132602199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_word_lengths_TestSolution.coverage" NAME="Unittests for test_maximum_product_word_lengths.TestSolution Coverage Results" MODIFIED="1546221230605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_n124_binary_tree_maximum_path_sum_TestSolution_test_maxPathSum_three.coverage" NAME="Unittests for test_n124_binary_tree_maximum_path_sum.TestSolution.test_maxPathSum_three Coverage Results" MODIFIED="1588176243788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -575,11 +575,11 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="188" />
+          <entry key="project.closed" value="189" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="57" />
-          <entry key="project.open.time.11" value="26" />
+          <entry key="project.open.time.11" value="27" />
           <entry key="project.open.time.12" value="14" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="3" />
@@ -591,32 +591,32 @@
           <entry key="project.open.time.7" value="8" />
           <entry key="project.open.time.8" value="17" />
           <entry key="project.open.time.9" value="50" />
-          <entry key="project.opened" value="189" />
+          <entry key="project.opened" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="590" />
+          <entry key="py" value="592" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="590" />
+          <entry key="Python" value="592" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6227" />
           <entry key="dummy" value="65" />
-          <entry key="py" value="124155" />
+          <entry key="py" value="124542" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="130382" />
+          <entry key="Python" value="130769" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -640,8 +640,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/N887_Super_Egg_Drop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="52" column="74" lean-forward="true" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
+            <state relative-caret-position="1092">
+              <caret line="52" column="74" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -653,18 +653,34 @@
               <caret line="77" column="68" selection-start-line="77" selection-start-column="68" selection-end-line="77" selection-end-column="68" />
               <folding>
                 <marker date="1589046191712" expanded="true" signature="26:31" ph="..." />
-                <marker date="1589046191712" expanded="true" signature="1626:2295" ph="..." />
-                <marker date="1589046191712" expanded="true" signature="1726:2090" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/N367_Valid_Perfect_Square.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="441">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/FindFirstLastPositionElementSortedArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_find_first_last_position_element_sorted_array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -672,7 +688,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_367_valid_perfect_square.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="42">
               <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -726,8 +742,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversal.py" />
-        <option value="$PROJECT_DIR$/test/test_validate_binary_search_tree.py" />
         <option value="$PROJECT_DIR$/problems/ValidateBinarySearchTree.py" />
         <option value="$PROJECT_DIR$/problems/SearchInBinarySearchTree_700.py" />
         <option value="$PROJECT_DIR$/test/test_search_in_a_binary_search_tree_700.py" />
@@ -777,6 +791,8 @@
         <option value="$PROJECT_DIR$/others/sort.py" />
         <option value="$PROJECT_DIR$/test/test_367_valid_perfect_square.py" />
         <option value="$PROJECT_DIR$/problems/N367_Valid_Perfect_Square.py" />
+        <option value="$PROJECT_DIR$/test/test_find_first_last_position_element_sorted_array.py" />
+        <option value="$PROJECT_DIR$/problems/FindFirstLastPositionElementSortedArray.py" />
       </list>
     </option>
   </component>
@@ -807,6 +823,11 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -840,7 +861,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_367_valid_perfect_square.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_1">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -861,28 +882,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -892,7 +891,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_367_valid_perfect_square.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -903,11 +902,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_367_valid_perfect_square.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_find_first_last_position_element_sorted_array.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_887_super_egg_drop.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -918,11 +917,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_887_super_egg_drop.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_887_super_egg_drop.TestSolution.test_superEggDrop_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_long" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -933,11 +932,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_887_super_egg_drop.TestSolution.test_superEggDrop_1&quot;" />
+      <option name="_new_target" value="&quot;test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_long&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_887_super_egg_drop.TestSolution.test_superEggDrop_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -948,24 +947,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_887_super_egg_drop.TestSolution.test_superEggDrop_2&quot;" />
+      <option name="_new_target" value="&quot;test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_super_long" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_super_long&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_887_super_egg_drop.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_887_super_egg_drop.TestSolution.test_superEggDrop_2" />
-      <item itemvalue="Python tests.Unittests for test_887_super_egg_drop.TestSolution.test_superEggDrop_1" />
-      <item itemvalue="Python.sort" />
-      <item itemvalue="Python tests.Unittests for test_367_valid_perfect_square.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no" />
+      <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_long" />
+      <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_super_long" />
+      <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_367_valid_perfect_square.TestSolution" />
-        <item itemvalue="Python.sort" />
-        <item itemvalue="Python tests.Unittests for test_887_super_egg_drop.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_887_super_egg_drop.TestSolution.test_superEggDrop_1" />
-        <item itemvalue="Python tests.Unittests for test_887_super_egg_drop.TestSolution.test_superEggDrop_2" />
+        <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_1" />
+        <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no" />
+        <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_super_long" />
+        <item itemvalue="Python tests.Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_long" />
       </list>
     </recent_temporary>
   </component>
@@ -983,35 +997,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_887_super_egg_drop_TestSolution_test_superEggDrop_1 - 2020.05.08 at 15h 45m 03s.xml">
-      <configuration name="Unittests for test_887_super_egg_drop.TestSolution.test_superEggDrop_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange - 2020.05.09 at 18h 12m 23s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_887_super_egg_drop_TestSolution_test_superEggDrop_1 - 2020.05.08 at 15h 47m 28s.xml">
-      <configuration name="Unittests for test_887_super_egg_drop.TestSolution.test_superEggDrop_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange - 2020.05.09 at 18h 13m 08s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_887_super_egg_drop_TestSolution_test_superEggDrop_1 - 2020.05.08 at 15h 48m 22s.xml">
-      <configuration name="Unittests for test_887_super_egg_drop.TestSolution.test_superEggDrop_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution - 2020.05.09 at 18h 13m 12s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_887_super_egg_drop_TestSolution - 2020.05.08 at 15h 48m 25s.xml">
-      <configuration name="Unittests for test_887_super_egg_drop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_no - 2020.05.09 at 18h 13m 17s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_887_super_egg_drop_TestSolution - 2020.05.08 at 16h 20m 24s.xml">
-      <configuration name="Unittests for test_887_super_egg_drop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_long - 2020.05.09 at 18h 13m 22s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_long" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_887_super_egg_drop_TestSolution - 2020.05.08 at 16h 50m 58s.xml">
-      <configuration name="Unittests for test_887_super_egg_drop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_super_long - 2020.05.09 at 18h 13m 24s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_super_long" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_887_super_egg_drop_TestSolution - 2020.05.08 at 16h 51m 15s.xml">
-      <configuration name="Unittests for test_887_super_egg_drop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_no - 2020.05.09 at 18h 14m 09s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_887_super_egg_drop_TestSolution - 2020.05.08 at 16h 51m 35s.xml">
-      <configuration name="Unittests for test_887_super_egg_drop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution - 2020.05.09 at 18h 14m 36s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_367_valid_perfect_square_TestSolution - 2020.05.09 at 13h 52m 01s.xml">
-      <configuration name="Unittests for test_367_valid_perfect_square.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution - 2020.05.09 at 18h 16m 02s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_367_valid_perfect_square_TestSolution - 2020.05.09 at 13h 52m 09s.xml">
-      <configuration name="Unittests for test_367_valid_perfect_square.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_1 - 2020.05.09 at 18h 17m 24s.xml">
+      <configuration name="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_1" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1027,12 +1041,12 @@
     <frame x="1920" y="499" width="1241" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.23352794" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.23686406" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1970803" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33138686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4627737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1571,23 +1585,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_binary_tree_pruning_814.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N124_Binary_Tree_Maximum_Path_Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_518_coin_change_2py.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1804,11 +1801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
           <caret line="48" column="56" lean-forward="true" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
-          <folding>
-            <marker date="1588431991615" expanded="true" signature="92:1833" ph="..." />
-            <marker date="1588431991615" expanded="true" signature="1366:1833" ph="..." />
-            <marker date="1588431991615" expanded="true" signature="2579:2587" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1882,6 +1874,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N887_Super_Egg_Drop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="74" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="77" column="68" selection-start-line="77" selection-start-column="68" selection-end-line="77" selection-end-column="68" />
+          <folding>
+            <marker date="1589046191712" expanded="true" signature="26:31" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N367_Valid_Perfect_Square.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_367_valid_perfect_square.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_887_super_egg_drop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -1902,39 +1928,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N887_Super_Egg_Drop.py">
+    <entry file="file://$PROJECT_DIR$/test/test_find_first_last_position_element_sorted_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="52" column="74" lean-forward="true" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
+        <state relative-caret-position="242">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/sort.py">
+    <entry file="file://$PROJECT_DIR$/problems/FindFirstLastPositionElementSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="77" column="68" selection-start-line="77" selection-start-column="68" selection-end-line="77" selection-end-column="68" />
-          <folding>
-            <marker date="1589046191712" expanded="true" signature="26:31" ph="..." />
-            <marker date="1589046191712" expanded="true" signature="1626:2295" ph="..." />
-            <marker date="1589046191712" expanded="true" signature="1726:2090" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_367_valid_perfect_square.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N367_Valid_Perfect_Square.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="280">
+          <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
         </state>
       </provider>
     </entry>
