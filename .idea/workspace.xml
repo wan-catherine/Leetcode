@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N463_Island_Perimeter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_463_island_perimeter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N540_Single_Element_In_A_Sorted_Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_540_single_element_in_a_sorted_array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,6 +113,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist_special.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist_special Coverage Results" MODIFIED="1538324002756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution Coverage Results" MODIFIED="1538530874182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Best_Time_Buy_Sell_Stock_With_Cooldown_TestSolution.coverage" NAME="Unittests for test_Best_Time_Buy_Sell_Stock_With_Cooldown.TestSolution Coverage Results" MODIFIED="1546014827844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_540_single_element_in_a_sorted_array_TestSolution.coverage" NAME="Unittests for test_540_single_element_in_a_sorted_array.TestSolution Coverage Results" MODIFIED="1589303411576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution_test_isScramble_two.coverage" NAME="Unittests for test_scramble_string.TestSolution.test_isScramble_two Coverage Results" MODIFIED="1539529631341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution.coverage" NAME="Unittests for test_course_schedule.TestSolution Coverage Results" MODIFIED="1543880658578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_contains_duplicate_ii_TestSolution.coverage" NAME="Unittests for test_contains_duplicate_ii.TestSolution Coverage Results" MODIFIED="1544925820937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -486,6 +487,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_six.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_six Coverage Results" MODIFIED="1539573471956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_count_complete_tree_nodes_TestSolution_test_countNodes.coverage" NAME="Unittests for test_count_complete_tree_nodes.TestSolution.test_countNodes Coverage Results" MODIFIED="1545091757257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_n124_binary_tree_maximum_path_sum_py.coverage" NAME="Unittests in test_n124_binary_tree_maximum_path_sum.py Coverage Results" MODIFIED="1588172106330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_540_single_element_in_a_sorted_array_TestSolution_test_singleNonDuplicate.coverage" NAME="Unittests for test_540_single_element_in_a_sorted_array.TestSolution.test_singleNonDuplicate Coverage Results" MODIFIED="1589303320083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_zigzag_conversion_py.coverage" NAME="Unittests in test_zigzag_conversion.py Coverage Results" MODIFIED="1533946728685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution_test_simplifyPath_2.coverage" NAME="Unittests for test_simplify_path.TestSolution.test_simplifyPath_2 Coverage Results" MODIFIED="1537624150672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_restore_ip_addresses_TestSolution_test_restoreIpAddresses_two.coverage" NAME="Unittests for test_restore_ip_addresses.TestSolution.test_restoreIpAddresses_two Coverage Results" MODIFIED="1539904002680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -580,7 +582,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="191" />
+          <entry key="project.closed" value="192" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="58" />
@@ -590,38 +592,38 @@
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="8" />
           <entry key="project.open.time.8" value="17" />
           <entry key="project.open.time.9" value="50" />
-          <entry key="project.opened" value="192" />
+          <entry key="project.opened" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="598" />
+          <entry key="py" value="600" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="598" />
+          <entry key="Python" value="600" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="6329" />
+          <entry key="Python Console" value="6337" />
           <entry key="dummy" value="65" />
-          <entry key="py" value="126002" />
+          <entry key="py" value="126897" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="132331" />
+          <entry key="Python" value="133234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -633,65 +635,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/N997_Find_The_Town_Judge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/N733_Flood_Fill.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-              <folding>
-                <marker date="1589210621229" expanded="true" signature="463:472" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N463_Island_Perimeter.py">
+        <entry file="file://$PROJECT_DIR$/problems/N540_Single_Element_In_A_Sorted_Array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_463_island_perimeter.py">
+        <entry file="file://$PROJECT_DIR$/test/test_540_single_element_in_a_sorted_array.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_733_flood_fill.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_997_find_the_town_judge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -720,8 +677,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/CountCompleteTreeNodes.py" />
-        <option value="$PROJECT_DIR$/test/test_binary_tree_pruning_814.py" />
         <option value="$PROJECT_DIR$/problems/BinaryTreePruning_814.py" />
         <option value="$PROJECT_DIR$/problems/Utility_Tree.py" />
         <option value="$PROJECT_DIR$/test/test_n124_binary_tree_maximum_path_sum.py" />
@@ -771,6 +726,8 @@
         <option value="$PROJECT_DIR$/problems/N733_Flood_Fill.py" />
         <option value="$PROJECT_DIR$/test/test_463_island_perimeter.py" />
         <option value="$PROJECT_DIR$/problems/N463_Island_Perimeter.py" />
+        <option value="$PROJECT_DIR$/test/test_540_single_element_in_a_sorted_array.py" />
+        <option value="$PROJECT_DIR$/problems/N540_Single_Element_In_A_Sorted_Array.py" />
       </list>
     </option>
   </component>
@@ -794,6 +751,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -810,7 +768,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -839,7 +796,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_463_island_perimeter.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_540_single_element_in_a_sorted_array.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -899,6 +856,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_540_single_element_in_a_sorted_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_540_single_element_in_a_sorted_array.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_540_single_element_in_a_sorted_array.TestSolution.test_singleNonDuplicate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_540_single_element_in_a_sorted_array.TestSolution.test_singleNonDuplicate&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_733_flood_fill.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -914,50 +901,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_997_find_the_town_judge.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_997_find_the_town_judge.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_733_flood_fill.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_733_flood_fill.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_997_find_the_town_judge.TestSolution" />
-      <item itemvalue="Python tests.Unittests in test_733_flood_fill.py" />
       <item itemvalue="Python tests.Unittests for test_733_flood_fill.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_463_island_perimeter.TestSolution.test_islandPerimeter" />
       <item itemvalue="Python tests.Unittests for test_463_island_perimeter.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_540_single_element_in_a_sorted_array.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_540_single_element_in_a_sorted_array.TestSolution.test_singleNonDuplicate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_540_single_element_in_a_sorted_array.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_540_single_element_in_a_sorted_array.TestSolution.test_singleNonDuplicate" />
         <item itemvalue="Python tests.Unittests for test_463_island_perimeter.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_463_island_perimeter.TestSolution.test_islandPerimeter" />
         <item itemvalue="Python tests.Unittests for test_733_flood_fill.TestSolution" />
-        <item itemvalue="Python tests.Unittests in test_733_flood_fill.py" />
-        <item itemvalue="Python tests.Unittests for test_997_find_the_town_judge.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -975,18 +932,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_733_flood_fill_TestSolution - 2020.05.11 at 11h 16m 03s.xml">
-      <configuration name="Unittests for test_733_flood_fill.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_733_flood_fill_TestSolution - 2020.05.11 at 11h 16m 52s.xml">
-      <configuration name="Unittests for test_733_flood_fill.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_733_flood_fill_TestSolution - 2020.05.11 at 11h 17m 15s.xml">
-      <configuration name="Unittests for test_733_flood_fill.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_733_flood_fill_TestSolution - 2020.05.11 at 11h 18m 00s.xml">
-      <configuration name="Unittests for test_733_flood_fill.TestSolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_733_flood_fill_TestSolution - 2020.05.11 at 11h 18m 36s.xml">
       <configuration name="Unittests for test_733_flood_fill.TestSolution" configurationId="tests" />
     </history-entry>
@@ -1005,6 +950,18 @@
     <history-entry file="Unittests_for_test_463_island_perimeter_TestSolution - 2020.05.11 at 12h 31m 30s.xml">
       <configuration name="Unittests for test_463_island_perimeter.TestSolution" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_463_island_perimeter_TestSolution - 2020.05.11 at 12h 31m 36s.xml">
+      <configuration name="Unittests for test_463_island_perimeter.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_540_single_element_in_a_sorted_array_TestSolution - 2020.05.12 at 13h 08m 15s.xml">
+      <configuration name="Unittests for test_540_single_element_in_a_sorted_array.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_540_single_element_in_a_sorted_array_TestSolution_test_singleNonDuplicate - 2020.05.12 at 13h 09m 57s.xml">
+      <configuration name="Unittests for test_540_single_element_in_a_sorted_array.TestSolution.test_singleNonDuplicate" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_540_single_element_in_a_sorted_array_TestSolution - 2020.05.12 at 13h 10m 11s.xml">
+      <configuration name="Unittests for test_540_single_element_in_a_sorted_array.TestSolution" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1019,13 +976,13 @@
     <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.24437031" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.24854045" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.60583943" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4627737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41459855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4627737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1568,16 +1525,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/BinaryTreeLevelOrderTraversalII.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_188_best_time_buy_and_sell_stock_iv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N188_Best_Time_Buy_Sell_Stock_IV.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1875,37 +1822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N997_Find_The_Town_Judge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_997_find_the_town_judge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_733_flood_fill.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N733_Flood_Fill.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="147">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <marker date="1589210621229" expanded="true" signature="463:472" ph="..." />
           </folding>
@@ -1922,10 +1842,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_733_flood_fill.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_997_find_the_town_judge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N463_Island_Perimeter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="462">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N997_Find_The_Town_Judge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_540_single_element_in_a_sorted_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N540_Single_Element_In_A_Sorted_Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
