@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N540_Single_Element_In_A_Sorted_Array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_540_single_element_in_a_sorted_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N278_First_Bad_Version.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -604,26 +603,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="600" />
+          <entry key="py" value="601" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="600" />
+          <entry key="Python" value="601" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6337" />
           <entry key="dummy" value="65" />
-          <entry key="py" value="126897" />
+          <entry key="py" value="127018" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="133234" />
+          <entry key="Python" value="133355" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -636,21 +635,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N540_Single_Element_In_A_Sorted_Array.py">
+        <entry file="file://$PROJECT_DIR$/problems/N278_First_Bad_Version.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_540_single_element_in_a_sorted_array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="462">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="22" selection-end-column="16" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1589304458735" expanded="true" signature="123:134" ph="..." />
               </folding>
             </state>
           </provider>
@@ -677,7 +667,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/BinaryTreePruning_814.py" />
         <option value="$PROJECT_DIR$/problems/Utility_Tree.py" />
         <option value="$PROJECT_DIR$/test/test_n124_binary_tree_maximum_path_sum.py" />
         <option value="$PROJECT_DIR$/problems/N124_Binary_Tree_Maximum_Path_Sum.py" />
@@ -728,6 +717,7 @@
         <option value="$PROJECT_DIR$/problems/N463_Island_Perimeter.py" />
         <option value="$PROJECT_DIR$/test/test_540_single_element_in_a_sorted_array.py" />
         <option value="$PROJECT_DIR$/problems/N540_Single_Element_In_A_Sorted_Array.py" />
+        <option value="$PROJECT_DIR$/problems/N278_First_Bad_Version.py" />
       </list>
     </option>
   </component>
@@ -976,7 +966,7 @@
     <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.24854045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.24854045" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1525,13 +1515,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N188_Best_Time_Buy_Sell_Stock_IV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/BestTimeBuySellStockIII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
@@ -1876,6 +1859,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N540_Single_Element_In_A_Sorted_Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_540_single_element_in_a_sorted_array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1886,10 +1876,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N540_Single_Element_In_A_Sorted_Array.py">
+    <entry file="file://$PROJECT_DIR$/problems/N278_First_Bad_Version.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="462">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <marker date="1589304458735" expanded="true" signature="123:134" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
