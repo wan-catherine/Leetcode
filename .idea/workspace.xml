@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N208_Implement_Trie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N918_Maximum_Sum_Circular_Subarrary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_918_maximum_sum_circular_subarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +31,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_10_regular_expression_matching_TestSolution_test_isMatch_5.coverage" NAME="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_5 Coverage Results" MODIFIED="1588803431621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_spiral_matrix_TestSolution_test_spiralOrder.coverage" NAME="Unittests for test_spiral_matrix.TestSolution.test_spiralOrder Coverage Results" MODIFIED="1536879833730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring Coverage Results" MODIFIED="1542051768949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_4.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4 Coverage Results" MODIFIED="1589584612955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_postorder_traversal_TestSolution_test_postorderTraversal.coverage" NAME="Unittests for test_binary_tree_postorder_traversal.TestSolution.test_postorderTraversal Coverage Results" MODIFIED="1542319843429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_populating_next_right_pointers_each_node_TestSolution.coverage" NAME="Unittests for test_populating_next_right_pointers_each_node.TestSolution Coverage Results" MODIFIED="1541256039094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_contains_duplicate_iii_TestSolution.coverage" NAME="Unittests for test_contains_duplicate_iii.TestSolution Coverage Results" MODIFIED="1544976738670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -82,6 +84,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution.coverage" NAME="Unittests for test_3Sum.TestSolution Coverage Results" MODIFIED="1534460361075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_TestSolution_test_combinationSum_1.coverage" NAME="Unittests for test_combination_sum.TestSolution.test_combinationSum_1 Coverage Results" MODIFIED="1536108544967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_right_side_view_TestSolution_test_rightSideView.coverage" NAME="Unittests for test_binary_tree_right_side_view.TestSolution.test_rightSideView Coverage Results" MODIFIED="1543450387457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular Coverage Results" MODIFIED="1589584399102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_peak_element_TestSolution.coverage" NAME="Unittests for test_find_peak_element.TestSolution Coverage Results" MODIFIED="1543160466139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534894333931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_move_zeroes_TestSolution_test_moveZeroes.coverage" NAME="Unittests for test_move_zeroes.TestSolution.test_moveZeroes Coverage Results" MODIFIED="1545699576144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -244,6 +247,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_string_to_integer_py.coverage" NAME="Unittests in test_string_to_integer.py Coverage Results" MODIFIED="1534089916660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_TestSolution.coverage" NAME="Unittests for test_combination_sum.TestSolution Coverage Results" MODIFIED="1536107443770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_palindromic_substring_TestSolution_test_longestPalindrome.coverage" NAME="Unittests for test_longest_palindromic_substring.TestSolution.test_longestPalindrome Coverage Results" MODIFIED="1541961214110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_2.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_2 Coverage Results" MODIFIED="1589584401863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_digits_TestSolution.coverage" NAME="Unittests for test_add_digits.TestSolution Coverage Results" MODIFIED="1547679281419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_402_remove_k_digits_TestSolution_test_removeKdigits_1.coverage" NAME="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_1 Coverage Results" MODIFIED="1589413121824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_405_TestSolution.coverage" NAME="Unittests for test_405.TestSolution Coverage Results" MODIFIED="1588019572188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -357,6 +361,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_ii_TestSolution_test_maxProfit.coverage" NAME="Unittests for test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit Coverage Results" MODIFIED="1588517632168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_first.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_first Coverage Results" MODIFIED="1534693834385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_array_TestSolution_test_rotate.coverage" NAME="Unittests for test_rotate_array.TestSolution.test_rotate Coverage Results" MODIFIED="1542858116382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_1.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_1 Coverage Results" MODIFIED="1589584395505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist Coverage Results" MODIFIED="1538323998132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_ii_TestSolution_test_rob_six.coverage" NAME="Unittests for test_house_robber_ii.TestSolution.test_rob_six Coverage Results" MODIFIED="1544761005054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution.coverage" NAME="Unittests for test_scramble_string.TestSolution Coverage Results" MODIFIED="1539530702085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -417,6 +422,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution_test_threeSum_with_list.coverage" NAME="Unittests for test_3Sum.TestSolution.test_threeSum_with_list Coverage Results" MODIFIED="1534460315701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_happy_number_TestSolution_test_isHappy.coverage" NAME="Unittests for test_happy_number.TestSolution.test_isHappy Coverage Results" MODIFIED="1543965184976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution_test_simplifyPath_1.coverage" NAME="Unittests for test_simplify_path.TestSolution.test_simplifyPath_1 Coverage Results" MODIFIED="1537624097992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution Coverage Results" MODIFIED="1589584718676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd Coverage Results" MODIFIED="1534693905096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution_test_setZeroes_single_row.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution.test_setZeroes_single_row Coverage Results" MODIFIED="1537830412988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_swap_pairs_TestSolution.coverage" NAME="Unittests for test_swap_pairs.TestSolution Coverage Results" MODIFIED="1534894392427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -437,6 +443,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_subsets_TestSolution.coverage" NAME="Unittests for test_subsets.TestSolution Coverage Results" MODIFIED="1538169515025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_long.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_long Coverage Results" MODIFIED="1589062401739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_binary_search_trees_ii_TestSolution_test_generateTrees.coverage" NAME="Unittests for test_unique_binary_search_trees_ii.TestSolution.test_generateTrees Coverage Results" MODIFIED="1540132602199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_3.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3 Coverage Results" MODIFIED="1589584404524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_word_lengths_TestSolution.coverage" NAME="Unittests for test_maximum_product_word_lengths.TestSolution Coverage Results" MODIFIED="1546221230605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_n124_binary_tree_maximum_path_sum_TestSolution_test_maxPathSum_three.coverage" NAME="Unittests for test_n124_binary_tree_maximum_path_sum.TestSolution.test_maxPathSum_three Coverage Results" MODIFIED="1588176243788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_minimum_path_sum_TestSolution.coverage" NAME="Unittests for test_minimum_path_sum.TestSolution Coverage Results" MODIFIED="1537401647220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -588,7 +595,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="194" />
+          <entry key="project.closed" value="195" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="58" />
@@ -596,7 +603,7 @@
           <entry key="project.open.time.12" value="14" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="3" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.3" value="1" />
@@ -604,32 +611,32 @@
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="17" />
           <entry key="project.open.time.9" value="50" />
-          <entry key="project.opened" value="195" />
+          <entry key="project.opened" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="604" />
+          <entry key="py" value="606" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="604" />
+          <entry key="Python" value="606" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6427" />
           <entry key="dummy" value="65" />
-          <entry key="py" value="128332" />
+          <entry key="py" value="130595" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="134759" />
+          <entry key="Python" value="137022" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -641,32 +648,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/N402_Remove_K_Digits.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N208_Implement_Trie.py">
+        <entry file="file://$PROJECT_DIR$/problems/N918_Maximum_Sum_Circular_Subarrary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding>
-                <marker date="1589496620802" expanded="true" signature="15:113" ph="..." />
-              </folding>
+            <state relative-caret-position="461">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_402_remove_k_digits.py">
+        <entry file="file://$PROJECT_DIR$/test/test_918_maximum_sum_circular_subarray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="63">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -695,8 +690,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_322_coin_change.py" />
-        <option value="$PROJECT_DIR$/test/test_518_coin_change_2py.py" />
         <option value="$PROJECT_DIR$/test/test_416_partition_equal_subnet_sum.py" />
         <option value="$PROJECT_DIR$/problems/N416_Partition_Equal_Subnet_Sum.py" />
         <option value="$PROJECT_DIR$/problems/N322_Coin_Change.py" />
@@ -746,6 +739,8 @@
         <option value="$PROJECT_DIR$/test/test_402_remove_k_digits.py" />
         <option value="$PROJECT_DIR$/problems/N402_Remove_K_Digits.py" />
         <option value="$PROJECT_DIR$/problems/N208_Implement_Trie.py" />
+        <option value="$PROJECT_DIR$/test/test_918_maximum_sum_circular_subarray.py" />
+        <option value="$PROJECT_DIR$/problems/N918_Maximum_Sum_Circular_Subarrary.py" />
       </list>
     </option>
   </component>
@@ -769,7 +764,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -786,6 +780,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -814,7 +809,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.N208_Implement_Trie">
+  <component name="RunManager" selected="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -835,28 +830,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="N208_Implement_Trie" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/N208_Implement_Trie.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -866,7 +839,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_402_remove_k_digits.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -877,11 +850,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_402_remove_k_digits.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_918_maximum_sum_circular_subarray.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -892,11 +865,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_402_remove_k_digits.TestSolution.test_removeKdigits&quot;" />
+      <option name="_new_target" value="&quot;test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -907,11 +880,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_402_remove_k_digits.TestSolution.test_removeKdigits_1&quot;" />
+      <option name="_new_target" value="&quot;test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -922,24 +895,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_402_remove_k_digits.TestSolution.test_removeKdigits_2&quot;" />
+      <option name="_new_target" value="&quot;test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_402_remove_k_digits.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits" />
-      <item itemvalue="Python tests.Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_1" />
-      <item itemvalue="Python tests.Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_2" />
-      <item itemvalue="Python.N208_Implement_Trie" />
+      <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular" />
+      <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_2" />
+      <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3" />
+      <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" />
+      <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.N208_Implement_Trie" />
-        <item itemvalue="Python tests.Unittests for test_402_remove_k_digits.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_2" />
-        <item itemvalue="Python tests.Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_1" />
-        <item itemvalue="Python tests.Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits" />
+        <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" />
+        <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3" />
+        <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_2" />
+        <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular" />
       </list>
     </recent_temporary>
   </component>
@@ -957,35 +945,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution_test_removeKdigits_4 - 2020.05.13 at 19h 37m 46s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_4" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_2 - 2020.05.15 at 19h 12m 38s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution - 2020.05.13 at 19h 38m 09s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_1 - 2020.05.15 at 19h 13m 03s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution_test_removeKdigits - 2020.05.13 at 19h 38m 38s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution - 2020.05.15 at 19h 13m 11s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution_test_removeKdigits_1 - 2020.05.13 at 19h 38m 42s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_1 - 2020.05.15 at 19h 13m 15s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution_test_removeKdigits_2 - 2020.05.13 at 19h 38m 45s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular - 2020.05.15 at 19h 13m 19s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution_test_removeKdigits_2 - 2020.05.13 at 19h 40m 23s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_2 - 2020.05.15 at 19h 13m 22s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution - 2020.05.13 at 19h 40m 30s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_3 - 2020.05.15 at 19h 13m 24s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution - 2020.05.13 at 19h 46m 42s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_4 - 2020.05.15 at 19h 13m 27s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution - 2020.05.13 at 19h 47m 08s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_4 - 2020.05.15 at 19h 17m 15s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_402_remove_k_digits_TestSolution - 2020.05.14 at 18h 49m 05s.xml">
-      <configuration name="Unittests for test_402_remove_k_digits.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution - 2020.05.15 at 19h 18m 38s.xml">
+      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -998,16 +986,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
+    <frame x="1921" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.25688073" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.26105088" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34890512" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39562044" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39562044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1456,11 +1444,6 @@
           <line>11</line>
           <option name="timeStamp" value="181" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/N208_Implement_Trie.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1560,20 +1543,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_Best_Time_Buy_Sell_Stock_With_Cooldown.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_best_time_buy_sell_stock_iii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N714_Best_Time_Buy_Sell_Stock_With_Tracsaction_Fee.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1905,20 +1874,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N208_Implement_Trie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="53" column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <marker date="1589496620802" expanded="true" signature="15:113" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N402_Remove_K_Digits.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="152">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N208_Implement_Trie.py">
+    <entry file="file://$PROJECT_DIR$/test/test_918_maximum_sum_circular_subarray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="63">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding>
-            <marker date="1589496620802" expanded="true" signature="15:113" ph="..." />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N918_Maximum_Sum_Circular_Subarrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
