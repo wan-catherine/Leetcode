@@ -1,5 +1,5 @@
 class Solution:
-    def lengthOfLongestSubstring(self, s):
+    def lengthOfLongestSubstring_old(self, s):
         """
         :type s: str
         :rtype: int
@@ -22,3 +22,26 @@ class Solution:
                         max = length
                     break
         return max
+
+    def lengthOfLongestSubstring(self, s):
+        if not s:
+            return 0
+        s_len = len(s)
+        i,j = 0,0
+        window = {}
+        res = 0
+        while j < s_len:
+            c = s[j]
+            if c in window:
+                res = max(res, len(window))
+                index = window[c]
+                while i < index + 1:
+                    del window[s[i]]
+                    i += 1
+            if c not in window:
+                window[c] = j
+            j += 1
+
+        return max(res, len(window))
+
+
