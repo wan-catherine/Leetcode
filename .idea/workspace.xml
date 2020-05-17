@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N141_Linked_List_Cycle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N142_Linked_List_Cycle_II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N328_Odd_Even_Linked_List.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_328_odd_even_linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N438_Find_All_Anagrams_In_A_String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_438_find_all_anagrams_in_a_string.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/Utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/Utility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/N142_Linked_List_Cycle_II.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N142_Linked_List_Cycle_II.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +210,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution_test_largestRectangleArea_special.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution.test_largestRectangleArea_special Coverage Results" MODIFIED="1538932695579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_402_remove_k_digits_TestSolution_test_removeKdigits.coverage" NAME="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits Coverage Results" MODIFIED="1589413117906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_invalid_parentheses_TestSolution_test_removeInvalidParentheses_one.coverage" NAME="Unittests for test_remove_invalid_parentheses.TestSolution.test_removeInvalidParentheses_one Coverage Results" MODIFIED="1545942754711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution_test_findAnagrams.coverage" NAME="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams Coverage Results" MODIFIED="1589724992462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_compare_version_numbers_TestSolution_test_compareVersion_one.coverage" NAME="Unittests for test_compare_version_numbers.TestSolution.test_compareVersion_one Coverage Results" MODIFIED="1542669948900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition_3.coverage" NAME="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition_3 Coverage Results" MODIFIED="1588430874019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number Coverage Results" MODIFIED="1534196321291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -317,6 +316,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_first_missing_positive_TestSolution_test_firstMissingPositive_empty.coverage" NAME="Unittests for test_first_missing_positive.TestSolution.test_firstMissingPositive_empty Coverage Results" MODIFIED="1536283398828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_vowels_string_TestSolution_test_reverseVowels.coverage" NAME="Unittests for test_reverse_vowels_string.TestSolution.test_reverseVowels Coverage Results" MODIFIED="1546996891053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_887_super_egg_drop_TestSolution.coverage" NAME="Unittests for test_887_super_egg_drop.TestSolution Coverage Results" MODIFIED="1588971094747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution.coverage" NAME="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution Coverage Results" MODIFIED="1589725149129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_two_sum_py.coverage" NAME="Unittests in test_two_sum.py Coverage Results" MODIFIED="1533590488825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gas_station_TestSolution_test_canCompleteCircuit.coverage" NAME="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit Coverage Results" MODIFIED="1542240824157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct_one.coverage" NAME="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_one Coverage Results" MODIFIED="1543081908493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -365,6 +365,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers_two.coverage" NAME="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers_two Coverage Results" MODIFIED="1541863077796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_ii_TestSolution_test_maxProfit.coverage" NAME="Unittests for test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit Coverage Results" MODIFIED="1588517632168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_first.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_first Coverage Results" MODIFIED="1534693834385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution_test_findAnagrams_1.coverage" NAME="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams_1 Coverage Results" MODIFIED="1589723022566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_array_TestSolution_test_rotate.coverage" NAME="Unittests for test_rotate_array.TestSolution.test_rotate Coverage Results" MODIFIED="1542858116382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_1.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_1 Coverage Results" MODIFIED="1589584395505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist Coverage Results" MODIFIED="1538323998132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -600,10 +601,10 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="196" />
+          <entry key="project.closed" value="197" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="58" />
+          <entry key="project.open.time.10" value="59" />
           <entry key="project.open.time.11" value="28" />
           <entry key="project.open.time.12" value="14" />
           <entry key="project.open.time.13" value="4" />
@@ -616,32 +617,32 @@
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="18" />
           <entry key="project.open.time.9" value="50" />
-          <entry key="project.opened" value="197" />
+          <entry key="project.opened" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="618" />
+          <entry key="py" value="620" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="618" />
+          <entry key="Python" value="620" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="6439" />
+          <entry key="Python Console" value="6483" />
           <entry key="dummy" value="65" />
-          <entry key="py" value="131739" />
+          <entry key="py" value="132557" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="138178" />
+          <entry key="Python" value="139040" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -652,43 +653,23 @@
     <favorites_list name="Leetcode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/N328_Odd_Even_Linked_List.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/N141_Linked_List_Cycle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N142_Linked_List_Cycle_II.py">
+        <entry file="file://$PROJECT_DIR$/problems/N438_Find_All_Anagrams_In_A_String.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="231">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/Utility.py">
+        <entry file="file://$PROJECT_DIR$/test/test_438_find_all_anagrams_in_a_string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="63">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding>
-                <marker date="1589635906955" expanded="true" signature="762:763" ph="..." />
-                <marker date="1589635906955" expanded="true" signature="762:767" ph="..." />
-                <marker date="1589635906955" expanded="true" signature="953:958" ph="..." />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -715,8 +696,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_188_best_time_buy_and_sell_stock_iv.py" />
-        <option value="$PROJECT_DIR$/test/test_best_time_buy_sell_stock_iii.py" />
         <option value="$PROJECT_DIR$/problems/BestTimeBuySellStockIII.py" />
         <option value="$PROJECT_DIR$/problems/N188_Best_Time_Buy_Sell_Stock_IV.py" />
         <option value="$PROJECT_DIR$/problems/BestTimeBuySellStockWithCooldown.py" />
@@ -766,6 +745,8 @@
         <option value="$PROJECT_DIR$/problems/N328_Odd_Even_Linked_List.py" />
         <option value="$PROJECT_DIR$/problems/N141_Linked_List_Cycle.py" />
         <option value="$PROJECT_DIR$/problems/N142_Linked_List_Cycle_II.py" />
+        <option value="$PROJECT_DIR$/test/test_438_find_all_anagrams_in_a_string.py" />
+        <option value="$PROJECT_DIR$/problems/N438_Find_All_Anagrams_In_A_String.py" />
       </list>
     </option>
   </component>
@@ -775,7 +756,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1919" />
     <option name="y" value="499" />
     <option name="width" value="1241" />
@@ -834,7 +815,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_328_odd_even_linked_list.TestSolution.test_oddEvenList_2">
+  <component name="RunManager" selected="Python tests.Unittests for test_438_find_all_anagrams_in_a_string.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -894,7 +875,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -905,11 +886,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_918_maximum_sum_circular_subarray.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_438_find_all_anagrams_in_a_string.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -920,11 +901,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3&quot;" />
+      <option name="_new_target" value="&quot;test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -935,24 +916,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4&quot;" />
+      <option name="_new_target" value="&quot;test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3" />
-      <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" />
-      <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_328_odd_even_linked_list.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_328_odd_even_linked_list.TestSolution.test_oddEvenList_2" />
+      <item itemvalue="Python tests.Unittests for test_438_find_all_anagrams_in_a_string.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams_1" />
+      <item itemvalue="Python tests.Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_438_find_all_anagrams_in_a_string.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams" />
+        <item itemvalue="Python tests.Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams_1" />
         <item itemvalue="Python tests.Unittests for test_328_odd_even_linked_list.TestSolution.test_oddEvenList_2" />
         <item itemvalue="Python tests.Unittests for test_328_odd_even_linked_list.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" />
-        <item itemvalue="Python tests.Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3" />
       </list>
     </recent_temporary>
   </component>
@@ -970,35 +951,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular - 2020.05.15 at 19h 13m 19s.xml">
-      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution - 2020.05.17 at 09h 55m 04s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_2 - 2020.05.15 at 19h 13m 22s.xml">
-      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution - 2020.05.17 at 09h 55m 20s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_3 - 2020.05.15 at 19h 13m 24s.xml">
-      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution - 2020.05.17 at 10h 14m 48s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_4 - 2020.05.15 at 19h 13m 27s.xml">
-      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution_test_findAnagrams - 2020.05.17 at 10h 15m 20s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_4 - 2020.05.15 at 19h 17m 15s.xml">
-      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution_test_findAnagrams - 2020.05.17 at 10h 15m 32s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution - 2020.05.15 at 19h 18m 38s.xml">
-      <configuration name="Unittests for test_918_maximum_sum_circular_subarray.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution_test_findAnagrams - 2020.05.17 at 10h 15m 45s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_328_odd_even_linked_list_TestSolution - 2020.05.16 at 09h 48m 27s.xml">
-      <configuration name="Unittests for test_328_odd_even_linked_list.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution - 2020.05.17 at 10h 16m 19s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_328_odd_even_linked_list_TestSolution - 2020.05.16 at 09h 48m 57s.xml">
-      <configuration name="Unittests for test_328_odd_even_linked_list.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution_test_findAnagrams - 2020.05.17 at 10h 16m 29s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_328_odd_even_linked_list_TestSolution_test_oddEvenList_2 - 2020.05.16 at 09h 50m 34s.xml">
-      <configuration name="Unittests for test_328_odd_even_linked_list.TestSolution.test_oddEvenList_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution_test_findAnagrams - 2020.05.17 at 10h 19m 00s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution.test_findAnagrams" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_328_odd_even_linked_list_TestSolution_test_oddEvenList_2 - 2020.05.16 at 09h 50m 59s.xml">
-      <configuration name="Unittests for test_328_odd_even_linked_list.TestSolution.test_oddEvenList_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_438_find_all_anagrams_in_a_string_TestSolution - 2020.05.17 at 10h 19m 09s.xml">
+      <configuration name="Unittests for test_438_find_all_anagrams_in_a_string.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1011,16 +992,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="499" width="1241" height="777" extended-state="0" />
+    <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.32110092" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.2293578" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3562044" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39562044" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6437956" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48321167" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1568,20 +1549,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/PowerTwo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_single_number_III.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/NumberOfOneBits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1895,6 +1862,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_328_odd_even_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N141_Linked_List_Cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="27" selection-start-line="7" selection-start-column="8" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/Utility.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -1907,20 +1888,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N141_Linked_List_Cycle.py">
+    <entry file="file://$PROJECT_DIR$/problems/N142_Linked_List_Cycle_II.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_328_odd_even_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1931,10 +1902,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N142_Linked_List_Cycle_II.py">
+    <entry file="file://$PROJECT_DIR$/test/test_438_find_all_anagrams_in_a_string.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="63">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N438_Find_All_Anagrams_In_A_String.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
