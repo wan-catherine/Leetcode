@@ -51,7 +51,7 @@ def list_to_tree_node(input):
 
         item = input[index]
         index = index + 1
-        if item:
+        if item != null:
             leftNumber = int(item)
             node.left = TreeNode(leftNumber)
             nodeQueue.append(node.left)
@@ -61,7 +61,7 @@ def list_to_tree_node(input):
 
         item = input[index]
         index = index + 1
-        if item:
+        if item != null:
             rightNumber = int(item)
             node.right = TreeNode(rightNumber)
             nodeQueue.append(node.right)
@@ -93,6 +93,7 @@ def treenode_to_list(root):
     output = []
     if not root:
         return output
+
     queue = [root]
     current = 0
     while current != len(queue):
@@ -102,10 +103,29 @@ def treenode_to_list(root):
             output.append(None)
             continue
         output.append(node.val)
-        if not node.left and not node.right:
-            continue
         queue.append(node.left)
         queue.append(node.right)
-    return output
 
+    for i in range(len(output)-1, -1,-1):
+        if output[i] != null:
+            break
+    return output[:i+1]
 
+def treeNodeToString(root):
+    if not root:
+        return "[]"
+    output = ""
+    queue = [root]
+    current = 0
+    while current != len(queue):
+        node = queue[current]
+        current = current + 1
+
+        if not node:
+            output += "null, "
+            continue
+
+        output += str(node.val) + ", "
+        queue.append(node.left)
+        queue.append(node.right)
+    return "[" + output[:-2] + "]"
