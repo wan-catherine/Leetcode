@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_239_sliding_window_maximum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N230_Kth_Smallest_Element_In_A_BST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_230_kth_smallest_element_in_a_bst.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,6 +62,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_level_order_traversal_ii_TestSolution.coverage" NAME="Unittests for test_binary_tree_level_order_traversal_ii.TestSolution Coverage Results" MODIFIED="1540598764557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_322_coin_change_py.coverage" NAME="Unittests in test_322_coin_change.py Coverage Results" MODIFIED="1588266329829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_ugly_number_TestSolution_test_isUgly.coverage" NAME="Unittests for test_ugly_number.TestSolution.test_isUgly Coverage Results" MODIFIED="1545752077395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_1.coverage" NAME="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_1 Coverage Results" MODIFIED="1589985254599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_image_TestSolution.coverage" NAME="Unittests for test_rotate_image.TestSolution Coverage Results" MODIFIED="1536622955632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_palindromic_substring_TestSolution.coverage" NAME="Unittests for test_longest_palindromic_substring.TestSolution Coverage Results" MODIFIED="1541952661023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_bits_TestSolution.coverage" NAME="Unittests for test_reverse_bits.TestSolution Coverage Results" MODIFIED="1543276533211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -206,6 +207,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_sorted_array_TestSolution.coverage" NAME="Unittests for test_merge_sorted_array.TestSolution Coverage Results" MODIFIED="1539226890980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_2D_matrix_TestSolution.coverage" NAME="Unittests for test_search_2D_matrix.TestSolution Coverage Results" MODIFIED="1537913908612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample Coverage Results" MODIFIED="1534371014446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution.coverage" NAME="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution Coverage Results" MODIFIED="1589988618916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_pruning_814_TestSolution.coverage" NAME="Unittests for test_binary_tree_pruning_814.TestSolution Coverage Results" MODIFIED="1588095033908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct.coverage" NAME="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct Coverage Results" MODIFIED="1543082455496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_single_number_III_TestSolution.coverage" NAME="Unittests for test_single_number_III.TestSolution Coverage Results" MODIFIED="1547507713168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -224,6 +226,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_ii_TestSolution_test_maxProfit_two.coverage" NAME="Unittests for test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit_two Coverage Results" MODIFIED="1541549364960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution_test_simplifyPath.coverage" NAME="Unittests for test_simplify_path.TestSolution.test_simplifyPath Coverage Results" MODIFIED="1537623863348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_733_flood_fill_py.coverage" NAME="Unittests in test_733_flood_fill.py Coverage Results" MODIFIED="1589202586160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest.coverage" NAME="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest Coverage Results" MODIFIED="1589983838478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_k_group_TestSolution_test_reverseKGroup_five.coverage" NAME="Unittests for test_reverse_k_group.TestSolution.test_reverseKGroup_five Coverage Results" MODIFIED="1535292987714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist_one.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist_one Coverage Results" MODIFIED="1538324080975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_permutationsII_TestSolution.coverage" NAME="Unittests for test_permutationsII.TestSolution Coverage Results" MODIFIED="1536416966458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -330,6 +333,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_two_sum_py.coverage" NAME="Unittests in test_two_sum.py Coverage Results" MODIFIED="1533590488825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gas_station_TestSolution_test_canCompleteCircuit.coverage" NAME="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit Coverage Results" MODIFIED="1542240824157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct_one.coverage" NAME="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_one Coverage Results" MODIFIED="1543081908493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_3.coverage" NAME="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_3 Coverage Results" MODIFIED="1589986131782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution_test_divide.coverage" NAME="Unittests for test_divide_two_integers.TestSolution.test_divide Coverage Results" MODIFIED="1535408395730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_iii_TestSolution.coverage" NAME="Unittests for test_combination_sum_iii.TestSolution Coverage Results" MODIFIED="1544654913225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_TestSolution_test_rob.coverage" NAME="Unittests for test_house_robber.TestSolution.test_rob Coverage Results" MODIFIED="1542772042229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -419,6 +423,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_valid_parentheses_TestSolution.coverage" NAME="Unittests for test_longest_valid_parentheses.TestSolution Coverage Results" MODIFIED="1535675814565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_container_with_most_water_py.coverage" NAME="Unittests in test_container_with_most_water.py Coverage Results" MODIFIED="1534378555927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test.test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534893693639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_2.coverage" NAME="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_2 Coverage Results" MODIFIED="1589985892166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_minimum_size_subarray_sum_TestSolution_test_minSubArrayLen.coverage" NAME="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen Coverage Results" MODIFIED="1544154396115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_pruning_814_TestSolution_test_pruneTree_two.coverage" NAME="Unittests for test_binary_tree_pruning_814.TestSolution.test_pruneTree_two Coverage Results" MODIFIED="1588095028678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_402_remove_k_digits_TestSolution.coverage" NAME="Unittests for test_402_remove_k_digits.TestSolution Coverage Results" MODIFIED="1589496539951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -611,6 +616,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_string_to_integer_TestSolution_test_myAtoi_with_strange_number.coverage" NAME="Unittests for test_string_to_integer.TestSolution.test_myAtoi_with_strange_number Coverage Results" MODIFIED="1534089895984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_linked_list_elements_TestSolution_test_removeElements.coverage" NAME="Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements Coverage Results" MODIFIED="1544225367877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists.coverage" NAME="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists Coverage Results" MODIFIED="1535065270522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_230_kth_smallest_element_in_a_bst_py.coverage" NAME="Unittests in test_230_kth_smallest_element_in_a_bst.py Coverage Results" MODIFIED="1589982819953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_sorted_array_TestSolution_test_merge.coverage" NAME="Unittests for test_merge_sorted_array.TestSolution.test_merge Coverage Results" MODIFIED="1539224729441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -620,7 +626,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="200" />
+          <entry key="project.closed" value="201" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="59" />
@@ -635,33 +641,33 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="19" />
-          <entry key="project.open.time.9" value="52" />
-          <entry key="project.opened" value="201" />
+          <entry key="project.open.time.9" value="53" />
+          <entry key="project.opened" value="202" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="641" />
+          <entry key="py" value="644" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="641" />
+          <entry key="Python" value="644" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="6641" />
+          <entry key="Python Console" value="6654" />
           <entry key="dummy" value="65" />
-          <entry key="py" value="138218" />
+          <entry key="py" value="139685" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="144859" />
+          <entry key="Python" value="146339" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -673,11 +679,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="357">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/N230_Kth_Smallest_Element_In_A_BST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_230_kth_smallest_element_in_a_bst.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -685,7 +712,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_239_sliding_window_maximum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="42">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -715,8 +742,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/SingleNumberII.py" />
-        <option value="$PROJECT_DIR$/test/test_387_first_unique_character_in_string.py" />
         <option value="$PROJECT_DIR$/problems/N387_First_Unique_Character_In_String.py" />
         <option value="$PROJECT_DIR$/problems/EditDistance.py" />
         <option value="$PROJECT_DIR$/test/test_10_regular_expression_matching.py" />
@@ -766,6 +791,8 @@
         <option value="$PROJECT_DIR$/problems/N901_Online_Stock_Span.py" />
         <option value="$PROJECT_DIR$/test/test_239_sliding_window_maximum.py" />
         <option value="$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py" />
+        <option value="$PROJECT_DIR$/test/test_230_kth_smallest_element_in_a_bst.py" />
+        <option value="$PROJECT_DIR$/problems/N230_Kth_Smallest_Element_In_A_BST.py" />
       </list>
     </option>
   </component>
@@ -789,7 +816,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -811,6 +837,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -839,7 +866,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -860,28 +887,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="N901_Online_Stock_Span" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/N901_Online_Stock_Span.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -891,7 +896,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1038_binary_search_tree_to_greater_sum_tree.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -902,11 +907,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1038_binary_search_tree_to_greater_sum_tree.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_230_kth_smallest_element_in_a_bst.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -917,11 +922,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -932,11 +937,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow&quot;" />
+      <option name="_new_target" value="&quot;test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -947,24 +952,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1&quot;" />
+      <option name="_new_target" value="&quot;test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_1038_binary_search_tree_to_greater_sum_tree.TestSolution" />
-      <item itemvalue="Python.N901_Online_Stock_Span" />
-      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" />
-      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" />
+      <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest" />
+      <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_1" />
+      <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_2" />
+      <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" />
-        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" />
-        <item itemvalue="Python.N901_Online_Stock_Span" />
-        <item itemvalue="Python tests.Unittests for test_1038_binary_search_tree_to_greater_sum_tree.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_3" />
+        <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_2" />
+        <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_1" />
+        <item itemvalue="Python tests.Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest" />
       </list>
     </recent_temporary>
   </component>
@@ -982,35 +1002,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow - 2020.05.19 at 21h 45m 27s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_1 - 2020.05.20 at 10h 32m 47s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow - 2020.05.19 at 21h 46m 30s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_1 - 2020.05.20 at 10h 34m 14s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow - 2020.05.19 at 21h 46m 37s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution - 2020.05.20 at 10h 34m 32s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow - 2020.05.19 at 21h 48m 10s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution - 2020.05.20 at 10h 37m 12s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow - 2020.05.19 at 21h 48m 30s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_2 - 2020.05.20 at 10h 44m 43s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution - 2020.05.19 at 21h 57m 04s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_2 - 2020.05.20 at 10h 46m 59s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_1 - 2020.05.19 at 21h 58m 25s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution - 2020.05.20 at 10h 47m 10s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution - 2020.05.19 at 21h 59m 05s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_3 - 2020.05.20 at 10h 48m 39s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution - 2020.05.19 at 21h 59m 18s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_3 - 2020.05.20 at 10h 49m 53s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution - 2020.05.19 at 21h 59m 25s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution - 2020.05.20 at 11h 30m 19s.xml">
+      <configuration name="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1023,16 +1043,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
+    <frame x="1921" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.22101751" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.22435363" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34744525" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49343064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21313868" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4350365" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1491,6 +1511,11 @@
           <line>24</line>
           <option name="timeStamp" value="192" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N230_Kth_Smallest_Element_In_A_BST.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1590,20 +1615,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_sort_colors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/SortColors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N10_Regular_Expression_Matching.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1892,13 +1903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="632" selection-start-line="632" selection-end-line="632" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N1038_Binary_Search_Tree_To_Greater_Sum_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1917,9 +1921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1944,15 +1945,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_239_sliding_window_maximum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="42">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -1960,10 +1965,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py">
+    <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="88">
+          <caret line="632" selection-start-line="632" selection-end-line="632" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_230_kth_smallest_element_in_a_bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N230_Kth_Smallest_Element_In_A_BST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
