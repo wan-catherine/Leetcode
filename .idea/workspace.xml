@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N1277_Count_Square_Submatrices_With_All_Ones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_1277_count_square_submatrices_with_all_ones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N437_Path_Sum_III.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_437_path_sum_iii.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/MaximalSquare.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/MaximalSquare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/MaximumSubarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/MaximumSubarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/PathSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/PathSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,6 +215,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_single_number_III_TestSolution.coverage" NAME="Unittests for test_single_number_III.TestSolution Coverage Results" MODIFIED="1547507713168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_k_group_TestSolution_test_reverseKGroup.coverage" NAME="Unittests for test_reverse_k_group.TestSolution.test_reverseKGroup Coverage Results" MODIFIED="1535292880878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_n124_binary_tree_maximum_path_sum_TestSolution_test_maxPathSum_seven.coverage" NAME="Unittests for test_n124_binary_tree_maximum_path_sum.TestSolution.test_maxPathSum_seven Coverage Results" MODIFIED="1588184352078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_437_path_sum_iii_TestSolution_test_pathSum_1.coverage" NAME="Unittests for test_437_path_sum_iii.TestSolution.test_pathSum_1 Coverage Results" MODIFIED="1590089148190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_ugly_number_ii_TestSolution_test_nthUglyNumber.coverage" NAME="Unittests for test_ugly_number_ii.TestSolution.test_nthUglyNumber Coverage Results" MODIFIED="1547595005846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_minimum_window_substring_TestSolution_test_minWindow_2.coverage" NAME="Unittests for test_minimum_window_substring.TestSolution.test_minWindow_2 Coverage Results" MODIFIED="1589736186088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution_test_largestRectangleArea_special.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution.test_largestRectangleArea_special Coverage Results" MODIFIED="1538932695579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -280,6 +280,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_intervals_TestSolution_test_merge.coverage" NAME="Unittests for test_merge_intervals.TestSolution.test_merge Coverage Results" MODIFIED="1536965197868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution_test_divide_1.coverage" NAME="Unittests for test_divide_two_integers.TestSolution.test_divide_1 Coverage Results" MODIFIED="1535408649657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution_test_canFinish_one.coverage" NAME="Unittests for test_course_schedule.TestSolution.test_canFinish_one Coverage Results" MODIFIED="1543879522939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_437_path_sum_iii_TestSolution.coverage" NAME="Unittests for test_437_path_sum_iii.TestSolution Coverage Results" MODIFIED="1590089268638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution_test_search_5.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution.test_search_5 Coverage Results" MODIFIED="1538529710816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_validate_binary_search_tree_TestSolution_test_isValidBST_one.coverage" NAME="Unittests for test_validate_binary_search_tree.TestSolution.test_isValidBST_one Coverage Results" MODIFIED="1587908125335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_first_missing_positive_TestSolution_test_firstMissingPositive_one.coverage" NAME="Unittests for test_first_missing_positive.TestSolution.test_firstMissingPositive_one Coverage Results" MODIFIED="1536283707605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -344,7 +345,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_empty.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_empty Coverage Results" MODIFIED="1534609234206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_from_sorted_array_ii_TestSolution_test_removeDuplicates.coverage" NAME="Unittests for test_remove_duplicates_from_sorted_array_ii.TestSolution.test_removeDuplicates Coverage Results" MODIFIED="1538433957066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_maximum_length_pair_chain_py.coverage" NAME="Unittests in test_maximum_length_pair_chain.py Coverage Results" MODIFIED="1534028220916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_TestSolution.coverage" NAME="Unittests for test_path_sum.TestSolution Coverage Results" MODIFIED="1540683029049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_TestSolution.coverage" NAME="Unittests for test_path_sum.TestSolution Coverage Results" MODIFIED="1590082875694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_inorder_traversal_TestSolution_test_inorderTraversal.coverage" NAME="Unittests for test_binary_tree_inorder_traversal.TestSolution.test_inorderTraversal Coverage Results" MODIFIED="1539741192729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_11.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_11 Coverage Results" MODIFIED="1539573600401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_minimum_size_subarray_sum_TestSolution_test_minSubArrayLen_four.coverage" NAME="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_four Coverage Results" MODIFIED="1544154644575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -653,26 +654,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="651" />
+          <entry key="py" value="657" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="651" />
+          <entry key="Python" value="657" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6677" />
           <entry key="dummy" value="65" />
-          <entry key="py" value="140511" />
+          <entry key="py" value="141232" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="147188" />
+          <entry key="Python" value="147909" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -685,37 +686,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/MaximalSquare.py">
+        <entry file="file://$PROJECT_DIR$/problems/PathSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="187">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/MaximumSubarray.py">
+        <entry file="file://$PROJECT_DIR$/problems/PathSumII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="467">
+              <caret line="27" column="66" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N1277_Count_Square_Submatrices_With_All_Ones.py">
+        <entry file="file://$PROJECT_DIR$/problems/N437_Path_Sum_III.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="273">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_1277_count_square_submatrices_with_all_ones.py">
+        <entry file="file://$PROJECT_DIR$/test/test_437_path_sum_iii.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="84">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -724,10 +725,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_max_subarray.py">
+        <entry file="file://$PROJECT_DIR$/test/test_path_sum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -753,9 +754,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_993_cousins_in_binary_tree.py" />
-        <option value="$PROJECT_DIR$/problems/N993_Cousins_In_Binary_Tree.py" />
-        <option value="$PROJECT_DIR$/problems/SortColors.py" />
         <option value="$PROJECT_DIR$/test/test_1232_check_if_it_is_a_straight_line.py" />
         <option value="$PROJECT_DIR$/problems/N1232_Check_If_It_Is_A_Straight_Line.py" />
         <option value="$PROJECT_DIR$/test/test_887_super_egg_drop.py" />
@@ -804,6 +802,9 @@
         <option value="$PROJECT_DIR$/problems/MaximumSubarray.py" />
         <option value="$PROJECT_DIR$/test/test_1277_count_square_submatrices_with_all_ones.py" />
         <option value="$PROJECT_DIR$/problems/N1277_Count_Square_Submatrices_With_All_Ones.py" />
+        <option value="$PROJECT_DIR$/problems/PathSum.py" />
+        <option value="$PROJECT_DIR$/test/test_437_path_sum_iii.py" />
+        <option value="$PROJECT_DIR$/problems/N437_Path_Sum_III.py" />
       </list>
     </option>
   </component>
@@ -877,7 +878,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_437_path_sum_iii.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -922,21 +923,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -952,7 +938,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_max_subarray.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_437_path_sum_iii.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -963,11 +949,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_max_subarray.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_437_path_sum_iii.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_max_subarray.TestSolution.test_maxSubArray" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_437_path_sum_iii.TestSolution.test_pathSum_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -978,24 +964,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_max_subarray.TestSolution.test_maxSubArray&quot;" />
+      <option name="_new_target" value="&quot;test_437_path_sum_iii.TestSolution.test_pathSum_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_path_sum.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_path_sum.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution.test_maxSubArray" />
       <item itemvalue="Python tests.Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares" />
       <item itemvalue="Python tests.Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares_1" />
+      <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_437_path_sum_iii.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_437_path_sum_iii.TestSolution.test_pathSum_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_437_path_sum_iii.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_437_path_sum_iii.TestSolution.test_pathSum_1" />
+        <item itemvalue="Python tests.Unittests for test_path_sum.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares_1" />
-        <item itemvalue="Python tests.Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares" />
-        <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution.test_maxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -1013,24 +1014,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_max_subarray_TestSolution - 2020.05.21 at 10h 20m 36s.xml">
-      <configuration name="Unittests for test_max_subarray.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_1277_count_square_submatrices_with_all_ones_TestSolution - 2020.05.21 at 11h 59m 44s.xml">
-      <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_1277_count_square_submatrices_with_all_ones_TestSolution_test_countSquares - 2020.05.21 at 12h 00m 21s.xml">
-      <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_1277_count_square_submatrices_with_all_ones_TestSolution - 2020.05.21 at 12h 01m 09s.xml">
-      <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_1277_count_square_submatrices_with_all_ones_TestSolution - 2020.05.21 at 12h 01m 47s.xml">
-      <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_1277_count_square_submatrices_with_all_ones_TestSolution_test_countSquares - 2020.05.21 at 12h 05m 09s.xml">
-      <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_1277_count_square_submatrices_with_all_ones_TestSolution_test_countSquares - 2020.05.21 at 12h 05m 24s.xml">
       <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares" configurationId="tests" />
     </history-entry>
@@ -1042,6 +1025,24 @@
     </history-entry>
     <history-entry file="Unittests_for_test_1277_count_square_submatrices_with_all_ones_TestSolution_test_countSquares_1 - 2020.05.21 at 12h 07m 16s.xml">
       <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution.test_countSquares_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1277_count_square_submatrices_with_all_ones_TestSolution - 2020.05.21 at 12h 07m 29s.xml">
+      <configuration name="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_path_sum_TestSolution - 2020.05.21 at 13h 41m 15s.xml">
+      <configuration name="Unittests for test_path_sum.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_437_path_sum_iii_TestSolution - 2020.05.21 at 15h 17m 51s.xml">
+      <configuration name="Unittests for test_437_path_sum_iii.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_437_path_sum_iii_TestSolution_test_pathSum_1 - 2020.05.21 at 15h 22m 36s.xml">
+      <configuration name="Unittests for test_437_path_sum_iii.TestSolution.test_pathSum_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_437_path_sum_iii_TestSolution_test_pathSum_1 - 2020.05.21 at 15h 27m 37s.xml">
+      <configuration name="Unittests for test_437_path_sum_iii.TestSolution.test_pathSum_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_437_path_sum_iii_TestSolution - 2020.05.21 at 15h 27m 48s.xml">
+      <configuration name="Unittests for test_437_path_sum_iii.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1057,13 +1058,13 @@
     <frame x="1919" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.35195997" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.35195997" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5080292" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4350365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4350365" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1532,16 +1533,6 @@
           <line>36</line>
           <option name="timeStamp" value="197" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/N1277_Count_Square_Submatrices_With_All_Ones.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="198" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/N1277_Count_Square_Submatrices_With_All_Ones.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1656,51 +1647,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N367_Valid_Perfect_Square.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N1232_Check_If_It_Is_A_Straight_Line.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N733_Flood_Fill.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <marker date="1589210621229" expanded="true" signature="463:472" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_463_island_perimeter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_733_flood_fill.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_997_find_the_town_judge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N463_Island_Perimeter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -2018,8 +1964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_1277_count_square_submatrices_with_all_ones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="63">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -2028,8 +1974,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N1277_Count_Square_Submatrices_With_All_Ones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="218">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_path_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/PathSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/PathSumII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="27" column="66" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_437_path_sum_iii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/Search2DMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N437_Path_Sum_III.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>

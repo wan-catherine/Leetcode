@@ -36,3 +36,22 @@ class Solution:
                 used.append(node)
         return False
 
+    def hasPathSum(self, root, sum):
+        if not root:
+            return False
+
+        return self.travel(root,sum)
+
+
+    def travel(self, root, sum):
+        if not root.left and not root.right:
+            return True if root.val == sum else False
+
+        left, right = False,False
+        if root.left:
+            left = self.travel(root.left, sum-root.val)
+        if root.right:
+            right = self.travel(root.right, sum-root.val)
+        return left or right
+
+
