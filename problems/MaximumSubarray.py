@@ -1,5 +1,8 @@
+from math import inf
+
+
 class Solution:
-    def maxSubArray(self, nums):
+    def maxSubArray_before(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -25,5 +28,18 @@ class Solution:
                 max = i
 
         return max
+
+    def maxSubArray(self, nums):
+        if not nums:
+            return None
+        previous = nums[0]
+        res = previous
+        for i in nums[1:]:
+            if previous > 0:
+                previous = previous + i
+            else:
+                previous = i
+            res = max(res, previous)
+        return res
 
 

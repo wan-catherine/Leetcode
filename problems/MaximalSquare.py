@@ -1,3 +1,4 @@
+
 class Solution:
     def maximalSquare(self, matrix):
         """
@@ -26,5 +27,7 @@ class Solution:
                     max = cache[i][j]
 
         return max * max
+
+
 
 
