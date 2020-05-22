@@ -1,5 +1,7 @@
+import heapq
+
 class Solution:
-    def findKthLargest(self, nums, k):
+    def findKthLargest_before(self, nums, k):
         """
         :type nums: List[int]
         :type k: int
@@ -26,3 +28,15 @@ class Solution:
 
         nums[i],nums[end] = nums[end],nums[i]
         return i
+
+    #use small heap
+    # create a small heap with k lengh
+    # then each time push one into the heap and pop the smallest one from the heap
+    # at lates, the heap keeps the k-largest items
+    # the first item is the smallest one in the k-largest items, so it's Kth largest item in the array
+    def findKthLargest(self, nums, k):
+        l = nums[:k]
+        heapq.heapify(l)
+        for n in nums[k:]:
+            heapq.heappushpop(l, n)
+        return l[0]

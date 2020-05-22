@@ -1,5 +1,5 @@
 class Solution:
-    def topKFrequent(self, nums, k):
+    def topKFrequent_before(self, nums, k):
         """
         :type nums: List[int]
         :type k: int
@@ -18,3 +18,13 @@ class Solution:
 
         l = list(res.items())
         return [val[0] for val in nlargest(k, l, key= lambda e:e[1])]
+
+    def topKFrequent(self, nums, k):
+        n_count_mapping = {}
+        for i in nums:
+            n_count_mapping[i] = n_count_mapping.setdefault(i, 0) + 1
+
+        keys = sorted(n_count_mapping, key=n_count_mapping.get, reverse=True)
+        return keys[:k]
+
+
