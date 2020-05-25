@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N780_Reaching_Points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_780_reaching_points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even_valued_grandparent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/N780_Reaching_Points.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N780_Reaching_Points.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,6 +181,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_1695.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_1695 Coverage Results" MODIFIED="1534284185759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_level_order_TestSolution.coverage" NAME="Unittests for test_zigzag_level_order.TestSolution Coverage Results" MODIFIED="1540426342854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution_test_canFinish_four.coverage" NAME="Unittests for test_course_schedule.TestSolution.test_canFinish_four Coverage Results" MODIFIED="1543880615607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution.coverage" NAME="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution Coverage Results" MODIFIED="1590437075808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_ii_TestSolution.coverage" NAME="Unittests for test_best_time_buy_sell_stock_ii.TestSolution Coverage Results" MODIFIED="1588517784424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_1.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1 Coverage Results" MODIFIED="1589939885080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_break_TestSolution.coverage" NAME="Unittests for test_word_break.TestSolution Coverage Results" MODIFIED="1542163179442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -354,6 +356,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution_test_divide.coverage" NAME="Unittests for test_divide_two_integers.TestSolution.test_divide Coverage Results" MODIFIED="1535408395730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_iii_TestSolution.coverage" NAME="Unittests for test_combination_sum_iii.TestSolution Coverage Results" MODIFIED="1544654913225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_TestSolution_test_rob.coverage" NAME="Unittests for test_house_robber.TestSolution.test_rob Coverage Results" MODIFIED="1542772042229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution_test_sumEvenGrandparent.coverage" NAME="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent Coverage Results" MODIFIED="1590437277573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_empty.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_empty Coverage Results" MODIFIED="1534609234206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_from_sorted_array_ii_TestSolution_test_removeDuplicates.coverage" NAME="Unittests for test_remove_duplicates_from_sorted_array_ii.TestSolution.test_removeDuplicates Coverage Results" MODIFIED="1538433957066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_maximum_length_pair_chain_py.coverage" NAME="Unittests in test_maximum_length_pair_chain.py Coverage Results" MODIFIED="1534028220916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -676,26 +679,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="684" />
+          <entry key="py" value="687" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="684" />
+          <entry key="Python" value="687" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6891" />
-          <entry key="dummy" value="65" />
-          <entry key="py" value="146859" />
+          <entry key="dummy" value="67" />
+          <entry key="py" value="147411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="153750" />
+          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="Python" value="154302" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -708,19 +711,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N780_Reaching_Points.py">
+        <entry file="file://$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="488">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_780_reaching_points.py">
+        <entry file="file://$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even_valued_grandparent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="105">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -749,10 +752,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/N402_Remove_K_Digits.py" />
-        <option value="$PROJECT_DIR$/problems/N208_Implement_Trie.py" />
-        <option value="$PROJECT_DIR$/test/test_918_maximum_sum_circular_subarray.py" />
-        <option value="$PROJECT_DIR$/problems/N918_Maximum_Sum_Circular_Subarrary.py" />
         <option value="$PROJECT_DIR$/problems/Utility.py" />
         <option value="$PROJECT_DIR$/test/test_328_odd_even_linked_list.py" />
         <option value="$PROJECT_DIR$/problems/N328_Odd_Even_Linked_List.py" />
@@ -800,6 +799,10 @@
         <option value="$PROJECT_DIR$/problems/N1035_Uncrossed_Lines.py" />
         <option value="$PROJECT_DIR$/test/test_780_reaching_points.py" />
         <option value="$PROJECT_DIR$/problems/N780_Reaching_Points.py" />
+        <option value="$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even-Valued_Grandparent.py" />
+        <option value="$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even-valued_grandparent.py" />
+        <option value="$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even_valued_grandparent.py" />
+        <option value="$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py" />
       </list>
     </option>
   </component>
@@ -830,6 +833,16 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -863,7 +876,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_780_reaching_points.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -893,6 +906,36 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_780_reaching_points.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -908,21 +951,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution.test_reachingPoints&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -935,21 +963,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution.test_reachingPoints_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution.test_reachingPoints_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -970,18 +983,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" />
-      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints" />
       <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" />
       <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" />
+      <item itemvalue="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" />
+        <item itemvalue="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" />
         <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" />
-        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints" />
-        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" />
       </list>
     </recent_temporary>
   </component>
@@ -999,18 +1012,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_2 - 2020.05.25 at 14h 50m 37s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_3 - 2020.05.25 at 14h 50m 46s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_3 - 2020.05.25 at 14h 50m 56s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution - 2020.05.25 at 15h 12m 47s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints - 2020.05.25 at 15h 13m 14s.xml">
       <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints" configurationId="tests" />
     </history-entry>
@@ -1029,6 +1030,18 @@
     <history-entry file="Unittests_for_test_780_reaching_points_TestSolution - 2020.05.25 at 15h 23m 38s.xml">
       <configuration name="Unittests for test_780_reaching_points.TestSolution" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution - 2020.05.25 at 16h 04m 22s.xml">
+      <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution - 2020.05.25 at 16h 04m 36s.xml">
+      <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution_test_sumEvenGrandparent - 2020.05.25 at 16h 06m 05s.xml">
+      <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution_test_sumEvenGrandparent - 2020.05.25 at 16h 06m 15s.xml">
+      <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1043,13 +1056,13 @@
     <frame x="1919" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.3002502" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.3002502" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.56642336" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4350365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49635038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1527,6 +1540,11 @@
           <line>18</line>
           <option name="timeStamp" value="201" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1670,25 +1688,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/LongestSubstringWithoutRepeatingCharacters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/Utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <marker date="1589635906955" expanded="true" signature="762:763" ph="..." />
-            <marker date="1589635906955" expanded="true" signature="762:767" ph="..." />
-            <marker date="1589635906955" expanded="true" signature="953:958" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N1038_Binary_Search_Tree_To_Greater_Sum_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -2039,8 +2038,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N780_Reaching_Points.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state relative-caret-position="89">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even_valued_grandparent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
         </state>
       </provider>
     </entry>

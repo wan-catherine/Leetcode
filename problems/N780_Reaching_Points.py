@@ -14,7 +14,7 @@ class Solution(object):
     # because there is only two changes : x,y --> x+y,y or x,x+y
     # if tx > ty : then the very last change should be (x+y, y) , then we can get (tx-ty, ty)
     # if tx <= ty : then the very last change should be (x, x+y), then we can get (tx, ty-tx)
-    # about tx == ty, you can put in any of the change . 
+    # about tx == ty, you can put in any of the change .
     def reachingPoints(self, sx, sy, tx, ty):
         while tx >= sx and ty >= sy:
             if tx == sx and ty == sy:
