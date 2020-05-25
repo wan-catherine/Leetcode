@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N1035_Uncrossed_Lines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_1035_uncrossed_lines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N780_Reaching_Points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_780_reaching_points.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,6 +164,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_10_regular_expression_matching_TestSolution_test_isMatch.coverage" NAME="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch Coverage Results" MODIFIED="1588801049251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution.coverage" NAME="Unittests for test_word_search.TestSolution Coverage Results" MODIFIED="1538323990726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_sorted_list_ii_TestSolution_test_deleteDuplicates.coverage" NAME="Unittests for test_remove_duplicates_sorted_list_ii.TestSolution.test_deleteDuplicates Coverage Results" MODIFIED="1538611735174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution.coverage" NAME="Unittests for test_780_reaching_points.TestSolution Coverage Results" MODIFIED="1590434618230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_after_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_after_same_long_list Coverage Results" MODIFIED="1533771288030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_words_string_TestSolution_test_reverseWords.coverage" NAME="Unittests for test_reverse_words_string.TestSolution.test_reverseWords Coverage Results" MODIFIED="1542928363790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximal_rectangle_TestSolution_test_maximalRectangle.coverage" NAME="Unittests for test_maximal_rectangle.TestSolution.test_maximalRectangle Coverage Results" MODIFIED="1539128313982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -309,9 +310,11 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_600.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_600 Coverage Results" MODIFIED="1534196874980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_188_best_time_buy_and_sell_stock_iv_TestSolution.coverage" NAME="Unittests for test_188_best_time_buy_and_sell_stock_iv.TestSolution Coverage Results" MODIFIED="1588521996290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution Coverage Results" MODIFIED="1538938644332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_2.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_2 Coverage Results" MODIFIED="1590432637365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_binary_search_trees_TestSolution_test_numTrees_one.coverage" NAME="Unittests for test_unique_binary_search_trees.TestSolution.test_numTrees_one Coverage Results" MODIFIED="1539991841673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_break_TestSolution_test_integerBreak_one.coverage" NAME="Unittests for test_integer_break.TestSolution.test_integerBreak_one Coverage Results" MODIFIED="1547165025240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one Coverage Results" MODIFIED="1535819062859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints Coverage Results" MODIFIED="1590433994731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_row_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_row_one_column Coverage Results" MODIFIED="1533946361570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number Coverage Results" MODIFIED="1534192140322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_level_order_traversal_TestSolution.coverage" NAME="Unittests for test_binary_tree_level_order_traversal.TestSolution Coverage Results" MODIFIED="1587858527121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -445,6 +448,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_402_remove_k_digits_TestSolution.coverage" NAME="Unittests for test_402_remove_k_digits.TestSolution Coverage Results" MODIFIED="1589496539951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_18_4sum_TestSolution_test_fourSum_2.coverage" NAME="Unittests for test_18_4sum.TestSolution.test_fourSum_2 Coverage Results" MODIFIED="1590267781220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_518_coin_change_2py_TestSolution_test_change.coverage" NAME="Unittests for test_518_coin_change_2py.TestSolution.test_change Coverage Results" MODIFIED="1588340628957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_4.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4 Coverage Results" MODIFIED="1590434214600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_9.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_9 Coverage Results" MODIFIED="1534284105097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_two.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_two Coverage Results" MODIFIED="1534693907949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_depth_binary_tree_TestSolution_test_max_depth.coverage" NAME="Unittests for test_maximum_depth_binary_tree.TestSolution.test_max_depth Coverage Results" MODIFIED="1587824859309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -481,6 +485,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution_test_isScramble_long.coverage" NAME="Unittests for test_scramble_string.TestSolution.test_isScramble_long Coverage Results" MODIFIED="1539530695262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_bulb_switcher_TestSolution.coverage" NAME="Unittests for test_bulb_switcher.TestSolution Coverage Results" MODIFIED="1546645933046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution_test_search_3.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution.test_search_3 Coverage Results" MODIFIED="1538529243423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_3.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3 Coverage Results" MODIFIED="1590432656376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_invalid_parentheses_TestSolution_test_removeInvalidParentheses_three.coverage" NAME="Unittests for test_remove_invalid_parentheses.TestSolution.test_removeInvalidParentheses_three Coverage Results" MODIFIED="1545943729331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_vowels_string_TestSolution_test_reverseVowels_one.coverage" NAME="Unittests for test_reverse_vowels_string.TestSolution.test_reverseVowels_one Coverage Results" MODIFIED="1546998637009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_subsets_TestSolution.coverage" NAME="Unittests for test_subsets.TestSolution Coverage Results" MODIFIED="1538169515025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -521,6 +526,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution_test_canFinish.coverage" NAME="Unittests for test_course_schedule.TestSolution.test_canFinish Coverage Results" MODIFIED="1543879540538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition_2.coverage" NAME="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition_2 Coverage Results" MODIFIED="1588430317749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_three_sum_closest_TestSolution_test_threeSumClosest_81.coverage" NAME="Unittests for test_three_sum_closest.TestSolution.test_threeSumClosest_81 Coverage Results" MODIFIED="1534546590370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_1.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1 Coverage Results" MODIFIED="1590433998031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution_test_sortColors.coverage" NAME="Unittests for test_sort_colors.TestSolution.test_sortColors Coverage Results" MODIFIED="1588884574865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_322_coin_change_TestSolution_test_coinChange_4.coverage" NAME="Unittests for test_322_coin_change.TestSolution.test_coinChange_4 Coverage Results" MODIFIED="1588427534619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_populating_next_right_pointers_each_node_ii_TestSolution_test_connect.coverage" NAME="Unittests for test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect Coverage Results" MODIFIED="1541719576098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -670,26 +676,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="681" />
+          <entry key="py" value="684" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="681" />
+          <entry key="Python" value="684" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="6715" />
+          <entry key="Python Console" value="6891" />
           <entry key="dummy" value="65" />
-          <entry key="py" value="145622" />
+          <entry key="py" value="146859" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="152337" />
+          <entry key="Python" value="153750" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -702,19 +708,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N1035_Uncrossed_Lines.py">
+        <entry file="file://$PROJECT_DIR$/problems/N780_Reaching_Points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="301">
+              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_1035_uncrossed_lines.py">
+        <entry file="file://$PROJECT_DIR$/test/test_780_reaching_points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="63">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -743,8 +749,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/N278_First_Bad_Version.py" />
-        <option value="$PROJECT_DIR$/test/test_402_remove_k_digits.py" />
         <option value="$PROJECT_DIR$/problems/N402_Remove_K_Digits.py" />
         <option value="$PROJECT_DIR$/problems/N208_Implement_Trie.py" />
         <option value="$PROJECT_DIR$/test/test_918_maximum_sum_circular_subarray.py" />
@@ -794,6 +798,8 @@
         <option value="$PROJECT_DIR$/problems/N932_Beautiful_Array.py" />
         <option value="$PROJECT_DIR$/test/test_1035_uncrossed_lines.py" />
         <option value="$PROJECT_DIR$/problems/N1035_Uncrossed_Lines.py" />
+        <option value="$PROJECT_DIR$/test/test_780_reaching_points.py" />
+        <option value="$PROJECT_DIR$/problems/N780_Reaching_Points.py" />
       </list>
     </option>
   </component>
@@ -824,11 +830,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -862,7 +863,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_1035_uncrossed_lines.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_780_reaching_points.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -892,7 +893,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_780_reaching_points.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -903,11 +904,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1008_construct_bfs_from_preorder_traversal.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution.test_bstFromPreorder_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -918,11 +919,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1008_construct_bfs_from_preorder_traversal.TestSolution.test_bstFromPreorder_1&quot;" />
+      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution.test_reachingPoints&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1035_uncrossed_lines.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -933,11 +934,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1035_uncrossed_lines.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution.test_reachingPoints_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_18_4sum.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -948,11 +949,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_18_4sum.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution.test_reachingPoints_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_932_beautiful_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -963,24 +964,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_932_beautiful_array.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution.test_reachingPoints_4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_18_4sum.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution.test_bstFromPreorder_1" />
-      <item itemvalue="Python tests.Unittests for test_932_beautiful_array.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_1035_uncrossed_lines.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" />
+      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints" />
+      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" />
+      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_1035_uncrossed_lines.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_932_beautiful_array.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution.test_bstFromPreorder_1" />
-        <item itemvalue="Python tests.Unittests for test_18_4sum.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" />
+        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" />
+        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints" />
+        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" />
       </list>
     </recent_temporary>
   </component>
@@ -998,35 +999,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_1008_construct_bfs_from_preorder_traversal_TestSolution - 2020.05.24 at 10h 36m 14s.xml">
-      <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_2 - 2020.05.25 at 14h 50m 37s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1008_construct_bfs_from_preorder_traversal_TestSolution - 2020.05.24 at 10h 36m 30s.xml">
-      <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_3 - 2020.05.25 at 14h 50m 46s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1008_construct_bfs_from_preorder_traversal_TestSolution - 2020.05.24 at 10h 37m 44s.xml">
-      <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_3 - 2020.05.25 at 14h 50m 56s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1008_construct_bfs_from_preorder_traversal_TestSolution - 2020.05.24 at 10h 38m 27s.xml">
-      <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution - 2020.05.25 at 15h 12m 47s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1008_construct_bfs_from_preorder_traversal_TestSolution_test_bstFromPreorder_1 - 2020.05.24 at 10h 39m 29s.xml">
-      <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution.test_bstFromPreorder_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints - 2020.05.25 at 15h 13m 14s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1008_construct_bfs_from_preorder_traversal_TestSolution_test_bstFromPreorder_1 - 2020.05.24 at 10h 41m 41s.xml">
-      <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution.test_bstFromPreorder_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_1 - 2020.05.25 at 15h 13m 20s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1008_construct_bfs_from_preorder_traversal_TestSolution - 2020.05.24 at 10h 42m 42s.xml">
-      <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution - 2020.05.25 at 15h 13m 34s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1008_construct_bfs_from_preorder_traversal_TestSolution - 2020.05.24 at 10h 42m 48s.xml">
-      <configuration name="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_4 - 2020.05.25 at 15h 16m 33s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_932_beautiful_array_TestSolution - 2020.05.24 at 16h 14m 35s.xml">
-      <configuration name="Unittests for test_932_beautiful_array.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_4 - 2020.05.25 at 15h 17m 27s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_932_beautiful_array_TestSolution - 2020.05.24 at 16h 14m 46s.xml">
-      <configuration name="Unittests for test_932_beautiful_array.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution - 2020.05.25 at 15h 23m 38s.xml">
+      <configuration name="Unittests for test_780_reaching_points.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1669,20 +1670,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N567_Permutation_In_String.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N438_Find_All_Anagrams_In_A_String.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/LongestSubstringWithoutRepeatingCharacters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -1880,13 +1867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="632" selection-start-line="632" selection-end-line="632" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_451_sort_characters_by_frequency.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2023,20 +2003,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N1035_Uncrossed_Lines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_1035_uncrossed_lines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="63">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N1035_Uncrossed_Lines.py">
+    <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="256">
+          <caret line="640" column="29" selection-start-line="640" selection-start-column="29" selection-end-line="640" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_780_reaching_points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N780_Reaching_Points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
         </state>
       </provider>
     </entry>
