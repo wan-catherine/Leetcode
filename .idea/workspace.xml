@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even_valued_grandparent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N525_Contiguous_Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_525_contiguous_array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/N780_Reaching_Points.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N780_Reaching_Points.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,9 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_one.coverage" NAME="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_one Coverage Results" MODIFIED="1542667891756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_TestSolution_test_hasPathSum.coverage" NAME="Unittests for test_path_sum.TestSolution.test_hasPathSum Coverage Results" MODIFIED="1540681761382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate_two.coverage" NAME="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate_two Coverage Results" MODIFIED="1544976215279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_525_contiguous_array_TestSolution_test_findMaxLength.coverage" NAME="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength Coverage Results" MODIFIED="1590505730704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_trapping_rain_water_TestSolution_test_trap.coverage" NAME="Unittests for test_trapping_rain_water.TestSolution.test_trap Coverage Results" MODIFIED="1536507268089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_525_contiguous_array_TestSolution.coverage" NAME="Unittests for test_525_contiguous_array.TestSolution Coverage Results" MODIFIED="1590511356411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_n124_binary_tree_maximum_path_sum_TestSolution_test_maxPathSum_six.coverage" NAME="Unittests for test_n124_binary_tree_maximum_path_sum.TestSolution.test_maxPathSum_six Coverage Results" MODIFIED="1588176688639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_ii_TestSolution_test_rob.coverage" NAME="Unittests for test_house_robber_ii.TestSolution.test_rob Coverage Results" MODIFIED="1544760239931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_palindrome_TestSolution_test_isPalindrome_two.coverage" NAME="Unittests for test_valid_palindrome.TestSolution.test_isPalindrome_two Coverage Results" MODIFIED="1541633191894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -101,6 +102,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_parentheses_TestSolution_test_isValid_with_only_right.coverage" NAME="Unittests for test_valid_parentheses.TestSolution.test_isValid_with_only_right Coverage Results" MODIFIED="1534717588849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct_seven.coverage" NAME="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_seven Coverage Results" MODIFIED="1543082836397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_one.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_one Coverage Results" MODIFIED="1539573457698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_525_contiguous_array_TestSolution_test_findMaxLength_4.coverage" NAME="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_4 Coverage Results" MODIFIED="1590510958224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution.coverage" NAME="Unittests for test_container_with_most_water.TestSolution Coverage Results" MODIFIED="1534289664290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_find_pattern.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_find_pattern Coverage Results" MODIFIED="1535299710328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1038_binary_search_tree_to_greater_sum_tree_TestSolution.coverage" NAME="Unittests for test_1038_binary_search_tree_to_greater_sum_tree.TestSolution Coverage Results" MODIFIED="1589838084614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -279,6 +281,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_405_TestSolution.coverage" NAME="Unittests for test_405.TestSolution Coverage Results" MODIFIED="1588019572188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_932_beautiful_array_TestSolution.coverage" NAME="Unittests for test_932_beautiful_array.TestSolution Coverage Results" MODIFIED="1590351286227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_two_sum_ii_TestSolution_test_twoSum.coverage" NAME="Unittests for test_two_sum_ii.TestSolution.test_twoSum Coverage Results" MODIFIED="1542419241217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_525_contiguous_array_TestSolution_test_findMaxLength_2.coverage" NAME="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_2 Coverage Results" MODIFIED="1590501625731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$LargestRectangleHistogram.coverage" NAME="LargestRectangleHistogram Coverage Results" MODIFIED="1538929137951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_n124_binary_tree_maximum_path_sum_TestSolution_test_maxPathSum_two.coverage" NAME="Unittests for test_n124_binary_tree_maximum_path_sum.TestSolution.test_maxPathSum_two Coverage Results" MODIFIED="1588175202655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution_test_setZeroes_1.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution.test_setZeroes_1 Coverage Results" MODIFIED="1537831374354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -421,6 +424,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_list_TestSolution_test_rotateRight_4.coverage" NAME="Unittests for test_rotate_list.TestSolution.test_rotateRight_4 Coverage Results" MODIFIED="1537224242394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution_test_simplifyPath_cornor.coverage" NAME="Unittests for test_simplify_path.TestSolution.test_simplifyPath_cornor Coverage Results" MODIFIED="1537623949095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_additive_number_TestSolution_test_isAdditiveNumber_two.coverage" NAME="Unittests for test_additive_number.TestSolution.test_isAdditiveNumber_two Coverage Results" MODIFIED="1546794848678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_525_contiguous_array_TestSolution_test_findMaxLength_3.coverage" NAME="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_3 Coverage Results" MODIFIED="1590505854972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_ugly_number_TestSolution.coverage" NAME="Unittests for test_ugly_number.TestSolution Coverage Results" MODIFIED="1545752104434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_negative.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray_negative Coverage Results" MODIFIED="1535771618556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$PathSum.coverage" NAME="PathSum Coverage Results" MODIFIED="1540680496815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
@@ -657,7 +661,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="206" />
+          <entry key="project.closed" value="207" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="60" />
@@ -672,33 +676,33 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="19" />
-          <entry key="project.open.time.9" value="56" />
-          <entry key="project.opened" value="207" />
+          <entry key="project.open.time.9" value="57" />
+          <entry key="project.opened" value="208" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="687" />
+          <entry key="py" value="689" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="687" />
+          <entry key="Python" value="689" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="6891" />
+          <entry key="Python Console" value="6970" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="147411" />
+          <entry key="py" value="148992" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="154302" />
+          <entry key="Python" value="155962" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -709,21 +713,21 @@
     <favorites_list name="Leetcode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py">
+        <entry file="file://$PROJECT_DIR$/problems/N525_Contiguous_Array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="425">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even_valued_grandparent.py">
+        <entry file="file://$PROJECT_DIR$/test/test_525_contiguous_array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="101">
+              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="60" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -752,8 +756,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/Utility.py" />
-        <option value="$PROJECT_DIR$/test/test_328_odd_even_linked_list.py" />
         <option value="$PROJECT_DIR$/problems/N328_Odd_Even_Linked_List.py" />
         <option value="$PROJECT_DIR$/problems/N141_Linked_List_Cycle.py" />
         <option value="$PROJECT_DIR$/problems/N142_Linked_List_Cycle_II.py" />
@@ -803,6 +805,8 @@
         <option value="$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even-valued_grandparent.py" />
         <option value="$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even_valued_grandparent.py" />
         <option value="$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py" />
+        <option value="$PROJECT_DIR$/test/test_525_contiguous_array.py" />
+        <option value="$PROJECT_DIR$/problems/N525_Contiguous_Array.py" />
       </list>
     </option>
   </component>
@@ -813,7 +817,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
+    <option name="x" value="1921" />
     <option name="y" value="499" />
     <option name="width" value="1241" />
     <option name="height" value="777" />
@@ -876,7 +880,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent">
+  <component name="RunManager" selected="Python tests.Unittests for test_525_contiguous_array.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -906,7 +910,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_525_contiguous_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -917,11 +921,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_525_contiguous_array.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -932,11 +936,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent&quot;" />
+      <option name="_new_target" value="&quot;test_525_contiguous_array.TestSolution.test_findMaxLength&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_780_reaching_points.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -947,11 +951,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_525_contiguous_array.TestSolution.test_findMaxLength_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -962,11 +966,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution.test_reachingPoints_1&quot;" />
+      <option name="_new_target" value="&quot;test_525_contiguous_array.TestSolution.test_findMaxLength_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -977,24 +981,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_780_reaching_points.TestSolution.test_reachingPoints_4&quot;" />
+      <option name="_new_target" value="&quot;test_525_contiguous_array.TestSolution.test_findMaxLength_4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" />
-      <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" />
-      <item itemvalue="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" />
+      <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_2" />
+      <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength" />
+      <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_3" />
+      <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" />
-        <item itemvalue="Python tests.Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" />
-        <item itemvalue="Python tests.Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" />
+        <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_4" />
+        <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_3" />
+        <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength" />
+        <item itemvalue="Python tests.Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_2" />
       </list>
     </recent_temporary>
   </component>
@@ -1012,35 +1016,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints - 2020.05.25 at 15h 13m 14s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution - 2020.05.26 at 11h 23m 05s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_1 - 2020.05.25 at 15h 13m 20s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution - 2020.05.26 at 11h 24m 17s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution - 2020.05.25 at 15h 13m 34s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution - 2020.05.26 at 12h 33m 57s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_4 - 2020.05.25 at 15h 16m 33s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution - 2020.05.26 at 12h 34m 10s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_4 - 2020.05.25 at 15h 17m 27s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution_test_findMaxLength_4 - 2020.05.26 at 12h 35m 14s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_780_reaching_points_TestSolution - 2020.05.25 at 15h 23m 38s.xml">
-      <configuration name="Unittests for test_780_reaching_points.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution_test_findMaxLength_4 - 2020.05.26 at 12h 35m 33s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution - 2020.05.25 at 16h 04m 22s.xml">
-      <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution_test_findMaxLength_4 - 2020.05.26 at 12h 37m 01s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution.test_findMaxLength_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution - 2020.05.25 at 16h 04m 36s.xml">
-      <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution - 2020.05.26 at 12h 38m 11s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution_test_sumEvenGrandparent - 2020.05.25 at 16h 06m 05s.xml">
-      <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution - 2020.05.26 at 12h 40m 52s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution_test_sumEvenGrandparent - 2020.05.25 at 16h 06m 15s.xml">
-      <configuration name="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution.test_sumEvenGrandparent" configurationId="tests" />
+    <history-entry file="Unittests_for_test_525_contiguous_array_TestSolution - 2020.05.26 at 12h 42m 36s.xml">
+      <configuration name="Unittests for test_525_contiguous_array.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1053,15 +1057,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="499" width="1241" height="777" extended-state="6" />
+    <frame x="1921" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.3002502" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.30525437" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56642336" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47591242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49635038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1540,11 +1544,6 @@
           <line>18</line>
           <option name="timeStamp" value="201" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="204" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1688,20 +1687,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N1038_Binary_Search_Tree_To_Greater_Sum_Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/Utility_Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2331">
-          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_longest_substring_without_repeating_characters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -2013,9 +1998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2030,9 +2012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2043,20 +2022,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even_valued_grandparent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="63">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even_Valued_Grandparent.py">
+    <entry file="file://$PROJECT_DIR$/test/test_525_contiguous_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="101">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N525_Contiguous_Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
         </state>
       </provider>
     </entry>
