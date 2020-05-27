@@ -12,3 +12,6 @@ class TestSolution(TestCase):
 ]
         self.assertEqual(True, Solution().searchMatrix(input, 5))
         self.assertEqual(False, Solution().searchMatrix(input, 20))
+
+    def test_searchMatrix_1(self):
+        self.assertEqual(False, Solution().searchMatrix([[]], 20))
