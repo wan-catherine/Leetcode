@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N896_Monotonic_Array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_896_monotonic_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N1366_Rank_Teams_By_Votes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_1366_rank_teams_by_votes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/CourseSchedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/CourseSchedule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/CourseScheduleII.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/CourseScheduleII.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_course_schedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_course_schedule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_course_schedule_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_course_schedule_ii.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +44,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_longest_common_prefix_py.coverage" NAME="Unittests in test_longest_common_prefix.py Coverage Results" MODIFIED="1534456383796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combinations_TestSolution_test_combine.coverage" NAME="Unittests for test_combinations.TestSolution.test_combine Coverage Results" MODIFIED="1538090485877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_328_odd_even_linked_list_TestSolution_test_oddEvenList_2.coverage" NAME="Unittests for test_328_odd_even_linked_list.TestSolution.test_oddEvenList_2 Coverage Results" MODIFIED="1589637059324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1366_rank_teams_by_votes_TestSolution_test_rankTeams.coverage" NAME="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams Coverage Results" MODIFIED="1590794384181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sqrt_x_TestSolution.coverage" NAME="Unittests for test_sqrt_x.TestSolution Coverage Results" MODIFIED="1537714133986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_list_TestSolution.coverage" NAME="Unittests for test_rotate_list.TestSolution Coverage Results" MODIFIED="1537225053024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_three.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_three Coverage Results" MODIFIED="1535819342437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -157,6 +153,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_1.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_1 Coverage Results" MODIFIED="1589062690788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_18_4sum_TestSolution_test_fourSum.coverage" NAME="Unittests for test_18_4sum.TestSolution.test_fourSum Coverage Results" MODIFIED="1590267292310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_iii_TestSolution_test_maxProfit.coverage" NAME="Unittests for test_best_time_buy_sell_stock_iii.TestSolution.test_maxProfit Coverage Results" MODIFIED="1542473972432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1366_rank_teams_by_votes_TestSolution_test_rankTeams_1.coverage" NAME="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams_1 Coverage Results" MODIFIED="1590794402610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_ii_TestSolution_test_maxProfit_three.coverage" NAME="Unittests for test_best_time_buy_sell_stock_ii.TestSolution.test_maxProfit_three Coverage Results" MODIFIED="1541549790028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_invalid_parentheses_TestSolution_test_removeInvalidParentheses_two.coverage" NAME="Unittests for test_remove_invalid_parentheses.TestSolution.test_removeInvalidParentheses_two Coverage Results" MODIFIED="1545943497258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_palindrome_number_py.coverage" NAME="Unittests in test_palindrome_number.py Coverage Results" MODIFIED="1534192192723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -229,6 +226,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_no_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_no_repeating_characters Coverage Results" MODIFIED="1589743894958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_insert_position_TestSolution.coverage" NAME="Unittests for test_search_insert_position.TestSolution Coverage Results" MODIFIED="1535249645312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_spiral_matrix_ii_TestSolution.coverage" NAME="Unittests for test_spiral_matrix_ii.TestSolution Coverage Results" MODIFIED="1537018818960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1366_rank_teams_by_votes_TestSolution.coverage" NAME="Unittests for test_1366_rank_teams_by_votes.TestSolution Coverage Results" MODIFIED="1590794459567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_0.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_0 Coverage Results" MODIFIED="1535299181693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_sorted_array_TestSolution.coverage" NAME="Unittests for test_merge_sorted_array.TestSolution Coverage Results" MODIFIED="1539226890980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_2D_matrix_TestSolution.coverage" NAME="Unittests for test_search_2D_matrix.TestSolution Coverage Results" MODIFIED="1537913908612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -717,26 +715,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="715" />
+          <entry key="py" value="718" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="715" />
+          <entry key="Python" value="718" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="6970" />
+          <entry key="Python Console" value="6997" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="157657" />
+          <entry key="py" value="158531" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="164627" />
+          <entry key="Python" value="165528" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -749,49 +747,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/FirstMissingPositive.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N896_Monotonic_Array.py">
+        <entry file="file://$PROJECT_DIR$/problems/N1366_Rank_Teams_By_Votes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="138">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_896_monotonic_array.py">
+        <entry file="file://$PROJECT_DIR$/test/test_1366_rank_teams_by_votes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="63">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_course_schedule_ii.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -817,8 +797,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/MaximumSubarray.py" />
-        <option value="$PROJECT_DIR$/test/test_1277_count_square_submatrices_with_all_ones.py" />
         <option value="$PROJECT_DIR$/problems/N1277_Count_Square_Submatrices_With_All_Ones.py" />
         <option value="$PROJECT_DIR$/problems/PathSum.py" />
         <option value="$PROJECT_DIR$/test/test_437_path_sum_iii.py" />
@@ -865,9 +843,11 @@
         <option value="$PROJECT_DIR$/problems/CourseSchedule.py" />
         <option value="$PROJECT_DIR$/problems/CourseScheduleII.py" />
         <option value="$PROJECT_DIR$/test/test_course_schedule_ii.py" />
-        <option value="$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py" />
         <option value="$PROJECT_DIR$/test/test_896_monotonic_array.py" />
         <option value="$PROJECT_DIR$/problems/N896_Monotonic_Array.py" />
+        <option value="$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py" />
+        <option value="$PROJECT_DIR$/test/test_1366_rank_teams_by_votes.py" />
+        <option value="$PROJECT_DIR$/problems/N1366_Rank_Teams_By_Votes.py" />
       </list>
     </option>
   </component>
@@ -941,7 +921,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_896_monotonic_array.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_1366_rank_teams_by_votes.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -971,6 +951,51 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1366_rank_teams_by_votes.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1366_rank_teams_by_votes.TestSolution.test_rankTeams&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1366_rank_teams_by_votes.TestSolution.test_rankTeams_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_896_monotonic_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -983,21 +1008,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_896_monotonic_array.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_896_monotonic_array.TestSolution.test_isMonotonic&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -1016,50 +1026,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_896_monotonic_array.TestSolution.test_isMonotonic_2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_896_monotonic_array.TestSolution.test_isMonotonic_3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_1" />
-      <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_2" />
-      <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_3" />
-      <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic" />
       <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_1366_rank_teams_by_votes.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams" />
+      <item itemvalue="Python tests.Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_1366_rank_teams_by_votes.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams_1" />
+        <item itemvalue="Python tests.Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams" />
         <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_1" />
-        <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic" />
-        <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_2" />
-        <item itemvalue="Python tests.Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_3" />
       </list>
     </recent_temporary>
   </component>
@@ -1077,35 +1057,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic_1 - 2020.05.29 at 16h 27m 38s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution - 2020.05.29 at 19h 18m 14s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic_2 - 2020.05.29 at 16h 27m 42s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution_test_rankTeams - 2020.05.29 at 19h 18m 18s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic_2 - 2020.05.29 at 16h 28m 36s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution_test_rankTeams - 2020.05.29 at 19h 18m 25s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution - 2020.05.29 at 16h 28m 49s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution_test_rankTeams - 2020.05.29 at 19h 19m 28s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic_4 - 2020.05.29 at 16h 28m 54s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_4" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution - 2020.05.29 at 19h 19m 37s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic_3 - 2020.05.29 at 16h 28m 57s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_3" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution_test_rankTeams - 2020.05.29 at 19h 19m 44s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic_2 - 2020.05.29 at 16h 29m 01s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_2" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution_test_rankTeams_1 - 2020.05.29 at 19h 19m 46s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic_1 - 2020.05.29 at 16h 29m 04s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution_test_rankTeams_1 - 2020.05.29 at 19h 19m 51s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic - 2020.05.29 at 16h 29m 09s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution_test_rankTeams_1 - 2020.05.29 at 19h 20m 31s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution.test_rankTeams_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic_1 - 2020.05.29 at 16h 29m 35s.xml">
-      <configuration name="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1366_rank_teams_by_votes_TestSolution - 2020.05.29 at 19h 20m 40s.xml">
+      <configuration name="Unittests for test_1366_rank_teams_by_votes.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1126,8 +1106,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47591242" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40145984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54160583" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42043796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1615,6 +1595,16 @@
           <line>13</line>
           <option name="timeStamp" value="209" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1366_Rank_Teams_By_Votes.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1366_Rank_Teams_By_Votes.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1758,20 +1748,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_451_sort_characters_by_frequency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N451_Sort_Characters_By_Frequency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/TopKFrequentElements.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -2062,13 +2038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="632" selection-start-line="632" selection-end-line="632" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_course_schedule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -2097,17 +2066,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_896_monotonic_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="63">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -2116,8 +2078,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N896_Monotonic_Array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="294">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="632" selection-start-line="632" selection-end-line="632" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_1366_rank_teams_by_votes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N1366_Rank_Teams_By_Votes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
