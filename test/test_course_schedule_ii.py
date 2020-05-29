@@ -10,7 +10,7 @@ class TestSolution(TestCase):
     def test_findOrder_one(self):
         solution = Solution()
         res = solution.findOrder(4, [[1,0],[2,0],[3,1],[3,2]])
-        self.assertEqual(res, [0,1,2,3] )
+        self.assertEqual(res, [0,2,1,3] )
 
     def test_findOrder_two(self):
         solution = Solution()

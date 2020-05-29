@@ -1,5 +1,5 @@
 class Solution:
-    def findOrder(self, numCourses, prerequisites):
+    def findOrder_old(self, numCourses, prerequisites):
         """
         :type numCourses: int
         :type prerequisites: List[List[int]]
@@ -38,6 +38,59 @@ class Solution:
             return res
         else:
             return []
+
+    def findOrder_dfs(self, numCourses, prerequisites):
+        self.graph = {}
+        for pair in prerequisites:
+            self.graph.setdefault(pair[1], []).append(pair[0])
+        self.status = [0] * numCourses
+        self.result = []
+        flag = True
+        for i in range(numCourses):
+            if i not in self.graph:
+                self.result.append(i)
+                continue
+            flag = self.dfs(i)
+            if not flag:
+                break
+        return self.result if flag else []
+
+    def dfs(self, i):
+        if self.status[i] == 1:
+            return True
+        if self.status[i] == -1:
+            return False
+
+        self.status[i] = -1
+        for node in self.graph[i]:
+            if node not in self.graph:
+                continue
+            if not self.dfs(node):
+                return False
+
+        self.status[i] = 1
+        self.result = [i] + self.result   # add the new one in the head of self.result
+        return True
+
+    def findOrder(self, numCourses, prerequisites):
+        graph = {}
+        indegree_count = [0] * numCourses
+        for pair in prerequisites:
+            graph.setdefault(pair[1], []).append(pair[0])
+            indegree_count[pair[0]] += 1
+
+        zero_indegree = [ i for i in range(numCourses) if not indegree_count[i]]
+        res = []
+        while zero_indegree:
+            i = zero_indegree.pop()
+            res.append(i)
+            if i in graph:
+                for node in graph[i]:
+                    indegree_count[node] -= 1
+                    if not indegree_count[node]:
+                        zero_indegree.append(node)
+        return [] if sum(indegree_count) else res
+
 
 
 
