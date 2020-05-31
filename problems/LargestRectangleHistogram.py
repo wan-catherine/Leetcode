@@ -57,12 +57,9 @@ class Solution:
             right = len(heights)
         return value*(right - left - 1)
 
-    def largestRectangleArea(self, heights):
+    def largestRectangleArea_before(self, heights):
         if len(heights) == 0:
             return 0
-        # if len(heights) == 1:
-        #     return heights[0]
-
         indexes = []
         i = 0
         res = 0
@@ -85,4 +82,48 @@ class Solution:
                 indexes.append(i - 1)
             if i == length and len(indexes) == 0:
                 break
+        return res
+
+    def largestRectangleArea(self, heights):
+        if not heights:
+            return 0
+        len_h = len(heights)
+        left,right= [0] * len_h, [0] * len_h
+        temp = []
+        for i in range(len_h):
+            count = 1
+            while temp:
+                if temp[-1][0] >= heights[i]:
+                    previous, num = temp.pop()
+                    count += num
+                else:
+                    break
+            left[i] = count
+            temp.append((heights[i], count))
+
+        temp = []
+        for i in range(len_h-1, -1, -1):
+            count = 1
+            while temp:
+                if temp[-1][0] >= heights[i]:
+                    previous, num = temp.pop()
+                    count += num
+                else:
+                    break
+            right[i] = count
+            temp.append((heights[i], count))
+
+        res = [(l+r-1)*a for l,r,a in zip(left,right,heights)]
+        return max(res)
+
+    def largestRectangleArea(self, heights):
+        heights = [0] + heights + [0]
+        stack = []
+        res = 0
+        for i, h in enumerate(heights):
+            while stack and heights[stack[-1]] > h:
+                j = stack.pop()
+                k = stack[-1]
+                res = max(res, (i-k-1)*heights[j])
+            stack.append(i)
         return res

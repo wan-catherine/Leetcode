@@ -12,3 +12,9 @@ class TestSolution(TestCase):
 ]
         res = solution.maximalRectangle(input)
         self.assertEqual(6, res)
+
+    def test_maximalRectangle_1(self):
+        solution = Solution()
+        input = [["0","1"],["1","0"]]
+        res = solution.maximalRectangle(input)
+        self.assertEqual(1, res)

@@ -48,11 +48,13 @@ class Solution(object):
                     break
             right[i] = count
             temp.append((A[i], count))
-
+        print(left)
+        print(right)
         return sum(a*l*r for a, l, r in zip(A, left, right)) % mod
 
     # don't understand :(
-    def sumSubarrayMins_best(self, A):
+    # non-decreasing stack
+    def sumSubarrayMins(self, A):
         res = 0
         s = []
         A = [0] + A + [0]
@@ -60,6 +62,8 @@ class Solution(object):
             while s and A[s[-1]] > x:
                 j = s.pop()
                 k = s[-1]
+                print(i-j)
+                print(j-k)
                 res += A[j] * (i - j) * (j - k)
             s.append(i)
         return res % (10 ** 9 + 7)
