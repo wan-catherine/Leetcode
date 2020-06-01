@@ -1,5 +1,8 @@
+from math import inf
+
+
 class Solution:
-    def trap(self, height):
+    def trap_before(self, height):
         """
         :type height: List[int]
         :rtype: int
@@ -21,5 +24,20 @@ class Solution:
         for i in range(0, len(height)):
             res += min(left[i], right[i]) - height[i]
 
+        return res
+
+
+    def trap(self, height):
+        height = [float(inf)] + height + [float(inf)]
+        stack = []
+        res = 0
+        for index, value in enumerate(height):
+            #non-increasing stack
+            while stack and height[stack[-1]] < value:
+                cur = stack.pop()
+                previous = stack[-1]
+                if height[previous] != float(inf) and height[index] != float(inf):
+                    res += (min(height[index], height[previous]) - height[cur]) * (index - previous - 1)
+            stack.append(index)
         return res
 
