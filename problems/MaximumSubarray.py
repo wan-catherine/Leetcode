@@ -29,7 +29,7 @@ class Solution:
 
         return max
 
-    def maxSubArray(self, nums):
+    def maxSubArray_kadane(self, nums):
         if not nums:
             return None
         previous = nums[0]
@@ -40,6 +40,20 @@ class Solution:
             else:
                 previous = i
             res = max(res, previous)
+        return res
+
+    # ok, now I understand Kadane's algorithm
+    def maxSubArray(self, nums):
+        if not nums:
+            return None
+        res = float(-inf)
+        previous = res
+        for i in nums:
+            if previous > 0:
+                previous += i
+            else:
+                previous = i
+            res = max(previous, res)
         return res
 
 

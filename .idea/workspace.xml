@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N226_Invert_Binary_Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N316_Remove_Duplicate_Letters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_226_invert_binary_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_316_remove_duplicate_letters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N718_Maximum_Length_Of_Repeated_Subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_718_maximum_length_of_repeated_subarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/MaximumSubarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/MaximumSubarray.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_linked_list_elements_TestSolution.coverage" NAME="Unittests for test_remove_linked_list_elements.TestSolution Coverage Results" MODIFIED="1544225216991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_no.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no Coverage Results" MODIFIED="1589062432905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength_1.coverage" NAME="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_1 Coverage Results" MODIFIED="1591060037709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_populating_next_right_pointers_each_node_TestSolution_test_connect.coverage" NAME="Unittests for test_populating_next_right_pointers_each_node.TestSolution.test_connect Coverage Results" MODIFIED="1541255718733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_TestSolution_test_rob_one.coverage" NAME="Unittests for test_house_robber.TestSolution.test_rob_one Coverage Results" MODIFIED="1542772257339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_TestSolution.coverage" NAME="Unittests for test_jump_game.TestSolution Coverage Results" MODIFIED="1536704701733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -97,7 +97,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_three_pairs.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_three_pairs Coverage Results" MODIFIED="1534028096112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_symmetric_tree_TestSolution.coverage" NAME="Unittests for test_symmetric_tree.TestSolution Coverage Results" MODIFIED="1540424905888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution.coverage" NAME="Unittests for test_decode_ways.TestSolution Coverage Results" MODIFIED="1539573604142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution.coverage" NAME="Unittests for test_max_subarray.TestSolution Coverage Results" MODIFIED="1590070835998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution.coverage" NAME="Unittests for test_max_subarray.TestSolution Coverage Results" MODIFIED="1591023548030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_minimum_size_subarray_sum_TestSolution.coverage" NAME="Unittests for test_minimum_size_subarray_sum.TestSolution Coverage Results" MODIFIED="1544154668865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution.coverage" NAME="Unittests for test_3Sum.TestSolution Coverage Results" MODIFIED="1534460361075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_TestSolution_test_combinationSum_1.coverage" NAME="Unittests for test_combination_sum.TestSolution.test_combinationSum_1 Coverage Results" MODIFIED="1536108544967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -163,7 +163,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_invalid_parentheses_TestSolution_test_removeInvalidParentheses_two.coverage" NAME="Unittests for test_remove_invalid_parentheses.TestSolution.test_removeInvalidParentheses_two Coverage Results" MODIFIED="1545943497258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_palindrome_number_py.coverage" NAME="Unittests in test_palindrome_number.py Coverage Results" MODIFIED="1534192192723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_from_sorted_array_ii_TestSolution_test_removeDuplicates_check.coverage" NAME="Unittests for test_remove_duplicates_from_sorted_array_ii.TestSolution.test_removeDuplicates_check Coverage Results" MODIFIED="1538435164806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_single.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray_single Coverage Results" MODIFIED="1535771695431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_single.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray_single Coverage Results" MODIFIED="1591023518277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_500.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_500 Coverage Results" MODIFIED="1534284299616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_climbing_stairs_TestSolution.coverage" NAME="Unittests for test_climbing_stairs.TestSolution Coverage Results" MODIFIED="1536801496175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution.coverage" NAME="Unittests for test_sort_colors.TestSolution Coverage Results" MODIFIED="1588884603241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -214,7 +214,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_TestSolution_test_max_profit_with_only_one_number.coverage" NAME="Unittests for test_best_time_buy_sell_stock.TestSolution.test_max_profit_with_only_one_number Coverage Results" MODIFIED="1534000353040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_element_TestSolution_test_removeElement.coverage" NAME="Unittests for test_remove_element.TestSolution.test_removeElement Coverage Results" MODIFIED="1535063089564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_majority_element_TestSolution.coverage" NAME="Unittests for test_majority_element.TestSolution Coverage Results" MODIFIED="1542558775770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray Coverage Results" MODIFIED="1590069893547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray Coverage Results" MODIFIED="1591023446395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_majority_element_TestSolution_test_majorityElement.coverage" NAME="Unittests for test_majority_element.TestSolution.test_majorityElement Coverage Results" MODIFIED="1542558740025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search Coverage Results" MODIFIED="1535819034526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_316_remove_duplicate_letters_TestSolution.coverage" NAME="Unittests for test_316_remove_duplicate_letters.TestSolution Coverage Results" MODIFIED="1590974894533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -362,6 +362,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange Coverage Results" MODIFIED="1589062388287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_remove_nth_node_py.coverage" NAME="Unittests in test_remove_nth_node.py Coverage Results" MODIFIED="1534698265845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_18_4sum_TestSolution.coverage" NAME="Unittests for test_18_4sum.TestSolution Coverage Results" MODIFIED="1590269529737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength.coverage" NAME="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength Coverage Results" MODIFIED="1591062370535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1038_binary_search_tree_to_greater_sum_tree_TestSolution_test_bstToGst.coverage" NAME="Unittests for test_1038_binary_search_tree_to_greater_sum_tree.TestSolution.test_bstToGst Coverage Results" MODIFIED="1589838028171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_287_find_the_duplicate_number_TestSolution_test_findDuplicate_1.coverage" NAME="Unittests for test_287_find_the_duplicate_number.TestSolution.test_findDuplicate_1 Coverage Results" MODIFIED="1590709341368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$SortColors.coverage" NAME="SortColors Coverage Results" MODIFIED="1588884053946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
@@ -490,6 +491,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_402_remove_k_digits_TestSolution.coverage" NAME="Unittests for test_402_remove_k_digits.TestSolution Coverage Results" MODIFIED="1589496539951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_18_4sum_TestSolution_test_fourSum_2.coverage" NAME="Unittests for test_18_4sum.TestSolution.test_fourSum_2 Coverage Results" MODIFIED="1590267781220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_518_coin_change_2py_TestSolution_test_change.coverage" NAME="Unittests for test_518_coin_change_2py.TestSolution.test_change Coverage Results" MODIFIED="1588340628957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution.coverage" NAME="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution Coverage Results" MODIFIED="1591062032999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_4.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_4 Coverage Results" MODIFIED="1590434214600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_9.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_9 Coverage Results" MODIFIED="1534284105097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd_two.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd_two Coverage Results" MODIFIED="1534693907949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -544,6 +546,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_roman_to_integer_py.coverage" NAME="Unittests in test_roman_to_integer.py Coverage Results" MODIFIED="1534284378990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_binary_TestSolution_test_addBinary.coverage" NAME="Unittests for test_add_binary.TestSolution.test_addBinary Coverage Results" MODIFIED="1537578515444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist_output.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist_output Coverage Results" MODIFIED="1538324084115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength_2.coverage" NAME="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_2 Coverage Results" MODIFIED="1591060072736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximal_square_TestSolution_test_maximalSquare_one.coverage" NAME="Unittests for test_maximal_square.TestSolution.test_maximalSquare_one Coverage Results" MODIFIED="1545013426507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_322_coin_change_TestSolution.coverage" NAME="Unittests for test_322_coin_change.TestSolution Coverage Results" MODIFIED="1588427766021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_907_sum_of_subarray_minimums_TestSolution.coverage" NAME="Unittests for test_907_sum_of_subarray_minimums.TestSolution Coverage Results" MODIFIED="1590872629150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -730,26 +733,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="743" />
+          <entry key="py" value="747" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="743" />
+          <entry key="Python" value="747" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7137" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="163960" />
+          <entry key="py" value="165033" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="171097" />
+          <entry key="Python" value="172170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -773,29 +776,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/N316_Remove_Duplicate_Letters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="252">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N226_Invert_Binary_Tree.py">
+        <entry file="file://$PROJECT_DIR$/problems/N718_Maximum_Length_Of_Repeated_Subarray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="738">
+              <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_226_invert_binary_tree.py">
+        <entry file="file://$PROJECT_DIR$/test/test_718_maximum_length_of_repeated_subarray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -833,9 +833,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_1035_uncrossed_lines.py" />
-        <option value="$PROJECT_DIR$/problems/N1035_Uncrossed_Lines.py" />
-        <option value="$PROJECT_DIR$/test/test_780_reaching_points.py" />
         <option value="$PROJECT_DIR$/problems/N780_Reaching_Points.py" />
         <option value="$PROJECT_DIR$/problems/N1315_Sum_Of_Nodes_With_Even-Valued_Grandparent.py" />
         <option value="$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even-valued_grandparent.py" />
@@ -884,6 +881,9 @@
         <option value="$PROJECT_DIR$/test/test_316_remove_duplicate_letters.py" />
         <option value="$PROJECT_DIR$/test/test_226_invert_binary_tree.py" />
         <option value="$PROJECT_DIR$/problems/N226_Invert_Binary_Tree.py" />
+        <option value="$PROJECT_DIR$/problems/MaximumSubarray.py" />
+        <option value="$PROJECT_DIR$/test/test_718_maximum_length_of_repeated_subarray.py" />
+        <option value="$PROJECT_DIR$/problems/N718_Maximum_Length_Of_Repeated_Subarray.py" />
       </list>
     </option>
   </component>
@@ -893,7 +893,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="y" value="499" />
     <option name="width" value="1241" />
@@ -957,7 +957,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_226_invert_binary_tree.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -987,7 +987,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_226_invert_binary_tree.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -998,11 +998,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_226_invert_binary_tree.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_718_maximum_length_of_repeated_subarray.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_316_remove_duplicate_letters.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1013,11 +1013,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_316_remove_duplicate_letters.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_trapping_rain_water.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1028,11 +1028,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_trapping_rain_water.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_trapping_rain_water.TestSolution.test_trap" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1043,11 +1043,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_trapping_rain_water.TestSolution.test_trap&quot;" />
+      <option name="_new_target" value="&quot;test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_trapping_rain_water.TestSolution.test_trap_big" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_max_subarray.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1058,24 +1058,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_trapping_rain_water.TestSolution.test_trap_big&quot;" />
+      <option name="_new_target" value="&quot;test_max_subarray.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_trapping_rain_water.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_trapping_rain_water.TestSolution.test_trap" />
-      <item itemvalue="Python tests.Unittests for test_trapping_rain_water.TestSolution.test_trap_big" />
-      <item itemvalue="Python tests.Unittests for test_316_remove_duplicate_letters.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_226_invert_binary_tree.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_2" />
+      <item itemvalue="Python tests.Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength" />
+      <item itemvalue="Python tests.Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_226_invert_binary_tree.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_316_remove_duplicate_letters.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_trapping_rain_water.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_trapping_rain_water.TestSolution.test_trap" />
-        <item itemvalue="Python tests.Unittests for test_trapping_rain_water.TestSolution.test_trap_big" />
+        <item itemvalue="Python tests.Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength" />
+        <item itemvalue="Python tests.Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_2" />
+        <item itemvalue="Python tests.Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_1" />
+        <item itemvalue="Python tests.Unittests for test_max_subarray.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -1093,35 +1093,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_trapping_rain_water_TestSolution - 2020.05.31 at 20h 21m 07s.xml">
-      <configuration name="Unittests for test_trapping_rain_water.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength_2 - 2020.06.01 at 21h 07m 20s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_trapping_rain_water_TestSolution_test_trap - 2020.05.31 at 20h 22m 01s.xml">
-      <configuration name="Unittests for test_trapping_rain_water.TestSolution.test_trap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength_2 - 2020.06.01 at 21h 08m 09s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_trapping_rain_water_TestSolution_test_trap_big - 2020.05.31 at 20h 22m 07s.xml">
-      <configuration name="Unittests for test_trapping_rain_water.TestSolution.test_trap_big" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution - 2020.06.01 at 21h 08m 59s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_trapping_rain_water_TestSolution_test_trap_big - 2020.05.31 at 20h 29m 35s.xml">
-      <configuration name="Unittests for test_trapping_rain_water.TestSolution.test_trap_big" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution - 2020.06.01 at 21h 14m 19s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_trapping_rain_water_TestSolution_test_trap_big - 2020.05.31 at 20h 31m 58s.xml">
-      <configuration name="Unittests for test_trapping_rain_water.TestSolution.test_trap_big" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength - 2020.06.01 at 21h 38m 39s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_trapping_rain_water_TestSolution_test_trap_big - 2020.05.31 at 20h 40m 12s.xml">
-      <configuration name="Unittests for test_trapping_rain_water.TestSolution.test_trap_big" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength - 2020.06.01 at 21h 39m 21s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_trapping_rain_water_TestSolution - 2020.05.31 at 20h 40m 23s.xml">
-      <configuration name="Unittests for test_trapping_rain_water.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution - 2020.06.01 at 21h 40m 33s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_trapping_rain_water_TestSolution_test_trap - 2020.05.31 at 20h 50m 44s.xml">
-      <configuration name="Unittests for test_trapping_rain_water.TestSolution.test_trap" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength - 2020.06.01 at 21h 40m 49s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_trapping_rain_water_TestSolution - 2020.05.31 at 20h 51m 10s.xml">
-      <configuration name="Unittests for test_trapping_rain_water.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength - 2020.06.01 at 21h 45m 41s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_316_remove_duplicate_letters_TestSolution - 2020.05.31 at 21h 28m 15s.xml">
-      <configuration name="Unittests for test_316_remove_duplicate_letters.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength - 2020.06.01 at 21h 48m 08s.xml">
+      <configuration name="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1137,13 +1137,13 @@
     <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.32443702" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.32443702" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41751826" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50364965" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49927008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1598,11 +1598,6 @@
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/MaximumSubarray.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="197" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/N986_Interval_List_Intersections.py</url>
           <line>16</line>
           <option name="timeStamp" value="199" />
@@ -1635,11 +1630,6 @@
           <url>file://$PROJECT_DIR$/problems/TrappingRainWater.py</url>
           <line>36</line>
           <option name="timeStamp" value="212" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/N316_Remove_Duplicate_Letters.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="213" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1784,34 +1774,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_1315_sum_of_nodes_with_even_valued_grandparent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N525_Contiguous_Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N382_Linked_List_Random_Node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="9" selection-start-line="3" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_525_contiguous_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N398_Random_Pick_Index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -2126,27 +2088,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N316_Remove_Duplicate_Letters.py">
+    <entry file="file://$PROJECT_DIR$/problems/N226_Invert_Binary_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="210">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_226_invert_binary_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+        <state relative-caret-position="84">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N226_Invert_Binary_Tree.py">
+    <entry file="file://$PROJECT_DIR$/problems/MaximumSubarray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="215">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_max_subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N316_Remove_Duplicate_Letters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_718_maximum_length_of_repeated_subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N718_Maximum_Length_Of_Repeated_Subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
