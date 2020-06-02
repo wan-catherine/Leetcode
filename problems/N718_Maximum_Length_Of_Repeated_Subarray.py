@@ -26,7 +26,7 @@ class Solution(object):
         return res
 
     # binary search
-    def findLength(self, A, B):
+    def findLength_binary_search(self, A, B):
         def check(length):
             seen = set(tuple(A[i:i + length])
                        for i in range(len(A) - length + 1))
@@ -43,3 +43,24 @@ class Solution(object):
             else:
                 hi = mi - 1
         return lo - 1
+
+    def findLength(self, A, B):
+        if not A or not B:
+            return 0
+
+        a_len = len(A)
+        b_len = len(B)
+        res = 0
+
+        for offset in range(-b_len+1, a_len):
+            l = 0
+            start = max(0, offset)
+            for i in range(start, a_len):
+                if i - offset >= b_len:
+                    break
+                if A[i] == B[i-offset]:
+                    l += 1
+                    res = max(res, l)
+                else:
+                    l = 0
+        return res
