@@ -19,3 +19,9 @@ class TestSolution(TestCase):
 
     def test_removeDuplicateLetters_5(self):
         self.assertEqual("letcod", Solution().removeDuplicateLetters("leetcode"))
+
+    def test_removeDuplicateLetters_6(self):
+        self.assertEqual("abc", Solution().removeDuplicateLetters("abacb"))
+
+    def test_removeDuplicateLetters_7(self):
+        self.assertEqual("bca", Solution().removeDuplicateLetters("bcbcbcababa"))

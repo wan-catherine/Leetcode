@@ -1,3 +1,21 @@
+"""
+monotonic stack (increasing stack)
+
+We need to maintain two dictionary:
+letter_count_mapping :
+    key : letter
+    value : the count of letter in the s
+
+in_stack_mapping:
+    key : letter
+    value : False if letter not in stack, True if letter in stack
+
+The reason why we need in_stack_mapping is in case we have some letter which in stack but it still > the coming one .
+At this time, we shouldn't pop it. see : test_removeDuplicateLetters_7
+
+This is a good problem, I need to recap it later.
+"""
+
 class Solution(object):
     def removeDuplicateLetters(self, s):
         """
@@ -7,10 +25,30 @@ class Solution(object):
         if not s:
             return s
 
-        letters = [0] * 26
+        letter_count_mapping = {}
+        in_stack_mapping = {}
         for i in s:
-            index = ord(i) - ord('a')
-            if not letters[index]:
-                letters[index] = 1
+            count = letter_count_mapping.setdefault(i,0) + 1
+            letter_count_mapping[i] = count
+            in_stack_mapping[i] = False
 
-        return ''.join([chr(ord('a') + index) for index in range(26) if letters[index]])
+        stack = []
+
+        for i in s:
+            if in_stack_mapping[i] and letter_count_mapping[i] > 0:
+                letter_count_mapping[i] -= 1
+                continue
+
+            while stack and stack[-1] > i:
+                if letter_count_mapping[stack[-1]] > 0:
+                    letter = stack.pop()
+                    in_stack_mapping[letter] = False
+                else:
+                    break
+            stack.append(i)
+            in_stack_mapping[i] = True
+            letter_count_mapping[i] -= 1
+        return ''.join(stack)
+
+
+
