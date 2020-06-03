@@ -11,7 +11,7 @@ merge part is different from "merge sort" , see test_maxNumber_1
 [6,7], [6,0,4]
 when use merge sort directly , it possible to get [6,6,7,0,4]
 but here we need to always use the largest digit from those two array .
-so use compare . 
+so use compare .
 """
 class Solution(object):
     def maxNumber(self, nums1, nums2, k):
