@@ -1,3 +1,7 @@
+"""
+pair[0] - pair[1] to get how much we can save if we go to B instead A.
+then sort this , let the first N pairs go to A, the last N pairs go to B.
+"""
 class Solution(object):
     def twoCitySchedCost(self, costs):
         """
