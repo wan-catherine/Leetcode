@@ -10,3 +10,9 @@ class TestSolution(TestCase):
 
     def test_maxSlidingWindow_2(self):
         self.assertListEqual([1,-1], Solution().maxSlidingWindow([1,-1],1))
+
+    def test_maxSlidingWindow_3(self):
+        self.assertListEqual([1], Solution().maxSlidingWindow([1],1))
+
+    def test_maxSlidingWindow_4(self):
+        self.assertListEqual([11], Solution().maxSlidingWindow([9,11],2))

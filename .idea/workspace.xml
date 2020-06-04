@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N456_132_Pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_456_132_pattern.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_239_sliding_window_maximum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_239_sliding_window_maximum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,6 +194,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_316_remove_duplicate_letters_TestSolution_test_removeDuplicateLetters_1.coverage" NAME="Unittests for test_316_remove_duplicate_letters.TestSolution.test_removeDuplicateLetters_1 Coverage Results" MODIFIED="1591129323093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution_test_largestRectangleArea_1.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution.test_largestRectangleArea_1 Coverage Results" MODIFIED="1538938655415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_416_partition_equal_subnet_sum_TestSolution.coverage" NAME="Unittests for test_416_partition_equal_subnet_sum.TestSolution Coverage Results" MODIFIED="1588430964279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_4.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4 Coverage Results" MODIFIED="1591291007417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_n_queens_2_TestSolution.coverage" NAME="Unittests for test_n_queens_2.TestSolution Coverage Results" MODIFIED="1538432904526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_10_regular_expression_matching_TestSolution_test_isMatch_6.coverage" NAME="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_6 Coverage Results" MODIFIED="1588803513437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_367_valid_perfect_square_TestSolution.coverage" NAME="Unittests for test_367_valid_perfect_square.TestSolution Coverage Results" MODIFIED="1589046729572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -205,7 +205,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1315_sum_of_nodes_with_even_valued_grandparent_TestSolution.coverage" NAME="Unittests for test_1315_sum_of_nodes_with_even_valued_grandparent.TestSolution Coverage Results" MODIFIED="1590437075808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_739_daily_temperatures_TestSolution_test_dailyTemperatures.coverage" NAME="Unittests for test_739_daily_temperatures.TestSolution.test_dailyTemperatures Coverage Results" MODIFIED="1590885221772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_ii_TestSolution.coverage" NAME="Unittests for test_best_time_buy_sell_stock_ii.TestSolution Coverage Results" MODIFIED="1588517784424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_1.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1 Coverage Results" MODIFIED="1589939885080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_1.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1 Coverage Results" MODIFIED="1591290408695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_break_TestSolution.coverage" NAME="Unittests for test_word_break.TestSolution Coverage Results" MODIFIED="1542163179442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_linked_list_elements_TestSolution_test_removeElements_two.coverage" NAME="Unittests for test_remove_linked_list_elements.TestSolution.test_removeElements_two Coverage Results" MODIFIED="1544225396056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_nqueen_TestSolution_test_solveNQueens.coverage" NAME="Unittests for test_nqueen.TestSolution.test_solveNQueens Coverage Results" MODIFIED="1538341278116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -520,7 +520,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings Coverage Results" MODIFIED="1539573455072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_785_is_graph_bipartite_TestSolution_test_isBipartite_1.coverage" NAME="Unittests for test_785_is_graph_bipartite.TestSolution.test_isBipartite_1 Coverage Results" MODIFIED="1590597196167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_super_long.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_super_long Coverage Results" MODIFIED="1589062404502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow Coverage Results" MODIFIED="1589939310201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow Coverage Results" MODIFIED="1591290391504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_405_py.coverage" NAME="Unittests in test_405.py Coverage Results" MODIFIED="1587948971316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_456_132_pattern_TestSolution_test_find132pattern_3.coverage" NAME="Unittests for test_456_132_pattern.TestSolution.test_find132pattern_3 Coverage Results" MODIFIED="1591275446010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_3Sum_TestSolution_test_threeSum_with_list.coverage" NAME="Unittests for test_3Sum.TestSolution.test_threeSum_with_list Coverage Results" MODIFIED="1534460315701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -528,10 +528,11 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution_test_simplifyPath_1.coverage" NAME="Unittests for test_simplify_path.TestSolution.test_simplifyPath_1 Coverage Results" MODIFIED="1537624097992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution Coverage Results" MODIFIED="1589584718676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_nth_node_TestSolution_test_removeNthFromEnd.coverage" NAME="Unittests for test_remove_nth_node.TestSolution.test_removeNthFromEnd Coverage Results" MODIFIED="1534693905096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_2.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2 Coverage Results" MODIFIED="1591290396161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution_test_setZeroes_single_row.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution.test_setZeroes_single_row Coverage Results" MODIFIED="1537830412988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_swap_pairs_TestSolution.coverage" NAME="Unittests for test_swap_pairs.TestSolution Coverage Results" MODIFIED="1534894392427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_three.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_three Coverage Results" MODIFIED="1542051775872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution Coverage Results" MODIFIED="1589939965090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution Coverage Results" MODIFIED="1591290712079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_invalid_parentheses_TestSolution.coverage" NAME="Unittests for test_remove_invalid_parentheses.TestSolution Coverage Results" MODIFIED="1545943744148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combinations_TestSolution.coverage" NAME="Unittests for test_combinations.TestSolution Coverage Results" MODIFIED="1538090469823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_188_best_time_buy_and_sell_stock_iv_TestSolution_test_maxProfit_1.coverage" NAME="Unittests for test_188_best_time_buy_and_sell_stock_iv.TestSolution.test_maxProfit_1 Coverage Results" MODIFIED="1588521731384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -657,6 +658,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gray_code_TestSolution.coverage" NAME="Unittests for test_gray_code.TestSolution Coverage Results" MODIFIED="1539296893262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_four.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_four Coverage Results" MODIFIED="1535299934306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_476_number_complement_TestSolution.coverage" NAME="Unittests for test_476_number_complement.TestSolution Coverage Results" MODIFIED="1588624043039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_3.coverage" NAME="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3 Coverage Results" MODIFIED="1591290573288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_trapping_rain_water_TestSolution_test_trap_big.coverage" NAME="Unittests for test_trapping_rain_water.TestSolution.test_trap_big Coverage Results" MODIFIED="1590971526865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_length_pair_chain_TestSolution_test_find_longest_Chain_with_four_pairs.coverage" NAME="Unittests for test_maximum_length_pair_chain.TestSolution.test_find_longest_Chain_with_four_pairs Coverage Results" MODIFIED="1534028275818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_five.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_five Coverage Results" MODIFIED="1539573469386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -756,26 +758,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="760" />
+          <entry key="py" value="762" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="760" />
+          <entry key="Python" value="762" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7173" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="171956" />
+          <entry key="py" value="172814" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="179129" />
+          <entry key="Python" value="179987" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -797,21 +799,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N456_132_Pattern.py">
+        <entry file="file://$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_456_132_pattern.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="1365">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1591290983547" expanded="true" signature="1770:1783" ph="..." />
               </folding>
             </state>
           </provider>
@@ -838,8 +831,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_240_search_a_2d_matrix_ii.py" />
-        <option value="$PROJECT_DIR$/problems/N240_Search_A_2D_Matrix_II.py" />
         <option value="$PROJECT_DIR$/test/test_886_possbile_bipartition.py" />
         <option value="$PROJECT_DIR$/problems/N886_Possible_Bipartition.py" />
         <option value="$PROJECT_DIR$/test/test_785_is_graph_bipartite.py" />
@@ -889,6 +880,8 @@
         <option value="$PROJECT_DIR$/problems/N321_Create_Maximum_Number.py" />
         <option value="$PROJECT_DIR$/test/test_456_132_pattern.py" />
         <option value="$PROJECT_DIR$/problems/N456_132_Pattern.py" />
+        <option value="$PROJECT_DIR$/test/test_239_sliding_window_maximum.py" />
+        <option value="$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py" />
       </list>
     </option>
   </component>
@@ -962,7 +955,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_456_132_pattern.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -992,7 +985,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_456_132_pattern.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1003,11 +996,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_456_132_pattern.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_456_132_pattern.TestSolution.test_find132pattern" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1018,11 +1011,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_456_132_pattern.TestSolution.test_find132pattern&quot;" />
+      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_456_132_pattern.TestSolution.test_find132pattern_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1033,11 +1026,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_456_132_pattern.TestSolution.test_find132pattern_1&quot;" />
+      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_456_132_pattern.TestSolution.test_find132pattern_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1048,11 +1041,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_456_132_pattern.TestSolution.test_find132pattern_2&quot;" />
+      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_456_132_pattern.TestSolution.test_find132pattern_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1063,24 +1056,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_456_132_pattern.TestSolution.test_find132pattern_3&quot;" />
+      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution.test_find132pattern" />
-      <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution.test_find132pattern_1" />
-      <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution.test_find132pattern_2" />
-      <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution.test_find132pattern_3" />
+      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2" />
+      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" />
+      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3" />
+      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution.test_find132pattern_3" />
-        <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution.test_find132pattern_2" />
-        <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution.test_find132pattern_1" />
-        <item itemvalue="Python tests.Unittests for test_456_132_pattern.TestSolution.test_find132pattern" />
+        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4" />
+        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3" />
+        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" />
+        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2" />
       </list>
     </recent_temporary>
   </component>
@@ -1098,35 +1091,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution_test_find132pattern_3 - 2020.06.04 at 08h 59m 31s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution.test_find132pattern_3" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow - 2020.06.04 at 13h 06m 31s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution - 2020.06.04 at 08h 59m 43s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_2 - 2020.06.04 at 13h 06m 36s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution - 2020.06.04 at 09h 02m 58s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_1 - 2020.06.04 at 13h 08m 25s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution - 2020.06.04 at 09h 03m 23s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution - 2020.06.04 at 13h 08m 34s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution - 2020.06.04 at 09h 09m 34s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_3 - 2020.06.04 at 13h 09m 26s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution - 2020.06.04 at 09h 10m 12s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_3 - 2020.06.04 at 13h 09m 34s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution - 2020.06.04 at 09h 11m 09s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution - 2020.06.04 at 13h 09m 57s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution - 2020.06.04 at 09h 12m 19s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution - 2020.06.04 at 13h 11m 10s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution - 2020.06.04 at 09h 12m 41s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution - 2020.06.04 at 13h 11m 52s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_456_132_pattern_TestSolution - 2020.06.04 at 12h 11m 44s.xml">
-      <configuration name="Unittests for test_456_132_pattern.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_4 - 2020.06.04 at 13h 17m 16s.xml">
+      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1148,7 +1141,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5343066" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41021898" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41021898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1789,20 +1782,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N378_Kth_Smallest_Element_In_A_Sorted_Matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_378_kth_smallest_element_in_a_sorted_matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N287_Find_The_Duplicate_Number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -2128,13 +2107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_456_132_pattern.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -2147,8 +2119,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N456_132_Pattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+        <state relative-caret-position="42">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_239_sliding_window_maximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <marker date="1591290983547" expanded="true" signature="1770:1783" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
