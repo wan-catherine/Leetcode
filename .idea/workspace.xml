@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_239_sliding_window_maximum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_239_sliding_window_maximum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N769_Max_Chunks_To_Make_Sorted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_769_max_chunks_to_make_sorted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +107,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_TestSolution_test_combinationSum_1.coverage" NAME="Unittests for test_combination_sum.TestSolution.test_combinationSum_1 Coverage Results" MODIFIED="1536108544967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_right_side_view_TestSolution_test_rightSideView.coverage" NAME="Unittests for test_binary_tree_right_side_view.TestSolution.test_rightSideView Coverage Results" MODIFIED="1543450387457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular Coverage Results" MODIFIED="1589584399102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_769_max_chunks_to_make_sorted_TestSolution.coverage" NAME="Unittests for test_769_max_chunks_to_make_sorted.TestSolution Coverage Results" MODIFIED="1591305660224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_peak_element_TestSolution.coverage" NAME="Unittests for test_find_peak_element.TestSolution Coverage Results" MODIFIED="1543160466139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_swap_pairs_TestSolution_test_swapPairs.coverage" NAME="Unittests for test_swap_pairs.TestSolution.test_swapPairs Coverage Results" MODIFIED="1534894333931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_move_zeroes_TestSolution_test_moveZeroes.coverage" NAME="Unittests for test_move_zeroes.TestSolution.test_moveZeroes Coverage Results" MODIFIED="1545699576144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -349,6 +351,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_188_best_time_buy_and_sell_stock_iv_TestSolution.coverage" NAME="Unittests for test_188_best_time_buy_and_sell_stock_iv.TestSolution Coverage Results" MODIFIED="1588521996290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_2.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_2 Coverage Results" MODIFIED="1590432637365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution Coverage Results" MODIFIED="1590943510906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_769_max_chunks_to_make_sorted_TestSolution_test_maxChunksToSorted_2.coverage" NAME="Unittests for test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted_2 Coverage Results" MODIFIED="1591305524146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_binary_search_trees_TestSolution_test_numTrees_one.coverage" NAME="Unittests for test_unique_binary_search_trees.TestSolution.test_numTrees_one Coverage Results" MODIFIED="1539991841673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_break_TestSolution_test_integerBreak_one.coverage" NAME="Unittests for test_integer_break.TestSolution.test_integerBreak_one Coverage Results" MODIFIED="1547165025240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one Coverage Results" MODIFIED="1535819062859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -758,26 +761,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="762" />
+          <entry key="py" value="764" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="762" />
+          <entry key="Python" value="764" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7173" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="172814" />
+          <entry key="py" value="173465" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="179987" />
+          <entry key="Python" value="180638" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -799,12 +802,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py">
+        <entry file="file://$PROJECT_DIR$/problems/N769_Max_Chunks_To_Make_Sorted.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="210">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_769_max_chunks_to_make_sorted.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding>
-                <marker date="1591290983547" expanded="true" signature="1770:1783" ph="..." />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -831,8 +843,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_886_possbile_bipartition.py" />
-        <option value="$PROJECT_DIR$/problems/N886_Possible_Bipartition.py" />
         <option value="$PROJECT_DIR$/test/test_785_is_graph_bipartite.py" />
         <option value="$PROJECT_DIR$/problems/N785_Is_Graph_Bipartite.py" />
         <option value="$PROJECT_DIR$/test/test_378_kth_smallest_element_in_a_sorted_matrix.py" />
@@ -882,6 +892,8 @@
         <option value="$PROJECT_DIR$/problems/N456_132_Pattern.py" />
         <option value="$PROJECT_DIR$/test/test_239_sliding_window_maximum.py" />
         <option value="$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py" />
+        <option value="$PROJECT_DIR$/test/test_769_max_chunks_to_make_sorted.py" />
+        <option value="$PROJECT_DIR$/problems/N769_Max_Chunks_To_Make_Sorted.py" />
       </list>
     </option>
   </component>
@@ -955,7 +967,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4">
+  <component name="RunManager" selected="Python tests.Unittests for test_769_max_chunks_to_make_sorted.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1000,36 +1012,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1060,20 +1042,50 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_769_max_chunks_to_make_sorted.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_769_max_chunks_to_make_sorted.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2" />
-      <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" />
       <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3" />
       <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4" />
+      <item itemvalue="Python tests.Unittests for test_769_max_chunks_to_make_sorted.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_769_max_chunks_to_make_sorted.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted_2" />
         <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4" />
         <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3" />
-        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" />
-        <item itemvalue="Python tests.Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2" />
       </list>
     </recent_temporary>
   </component>
@@ -1091,18 +1103,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow - 2020.06.04 at 13h 06m 31s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_2 - 2020.06.04 at 13h 06m 36s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_1 - 2020.06.04 at 13h 08m 25s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution - 2020.06.04 at 13h 08m 34s.xml">
-      <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_3 - 2020.06.04 at 13h 09m 26s.xml">
       <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_3" configurationId="tests" />
     </history-entry>
@@ -1120,6 +1120,18 @@
     </history-entry>
     <history-entry file="Unittests_for_test_239_sliding_window_maximum_TestSolution_test_maxSlidingWindow_4 - 2020.06.04 at 13h 17m 16s.xml">
       <configuration name="Unittests for test_239_sliding_window_maximum.TestSolution.test_maxSlidingWindow_4" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_769_max_chunks_to_make_sorted_TestSolution - 2020.06.04 at 17h 16m 50s.xml">
+      <configuration name="Unittests for test_769_max_chunks_to_make_sorted.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_769_max_chunks_to_make_sorted_TestSolution - 2020.06.04 at 17h 18m 03s.xml">
+      <configuration name="Unittests for test_769_max_chunks_to_make_sorted.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_769_max_chunks_to_make_sorted_TestSolution_test_maxChunksToSorted_2 - 2020.06.04 at 17h 18m 44s.xml">
+      <configuration name="Unittests for test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted_2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_769_max_chunks_to_make_sorted_TestSolution - 2020.06.04 at 17h 21m 00s.xml">
+      <configuration name="Unittests for test_769_max_chunks_to_make_sorted.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1141,7 +1153,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5343066" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41021898" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41021898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1782,20 +1794,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N287_Find_The_Duplicate_Number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_287_find_the_duplicate_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/FirstMissingPositive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -2124,13 +2122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_239_sliding_window_maximum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -2140,11 +2131,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="252">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
           <folding>
             <marker date="1591290983547" expanded="true" signature="1770:1783" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_769_max_chunks_to_make_sorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N769_Max_Chunks_To_Make_Sorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
         </state>
       </provider>
     </entry>
