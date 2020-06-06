@@ -3,7 +3,7 @@ import random
 weight random algo
 
 use an array to keep the prefix sum of the weight array.
-then for any picIndex, we can randomly create a number which is between [1， sum(w)].
+then for any pickIndex, we can randomly create a number which is between [1， sum(w)].
 this way , we can randomly picks an index in proportion to it's weight. 
 
 Here is an example : 
