@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N406_Queue_Reconstruction_By_Height.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_406_queue_reconstruction_by_height.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N315_Count_Of_Smaller_Numbers_After_Self.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_315_count_of_smaller_numbers_after_self.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,6 +143,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_break_TestSolution.coverage" NAME="Unittests for test_integer_break.TestSolution Coverage Results" MODIFIED="1547246922344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_additive_number_TestSolution_test_isAdditiveNumber_one.coverage" NAME="Unittests for test_additive_number.TestSolution.test_isAdditiveNumber_one Coverage Results" MODIFIED="1546794703851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_463_island_perimeter_TestSolution.coverage" NAME="Unittests for test_463_island_perimeter.TestSolution Coverage Results" MODIFIED="1589214696273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller.coverage" NAME="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller Coverage Results" MODIFIED="1591459682502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist_special.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist_special Coverage Results" MODIFIED="1538324002756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution Coverage Results" MODIFIED="1538530874182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Best_Time_Buy_Sell_Stock_With_Cooldown_TestSolution.coverage" NAME="Unittests for test_Best_Time_Buy_Sell_Stock_With_Cooldown.TestSolution Coverage Results" MODIFIED="1546014827844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -622,6 +623,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_n124_binary_tree_maximum_path_sum_py.coverage" NAME="Unittests in test_n124_binary_tree_maximum_path_sum.py Coverage Results" MODIFIED="1588172106330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_540_single_element_in_a_sorted_array_TestSolution_test_singleNonDuplicate.coverage" NAME="Unittests for test_540_single_element_in_a_sorted_array.TestSolution.test_singleNonDuplicate Coverage Results" MODIFIED="1589303320083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution_test_canFinish_2.coverage" NAME="Unittests for test_course_schedule.TestSolution.test_canFinish_2 Coverage Results" MODIFIED="1590777745744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller_1.coverage" NAME="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1 Coverage Results" MODIFIED="1591459783203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_zigzag_conversion_py.coverage" NAME="Unittests in test_zigzag_conversion.py Coverage Results" MODIFIED="1533946728685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution_test_simplifyPath_2.coverage" NAME="Unittests for test_simplify_path.TestSolution.test_simplifyPath_2 Coverage Results" MODIFIED="1537624150672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_restore_ip_addresses_TestSolution_test_restoreIpAddresses_two.coverage" NAME="Unittests for test_restore_ip_addresses.TestSolution.test_restoreIpAddresses_two Coverage Results" MODIFIED="1539904002680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -698,6 +700,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_contains_duplicate_iii_TestSolution_test_containsNearbyAlmostDuplicate.coverage" NAME="Unittests for test_contains_duplicate_iii.TestSolution.test_containsNearbyAlmostDuplicate Coverage Results" MODIFIED="1544976205498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_median_of_two_sorted_arrays_TestSolution_test_find_median_sorted_arrays_two_mix_same_long_list.coverage" NAME="Unittests for test_median_of_two_sorted_arrays.TestSolution.test_find_median_sorted_arrays_two_mix_same_long_list Coverage Results" MODIFIED="1533771250405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_minimum_size_subarray_sum_TestSolution_test_minSubArrayLen_three.coverage" NAME="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_three Coverage Results" MODIFIED="1544153786275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution.coverage" NAME="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution Coverage Results" MODIFIED="1591459943711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_multiply_strings_TestSolution_test_multiply.coverage" NAME="Unittests for test_multiply_strings.TestSolution.test_multiply Coverage Results" MODIFIED="1536275405021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_invalid_parentheses_TestSolution_test_removeInvalidParentheses.coverage" NAME="Unittests for test_remove_invalid_parentheses.TestSolution.test_removeInvalidParentheses Coverage Results" MODIFIED="1545942734199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_super_ugly_number_TestSolution.coverage" NAME="Unittests for test_super_ugly_number.TestSolution Coverage Results" MODIFIED="1546273145205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -765,26 +768,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="770" />
+          <entry key="py" value="772" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="770" />
+          <entry key="Python" value="772" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7173" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="176362" />
+          <entry key="py" value="176903" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="183535" />
+          <entry key="Python" value="184076" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -806,19 +809,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N406_Queue_Reconstruction_By_Height.py">
+        <entry file="file://$PROJECT_DIR$/problems/N315_Count_Of_Smaller_Numbers_After_Self.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+            <state relative-caret-position="126">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_406_queue_reconstruction_by_height.py">
+        <entry file="file://$PROJECT_DIR$/test/test_315_count_of_smaller_numbers_after_self.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+            <state relative-caret-position="63">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -844,8 +850,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_338_counting_bits.py" />
-        <option value="$PROJECT_DIR$/problems/N338_Counting_Bits.py" />
         <option value="$PROJECT_DIR$/test/test_287_find_the_duplicate_number.py" />
         <option value="$PROJECT_DIR$/problems/N287_Find_The_Duplicate_Number.py" />
         <option value="$PROJECT_DIR$/test/test_course_schedule.py" />
@@ -895,6 +899,8 @@
         <option value="$PROJECT_DIR$/problems/N768_Max_Chunks_To_Make_Sorted_II.py" />
         <option value="$PROJECT_DIR$/test/test_406_queue_reconstruction_by_height.py" />
         <option value="$PROJECT_DIR$/problems/N406_Queue_Reconstruction_By_Height.py" />
+        <option value="$PROJECT_DIR$/test/test_315_count_of_smaller_numbers_after_self.py" />
+        <option value="$PROJECT_DIR$/problems/N315_Count_Of_Smaller_Numbers_After_Self.py" />
       </list>
     </option>
   </component>
@@ -904,7 +910,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="499" />
     <option name="width" value="1241" />
@@ -968,7 +974,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue">
+  <component name="RunManager" selected="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -989,28 +995,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="N528_Random_Pick_With_Weight" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/N528_Random_Pick_With_Weight.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1018,6 +1002,51 @@
       <tasks />
       <arguments />
       <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_315_count_of_smaller_numbers_after_self.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -1050,50 +1079,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_769_max_chunks_to_make_sorted.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_769_max_chunks_to_make_sorted.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_769_max_chunks_to_make_sorted.TestSolution" />
-      <item itemvalue="Python.N528_Random_Pick_With_Weight" />
-      <item itemvalue="Python tests.Unittests for test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted" />
       <item itemvalue="Python tests.Unittests for test_406_queue_reconstruction_by_height.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" />
+      <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" />
+      <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1" />
+      <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1" />
+        <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" />
         <item itemvalue="Python tests.Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" />
         <item itemvalue="Python tests.Unittests for test_406_queue_reconstruction_by_height.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_769_max_chunks_to_make_sorted.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_769_max_chunks_to_make_sorted.TestSolution.test_maxChunksToSorted" />
-        <item itemvalue="Python.N528_Random_Pick_With_Weight" />
       </list>
     </recent_temporary>
   </component>
@@ -1111,35 +1110,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 10h 49m 07s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller - 2020.06.06 at 12h 04m 04s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 10h 49m 40s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller - 2020.06.06 at 12h 04m 28s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 10h 51m 36s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller - 2020.06.06 at 12h 05m 15s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 11h 04m 10s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller - 2020.06.06 at 12h 06m 31s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 11h 06m 26s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller - 2020.06.06 at 12h 06m 53s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 11h 08m 23s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller - 2020.06.06 at 12h 07m 48s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 11h 08m 32s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller - 2020.06.06 at 12h 08m 02s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 11h 08m 51s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller_1 - 2020.06.06 at 12h 09m 34s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 11h 10m 29s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution_test_countSmaller_1 - 2020.06.06 at 12h 12m 10s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_406_queue_reconstruction_by_height_TestSolution_test_reconstructQueue - 2020.06.06 at 11h 14m 42s.xml">
-      <configuration name="Unittests for test_406_queue_reconstruction_by_height.TestSolution.test_reconstructQueue" configurationId="tests" />
+    <history-entry file="Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution - 2020.06.06 at 12h 12m 24s.xml">
+      <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1152,15 +1151,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
+    <frame x="1920" y="499" width="1241" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.33361134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.33361134" />
       <window_info id="Structure" order="1" weight="0.24916388" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5343066" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4729927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41021898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1809,20 +1808,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_896_monotonic_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N896_Monotonic_Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_1366_rank_teams_by_votes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -2134,13 +2119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_769_max_chunks_to_make_sorted.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -2158,6 +2136,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N406_Queue_Reconstruction_By_Height.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_406_queue_reconstruction_by_height.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2165,10 +2150,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N406_Queue_Reconstruction_By_Height.py">
+    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+        <state relative-caret-position="126">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_315_count_of_smaller_numbers_after_self.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N315_Count_Of_Smaller_Numbers_After_Self.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
