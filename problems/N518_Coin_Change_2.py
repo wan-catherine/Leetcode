@@ -25,9 +25,7 @@ class Solution:
     def change(self, amount, coins):
         dp = [1] + [0] * amount
         for i in range(1, len(coins) +1):
-            before_dp = dp[:]
             for j in range(1, amount+1):
-                dp[j] = before_dp[j]
                 if j - coins[i-1] >= 0:
                     dp[j] += dp[j - coins[i-1]]
         return dp[-1]
