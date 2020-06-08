@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N327_Count_Of_Range_Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_327_count_of_range_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N560_Subarray_Sum_Equals_K.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_560_subarray_sum_equals_k.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/N518_Coin_Change_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N518_Coin_Change_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +140,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_378_kth_smallest_element_in_a_sorted_matrix_TestSolution_test_kthSmallest_4.coverage" NAME="Unittests for test_378_kth_smallest_element_in_a_sorted_matrix.TestSolution.test_kthSmallest_4 Coverage Results" MODIFIED="1590617243094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr Coverage Results" MODIFIED="1535299178392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_partition_list_TestPartitionList.coverage" NAME="Unittests for test_partition_list.TestPartitionList Coverage Results" MODIFIED="1539008284631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_560_subarray_sum_equals_k_TestSolution.coverage" NAME="Unittests for test_560_subarray_sum_equals_k.TestSolution Coverage Results" MODIFIED="1591578375839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_break_TestSolution.coverage" NAME="Unittests for test_integer_break.TestSolution Coverage Results" MODIFIED="1547246922344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_additive_number_TestSolution_test_isAdditiveNumber_one.coverage" NAME="Unittests for test_additive_number.TestSolution.test_isAdditiveNumber_one Coverage Results" MODIFIED="1546794703851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_463_island_perimeter_TestSolution.coverage" NAME="Unittests for test_463_island_perimeter.TestSolution Coverage Results" MODIFIED="1589214696273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -340,6 +340,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution.coverage" NAME="Unittests for test_simplify_path.TestSolution Coverage Results" MODIFIED="1537624237130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_no.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no Coverage Results" MODIFIED="1535819037455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_kth_largest_element_array_TestSolution_test_findKthLargest_one.coverage" NAME="Unittests for test_kth_largest_element_array.TestSolution.test_findKthLargest_one Coverage Results" MODIFIED="1544372786565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum_1.coverage" NAME="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1 Coverage Results" MODIFIED="1591570619491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_group_anagrams_TestSolution.coverage" NAME="Unittests for test_group_anagrams.TestSolution Coverage Results" MODIFIED="1535994555783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution.coverage" NAME="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution Coverage Results" MODIFIED="1542668521277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_three.coverage" NAME="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_three Coverage Results" MODIFIED="1542667885893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -434,6 +435,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_567_permutation_in_string_TestSolution_test_checkInclusion_3.coverage" NAME="Unittests for test_567_permutation_in_string.TestSolution.test_checkInclusion_3 Coverage Results" MODIFIED="1589740159686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_kth_largest_element_array_TestSolution.coverage" NAME="Unittests for test_kth_largest_element_array.TestSolution Coverage Results" MODIFIED="1590188553431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_402_remove_k_digits_TestSolution_test_removeKdigits_2.coverage" NAME="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_2 Coverage Results" MODIFIED="1591130796215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum.coverage" NAME="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum Coverage Results" MODIFIED="1591570077687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gray_code_TestSolution_test_grayCode_three.coverage" NAME="Unittests for test_gray_code.TestSolution.test_grayCode_three Coverage Results" MODIFIED="1539296858008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_ii_TestSolution_test_rob_five.coverage" NAME="Unittests for test_house_robber_ii.TestSolution.test_rob_five Coverage Results" MODIFIED="1544760252879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_same.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_same Coverage Results" MODIFIED="1542052788650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -446,6 +448,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_456_132_pattern_TestSolution_test_find132pattern_2.coverage" NAME="Unittests for test_456_132_pattern.TestSolution.test_find132pattern_2 Coverage Results" MODIFIED="1591275112020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_paths_TestSolution_test_uniquePaths_7.coverage" NAME="Unittests for test_unique_paths.TestSolution.test_uniquePaths_7 Coverage Results" MODIFIED="1537226723338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_378_kth_smallest_element_in_a_sorted_matrix_TestSolution_test_kthSmallest.coverage" NAME="Unittests for test_378_kth_smallest_element_in_a_sorted_matrix.TestSolution.test_kthSmallest Coverage Results" MODIFIED="1590615646635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum_2.coverage" NAME="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_2 Coverage Results" MODIFIED="1591578275877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_string_TestSolution_test_reverseString.coverage" NAME="Unittests for test_reverse_string.TestSolution.test_reverseString Coverage Results" MODIFIED="1545882871208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_subarray_TestSolution.coverage" NAME="Unittests for test_maximum_product_subarray.TestSolution Coverage Results" MODIFIED="1543082746193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_322_coin_change_TestSolution_test_coinChange_3.coverage" NAME="Unittests for test_322_coin_change.TestSolution.test_coinChange_3 Coverage Results" MODIFIED="1588427531203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -771,26 +774,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="779" />
+          <entry key="py" value="781" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="779" />
+          <entry key="Python" value="781" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7173" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="178017" />
+          <entry key="py" value="179513" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="185190" />
+          <entry key="Python" value="186686" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -812,19 +815,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/others/sort.py">
+        <entry file="file://$PROJECT_DIR$/problems/N327_Count_Of_Range_Sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="469">
+              <caret line="56" column="22" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="56" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N327_Count_Of_Range_Sum.py">
+        <entry file="file://$PROJECT_DIR$/problems/N560_Subarray_Sum_Equals_K.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+            <state relative-caret-position="294">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_560_subarray_sum_equals_k.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -862,8 +877,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/CourseSchedule.py" />
-        <option value="$PROJECT_DIR$/problems/CourseScheduleII.py" />
         <option value="$PROJECT_DIR$/test/test_course_schedule_ii.py" />
         <option value="$PROJECT_DIR$/test/test_896_monotonic_array.py" />
         <option value="$PROJECT_DIR$/problems/N896_Monotonic_Array.py" />
@@ -913,6 +926,8 @@
         <option value="$PROJECT_DIR$/problems/N518_Coin_Change_2.py" />
         <option value="$PROJECT_DIR$/test/test_327_count_of_range_sum.py" />
         <option value="$PROJECT_DIR$/problems/N327_Count_Of_Range_Sum.py" />
+        <option value="$PROJECT_DIR$/test/test_560_subarray_sum_equals_k.py" />
+        <option value="$PROJECT_DIR$/problems/N560_Subarray_Sum_Equals_K.py" />
       </list>
     </option>
   </component>
@@ -942,11 +957,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -991,7 +1001,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_327_count_of_range_sum.TestSolution.test_countRangeSum">
+  <component name="RunManager" selected="Python tests.Unittests for test_560_subarray_sum_equals_k.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1021,51 +1031,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_315_count_of_smaller_numbers_after_self.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_327_count_of_range_sum.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_327_count_of_range_sum.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_327_count_of_range_sum.TestSolution.test_countRangeSum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1081,7 +1046,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_518_coin_change_2py.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1092,24 +1057,69 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_518_coin_change_2py.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_560_subarray_sum_equals_k.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_560_subarray_sum_equals_k.TestSolution.test_subarraySum&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1" />
-      <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_518_coin_change_2py.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_327_count_of_range_sum.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_327_count_of_range_sum.TestSolution.test_countRangeSum" />
+      <item itemvalue="Python tests.Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum" />
+      <item itemvalue="Python tests.Unittests for test_560_subarray_sum_equals_k.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1" />
+      <item itemvalue="Python tests.Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_560_subarray_sum_equals_k.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_2" />
+        <item itemvalue="Python tests.Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1" />
+        <item itemvalue="Python tests.Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum" />
         <item itemvalue="Python tests.Unittests for test_327_count_of_range_sum.TestSolution.test_countRangeSum" />
-        <item itemvalue="Python tests.Unittests for test_327_count_of_range_sum.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_518_coin_change_2py.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution.test_countSmaller_1" />
       </list>
     </recent_temporary>
   </component>
@@ -1127,35 +1137,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_518_coin_change_2py_TestSolution - 2020.06.07 at 11h 20m 11s.xml">
-      <configuration name="Unittests for test_518_coin_change_2py.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum_1 - 2020.06.07 at 18h 53m 14s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_327_count_of_range_sum_TestSolution - 2020.06.07 at 16h 51m 47s.xml">
-      <configuration name="Unittests for test_327_count_of_range_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum_1 - 2020.06.07 at 18h 55m 42s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_327_count_of_range_sum_TestSolution - 2020.06.07 at 16h 52m 38s.xml">
-      <configuration name="Unittests for test_327_count_of_range_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum_1 - 2020.06.07 at 18h 56m 31s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_327_count_of_range_sum_TestSolution - 2020.06.07 at 16h 52m 57s.xml">
-      <configuration name="Unittests for test_327_count_of_range_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum_1 - 2020.06.07 at 18h 56m 34s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_327_count_of_range_sum_TestSolution - 2020.06.07 at 17h 04m 15s.xml">
-      <configuration name="Unittests for test_327_count_of_range_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum_1 - 2020.06.07 at 18h 56m 59s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_327_count_of_range_sum_TestSolution_test_countRangeSum - 2020.06.07 at 17h 18m 32s.xml">
-      <configuration name="Unittests for test_327_count_of_range_sum.TestSolution.test_countRangeSum" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution - 2020.06.07 at 19h 01m 41s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_327_count_of_range_sum_TestSolution_test_countRangeSum - 2020.06.07 at 17h 21m 09s.xml">
-      <configuration name="Unittests for test_327_count_of_range_sum.TestSolution.test_countRangeSum" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution - 2020.06.07 at 19h 38m 29s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_327_count_of_range_sum_TestSolution - 2020.06.07 at 17h 21m 22s.xml">
-      <configuration name="Unittests for test_327_count_of_range_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution - 2020.06.07 at 21h 04m 24s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_327_count_of_range_sum_TestSolution - 2020.06.07 at 17h 26m 40s.xml">
-      <configuration name="Unittests for test_327_count_of_range_sum.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum_2 - 2020.06.07 at 21h 05m 11s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_327_count_of_range_sum_TestSolution_test_countRangeSum - 2020.06.07 at 18h 08m 43s.xml">
-      <configuration name="Unittests for test_327_count_of_range_sum.TestSolution.test_countRangeSum" configurationId="tests" />
+    <history-entry file="Unittests_for_test_560_subarray_sum_equals_k_TestSolution - 2020.06.07 at 21h 06m 16s.xml">
+      <configuration name="Unittests for test_560_subarray_sum_equals_k.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1176,8 +1186,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4729927" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5080292" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42773724" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42627737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1825,20 +1835,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N1409_Queries_On_A_Permutation_With_Key.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_1409_queries_on_a_permutation_with_key.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N901_Online_Stock_Span.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -2180,8 +2176,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N327_Count_Of_Range_Sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        <state relative-caret-position="469">
+          <caret line="56" column="22" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_560_subarray_sum_equals_k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N560_Subarray_Sum_Equals_K.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
