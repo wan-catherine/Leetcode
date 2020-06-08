@@ -10,6 +10,9 @@ if sum[j] = sum[i] + k,
 then we know there is a subarray which sum(nums[i+1,j+1]) == k
 
 """
+import bisect
+
+
 class Solution(object):
     def subarraySum_timeout(self, nums, k):
         """
@@ -57,7 +60,8 @@ class Solution(object):
             r += 1
             index += 1
 
-    def subarraySum(self, nums, k):
+    # fastest one
+    def subarraySum_hashtable(self, nums, k):
         sum = [0] + nums
         nums_len = len(nums)
         sum_count_mapping = {0:1}
@@ -72,4 +76,18 @@ class Solution(object):
                 sum_count_mapping[sum[i+1]] = 1
         return count
 
-
+    # use bisect.bisect to find the rightest position
+    # use bisect.bisect_left to find the left-est postion
+    # if there is no 'temp' in the prefex_sum array, the they are same, minor each other will return zero
+    # so if there is no duplicated number but just one in the prefix_sum, they minor each other will return one
+    # if there are duplicated numbers , then we will get the count of the number
+    def subarraySum(self, nums, k):
+        sum = 0
+        prefix_sum = [0]
+        count = 0
+        for i in range(len(nums)):
+            sum += nums[i]
+            temp = sum - k
+            count += bisect.bisect(prefix_sum, temp) - bisect.bisect_left(prefix_sum, temp)
+            bisect.insort_left(prefix_sum, sum)
+        return count
