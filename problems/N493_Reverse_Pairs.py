@@ -88,6 +88,10 @@ class Solution(object):
         right, countr = self.mergesort(nums[m:])
         count = countl + countr
         for r in right:
+            # here need to use bisect.bisect
+            # because for i < j , nums[i] > 2 * nums[j]
+            # we use 2 * r here, so must get the left-est position to filter out the situation == 2*r.
+            # see test_reversePairs
             temp = len(left) - bisect.bisect(left, 2 * r)
             if temp == 0:
                 break
