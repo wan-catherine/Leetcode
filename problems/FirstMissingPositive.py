@@ -13,7 +13,9 @@ we need to put the right number to their own position which is for nums[i] put i
 
 first test nums[nums[i]-1] == nums[i]:
 if it's true, it means the number in the right position.
-if not , then swap them 
+if not , then swap them
+
+This is a method to sort the array in O(n) for 1<=array[i]<=len(array).
 """
 class Solution:
     def firstMissingPositive(self, nums):
