@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N392_Is_Subsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_392_is_subsequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N792_Number_Of_Matching_Subsequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_792_number_of_matching_subsequences.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -243,6 +242,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum2_TestSolution_test_combinationSum2.coverage" NAME="Unittests for test_combination_sum2.TestSolution.test_combinationSum2 Coverage Results" MODIFIED="1536195722347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_316_remove_duplicate_letters_TestSolution_test_removeDuplicateLetters_4.coverage" NAME="Unittests for test_316_remove_duplicate_letters.TestSolution.test_removeDuplicateLetters_4 Coverage Results" MODIFIED="1591126294446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_456_132_pattern_TestSolution_test_find132pattern.coverage" NAME="Unittests for test_456_132_pattern.TestSolution.test_find132pattern Coverage Results" MODIFIED="1591275104563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_792_number_of_matching_subsequences_TestSolution_test_numMatchingSubseq.coverage" NAME="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq Coverage Results" MODIFIED="1591712171022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_287_find_the_duplicate_number_TestSolution.coverage" NAME="Unittests for test_287_find_the_duplicate_number.TestSolution Coverage Results" MODIFIED="1590709937457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_3Sum_py.coverage" NAME="Unittests in test_3Sum.py Coverage Results" MODIFIED="1534463902185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_additive_number_TestSolution_test_isAdditiveNumber.coverage" NAME="Unittests for test_additive_number.TestSolution.test_isAdditiveNumber Coverage Results" MODIFIED="1546794785806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -292,6 +292,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_generate_parenthesis_py.coverage" NAME="Unittests in test_generate_parenthesis.py Coverage Results" MODIFIED="1534811417967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_pruning_814_TestSolution_test_pruneTree.coverage" NAME="Unittests for test_binary_tree_pruning_814.TestSolution.test_pruneTree Coverage Results" MODIFIED="1588095025539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_empty.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_empty Coverage Results" MODIFIED="1535299241180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_792_number_of_matching_subsequences_TestSolution_test_numMatchingSubseq_1.coverage" NAME="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq_1 Coverage Results" MODIFIED="1591711909484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sum_root_leaf_numbers_TestSolution_test_sumNumbers.coverage" NAME="Unittests for test_sum_root_leaf_numbers.TestSolution.test_sumNumbers Coverage Results" MODIFIED="1541865431230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_ii_TestSolution_test_pathSum.coverage" NAME="Unittests for test_path_sum_ii.TestSolution.test_pathSum Coverage Results" MODIFIED="1540684747456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_trapping_rain_water_TestSolution.coverage" NAME="Unittests for test_trapping_rain_water.TestSolution Coverage Results" MODIFIED="1590972670067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -407,6 +408,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_two_sum_py.coverage" NAME="Unittests in test_two_sum.py Coverage Results" MODIFIED="1533590488825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_gas_station_TestSolution_test_canCompleteCircuit.coverage" NAME="Unittests for test_gas_station.TestSolution.test_canCompleteCircuit Coverage Results" MODIFIED="1542240824157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_subarray_TestSolution_test_maxProduct_one.coverage" NAME="Unittests for test_maximum_product_subarray.TestSolution.test_maxProduct_one Coverage Results" MODIFIED="1543081908493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_792_number_of_matching_subsequences_TestSolution.coverage" NAME="Unittests for test_792_number_of_matching_subsequences.TestSolution Coverage Results" MODIFIED="1591712256254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_230_kth_smallest_element_in_a_bst_TestSolution_test_kthSmallest_3.coverage" NAME="Unittests for test_230_kth_smallest_element_in_a_bst.TestSolution.test_kthSmallest_3 Coverage Results" MODIFIED="1589986131782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution_test_divide.coverage" NAME="Unittests for test_divide_two_integers.TestSolution.test_divide Coverage Results" MODIFIED="1535408395730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_iii_TestSolution.coverage" NAME="Unittests for test_combination_sum_iii.TestSolution Coverage Results" MODIFIED="1544654913225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -783,26 +785,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="792" />
+          <entry key="py" value="795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="792" />
+          <entry key="Python" value="795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7235" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="184194" />
+          <entry key="py" value="185498" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="191429" />
+          <entry key="Python" value="192733" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -823,41 +825,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/FirstMissingPositive.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N392_Is_Subsequence.py">
+        <entry file="file://$PROJECT_DIR$/problems/N792_Number_Of_Matching_Subsequences.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_392_is_subsequence.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="84">
+              <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#59#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_first_missing_positive.py">
+        <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/unittest/suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_792_number_of_matching_subsequences.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -883,8 +879,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/N1089_Duplicate_zeros.py" />
-        <option value="$PROJECT_DIR$/test/test_1409_queries_on_a_permutation_with_key.py" />
         <option value="$PROJECT_DIR$/problems/N1409_Queries_On_A_Permutation_With_Key.py" />
         <option value="$PROJECT_DIR$/test/test_907_sum_of_subarray_minimums.py" />
         <option value="$PROJECT_DIR$/test/test_739_daily_temperatures.py" />
@@ -934,6 +928,8 @@
         <option value="$PROJECT_DIR$/problems/FirstMissingPositive.py" />
         <option value="$PROJECT_DIR$/test/test_392_is_subsequence.py" />
         <option value="$PROJECT_DIR$/problems/N392_Is_Subsequence.py" />
+        <option value="$PROJECT_DIR$/test/test_792_number_of_matching_subsequences.py" />
+        <option value="$PROJECT_DIR$/problems/N792_Number_Of_Matching_Subsequences.py" />
       </list>
     </option>
   </component>
@@ -1007,7 +1003,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_392_is_subsequence.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_792_number_of_matching_subsequences.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1052,7 +1048,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_442_find_all_duplicates_in_an_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1063,11 +1059,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_442_find_all_duplicates_in_an_array.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_792_number_of_matching_subsequences.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_442_find_all_duplicates_in_an_array.TestSolution.test_findDuplicates" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1078,11 +1074,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_442_find_all_duplicates_in_an_array.TestSolution.test_findDuplicates&quot;" />
+      <option name="_new_target" value="&quot;test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1093,7 +1089,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers&quot;" />
+      <option name="_new_target" value="&quot;test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -1113,19 +1109,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_442_find_all_duplicates_in_an_array.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_442_find_all_duplicates_in_an_array.TestSolution.test_findDuplicates" />
-      <item itemvalue="Python tests.Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" />
       <item itemvalue="Python tests.Unittests for test_first_missing_positive.TestSolution.test_firstMissingPositive" />
       <item itemvalue="Python tests.Unittests for test_392_is_subsequence.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_792_number_of_matching_subsequences.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq" />
+      <item itemvalue="Python tests.Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_792_number_of_matching_subsequences.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq" />
+        <item itemvalue="Python tests.Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq_1" />
         <item itemvalue="Python tests.Unittests for test_392_is_subsequence.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_first_missing_positive.TestSolution.test_firstMissingPositive" />
-        <item itemvalue="Python tests.Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" />
-        <item itemvalue="Python tests.Unittests for test_442_find_all_duplicates_in_an_array.TestSolution.test_findDuplicates" />
-        <item itemvalue="Python tests.Unittests for test_442_find_all_duplicates_in_an_array.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -1143,35 +1139,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_448_find_all_numbers_disappeared_in_an_array_TestSolution_test_findDisappearedNumbers - 2020.06.08 at 19h 16m 22s.xml">
-      <configuration name="Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution_test_numMatchingSubseq_1 - 2020.06.09 at 10h 00m 28s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_448_find_all_numbers_disappeared_in_an_array_TestSolution_test_findDisappearedNumbers - 2020.06.08 at 19h 16m 36s.xml">
-      <configuration name="Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution_test_numMatchingSubseq - 2020.06.09 at 10h 03m 17s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_448_find_all_numbers_disappeared_in_an_array_TestSolution_test_findDisappearedNumbers - 2020.06.08 at 19h 17m 21s.xml">
-      <configuration name="Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution - 2020.06.09 at 10h 10m 07s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_448_find_all_numbers_disappeared_in_an_array_TestSolution_test_findDisappearedNumbers - 2020.06.08 at 19h 17m 41s.xml">
-      <configuration name="Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution - 2020.06.09 at 10h 10m 23s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_448_find_all_numbers_disappeared_in_an_array_TestSolution_test_findDisappearedNumbers - 2020.06.08 at 19h 18m 00s.xml">
-      <configuration name="Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution_test_numMatchingSubseq - 2020.06.09 at 10h 10m 31s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_448_find_all_numbers_disappeared_in_an_array_TestSolution_test_findDisappearedNumbers - 2020.06.08 at 19h 19m 01s.xml">
-      <configuration name="Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution_test_numMatchingSubseq_1 - 2020.06.09 at 10h 11m 08s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_448_find_all_numbers_disappeared_in_an_array_TestSolution_test_findDisappearedNumbers - 2020.06.08 at 19h 19m 08s.xml">
-      <configuration name="Unittests for test_448_find_all_numbers_disappeared_in_an_array.TestSolution.test_findDisappearedNumbers" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution_test_numMatchingSubseq_1 - 2020.06.09 at 10h 14m 31s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_first_missing_positive_TestSolution_test_firstMissingPositive - 2020.06.08 at 21h 50m 43s.xml">
-      <configuration name="Unittests for test_first_missing_positive.TestSolution.test_firstMissingPositive" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution - 2020.06.09 at 10h 15m 54s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_392_is_subsequence_TestSolution - 2020.06.09 at 08h 11m 11s.xml">
-      <configuration name="Unittests for test_392_is_subsequence.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution_test_numMatchingSubseq - 2020.06.09 at 10h 17m 05s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution.test_numMatchingSubseq" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_392_is_subsequence_TestSolution - 2020.06.09 at 08h 11m 36s.xml">
-      <configuration name="Unittests for test_392_is_subsequence.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_792_number_of_matching_subsequences_TestSolution - 2020.06.09 at 10h 17m 36s.xml">
+      <configuration name="Unittests for test_792_number_of_matching_subsequences.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1187,13 +1183,13 @@
     <frame x="1921" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.21517931" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.21517931" />
       <window_info id="Structure" order="1" weight="0.24854045" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6481752" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4890511" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31678832" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43211678" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1836,27 +1832,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_trapping_rain_water.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" column="47" lean-forward="true" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/TrappingRainWater.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N226_Invert_Binary_Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_226_invert_binary_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -2158,24 +2133,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_first_missing_positive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/FirstMissingPositive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -2191,8 +2152,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N392_Is_Subsequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="147">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/FirstMissingPositive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_792_number_of_matching_subsequences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N792_Number_Of_Matching_Subsequences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+          <folding>
+            <element signature="e#59#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
