@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N565_Array_Nesting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_565_array_nesting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N341_Flatten_Nested_List_Iterator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/SearchInsertPosition.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SearchInsertPosition.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +131,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_subsets_ii_TestSolution.coverage" NAME="Unittests for test_subsets_ii.TestSolution Coverage Results" MODIFIED="1539444379092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_two.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_two Coverage Results" MODIFIED="1539573460006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_night.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_night Coverage Results" MODIFIED="1539573481271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$N341_Flatten_Nested_List_Iterator.coverage" NAME="N341_Flatten_Nested_List_Iterator Coverage Results" MODIFIED="1591816799687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_493_reverse_pairs_TestSolution_test_reversePairs_2.coverage" NAME="Unittests for test_493_reverse_pairs.TestSolution.test_reversePairs_2 Coverage Results" MODIFIED="1591631743496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_457_circular_array_loop_TestSolution_test_circularArrayLoop.coverage" NAME="Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop Coverage Results" MODIFIED="1591732411713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution Coverage Results" MODIFIED="1589062562242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -793,26 +792,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="806" />
+          <entry key="py" value="807" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="806" />
+          <entry key="Python" value="807" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="7266" />
+          <entry key="Python Console" value="7394" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="187702" />
+          <entry key="py" value="188339" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="194968" />
+          <entry key="Python" value="195733" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -828,27 +827,18 @@
         <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N565_Array_Nesting.py">
+        <entry file="file://$PROJECT_DIR$/problems/N341_Flatten_Nested_List_Iterator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_565_array_nesting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="509">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1591816876481" expanded="true" signature="963:1145" ph="..." />
               </folding>
             </state>
           </provider>
@@ -875,7 +865,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/TrappingRainWater.py" />
         <option value="$PROJECT_DIR$/test/test_226_invert_binary_tree.py" />
         <option value="$PROJECT_DIR$/problems/N226_Invert_Binary_Tree.py" />
         <option value="$PROJECT_DIR$/problems/MaximumSubarray.py" />
@@ -926,6 +915,7 @@
         <option value="$PROJECT_DIR$/problems/SearchInsertPosition.py" />
         <option value="$PROJECT_DIR$/test/test_565_array_nesting.py" />
         <option value="$PROJECT_DIR$/problems/N565_Array_Nesting.py" />
+        <option value="$PROJECT_DIR$/problems/N341_Flatten_Nested_List_Iterator.py" />
       </list>
     </option>
   </component>
@@ -999,7 +989,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_565_array_nesting.TestSolution.test_arrayNesting">
+  <component name="RunManager" selected="Python.N341_Flatten_Nested_List_Iterator">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1020,6 +1010,28 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="N341_Flatten_Nested_List_Iterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/N341_Flatten_Nested_List_Iterator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1027,21 +1039,6 @@
       <tasks />
       <arguments />
       <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_457_circular_array_loop.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_457_circular_array_loop.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -1105,19 +1102,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_457_circular_array_loop.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_longest_valid_parentheses.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_search_insert_position.TestSolution.test_searchInsert" />
       <item itemvalue="Python tests.Unittests for test_search_insert_position.TestSolution.test_searchInsert_zero" />
       <item itemvalue="Python tests.Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" />
+      <item itemvalue="Python.N341_Flatten_Nested_List_Iterator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.N341_Flatten_Nested_List_Iterator" />
         <item itemvalue="Python tests.Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" />
         <item itemvalue="Python tests.Unittests for test_search_insert_position.TestSolution.test_searchInsert_zero" />
         <item itemvalue="Python tests.Unittests for test_search_insert_position.TestSolution.test_searchInsert" />
         <item itemvalue="Python tests.Unittests for test_longest_valid_parentheses.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_457_circular_array_loop.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -1184,7 +1181,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21313868" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30364963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34014598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1667,6 +1664,9 @@
         <watch expression="matrix[i][j]" language="Python" />
         <watch expression="min(matrix[i][j-1], matrix[i-1][j-1], matrix[i-1][j])" language="Python" />
       </configuration>
+      <configuration name="PythonConfigurationType">
+        <watch expression="not i == ' '" language="Python" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1719,6 +1719,26 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>not i == ' '</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == ' '</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == ''</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>not i</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>l  = [].append(1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1745,26 +1765,6 @@
       </expression>
       <expression>
         <expression-string>s =f_n.setdefault(1, list())</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>s =f_n.setdefault(1, [])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f = {}</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>matrix[i][j-1], matrix[i-1][j-1], matrix[i-1][j]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>min(matrix[i][j-1], matrix[i-1][j-1], matrix[i-1][j])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1818,13 +1818,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N1029_Two_City_Scheduling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -2150,13 +2143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_565_array_nesting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -2171,6 +2157,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N341_Flatten_Nested_List_Iterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <marker date="1591816876481" expanded="true" signature="963:1145" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
