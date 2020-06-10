@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/problems/LongestValidParentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/LongestValidParentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N565_Array_Nesting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_565_array_nesting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/SearchInsertPosition.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SearchInsertPosition.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -345,6 +348,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_ugly_number_ii_TestSolution.coverage" NAME="Unittests for test_ugly_number_ii.TestSolution Coverage Results" MODIFIED="1547595803498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_paths_ii_TestSolution.coverage" NAME="Unittests for test_unique_paths_ii.TestSolution Coverage Results" MODIFIED="1537322778604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_simplify_path_TestSolution.coverage" NAME="Unittests for test_simplify_path.TestSolution Coverage Results" MODIFIED="1537624237130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting.coverage" NAME="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting Coverage Results" MODIFIED="1591803926681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_no.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_no Coverage Results" MODIFIED="1535819037455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_kth_largest_element_array_TestSolution_test_findKthLargest_one.coverage" NAME="Unittests for test_kth_largest_element_array.TestSolution.test_findKthLargest_one Coverage Results" MODIFIED="1544372786565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum_1.coverage" NAME="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum_1 Coverage Results" MODIFIED="1591570619491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -371,7 +375,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number Coverage Results" MODIFIED="1534192140322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_level_order_traversal_TestSolution.coverage" NAME="Unittests for test_binary_tree_level_order_traversal.TestSolution Coverage Results" MODIFIED="1587858527121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_785_is_graph_bipartite_TestSolution.coverage" NAME="Unittests for test_785_is_graph_bipartite.TestSolution Coverage Results" MODIFIED="1590597274219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_insert_position_TestSolution_test_searchInsert.coverage" NAME="Unittests for test_search_insert_position.TestSolution.test_searchInsert Coverage Results" MODIFIED="1535249622402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_insert_position_TestSolution_test_searchInsert.coverage" NAME="Unittests for test_search_insert_position.TestSolution.test_searchInsert Coverage Results" MODIFIED="1591796198461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_linked_list_ii_TestSolution_test_reverseBetween_two.coverage" NAME="Unittests for test_reverse_linked_list_ii.TestSolution.test_reverseBetween_two Coverage Results" MODIFIED="1539645772512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_divide_two_integers_TestSolution.coverage" NAME="Unittests for test_divide_two_integers.TestSolution Coverage Results" MODIFIED="1535408768395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_solution_TestSolution_test_addTwoNumbers_with_different_long_numbers.coverage" NAME="Unittests for test_solution.TestSolution.test_addTwoNumbers_with_different_long_numbers Coverage Results" MODIFIED="1533573737592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -510,6 +514,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution_test_canFinish_three.coverage" NAME="Unittests for test_course_schedule.TestSolution.test_canFinish_three Coverage Results" MODIFIED="1590777765891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_integer_to_roman_TestSolution_test_int_2_roman_with_single_number_11.coverage" NAME="Unittests for test_integer_to_roman.TestSolution.test_int_2_roman_with_single_number_11 Coverage Results" MODIFIED="1534196449069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic_1.coverage" NAME="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic_1 Coverage Results" MODIFIED="1590784152278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_insert_position_TestSolution_test_searchInsert_zero.coverage" NAME="Unittests for test_search_insert_position.TestSolution.test_searchInsert_zero Coverage Results" MODIFIED="1591796203046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_896_monotonic_array_TestSolution_test_isMonotonic.coverage" NAME="Unittests for test_896_monotonic_array.TestSolution.test_isMonotonic Coverage Results" MODIFIED="1590784149403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Implement_strStr_TestSolution_test_strStr_three.coverage" NAME="Unittests for test_Implement_strStr.TestSolution.test_strStr_three Coverage Results" MODIFIED="1535148538459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_common_prefix_TestSolution_test_longestCommonPrefix_with_no_common.coverage" NAME="Unittests for test_longest_common_prefix.TestSolution.test_longestCommonPrefix_with_no_common Coverage Results" MODIFIED="1534456168619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -766,7 +771,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="222" />
+          <entry key="project.closed" value="223" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="64" />
@@ -780,34 +785,34 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="10" />
-          <entry key="project.open.time.8" value="22" />
+          <entry key="project.open.time.8" value="23" />
           <entry key="project.open.time.9" value="63" />
-          <entry key="project.opened" value="223" />
+          <entry key="project.opened" value="224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="801" />
+          <entry key="py" value="806" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="801" />
+          <entry key="Python" value="806" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7266" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="187178" />
+          <entry key="py" value="187702" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="194444" />
+          <entry key="Python" value="194968" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -823,25 +828,28 @@
         <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/LongestValidParentheses.py">
+        <entry file="file://$PROJECT_DIR$/problems/N565_Array_Nesting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="220">
+              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_longest_valid_parentheses.py">
+        <entry file="file://$PROJECT_DIR$/test/test_565_array_nesting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="84">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -867,9 +875,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/LargestRectangleHistogram.py" />
-        <option value="$PROJECT_DIR$/test/test_maximal_rectangle.py" />
-        <option value="$PROJECT_DIR$/problems/MaximalRectangle.py" />
         <option value="$PROJECT_DIR$/problems/TrappingRainWater.py" />
         <option value="$PROJECT_DIR$/test/test_226_invert_binary_tree.py" />
         <option value="$PROJECT_DIR$/problems/N226_Invert_Binary_Tree.py" />
@@ -918,6 +923,9 @@
         <option value="$PROJECT_DIR$/test/test_457_circular_array_loop.py" />
         <option value="$PROJECT_DIR$/problems/N457_Circular_Array_Loop.py" />
         <option value="$PROJECT_DIR$/problems/LongestValidParentheses.py" />
+        <option value="$PROJECT_DIR$/problems/SearchInsertPosition.py" />
+        <option value="$PROJECT_DIR$/test/test_565_array_nesting.py" />
+        <option value="$PROJECT_DIR$/problems/N565_Array_Nesting.py" />
       </list>
     </option>
   </component>
@@ -991,7 +999,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_longest_valid_parentheses.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_565_array_nesting.TestSolution.test_arrayNesting">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1021,21 +1029,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1395_count_number_of_teams.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1395_count_number_of_teams.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_457_circular_array_loop.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1051,7 +1044,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1062,22 +1055,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_457_circular_array_loop.TestSolution.test_circularArrayLoop&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_457_circular_array_loop.TestSolution.test_circularArrayLoop_1&quot;" />
+      <option name="_new_target" value="&quot;test_565_array_nesting.TestSolution.test_arrayNesting&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -1096,20 +1074,50 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_search_insert_position.TestSolution.test_searchInsert" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search_insert_position.TestSolution.test_searchInsert&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_search_insert_position.TestSolution.test_searchInsert_zero" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search_insert_position.TestSolution.test_searchInsert_zero&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_1395_count_number_of_teams.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_457_circular_array_loop.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop" />
-      <item itemvalue="Python tests.Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop_1" />
       <item itemvalue="Python tests.Unittests for test_longest_valid_parentheses.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_search_insert_position.TestSolution.test_searchInsert" />
+      <item itemvalue="Python tests.Unittests for test_search_insert_position.TestSolution.test_searchInsert_zero" />
+      <item itemvalue="Python tests.Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" />
+        <item itemvalue="Python tests.Unittests for test_search_insert_position.TestSolution.test_searchInsert_zero" />
+        <item itemvalue="Python tests.Unittests for test_search_insert_position.TestSolution.test_searchInsert" />
         <item itemvalue="Python tests.Unittests for test_longest_valid_parentheses.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_457_circular_array_loop.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop_1" />
-        <item itemvalue="Python tests.Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop" />
-        <item itemvalue="Python tests.Unittests for test_1395_count_number_of_teams.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -1127,35 +1135,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_457_circular_array_loop_TestSolution - 2020.06.09 at 15h 53m 16s.xml">
-      <configuration name="Unittests for test_457_circular_array_loop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 11m 41s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_457_circular_array_loop_TestSolution - 2020.06.09 at 15h 53m 23s.xml">
-      <configuration name="Unittests for test_457_circular_array_loop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 20m 41s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_457_circular_array_loop_TestSolution_test_circularArrayLoop - 2020.06.09 at 15h 53m 31s.xml">
-      <configuration name="Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 21m 08s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_457_circular_array_loop_TestSolution_test_circularArrayLoop_1 - 2020.06.09 at 15h 53m 34s.xml">
-      <configuration name="Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 21m 20s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_457_circular_array_loop_TestSolution_test_circularArrayLoop_1 - 2020.06.09 at 15h 54m 41s.xml">
-      <configuration name="Unittests for test_457_circular_array_loop.TestSolution.test_circularArrayLoop_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 32m 46s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_457_circular_array_loop_TestSolution - 2020.06.09 at 15h 54m 49s.xml">
-      <configuration name="Unittests for test_457_circular_array_loop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 38m 40s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_457_circular_array_loop_TestSolution - 2020.06.09 at 15h 55m 07s.xml">
-      <configuration name="Unittests for test_457_circular_array_loop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 43m 06s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_457_circular_array_loop_TestSolution - 2020.06.09 at 16h 08m 56s.xml">
-      <configuration name="Unittests for test_457_circular_array_loop.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 44m 20s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_longest_valid_parentheses_TestSolution - 2020.06.09 at 17h 49m 23s.xml">
-      <configuration name="Unittests for test_longest_valid_parentheses.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 44m 31s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_longest_valid_parentheses_TestSolution - 2020.06.09 at 17h 49m 45s.xml">
-      <configuration name="Unittests for test_longest_valid_parentheses.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 45m 26s.xml">
+      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1168,16 +1176,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1921" y="499" width="1241" height="777" extended-state="6" />
+    <frame x="1919" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.26438698" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.26855713" />
       <window_info id="Structure" order="1" weight="0.24854045" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49343064" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43211678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21313868" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34014598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1265,11 +1273,6 @@
           <url>file://$PROJECT_DIR$/problems/MergeKSortedLists.py</url>
           <line>18</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/SearchInsertPosition.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/ReverseNodesKGroup.py</url>
@@ -1815,41 +1818,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N316_Remove_Duplicate_Letters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_402_remove_k_digits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_670_maximum_swap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N670_Maximum_Swap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_1029_two_city_scheduling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N1029_Two_City_Scheduling.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -2085,9 +2053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2116,9 +2081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2126,9 +2088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
           <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding>
-            <element signature="e#59#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2136,9 +2095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2153,9 +2109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2166,13 +2119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_longest_valid_parentheses.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -2180,10 +2126,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/ValidParentheses.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/LongestValidParentheses.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_search_insert_position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/SearchInsertPosition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_565_array_nesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N565_Array_Nesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
