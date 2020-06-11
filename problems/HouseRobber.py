@@ -1,5 +1,19 @@
+"""
+There are two status :
+    0 : non-rob
+    1: rob
+
+so for each house we have two choice 0 or 1.
+For ith house
+    if we don't rob : d[0][i] = max(dp[0][i-1], dp[1][i-1]
+    for yesterday , we can rob and non-rob , get the maximum
+
+    if we rob : d[1][i] = dp[0][i-1] + nums[i]
+    for yesterday, we can only non-rob
+
+"""
 class Solution(object):
-    def rob(self, nums):
+    def rob_before(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -15,3 +29,14 @@ class Solution(object):
             i += 1
         print(res)
         return res[-1]
+
+    def rob(self, nums):
+        if not nums:
+            return 0
+        nums_len = len(nums)
+        dp = [[0]* nums_len, [0]* nums_len]
+        dp[1][0] = nums[0]
+        for i in range(1, nums_len):
+            dp[0][i] = max(dp[0][i-1], dp[1][i-1])
+            dp[1][i] = dp[0][i-1] + nums[i]
+        return max(dp[0][-1], dp[1][-1])
