@@ -37,3 +37,9 @@ class TestSolution(TestCase):
         res = solution.rob([1,1,3,6,7,10,7,1,8,5,9,1,4,4,3])
         self.assertEqual(41, res)
 
+    def test_rob_seven(self):
+        solution = Solution()
+        res = solution.rob([1])
+        self.assertEqual(1, res)
+
+

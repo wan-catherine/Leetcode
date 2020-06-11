@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/problems/HouseRobber.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/HouseRobber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/HouseRobberII.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/HouseRobberII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_house_robber_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_house_robber_ii.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -300,7 +301,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_path_sum_ii_TestSolution_test_pathSum.coverage" NAME="Unittests for test_path_sum_ii.TestSolution.test_pathSum Coverage Results" MODIFIED="1540684747456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_trapping_rain_water_TestSolution.coverage" NAME="Unittests for test_trapping_rain_water.TestSolution Coverage Results" MODIFIED="1590972670067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_iii_TestSolution_test_maxProfit_2.coverage" NAME="Unittests for test_best_time_buy_sell_stock_iii.TestSolution.test_maxProfit_2 Coverage Results" MODIFIED="1588529446567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_ii_TestSolution.coverage" NAME="Unittests for test_house_robber_ii.TestSolution Coverage Results" MODIFIED="1544761316707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_ii_TestSolution.coverage" NAME="Unittests for test_house_robber_ii.TestSolution Coverage Results" MODIFIED="1591843324040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_ii_TestSolution_test_rob_one.coverage" NAME="Unittests for test_house_robber_ii.TestSolution.test_rob_one Coverage Results" MODIFIED="1544760242778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_remove_duplicates_sorted_list_ii_TestSolution_test_deleteDuplicates_2.coverage" NAME="Unittests for test_remove_duplicates_sorted_list_ii.TestSolution.test_deleteDuplicates_2 Coverage Results" MODIFIED="1538612867717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_three.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_three Coverage Results" MODIFIED="1534372217686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -403,6 +404,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_TestSolution_test_canJump_zero.coverage" NAME="Unittests for test_jump_game.TestSolution.test_canJump_zero Coverage Results" MODIFIED="1536704658099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_ii_TestSolution_test_findOrder_two.coverage" NAME="Unittests for test_course_schedule_ii.TestSolution.test_findOrder_two Coverage Results" MODIFIED="1544630483083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1038_binary_search_tree_to_greater_sum_tree_TestSolution_test_bstToGst_1.coverage" NAME="Unittests for test_1038_binary_search_tree_to_greater_sum_tree.TestSolution.test_bstToGst_1 Coverage Results" MODIFIED="1589834291421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_ii_TestSolution_test_rob_seven.coverage" NAME="Unittests for test_house_robber_ii.TestSolution.test_rob_seven Coverage Results" MODIFIED="1591843416402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution Coverage Results" MODIFIED="1537831455609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_378_kth_smallest_element_in_a_sorted_matrix_TestSolution_test_kthSmallest_1.coverage" NAME="Unittests for test_378_kth_smallest_element_in_a_sorted_matrix.TestSolution.test_kthSmallest_1 Coverage Results" MODIFIED="1590605592770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_first_missing_positive_TestSolution_test_firstMissingPositive_empty.coverage" NAME="Unittests for test_first_missing_positive.TestSolution.test_firstMissingPositive_empty Coverage Results" MODIFIED="1536283398828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -773,7 +775,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="223" />
+          <entry key="project.closed" value="224" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="64" />
@@ -795,26 +797,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="811" />
+          <entry key="py" value="814" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="811" />
+          <entry key="Python" value="814" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7400" />
           <entry key="dummy" value="67" />
-          <entry key="py" value="189704" />
+          <entry key="py" value="190215" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="197104" />
+          <entry key="Python" value="197615" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -836,19 +838,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/HouseRobber.py">
+        <entry file="file://$PROJECT_DIR$/problems/HouseRobberII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="798">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_house_robber.py">
+        <entry file="file://$PROJECT_DIR$/test/test_house_robber_ii.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="109">
+              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/HouseRobber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="41" column="40" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="41" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -874,8 +885,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_718_maximum_length_of_repeated_subarray.py" />
-        <option value="$PROJECT_DIR$/problems/N718_Maximum_Length_Of_Repeated_Subarray.py" />
         <option value="$PROJECT_DIR$/test/test_316_remove_duplicate_letters.py" />
         <option value="$PROJECT_DIR$/problems/N316_Remove_Duplicate_Letters.py" />
         <option value="$PROJECT_DIR$/problems/N402_Remove_K_Digits.py" />
@@ -925,6 +934,8 @@
         <option value="$PROJECT_DIR$/test/test_914_x_of_a_kind_in_a_deck_of_cards.py" />
         <option value="$PROJECT_DIR$/problems/N914_X_Of_A_Kind_In_A_Deck_Of_Cards.py" />
         <option value="$PROJECT_DIR$/problems/HouseRobber.py" />
+        <option value="$PROJECT_DIR$/test/test_house_robber_ii.py" />
+        <option value="$PROJECT_DIR$/problems/HouseRobberII.py" />
       </list>
     </option>
   </component>
@@ -993,7 +1004,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_house_robber.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_house_robber_ii.TestSolution.test_rob_seven">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1038,36 +1049,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_house_robber.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1080,6 +1061,36 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_house_robber.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_house_robber_ii.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_house_robber_ii.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_house_robber_ii.TestSolution.test_rob_seven" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_house_robber_ii.TestSolution.test_rob_seven&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -1100,18 +1111,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX" />
-      <item itemvalue="Python tests.Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX_1" />
       <item itemvalue="Python tests.Unittests in test_914_x_of_a_kind_in_a_deck_of_cards.py" />
       <item itemvalue="Python tests.Unittests for test_house_robber.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_house_robber_ii.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_house_robber_ii.TestSolution.test_rob_seven" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_house_robber_ii.TestSolution.test_rob_seven" />
+        <item itemvalue="Python tests.Unittests for test_house_robber_ii.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_house_robber.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution" />
         <item itemvalue="Python tests.Unittests in test_914_x_of_a_kind_in_a_deck_of_cards.py" />
-        <item itemvalue="Python tests.Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX_1" />
-        <item itemvalue="Python tests.Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX" />
       </list>
     </recent_temporary>
   </component>
@@ -1129,15 +1140,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 44m 31s.xml">
-      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_565_array_nesting_TestSolution_test_arrayNesting - 2020.06.10 at 11h 45m 26s.xml">
-      <configuration name="Unittests for test_565_array_nesting.TestSolution.test_arrayNesting" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_914_x_of_a_kind_in_a_deck_of_cards_TestSolution - 2020.06.10 at 17h 45m 07s.xml">
-      <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_914_x_of_a_kind_in_a_deck_of_cards_TestSolution_test_hasGroupsSizeX - 2020.06.10 at 17h 45m 10s.xml">
       <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX" configurationId="tests" />
     </history-entry>
@@ -1159,6 +1161,15 @@
     <history-entry file="Unittests_for_test_house_robber_TestSolution - 2020.06.10 at 22h 21m 32s.xml">
       <configuration name="Unittests for test_house_robber.TestSolution" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_house_robber_ii_TestSolution - 2020.06.10 at 22h 42m 04s.xml">
+      <configuration name="Unittests for test_house_robber_ii.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_house_robber_ii_TestSolution_test_rob_seven - 2020.06.10 at 22h 43m 05s.xml">
+      <configuration name="Unittests for test_house_robber_ii.TestSolution.test_rob_seven" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_house_robber_ii_TestSolution_test_rob_seven - 2020.06.10 at 22h 43m 36s.xml">
+      <configuration name="Unittests for test_house_robber_ii.TestSolution.test_rob_seven" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1178,7 +1189,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6145985" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34014598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1504,11 +1515,6 @@
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/HouseRobberII.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/ContainsDuplicateIII.py</url>
           <line>8</line>
           <option name="timeStamp" value="130" />
@@ -1810,20 +1816,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_456_132_pattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N456_132_Pattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_239_sliding_window_maximum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -2154,13 +2146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_house_robber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -2168,10 +2153,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/problems/HouseRobber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="531">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_house_robber_ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/HouseRobberII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
