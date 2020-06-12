@@ -1,4 +1,26 @@
+"""
+20200611 update
+3way quick sort
+"""
 class Solution:
+    def sortColors(self, nums):
+        if not nums:
+            return
+
+        nums.insert(0, 1)
+        left, right, i = 0, len(nums)-1, 1
+        while i <= right:
+            if nums[i] == 1:
+                i += 1
+            elif nums[i] < 1:
+                nums[i],nums[left] = nums[left], nums[i]
+                i += 1
+                left += 1
+            else:
+                nums[i], nums[right] = nums[right],nums[i]
+                right -= 1
+        del nums[left]
+
     def sortColors_old(self, nums):
         """
         :type nums: List[int]
@@ -35,7 +57,7 @@ class Solution:
     # because this actually create a new nums by copying 1 and all elements in original nums
     # you can check id(nums) before and after to see the memory address changed
 
-    def sortColors(self, nums):
+    def sortColors_(self, nums):
         gt = len(nums)
         nums.insert(0,1)
         lo = 0

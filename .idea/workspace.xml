@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/problems/HouseRobberII.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/HouseRobberII.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_house_robber_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_house_robber_ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N148_Sort_List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_148_sort_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/SortColors.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/SortColors.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +39,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_451_sort_characters_by_frequency_TestSolution_test_frequencySort.coverage" NAME="Unittests for test_451_sort_characters_by_frequency.TestSolution.test_frequencySort Coverage Results" MODIFIED="1590186507287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_spiral_matrix_TestSolution_test_spiralOrder.coverage" NAME="Unittests for test_spiral_matrix.TestSolution.test_spiralOrder Coverage Results" MODIFIED="1536879833730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring Coverage Results" MODIFIED="1542051768949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_148_sort_list_TestSolution.coverage" NAME="Unittests for test_148_sort_list.TestSolution Coverage Results" MODIFIED="1591928565582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_316_remove_duplicate_letters_TestSolution_test_removeDuplicateLetters_7.coverage" NAME="Unittests for test_316_remove_duplicate_letters.TestSolution.test_removeDuplicateLetters_7 Coverage Results" MODIFIED="1591129770663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_4.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_4 Coverage Results" MODIFIED="1589584612955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_670_maximum_swap_TestSolution.coverage" NAME="Unittests for test_670_maximum_swap.TestSolution Coverage Results" MODIFIED="1591146686766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -94,6 +97,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_ii_TestSolution_test_rob.coverage" NAME="Unittests for test_house_robber_ii.TestSolution.test_rob Coverage Results" MODIFIED="1544760239931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_palindrome_TestSolution_test_isPalindrome_two.coverage" NAME="Unittests for test_valid_palindrome.TestSolution.test_isPalindrome_two Coverage Results" MODIFIED="1541633191894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution_test_canFinish_1.coverage" NAME="Unittests for test_course_schedule.TestSolution.test_canFinish_1 Coverage Results" MODIFIED="1590777743128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_148_sort_list_TestSolution_test_sortList_1.coverage" NAME="Unittests for test_148_sort_list.TestSolution.test_sortList_1 Coverage Results" MODIFIED="1591910832148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_451_sort_characters_by_frequency_TestSolution.coverage" NAME="Unittests for test_451_sort_characters_by_frequency.TestSolution Coverage Results" MODIFIED="1590185374862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_count_and_say_TestSolution_test_countAndSay_one.coverage" NAME="Unittests for test_count_and_say.TestSolution.test_countAndSay_one Coverage Results" MODIFIED="1541872236323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_characters.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_characters Coverage Results" MODIFIED="1589743203556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -179,7 +183,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution_test_maxSubArray_single.coverage" NAME="Unittests for test_max_subarray.TestSolution.test_maxSubArray_single Coverage Results" MODIFIED="1591023518277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_roman_to_integer_TestSolution_test_roman_Int_500.coverage" NAME="Unittests for test_roman_to_integer.TestSolution.test_roman_Int_500 Coverage Results" MODIFIED="1534284299616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_climbing_stairs_TestSolution.coverage" NAME="Unittests for test_climbing_stairs.TestSolution Coverage Results" MODIFIED="1536801496175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution.coverage" NAME="Unittests for test_sort_colors.TestSolution Coverage Results" MODIFIED="1588884603241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution.coverage" NAME="Unittests for test_sort_colors.TestSolution Coverage Results" MODIFIED="1591887316866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_six.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_six Coverage Results" MODIFIED="1542051772231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximal_square_TestSolution.coverage" NAME="Unittests for test_maximal_square.TestSolution Coverage Results" MODIFIED="1590068358571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$ImplementStrStr.coverage" NAME="ImplementStrStr Coverage Results" MODIFIED="1535298956368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
@@ -611,7 +615,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_four_rows.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_four_rows Coverage Results" MODIFIED="1533946350729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_10_regular_expression_matching_TestSolution_test_isMatch_1.coverage" NAME="Unittests for test_10_regular_expression_matching.TestSolution.test_isMatch_1 Coverage Results" MODIFIED="1588802237606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_387_first_unique_character_in_string_TestSolution.coverage" NAME="Unittests for test_387_first_unique_character_in_string.TestSolution Coverage Results" MODIFIED="1588719991749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$sort.coverage" NAME="sort Coverage Results" MODIFIED="1589046156560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others" />
+    <SUITE FILE_PATH="coverage/Leetcode$sort.coverage" NAME="sort Coverage Results" MODIFIED="1591886000271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_top_k_frequent_elements_TestSolution.coverage" NAME="Unittests for test_top_k_frequent_elements.TestSolution Coverage Results" MODIFIED="1590187603547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_power_two_TestSolution_test_isPowerOfTwo.coverage" NAME="Unittests for test_power_two.TestSolution.test_isPowerOfTwo Coverage Results" MODIFIED="1544325756889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_single_number_ii_TestSolution_test_singleNumber.coverage" NAME="Unittests for test_single_number_ii.TestSolution.test_singleNumber Coverage Results" MODIFIED="1588713568713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -626,7 +630,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_416_partition_equal_subnet_sum_TestSolution_test_canPartition_2.coverage" NAME="Unittests for test_416_partition_equal_subnet_sum.TestSolution.test_canPartition_2 Coverage Results" MODIFIED="1588430317749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_three_sum_closest_TestSolution_test_threeSumClosest_81.coverage" NAME="Unittests for test_three_sum_closest.TestSolution.test_threeSumClosest_81 Coverage Results" MODIFIED="1534546590370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_1.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1 Coverage Results" MODIFIED="1590433998031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution_test_sortColors.coverage" NAME="Unittests for test_sort_colors.TestSolution.test_sortColors Coverage Results" MODIFIED="1588884574865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution_test_sortColors.coverage" NAME="Unittests for test_sort_colors.TestSolution.test_sortColors Coverage Results" MODIFIED="1591887204398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_322_coin_change_TestSolution_test_coinChange_4.coverage" NAME="Unittests for test_322_coin_change.TestSolution.test_coinChange_4 Coverage Results" MODIFIED="1588427534619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_populating_next_right_pointers_each_node_ii_TestSolution_test_connect.coverage" NAME="Unittests for test_populating_next_right_pointers_each_node_ii.TestSolution.test_connect Coverage Results" MODIFIED="1541719576098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_edit_distance_TestSolution_test_minDistance_three.coverage" NAME="Unittests for test_edit_distance.TestSolution.test_minDistance_three Coverage Results" MODIFIED="1547317601518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -638,6 +642,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_difference_TestSolution_test_findTheDifference.coverage" NAME="Unittests for test_find_difference.TestSolution.test_findTheDifference Coverage Results" MODIFIED="1547755622076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_insert_interval_TestSolution.coverage" NAME="Unittests for test_insert_interval.TestSolution Coverage Results" MODIFIED="1540742778081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_compare_version_numbers_TestSolution.coverage" NAME="Unittests for test_compare_version_numbers.TestSolution Coverage Results" MODIFIED="1542670130717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_148_sort_list_TestSolution_test_sortList.coverage" NAME="Unittests for test_148_sort_list.TestSolution.test_sortList Coverage Results" MODIFIED="1591927925170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_container_with_most_water_TestSolution_test_maxArea_with_sample_two.coverage" NAME="Unittests for test_container_with_most_water.TestSolution.test_maxArea_with_sample_two Coverage Results" MODIFIED="1534289324790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_permutations_TestSolution_test_permute.coverage" NAME="Unittests for test_permutations.TestSolution.test_permute Coverage Results" MODIFIED="1536369074713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_power_of_four_TestSolution.coverage" NAME="Unittests for test_power_of_four.TestSolution Coverage Results" MODIFIED="1547087259960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -778,7 +783,7 @@
           <entry key="project.closed" value="224" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="64" />
+          <entry key="project.open.time.10" value="65" />
           <entry key="project.open.time.11" value="29" />
           <entry key="project.open.time.12" value="14" />
           <entry key="project.open.time.13" value="5" />
@@ -791,32 +796,32 @@
           <entry key="project.open.time.7" value="10" />
           <entry key="project.open.time.8" value="23" />
           <entry key="project.open.time.9" value="63" />
-          <entry key="project.opened" value="224" />
+          <entry key="project.opened" value="225" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="814" />
+          <entry key="py" value="819" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="814" />
+          <entry key="Python" value="819" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7400" />
-          <entry key="dummy" value="67" />
-          <entry key="py" value="190215" />
+          <entry key="dummy" value="68" />
+          <entry key="py" value="192377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="197615" />
+          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="Python" value="199777" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -832,34 +837,61 @@
         <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/SortColors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding>
+                <marker date="1591887580663" expanded="true" signature="87:544" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_sort_colors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/others/sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/HouseRobberII.py">
+        <entry file="file://$PROJECT_DIR$/problems/N148_Sort_List.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="105">
+              <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
+              <folding>
+                <marker date="1591928708322" expanded="true" signature="940:1748" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_house_robber_ii.py">
+        <entry file="file://$PROJECT_DIR$/test/test_148_sort_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/problems/HouseRobber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="41" column="40" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="41" selection-end-column="40" />
+            <state relative-caret-position="84">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -885,11 +917,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_316_remove_duplicate_letters.py" />
-        <option value="$PROJECT_DIR$/problems/N316_Remove_Duplicate_Letters.py" />
-        <option value="$PROJECT_DIR$/problems/N402_Remove_K_Digits.py" />
-        <option value="$PROJECT_DIR$/test/test_670_maximum_swap.py" />
-        <option value="$PROJECT_DIR$/problems/N670_Maximum_Swap.py" />
         <option value="$PROJECT_DIR$/test/test_1029_two_city_scheduling.py" />
         <option value="$PROJECT_DIR$/problems/N1029_Two_City_Scheduling.py" />
         <option value="$PROJECT_DIR$/test/test_321_create_maximum_number.py" />
@@ -936,6 +963,11 @@
         <option value="$PROJECT_DIR$/problems/HouseRobber.py" />
         <option value="$PROJECT_DIR$/test/test_house_robber_ii.py" />
         <option value="$PROJECT_DIR$/problems/HouseRobberII.py" />
+        <option value="$PROJECT_DIR$/others/sort.py" />
+        <option value="$PROJECT_DIR$/problems/SortColors.py" />
+        <option value="$PROJECT_DIR$/problems/N148_Sort_list.py" />
+        <option value="$PROJECT_DIR$/test/test_148_sort_list.py" />
+        <option value="$PROJECT_DIR$/problems/N148_Sort_List.py" />
       </list>
     </option>
   </component>
@@ -946,7 +978,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
+    <option name="x" value="1921" />
     <option name="y" value="499" />
     <option name="width" value="1241" />
     <option name="height" value="777" />
@@ -1004,7 +1036,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_house_robber_ii.TestSolution.test_rob_seven">
+  <component name="RunManager" selected="Python tests.Unittests for test_148_sort_list.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1034,7 +1066,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_148_sort_list.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1045,11 +1077,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_148_sort_list.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_house_robber.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_148_sort_list.TestSolution.test_sortList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1060,11 +1092,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_house_robber.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_148_sort_list.TestSolution.test_sortList&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_house_robber_ii.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_148_sort_list.TestSolution.test_sortList_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1075,11 +1107,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_house_robber_ii.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_148_sort_list.TestSolution.test_sortList_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_house_robber_ii.TestSolution.test_rob_seven" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_sort_colors.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1090,11 +1122,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_house_robber_ii.TestSolution.test_rob_seven&quot;" />
+      <option name="_new_target" value="&quot;test_sort_colors.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_914_x_of_a_kind_in_a_deck_of_cards.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_sort_colors.TestSolution.test_sortColors" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1105,24 +1137,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_914_x_of_a_kind_in_a_deck_of_cards.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_sort_colors.TestSolution.test_sortColors&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution" />
-      <item itemvalue="Python tests.Unittests in test_914_x_of_a_kind_in_a_deck_of_cards.py" />
-      <item itemvalue="Python tests.Unittests for test_house_robber.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_house_robber_ii.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_house_robber_ii.TestSolution.test_rob_seven" />
+      <item itemvalue="Python tests.Unittests for test_sort_colors.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_sort_colors.TestSolution.test_sortColors" />
+      <item itemvalue="Python tests.Unittests for test_148_sort_list.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_148_sort_list.TestSolution.test_sortList" />
+      <item itemvalue="Python tests.Unittests for test_148_sort_list.TestSolution.test_sortList_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_house_robber_ii.TestSolution.test_rob_seven" />
-        <item itemvalue="Python tests.Unittests for test_house_robber_ii.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_house_robber.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution" />
-        <item itemvalue="Python tests.Unittests in test_914_x_of_a_kind_in_a_deck_of_cards.py" />
+        <item itemvalue="Python tests.Unittests for test_148_sort_list.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_148_sort_list.TestSolution.test_sortList" />
+        <item itemvalue="Python tests.Unittests for test_148_sort_list.TestSolution.test_sortList_1" />
+        <item itemvalue="Python tests.Unittests for test_sort_colors.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_sort_colors.TestSolution.test_sortColors" />
       </list>
     </recent_temporary>
   </component>
@@ -1140,35 +1172,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_914_x_of_a_kind_in_a_deck_of_cards_TestSolution_test_hasGroupsSizeX - 2020.06.10 at 17h 45m 10s.xml">
-      <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution - 2020.06.11 at 22h 06m 48s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_914_x_of_a_kind_in_a_deck_of_cards_TestSolution_test_hasGroupsSizeX_1 - 2020.06.10 at 17h 45m 15s.xml">
-      <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution.test_hasGroupsSizeX_1" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution_test_sortList - 2020.06.11 at 22h 07m 58s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution.test_sortList" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_914_x_of_a_kind_in_a_deck_of_cards_TestSolution - 2020.06.10 at 17h 45m 29s.xml">
-      <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution_test_sortList - 2020.06.11 at 22h 08m 46s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution.test_sortList" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_914_x_of_a_kind_in_a_deck_of_cards_TestSolution - 2020.06.10 at 17h 46m 49s.xml">
-      <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution_test_sortList - 2020.06.11 at 22h 09m 04s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution.test_sortList" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_914_x_of_a_kind_in_a_deck_of_cards_py - 2020.06.10 at 17h 58m 41s.xml">
-      <configuration name="Unittests in test_914_x_of_a_kind_in_a_deck_of_cards.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution_test_sortList - 2020.06.11 at 22h 10m 32s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution.test_sortList" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_914_x_of_a_kind_in_a_deck_of_cards_TestSolution - 2020.06.10 at 18h 04m 20s.xml">
-      <configuration name="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution - 2020.06.11 at 22h 10m 46s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_house_robber_TestSolution - 2020.06.10 at 22h 21m 32s.xml">
-      <configuration name="Unittests for test_house_robber.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution_test_sortList - 2020.06.11 at 22h 16m 02s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution.test_sortList" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_house_robber_ii_TestSolution - 2020.06.10 at 22h 42m 04s.xml">
-      <configuration name="Unittests for test_house_robber_ii.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution - 2020.06.11 at 22h 16m 15s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_house_robber_ii_TestSolution_test_rob_seven - 2020.06.10 at 22h 43m 05s.xml">
-      <configuration name="Unittests for test_house_robber_ii.TestSolution.test_rob_seven" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution - 2020.06.11 at 22h 19m 00s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_house_robber_ii_TestSolution_test_rob_seven - 2020.06.10 at 22h 43m 36s.xml">
-      <configuration name="Unittests for test_house_robber_ii.TestSolution.test_rob_seven" configurationId="tests" />
+    <history-entry file="Unittests_for_test_148_sort_list_TestSolution - 2020.06.11 at 22h 22m 45s.xml">
+      <configuration name="Unittests for test_148_sort_list.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1181,16 +1213,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="499" width="1241" height="777" extended-state="6" />
+    <frame x="1921" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.26855713" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.27272728" />
       <window_info id="Structure" order="1" weight="0.24854045" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34014598" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54160583" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5912409" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -1209,20 +1241,20 @@
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.21517931" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.27272728" />
       <window_info id="Structure" order="1" weight="0.24854045" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31678832" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43211678" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42481753" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34014598" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.20437956" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.51386863" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.329927" />
@@ -1648,6 +1680,16 @@
           <line>36</line>
           <option name="timeStamp" value="212" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_148_sort_list.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N148_Sort_List.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1816,34 +1858,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_239_sliding_window_maximum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N769_Max_Chunks_To_Make_Sorted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/envs/py3.8Django3/lib/python3.8/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N528_Random_Pick_With_Weight.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-625">
@@ -1911,13 +1925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -2103,9 +2110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2120,9 +2124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-          <folding>
-            <marker date="1591816876481" expanded="true" signature="963:1145" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2130,9 +2131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2140,9 +2138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2156,28 +2151,72 @@
     <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/HouseRobber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="41" column="40" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="41" selection-end-column="40" />
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_house_robber_ii.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="798">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/HouseRobber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="40" selection-start-line="32" selection-start-column="4" selection-end-line="41" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/HouseRobberII.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="615">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/SortColors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <marker date="1591887580663" expanded="true" signature="87:544" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_sort_colors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_148_sort_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N148_Sort_List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
+          <folding>
+            <marker date="1591928708322" expanded="true" signature="940:1748" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
