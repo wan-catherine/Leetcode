@@ -3,7 +3,7 @@ This is merge sort problem. If it's in array, it will be much easier, but here i
 I spent two hours to fix it !!!
 
 The key point here is , you need to dump Listnode : head = temp = ListNode()
-Then each time , when you merge the listnode , use temp.next = *, then temp = temp.next . 
+Then each time , when you merge the listnode , use temp.next = *, then temp = temp.next .
 """
 
 # Definition for singly-linked list.
