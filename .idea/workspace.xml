@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N870_Advantage_Shuffle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_870_advantage_shuffle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N1299_Replace_Elements_With_Greatest_Element_On_Right_Side.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_1299_replace_elements_with_greatest_element_on_right_side.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -693,6 +692,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution_test_numDecodings_ten.coverage" NAME="Unittests for test_decode_ways.TestSolution.test_numDecodings_ten Coverage Results" MODIFIED="1539573486678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_first_missing_positive_TestSolution.coverage" NAME="Unittests for test_first_missing_positive.TestSolution Coverage Results" MODIFIED="1536360002225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_670_maximum_swap_TestSolution_test_maximumSwap_2.coverage" NAME="Unittests for test_670_maximum_swap.TestSolution.test_maximumSwap_2 Coverage Results" MODIFIED="1591145057475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1299_replace_elements_with_greatest_element_on_right_side_TestSolution_test_replaceElements.coverage" NAME="Unittests for test_1299_replace_elements_with_greatest_element_on_right_side.TestSolution.test_replaceElements Coverage Results" MODIFIED="1591999630786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_permutationsII_TestSolution_test_permuteUnique.coverage" NAME="Unittests for test_permutationsII.TestSolution.test_permuteUnique Coverage Results" MODIFIED="1536417153473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_reverse_linked_list_ii_TestSolution_test_reverseBetween_three.coverage" NAME="Unittests for test_reverse_linked_list_ii.TestSolution.test_reverseBetween_three Coverage Results" MODIFIED="1539645769674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist_difficult.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist_difficult Coverage Results" MODIFIED="1538324005600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -807,26 +807,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="823" />
+          <entry key="py" value="825" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="823" />
+          <entry key="Python" value="825" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7400" />
           <entry key="dummy" value="68" />
-          <entry key="py" value="193554" />
+          <entry key="py" value="193775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="68" />
-          <entry key="Python" value="200954" />
+          <entry key="Python" value="201175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -848,22 +848,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N870_Advantage_Shuffle.py">
+        <entry file="file://$PROJECT_DIR$/problems/N1299_Replace_Elements_With_Greatest_Element_On_Right_Side.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="89">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_870_advantage_shuffle.py">
+        <entry file="file://$PROJECT_DIR$/test/test_1299_replace_elements_with_greatest_element_on_right_side.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="84">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -892,8 +889,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test_456_132_pattern.py" />
-        <option value="$PROJECT_DIR$/problems/N456_132_Pattern.py" />
         <option value="$PROJECT_DIR$/test/test_239_sliding_window_maximum.py" />
         <option value="$PROJECT_DIR$/problems/N239_Sliding_Window_Maximum.py" />
         <option value="$PROJECT_DIR$/problems/N769_Max_Chunks_To_Make_Sorted.py" />
@@ -943,6 +938,8 @@
         <option value="$PROJECT_DIR$/problems/N324_Wiggle_Sort_II.py" />
         <option value="$PROJECT_DIR$/test/test_870_advantage_shuffle.py" />
         <option value="$PROJECT_DIR$/problems/N870_Advantage_Shuffle.py" />
+        <option value="$PROJECT_DIR$/test/test_1299_replace_elements_with_greatest_element_on_right_side.py" />
+        <option value="$PROJECT_DIR$/problems/N1299_Replace_Elements_With_Greatest_Element_On_Right_Side.py" />
       </list>
     </option>
   </component>
@@ -1011,7 +1008,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_870_advantage_shuffle.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_1299_replace_elements_with_greatest_element_on_right_side.TestSolution.test_replaceElements">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1041,6 +1038,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_1299_replace_elements_with_greatest_element_on_right_side.TestSolution.test_replaceElements" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1299_replace_elements_with_greatest_element_on_right_side.TestSolution.test_replaceElements&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_324_wiggle_sort_ii.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1053,21 +1065,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_324_wiggle_sort_ii.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_324_wiggle_sort_ii.TestSolution.test_wiggleSort_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_324_wiggle_sort_ii.TestSolution.test_wiggleSort_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -1118,18 +1115,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for test_324_wiggle_sort_ii.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_324_wiggle_sort_ii.TestSolution.test_wiggleSort_1" />
       <item itemvalue="Python tests.Unittests for test_870_advantage_shuffle.TestSolution" />
       <item itemvalue="Python tests.Unittests for test_870_advantage_shuffle.TestSolution.test_advantageCount" />
       <item itemvalue="Python tests.Unittests for test_870_advantage_shuffle.TestSolution.test_advantageCount_1" />
+      <item itemvalue="Python tests.Unittests for test_1299_replace_elements_with_greatest_element_on_right_side.TestSolution.test_replaceElements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_1299_replace_elements_with_greatest_element_on_right_side.TestSolution.test_replaceElements" />
         <item itemvalue="Python tests.Unittests for test_870_advantage_shuffle.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_870_advantage_shuffle.TestSolution.test_advantageCount_1" />
         <item itemvalue="Python tests.Unittests for test_870_advantage_shuffle.TestSolution.test_advantageCount" />
         <item itemvalue="Python tests.Unittests for test_324_wiggle_sort_ii.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_324_wiggle_sort_ii.TestSolution.test_wiggleSort_1" />
       </list>
     </recent_temporary>
   </component>
@@ -1147,9 +1144,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_324_wiggle_sort_ii_TestSolution - 2020.06.12 at 00h 21m 54s.xml">
-      <configuration name="Unittests for test_324_wiggle_sort_ii.TestSolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_324_wiggle_sort_ii_TestSolution - 2020.06.12 at 10h 04m 56s.xml">
       <configuration name="Unittests for test_324_wiggle_sort_ii.TestSolution" configurationId="tests" />
     </history-entry>
@@ -1177,6 +1171,9 @@
     <history-entry file="Unittests_for_test_870_advantage_shuffle_TestSolution - 2020.06.12 at 17h 46m 30s.xml">
       <configuration name="Unittests for test_870_advantage_shuffle.TestSolution" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_1299_replace_elements_with_greatest_element_on_right_side_TestSolution_test_replaceElements - 2020.06.12 at 18h 06m 57s.xml">
+      <configuration name="Unittests for test_1299_replace_elements_with_greatest_element_on_right_side.TestSolution.test_replaceElements" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1191,12 +1188,12 @@
     <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.27272728" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.27272728" />
       <window_info id="Structure" order="1" weight="0.24854045" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54160583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.54160583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46861315" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1838,20 +1835,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_406_queue_reconstruction_by_height.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_315_count_of_smaller_numbers_after_self.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problems/N315_Count_Of_Smaller_Numbers_After_Self.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -2182,10 +2165,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
+    <entry file="file://$PROJECT_DIR$/problems/N870_Advantage_Shuffle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="320">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2199,13 +2185,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N870_Advantage_Shuffle.py">
+    <entry file="file://$PROJECT_DIR$/problems/N310_Minimum_Height_Trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="147">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_1299_replace_elements_with_greatest_element_on_right_side.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N1299_Replace_Elements_With_Greatest_Element_On_Right_Side.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
