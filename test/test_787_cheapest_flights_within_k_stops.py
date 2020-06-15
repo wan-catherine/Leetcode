@@ -35,3 +35,19 @@ class TestSolution(TestCase):
         dst = 3
         k = 1
         self.assertEqual(6, Solution().findCheapestPrice(n, edges, src,dst,k))
+
+    def test_findCheapestPrice_4(self):
+        n = 5
+        edges = [[0, 1, 5], [1, 2, 5], [0, 3, 2], [3, 1, 2], [1, 4, 1], [4, 2, 1]]
+        src = 0
+        dst = 2
+        k = 2
+        self.assertEqual(7, Solution().findCheapestPrice(n, edges, src,dst,k))
+
+    def test_findCheapestPrice_5(self):
+        n = 5
+        edges = [[4, 1, 1], [1, 2, 3], [0, 3, 2], [0, 4, 10], [3, 1, 1], [1, 4, 3]]
+        src = 2
+        dst = 1
+        k = 1
+        self.assertEqual(-1, Solution().findCheapestPrice(n, edges, src,dst,k))

@@ -1,9 +1,10 @@
 import collections
+from collections import deque
 from math import inf
 
 
 class Solution(object):
-    def findCheapestPrice_timeout(self, n, flights, src, dst, K):
+    def findCheapestPrice_dfs_recursive(self, n, flights, src, dst, K):
         """
         :type n: int
         :type flights: List[List[int]]
@@ -17,29 +18,52 @@ class Solution(object):
         for info in flights:
             self.src_dst_mapping[info[0]].append((info[1], info[2]))
 
-        return self.bfs(src, -1, K)
+        visited = [0]*n
+        ans = self.dfs(src, 0, K, visited, float(inf))
+        return -1 if ans == float(inf) else ans
 
-    def bfs(self, src, price, stops):
-        if src not in self.src_dst_mapping or stops < 0:
-            return -1
+    def dfs(self, src, cost, stops, visited, ans):
+        if src == self.dst :
+            return cost
 
-        minimum = 10001
+        if stops < 0:
+            return ans
 
         for dst_price in self.src_dst_mapping[src]:
-            if self.dst == dst_price[0]:
-                temp_price = dst_price[1] if price == -1 else price+dst_price[1]
-            else:
-                next_price = self.bfs(dst_price[0], dst_price[1], stops-1)
-                if next_price == -1:
-                    temp_price = -1
-                else:
-                    temp_price = price + next_price if price > -1 else next_price
-            if temp_price > -1:
-                minimum = min(temp_price, minimum)
+            if visited[dst_price[0]]:
+                continue
+            if cost+dst_price[1] > ans:
+                continue
+            visited[dst_price[0]] = 1
+            ans = self.bfs(dst_price[0], cost+dst_price[1], stops-1, visited, ans)
+            visited[dst_price[0]] = 0
+        return ans
 
-        return -1 if minimum == 10001 else minimum
+    def findCheapestPrice_bfs(self, n, flights, src, dst, K):
+        src_dst_mapping = collections.defaultdict(list)
+        for info in flights:
+            src_dst_mapping[info[0]].append((info[1], info[2]))
+        ans = float(inf)
+        d = deque()
+        d.append((src,0))
+        while d:
+            size = len(d)
+            while size:
+                cur, cost = d.popleft()
+                if cur == dst:
+                    ans = min(ans, cost)
+                for des_price in src_dst_mapping[cur]:
+                    if cost + des_price[1] > ans:
+                        continue
+                    d.append((des_price[0], cost + des_price[1]))
+                size -= 1
+            K -= 1
+            if K < 0:
+                break
+        return ans if ans != float(inf) else -1
 
-    def findCheapestPrice(self, n, flights, src, dst, K):
+
+    def findCheapestPrice_wrong_answer(self, n, flights, src, dst, K):
         d_base = [[float(inf)] * n for _ in range(n)]
         for i in range(n):
             d_base[i][i] = 0
@@ -71,21 +95,17 @@ class Solution(object):
             return d_new[src][dst]
 
     """
-    Floyd Warshar Algorithm
-    Because we already know src, so dp[i] means minimum price from src - i .
-    The ourside loop use stops K. 
-    dp[info[1]] = min(dp[info[1]], dp_temp[info[0]] + info[2])
-    when it needs to stop, then use last time dp_temp, it means this loop (k) update
-    when it doesn't need to stop , then use the current time dp.
+    dp[k][c] means : kth stops , to city : c , the minimum price .
+    dp[k][c] = min(dp[k-1][c], dp[k-1][b] + cost(b,c))
     """
-    def findCheapestPrice_other(self, n, flights, src, dst, K):
-        dp = [float(inf)] * n
-        dp[src] = 0
-        for i in range(K+1):
-            dp_temp = dp[:]
-            for info in flights:
-                dp[info[1]] = min(dp[info[1]], dp_temp[info[0]] + info[2])
-        if dp[dst] == float(inf):
-            return -1
-        else:
-            return dp[dst]
+    def findCheapestPrice(self, n, flights, src, dst, K):
+        dp = [[float(inf)]*n for _ in range(K+2)]
+        dp[0][src] = 0
+
+        for k in range(K+2):
+            for flight in flights:
+                start = flight[0]
+                end = flight[1]
+                cost = flight[2]
+                dp[k][end] = min(dp[k][end], dp[k-1][start] + cost, dp[k-1][end])
+        return dp[K+1][dst] if dp[K+1][dst] != float(inf) else -1
