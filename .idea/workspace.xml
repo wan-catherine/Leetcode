@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Contest/test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N468_Validate_IP_Address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_468_validate_ip_address.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,6 +65,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_symmetric_tree_TestSolution.coverage" NAME="Unittests for test_symmetric_tree.TestSolution Coverage Results" MODIFIED="1540424905888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_decode_ways_TestSolution.coverage" NAME="Unittests for test_decode_ways.TestSolution Coverage Results" MODIFIED="1539573604142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_max_subarray_TestSolution.coverage" NAME="Unittests for test_max_subarray.TestSolution Coverage Results" MODIFIED="1591023548030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress_4.coverage" NAME="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4 Coverage Results" MODIFIED="1592320173779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_combination_sum_TestSolution_test_combinationSum_1.coverage" NAME="Unittests for test_combination_sum.TestSolution.test_combinationSum_1 Coverage Results" MODIFIED="1536108544967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1395_count_number_of_teams_TestSolution.coverage" NAME="Unittests for test_1395_count_number_of_teams.TestSolution Coverage Results" MODIFIED="1591723985147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_move_zeroes_TestSolution_test_moveZeroes.coverage" NAME="Unittests for test_move_zeroes.TestSolution.test_moveZeroes Coverage Results" MODIFIED="1545699576144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -207,6 +210,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_2.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_2 Coverage Results" MODIFIED="1590432637365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_largest_rectangle_in_histogramn_TestSolution.coverage" NAME="Unittests for test_largest_rectangle_in_histogramn.TestSolution Coverage Results" MODIFIED="1590943510906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_unique_binary_search_trees_TestSolution_test_numTrees_one.coverage" NAME="Unittests for test_unique_binary_search_trees.TestSolution.test_numTrees_one Coverage Results" MODIFIED="1539991841673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress.coverage" NAME="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress Coverage Results" MODIFIED="1592315875576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_TestSolution_test_search_one.coverage" NAME="Unittests for test_search_rotated_sorted_array.TestSolution.test_search_one Coverage Results" MODIFIED="1535819062859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_row_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_row_one_column Coverage Results" MODIFIED="1533946361570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_palindrome_number_TestSolution_test_palindrome_with_positive_number.coverage" NAME="Unittests for test_palindrome_number.TestSolution.test_palindrome_with_positive_number Coverage Results" MODIFIED="1534192140322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -595,6 +599,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints Coverage Results" MODIFIED="1590433994731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_binary_tree_level_order_traversal_TestSolution.coverage" NAME="Unittests for test_binary_tree_level_order_traversal.TestSolution Coverage Results" MODIFIED="1587858527121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_785_is_graph_bipartite_TestSolution.coverage" NAME="Unittests for test_785_is_graph_bipartite.TestSolution Coverage Results" MODIFIED="1590597274219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_468_validate_ip_address_TestSolution.coverage" NAME="Unittests for test_468_validate_ip_address.TestSolution Coverage Results" MODIFIED="1592320272850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_single_number_ii_TestSolution.coverage" NAME="Unittests for test_single_number_ii.TestSolution Coverage Results" MODIFIED="1588713553880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_substring_concatenation_all_words_TestSolution_test_findSubstring_zero.coverage" NAME="Unittests for test_substring_concatenation_all_words.TestSolution.test_findSubstring_zero Coverage Results" MODIFIED="1542051780018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange Coverage Results" MODIFIED="1589062388287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -757,6 +762,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_iii_TestSolution_test_maxProfit_three.coverage" NAME="Unittests for test_best_time_buy_sell_stock_iii.TestSolution.test_maxProfit_three Coverage Results" MODIFIED="1542474130821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_column Coverage Results" MODIFIED="1533946354065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_with_two.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_with_two Coverage Results" MODIFIED="1534616182138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$N1483_Kth_Ancestor_Of_A_Tree_Node.coverage" NAME="N1483_Kth_Ancestor_Of_A_Tree_Node Coverage Results" MODIFIED="1592276885443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_break_TestSolution_test_wordBreak_one.coverage" NAME="Unittests for test_word_break.TestSolution.test_wordBreak_one Coverage Results" MODIFIED="1542158348496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_287_find_the_duplicate_number_TestSolution_test_findDuplicate.coverage" NAME="Unittests for test_287_find_the_duplicate_number.TestSolution.test_findDuplicate Coverage Results" MODIFIED="1590709431509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_670_maximum_swap_TestSolution_test_maximumSwap.coverage" NAME="Unittests for test_670_maximum_swap.TestSolution.test_maximumSwap Coverage Results" MODIFIED="1591144899791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -807,6 +813,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_316_remove_duplicate_letters_TestSolution_test_removeDuplicateLetters_3.coverage" NAME="Unittests for test_316_remove_duplicate_letters.TestSolution.test_removeDuplicateLetters_3 Coverage Results" MODIFIED="1591126291238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1277_count_square_submatrices_with_all_ones_TestSolution.coverage" NAME="Unittests for test_1277_count_square_submatrices_with_all_ones.TestSolution Coverage Results" MODIFIED="1590077249567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_k_lists_TestSolution_test_mergeKLists.coverage" NAME="Unittests for test_merge_k_lists.TestSolution.test_mergeKLists Coverage Results" MODIFIED="1535065270522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress_5.coverage" NAME="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5 Coverage Results" MODIFIED="1592320254647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_785_is_graph_bipartite_TestSolution_test_isBipartite.coverage" NAME="Unittests for test_785_is_graph_bipartite.TestSolution.test_isBipartite Coverage Results" MODIFIED="1590597191445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_338_counting_bits_TestSolution_test_countBits_2.coverage" NAME="Unittests for test_338_counting_bits.TestSolution.test_countBits_2 Coverage Results" MODIFIED="1590692931237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
@@ -817,7 +824,7 @@
     <session id="2019334273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="228" />
+          <entry key="project.closed" value="229" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="66" />
@@ -831,34 +838,34 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="10" />
-          <entry key="project.open.time.8" value="24" />
+          <entry key="project.open.time.8" value="25" />
           <entry key="project.open.time.9" value="65" />
-          <entry key="project.opened" value="229" />
+          <entry key="project.opened" value="230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="845" />
+          <entry key="py" value="852" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="845" />
+          <entry key="Python" value="852" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="7572" />
+          <entry key="Python Console" value="7615" />
           <entry key="dummy" value="72" />
-          <entry key="py" value="204403" />
+          <entry key="py" value="206000" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="72" />
-          <entry key="Python" value="211975" />
+          <entry key="Python" value="213615" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -870,20 +877,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Contest/N5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="179">
+              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+              <folding>
+                <marker date="1592276883792" expanded="true" signature="48:53" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/N468_Validate_IP_Address.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <marker date="1592320267895" expanded="true" signature="340:748" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Contest/test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py">
+        <entry file="file://$PROJECT_DIR$/test/test_468_validate_ip_address.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="75">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -912,9 +934,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/N448_Find_All_Numbers_Disappeared_In_An_Array.py" />
-        <option value="$PROJECT_DIR$/problems/FirstMissingPositive.py" />
-        <option value="$PROJECT_DIR$/test/test_392_is_subsequence.py" />
         <option value="$PROJECT_DIR$/problems/N392_Is_Subsequence.py" />
         <option value="$PROJECT_DIR$/test/test_792_number_of_matching_subsequences.py" />
         <option value="$PROJECT_DIR$/problems/N792_Number_Of_Matching_Subsequences.py" />
@@ -963,6 +982,9 @@
         <option value="$PROJECT_DIR$/problems/N1437_Check_If_All_1_Are_At_Least_Length_K_Places_Away.py" />
         <option value="$PROJECT_DIR$/Contest/test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py" />
         <option value="$PROJECT_DIR$/Contest/N5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py" />
+        <option value="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" />
+        <option value="$PROJECT_DIR$/test/test_468_validate_ip_address.py" />
+        <option value="$PROJECT_DIR$/problems/N468_Validate_IP_Address.py" />
       </list>
     </option>
   </component>
@@ -986,6 +1008,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1002,7 +1025,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1031,7 +1053,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_468_validate_ip_address.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1052,6 +1074,28 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="N1483_Kth_Ancestor_Of_A_Tree_Node" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1061,95 +1105,80 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_468_validate_ip_address.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_468_validate_ip_address.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays&quot;" />
+      <option name="_new_target" value="&quot;test_468_validate_ip_address.TestSolution.test_validIPAddress&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_1&quot;" />
+      <option name="_new_target" value="&quot;test_468_validate_ip_address.TestSolution.test_validIPAddress_4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_4&quot;" />
+      <option name="_new_target" value="&quot;test_468_validate_ip_address.TestSolution.test_validIPAddress_5&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution" />
-      <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays" />
-      <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_1" />
-      <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_4" />
-      <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_3" />
+      <item itemvalue="Python.N1483_Kth_Ancestor_Of_A_Tree_Node" />
+      <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" />
+      <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4" />
+      <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution" />
-        <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays" />
-        <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_3" />
-        <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_4" />
-        <item itemvalue="Python tests.Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_1" />
+        <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" />
+        <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4" />
+        <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" />
+        <item itemvalue="Python.N1483_Kth_Ancestor_Of_A_Tree_Node" />
       </list>
     </recent_temporary>
   </component>
@@ -1167,35 +1196,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution_test_minDays_4 - 2020.06.15 at 18h 03m 08s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_4" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution_test_minDays_3 - 2020.06.15 at 18h 03m 11s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays_3" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution_test_minDays - 2020.06.15 at 18h 04m 10s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution - 2020.06.15 at 18h 04m 21s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution_test_minDays - 2020.06.15 at 18h 04m 24s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution_test_minDays - 2020.06.15 at 18h 05m 03s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution - 2020.06.15 at 18h 05m 21s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution_test_minDays - 2020.06.15 at 18h 06m 40s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution_test_minDays - 2020.06.15 at 18h 07m 31s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution.test_minDays" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution - 2020.06.15 at 18h 07m 33s.xml">
       <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress - 2020.06.16 at 09h 57m 09s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress - 2020.06.16 at 09h 57m 28s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress - 2020.06.16 at 09h 57m 55s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 06m 09s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 07m 48s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 09m 25s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress_4 - 2020.06.16 at 11h 09m 34s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 10m 03s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress_5 - 2020.06.16 at 11h 10m 54s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1211,12 +1240,12 @@
     <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.22685571" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.22685571" />
       <window_info id="Structure" order="1" weight="0.24854045" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44963503" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6029197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4627737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1704,12 +1733,28 @@
         <watch expression="info[0], info[1]" language="Python" />
       </configuration>
       <configuration name="PythonConfigurationType">
-        <watch expression="not i == ' '" language="Python" />
+        <watch expression="self.ancestor[j][i-1]" language="Python" />
+        <watch expression="self.ancestor[self.ancestor[j][i-1]][i-1]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>j == 7 and i == 1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>j == 7 and i == 3</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i ==1 and j == 3</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>info[1] ==2</expression-string>
         <language-id>Python</language-id>
@@ -1740,28 +1785,28 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>offset == 2</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i,j == 1,1 and index == 1</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i,j == 1,1 and index==1</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i,j = 1,1</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>self.ancestor[self.ancestor[j][i-1]][i-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.ancestor[self.ancestor[j][i-1]][j-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.ancestor[j][i-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>d.popleft()</expression-string>
         <language-id>Python</language-id>
@@ -1789,26 +1834,6 @@
       </expression>
       <expression>
         <expression-string>i == ''</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>not i</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>l  = [].append(1)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f_n.setdefault(1,[])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>f_n[1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1862,27 +1887,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N792_Number_Of_Matching_Subsequences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_1395_count_number_of_teams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N1395_Count_Number_Of_Teams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_457_circular_array_loop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -2147,20 +2151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Contest/test_5437_least_number_of_unique_integers_after_k_removals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Contest/N5437_Least_Number_Of_Unique_Integers_After_K_Removals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_5436_running_sum_of_1d_array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -2186,9 +2176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2196,11 +2183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1592251641488" expanded="true" signature="649:654" ph="..." />
-            <marker date="1592251641488" expanded="true" signature="1277:1968" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2208,9 +2190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2221,20 +2200,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Contest/N5437_Least_Number_Of_Unique_Integers_After_K_Removals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contest/N5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Contest/test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contest/test_5437_least_number_of_unique_integers_after_k_removals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <marker date="1592276883792" expanded="true" signature="48:53" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_468_validate_ip_address.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Contest/N5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py">
+    <entry file="file://$PROJECT_DIR$/problems/N468_Validate_IP_Address.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <marker date="1592320267895" expanded="true" signature="340:748" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
