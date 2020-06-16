@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N468_Validate_IP_Address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_468_validate_ip_address.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -762,7 +757,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_best_time_buy_sell_stock_iii_TestSolution_test_maxProfit_three.coverage" NAME="Unittests for test_best_time_buy_sell_stock_iii.TestSolution.test_maxProfit_three Coverage Results" MODIFIED="1542474130821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_one_column.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_one_column Coverage Results" MODIFIED="1533946354065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_letter_combinations_TestSolution_test_letterCombinations_with_two.coverage" NAME="Unittests for test_letter_combinations.TestSolution.test_letterCombinations_with_two Coverage Results" MODIFIED="1534616182138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$N1483_Kth_Ancestor_Of_A_Tree_Node.coverage" NAME="N1483_Kth_Ancestor_Of_A_Tree_Node Coverage Results" MODIFIED="1592276885443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$N1483_Kth_Ancestor_Of_A_Tree_Node.coverage" NAME="N1483_Kth_Ancestor_Of_A_Tree_Node Coverage Results" MODIFIED="1592321415576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_break_TestSolution_test_wordBreak_one.coverage" NAME="Unittests for test_word_break.TestSolution.test_wordBreak_one Coverage Results" MODIFIED="1542158348496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_287_find_the_duplicate_number_TestSolution_test_findDuplicate.coverage" NAME="Unittests for test_287_find_the_duplicate_number.TestSolution.test_findDuplicate Coverage Results" MODIFIED="1590709431509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_670_maximum_swap_TestSolution_test_maximumSwap.coverage" NAME="Unittests for test_670_maximum_swap.TestSolution.test_maximumSwap Coverage Results" MODIFIED="1591144899791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -859,13 +854,13 @@
         <counts>
           <entry key="Python Console" value="7615" />
           <entry key="dummy" value="72" />
-          <entry key="py" value="206000" />
+          <entry key="py" value="206046" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="72" />
-          <entry key="Python" value="213615" />
+          <entry key="Python" value="213661" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -877,37 +872,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="299">
+              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
               <folding>
-                <marker date="1592276883792" expanded="true" signature="48:53" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N468_Validate_IP_Address.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <marker date="1592320267895" expanded="true" signature="340:748" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_468_validate_ip_address.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <marker date="1592321401060" expanded="true" signature="48:53" ph="..." />
               </folding>
             </state>
           </provider>
@@ -982,9 +953,9 @@
         <option value="$PROJECT_DIR$/problems/N1437_Check_If_All_1_Are_At_Least_Length_K_Places_Away.py" />
         <option value="$PROJECT_DIR$/Contest/test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py" />
         <option value="$PROJECT_DIR$/Contest/N5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.py" />
-        <option value="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" />
         <option value="$PROJECT_DIR$/test/test_468_validate_ip_address.py" />
         <option value="$PROJECT_DIR$/problems/N468_Validate_IP_Address.py" />
+        <option value="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" />
       </list>
     </option>
   </component>
@@ -1053,7 +1024,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_468_validate_ip_address.TestSolution">
+  <component name="RunManager" selected="Python.N1483_Kth_Ancestor_Of_A_Tree_Node">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1174,11 +1145,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.N1483_Kth_Ancestor_Of_A_Tree_Node" />
         <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution" />
         <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" />
         <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4" />
         <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" />
-        <item itemvalue="Python.N1483_Kth_Ancestor_Of_A_Tree_Node" />
       </list>
     </recent_temporary>
   </component>
@@ -1196,9 +1167,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Contest_test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets_TestSolution - 2020.06.15 at 18h 07m 33s.xml">
-      <configuration name="Unittests for Contest.test_5438_Minimum_Number_Of_Days_To_Make_M_Bouquets.TestSolution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress - 2020.06.16 at 09h 57m 09s.xml">
       <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" configurationId="tests" />
     </history-entry>
@@ -1226,6 +1194,9 @@
     <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress_5 - 2020.06.16 at 11h 10m 54s.xml">
       <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 11m 13s.xml">
+      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1245,7 +1216,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6029197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6029197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4627737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2228,20 +2199,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <marker date="1592276883792" expanded="true" signature="48:53" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_468_validate_ip_address.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="63">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -2250,10 +2211,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N468_Validate_IP_Address.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
             <marker date="1592320267895" expanded="true" signature="340:748" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding>
+            <marker date="1592321401060" expanded="true" signature="48:53" ph="..." />
           </folding>
         </state>
       </provider>
