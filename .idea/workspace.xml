@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N1011_Capacity_To_Ship_Packages_Within_D_Days.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_1011_capacity_to_ship_packages_within_d_days.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +86,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_560_subarray_sum_equals_k_TestSolution.coverage" NAME="Unittests for test_560_subarray_sum_equals_k.TestSolution Coverage Results" MODIFIED="1591584099424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_378_kth_smallest_element_in_a_sorted_matrix_TestSolution.coverage" NAME="Unittests for test_378_kth_smallest_element_in_a_sorted_matrix.TestSolution Coverage Results" MODIFIED="1590617249821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_321_create_maximum_number_TestSolution_test_maxNumber_3.coverage" NAME="Unittests for test_321_create_maximum_number.TestSolution.test_maxNumber_3 Coverage Results" MODIFIED="1591225193624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution.coverage" NAME="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution Coverage Results" MODIFIED="1592329666358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_scramble_string_TestSolution_test_isScramble_two.coverage" NAME="Unittests for test_scramble_string.TestSolution.test_isScramble_two Coverage Results" MODIFIED="1539529631341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_contains_duplicate_ii_TestSolution.coverage" NAME="Unittests for test_contains_duplicate_ii.TestSolution Coverage Results" MODIFIED="1544925820937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_with_some_repeating_at_end.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_with_some_repeating_at_end Coverage Results" MODIFIED="1533696193253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -711,6 +714,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_918_maximum_sum_circular_subarray_TestSolution_test_maxSubarraySumCircular_3.coverage" NAME="Unittests for test_918_maximum_sum_circular_subarray.TestSolution.test_maxSubarraySumCircular_3 Coverage Results" MODIFIED="1589584404524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_maximum_product_word_lengths_TestSolution.coverage" NAME="Unittests for test_maximum_product_word_lengths.TestSolution Coverage Results" MODIFIED="1546221230605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_longest_substring_without_repeating_characters_TestSolution_test_length_longest_substring_by_one_string.coverage" NAME="Unittests for test_longest_substring_without_repeating_characters.TestSolution.test_length_longest_substring_by_one_string Coverage Results" MODIFIED="1533697667902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution_test_shipWithinDays_2.coverage" NAME="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays_2 Coverage Results" MODIFIED="1592329371836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_add_binary_TestSolution_test_addBinary.coverage" NAME="Unittests for test_add_binary.TestSolution.test_addBinary Coverage Results" MODIFIED="1537578515444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength_2.coverage" NAME="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength_2 Coverage Results" MODIFIED="1591116862016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_907_sum_of_subarray_minimums_TestSolution.coverage" NAME="Unittests for test_907_sum_of_subarray_minimums.TestSolution Coverage Results" MODIFIED="1590872629150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -728,6 +732,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_327_count_of_range_sum_TestSolution.coverage" NAME="Unittests for test_327_count_of_range_sum.TestSolution Coverage Results" MODIFIED="1591584323955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_length_last_word_TestSolution.coverage" NAME="Unittests for test_length_last_word.TestSolution Coverage Results" MODIFIED="1536971198800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_set_matrix_zeroes_TestSolution_test_setZeroes.coverage" NAME="Unittests for test_set_matrix_zeroes.TestSolution.test_setZeroes Coverage Results" MODIFIED="1537831366201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution_test_shipWithinDays.coverage" NAME="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays Coverage Results" MODIFIED="1592329334334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_780_reaching_points_TestSolution_test_reachingPoints_1.coverage" NAME="Unittests for test_780_reaching_points.TestSolution.test_reachingPoints_1 Coverage Results" MODIFIED="1590433998031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_sort_colors_TestSolution_test_sortColors.coverage" NAME="Unittests for test_sort_colors.TestSolution.test_sortColors Coverage Results" MODIFIED="1591887204398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_322_coin_change_TestSolution_test_coinChange_4.coverage" NAME="Unittests for test_322_coin_change.TestSolution.test_coinChange_4 Coverage Results" MODIFIED="1588427534619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -843,26 +848,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="852" />
+          <entry key="py" value="854" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="852" />
+          <entry key="Python" value="854" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7615" />
           <entry key="dummy" value="72" />
-          <entry key="py" value="206447" />
+          <entry key="py" value="207032" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="72" />
-          <entry key="Python" value="214062" />
+          <entry key="Python" value="214647" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -875,12 +880,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py">
+        <entry file="file://$PROJECT_DIR$/problems/N1011_Capacity_To_Ship_Packages_Within_D_Days.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="114" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
+            <state relative-caret-position="357">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_1011_capacity_to_ship_packages_within_d_days.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
-                <marker date="1592322175558" expanded="true" signature="389:394" ph="..." />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -907,8 +921,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/N392_Is_Subsequence.py" />
-        <option value="$PROJECT_DIR$/test/test_792_number_of_matching_subsequences.py" />
         <option value="$PROJECT_DIR$/problems/N792_Number_Of_Matching_Subsequences.py" />
         <option value="$PROJECT_DIR$/test/test_1395_count_number_of_teams.py" />
         <option value="$PROJECT_DIR$/problems/N1395_Count_Number_Of_Teams.py" />
@@ -958,6 +970,8 @@
         <option value="$PROJECT_DIR$/test/test_468_validate_ip_address.py" />
         <option value="$PROJECT_DIR$/problems/N468_Validate_IP_Address.py" />
         <option value="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" />
+        <option value="$PROJECT_DIR$/test/test_1011_capacity_to_ship_packages_within_d_days.py" />
+        <option value="$PROJECT_DIR$/problems/N1011_Capacity_To_Ship_Packages_Within_D_Days.py" />
       </list>
     </option>
   </component>
@@ -988,11 +1002,6 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1026,7 +1035,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.N1483_Kth_Ancestor_Of_A_Tree_Node">
+  <component name="RunManager" selected="Python tests.Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1078,6 +1087,51 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1011_capacity_to_ship_packages_within_d_days.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_468_validate_ip_address.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1093,65 +1147,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_468_validate_ip_address.TestSolution.test_validIPAddress&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_468_validate_ip_address.TestSolution.test_validIPAddress_4&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_468_validate_ip_address.TestSolution.test_validIPAddress_5&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.N1483_Kth_Ancestor_Of_A_Tree_Node" />
-      <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" />
       <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4" />
-      <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" />
+      <item itemvalue="Python tests.Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays" />
+      <item itemvalue="Python tests.Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays_2" />
+        <item itemvalue="Python tests.Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays" />
         <item itemvalue="Python.N1483_Kth_Ancestor_Of_A_Tree_Node" />
         <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" />
-        <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4" />
-        <item itemvalue="Python tests.Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" />
       </list>
     </recent_temporary>
   </component>
@@ -1169,35 +1178,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress - 2020.06.16 at 09h 57m 09s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution - 2020.06.16 at 13h 33m 23s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress - 2020.06.16 at 09h 57m 28s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution_test_shipWithinDays - 2020.06.16 at 13h 36m 14s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress - 2020.06.16 at 09h 57m 55s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution_test_shipWithinDays - 2020.06.16 at 13h 36m 35s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 06m 09s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution_test_shipWithinDays - 2020.06.16 at 13h 37m 06s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 07m 48s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution - 2020.06.16 at 13h 40m 43s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 09m 25s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution_test_shipWithinDays - 2020.06.16 at 13h 41m 44s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress_4 - 2020.06.16 at 11h 09m 34s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_4" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution_test_shipWithinDays - 2020.06.16 at 13h 42m 06s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 10m 03s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution_test_shipWithinDays - 2020.06.16 at 13h 42m 35s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution_test_validIPAddress_5 - 2020.06.16 at 11h 10m 54s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution.test_validIPAddress_5" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution - 2020.06.16 at 13h 42m 41s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_468_validate_ip_address_TestSolution - 2020.06.16 at 11h 11m 13s.xml">
-      <configuration name="Unittests for test_468_validate_ip_address.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1011_capacity_to_ship_packages_within_d_days_TestSolution_test_shipWithinDays_2 - 2020.06.16 at 13h 44m 37s.xml">
+      <configuration name="Unittests for test_1011_capacity_to_ship_packages_within_d_days.TestSolution.test_shipWithinDays_2" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1213,12 +1222,12 @@
     <frame x="1920" y="499" width="1241" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" weight="0.22685571" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.22685571" />
       <window_info id="Structure" order="1" weight="0.24854045" />
       <window_info id="Favorites" order="2" sideWeight="0.5007299" side_tool="true" weight="0.30743524" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6029197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54744524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4627737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1692,6 +1701,12 @@
           <line>23</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="mid == 15" language="Python" />
+          <url>file://$PROJECT_DIR$/problems/N1011_Capacity_To_Ship_Packages_Within_D_Days.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1713,6 +1728,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>mid == 15</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>j == 7 and i == 1</expression-string>
         <language-id>Python</language-id>
@@ -1860,20 +1880,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_457_circular_array_loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N457_Circular_Array_Loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_longest_valid_parentheses.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -2223,11 +2229,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="114" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <marker date="1592322175558" expanded="true" signature="389:394" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_1011_capacity_to_ship_packages_within_d_days.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N1011_Capacity_To_Ship_Packages_Within_D_Days.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
