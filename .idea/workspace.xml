@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="" />
+    <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -854,13 +856,13 @@
         <counts>
           <entry key="Python Console" value="7615" />
           <entry key="dummy" value="72" />
-          <entry key="py" value="206046" />
+          <entry key="py" value="206447" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="72" />
-          <entry key="Python" value="213661" />
+          <entry key="Python" value="214062" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -875,10 +877,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+            <state relative-caret-position="168">
+              <caret line="8" column="114" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
               <folding>
-                <marker date="1592321401060" expanded="true" signature="48:53" ph="..." />
+                <marker date="1592322175558" expanded="true" signature="389:394" ph="..." />
               </folding>
             </state>
           </provider>
@@ -2221,10 +2223,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/N1483_Kth_Ancestor_Of_A_Tree_Node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        <state relative-caret-position="168">
+          <caret line="8" column="114" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
           <folding>
-            <marker date="1592321401060" expanded="true" signature="48:53" ph="..." />
+            <marker date="1592322175558" expanded="true" signature="389:394" ph="..." />
           </folding>
         </state>
       </provider>

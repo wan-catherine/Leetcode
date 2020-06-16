@@ -1,5 +1,14 @@
 import collections
+"""
+The key point is convert K into binary .
+For example K = 13 = 8 + 4 + 1 = 1101
 
+For ith node , it's 2**j parent == ith node's 2**(j-1) parent, this node's  2**(j-1) parent (parent's parent)
+2**j = 2**(j-1) + 2**(j-1)
+
+so for ith node's K == 13 parent, we can find ith node's 8 parent p8, then find p8's 4 parent , p8.4, then p8.4.1.
+
+"""
 
 class TreeAncestor(object):
     # timeout
