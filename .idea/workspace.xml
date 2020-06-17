@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N611_Valid_Triangle_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_611_valid_triangle_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N1471_The_K_Strongest_Values_In_An_Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_1471_the_k_strongest_values_in_an_array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -230,6 +230,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_18_4sum_TestSolution.coverage" NAME="Unittests for test_18_4sum.TestSolution Coverage Results" MODIFIED="1590269529737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_718_maximum_length_of_repeated_subarray_TestSolution_test_findLength.coverage" NAME="Unittests for test_718_maximum_length_of_repeated_subarray.TestSolution.test_findLength Coverage Results" MODIFIED="1591116853189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1038_binary_search_tree_to_greater_sum_tree_TestSolution_test_bstToGst.coverage" NAME="Unittests for test_1038_binary_search_tree_to_greater_sum_tree.TestSolution.test_bstToGst Coverage Results" MODIFIED="1589838028171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest_1.coverage" NAME="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_1 Coverage Results" MODIFIED="1592426412948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_442_find_all_duplicates_in_an_array_TestSolution.coverage" NAME="Unittests for test_442_find_all_duplicates_in_an_array.TestSolution Coverage Results" MODIFIED="1591657394347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$SortColors.coverage" NAME="SortColors Coverage Results" MODIFIED="1588884053946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_zigzag_conversion_TestSolution_test_convert_by_empty.coverage" NAME="Unittests for test_zigzag_conversion.TestSolution.test_convert_by_empty Coverage Results" MODIFIED="1533946357084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -253,6 +254,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_valid_udoku_TestSolution_test_isValidSudoku_false.coverage" NAME="Unittests for test_valid_udoku.TestSolution.test_isValidSudoku_false Coverage Results" MODIFIED="1535895652671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Find_minimum_Rotated_Sorted_Array_II_TestSolution_test_findMin_four.coverage" NAME="Unittests for test_Find_minimum_Rotated_Sorted_Array_II.TestSolution.test_findMin_four Coverage Results" MODIFIED="1542667942559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_914_x_of_a_kind_in_a_deck_of_cards_TestSolution.coverage" NAME="Unittests for test_914_x_of_a_kind_in_a_deck_of_cards.TestSolution Coverage Results" MODIFIED="1591826658755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest_6.coverage" NAME="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6 Coverage Results" MODIFIED="1592426768865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_402_remove_k_digits_TestSolution_test_removeKdigits_2.coverage" NAME="Unittests for test_402_remove_k_digits.TestSolution.test_removeKdigits_2 Coverage Results" MODIFIED="1591130796215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_560_subarray_sum_equals_k_TestSolution_test_subarraySum.coverage" NAME="Unittests for test_560_subarray_sum_equals_k.TestSolution.test_subarraySum Coverage Results" MODIFIED="1591570077687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_house_robber_ii_TestSolution_test_rob_five.coverage" NAME="Unittests for test_house_robber_ii.TestSolution.test_rob_five Coverage Results" MODIFIED="1544760252879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -421,6 +423,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_in_test_230_kth_smallest_element_in_a_bst_py.coverage" NAME="Unittests in test_230_kth_smallest_element_in_a_bst.py Coverage Results" MODIFIED="1589982819953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_merge_sorted_array_TestSolution_test_merge.coverage" NAME="Unittests for test_merge_sorted_array.TestSolution.test_merge Coverage Results" MODIFIED="1539224729441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_first_last_position_element_sorted_array_TestSolution_test_searchRange_no.coverage" NAME="Unittests for test_find_first_last_position_element_sorted_array.TestSolution.test_searchRange_no Coverage Results" MODIFIED="1589062432905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution.coverage" NAME="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution Coverage Results" MODIFIED="1592426882322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_321_create_maximum_number_TestSolution_test_maxNumber.coverage" NAME="Unittests for test_321_create_maximum_number.TestSolution.test_maxNumber Coverage Results" MODIFIED="1591223672162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_jump_game_TestSolution.coverage" NAME="Unittests for test_jump_game.TestSolution Coverage Results" MODIFIED="1536704701733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_subsets_TestSolution_test_subsets.coverage" NAME="Unittests for test_subsets.TestSolution.test_subsets Coverage Results" MODIFIED="1538170100946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -501,6 +504,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_word_search_TestSolution_test_exist_special.coverage" NAME="Unittests for test_word_search.TestSolution.test_exist_special Coverage Results" MODIFIED="1538324002756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution Coverage Results" MODIFIED="1538530874182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_Best_Time_Buy_Sell_Stock_With_Cooldown_TestSolution.coverage" NAME="Unittests for test_Best_Time_Buy_Sell_Stock_With_Cooldown.TestSolution Coverage Results" MODIFIED="1546014827844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest.coverage" NAME="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest Coverage Results" MODIFIED="1592426409842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_540_single_element_in_a_sorted_array_TestSolution.coverage" NAME="Unittests for test_540_single_element_in_a_sorted_array.TestSolution Coverage Results" MODIFIED="1589303411576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1035_uncrossed_lines_TestSolution.coverage" NAME="Unittests for test_1035_uncrossed_lines.TestSolution Coverage Results" MODIFIED="1590417813170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_course_schedule_TestSolution.coverage" NAME="Unittests for test_course_schedule.TestSolution Coverage Results" MODIFIED="1590777946320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -800,8 +804,10 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1437_TestSolution.coverage" NAME="Unittests for test_1437.TestSolution Coverage Results" MODIFIED="1592254949854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1008_construct_bfs_from_preorder_traversal_TestSolution.coverage" NAME="Unittests for test_1008_construct_bfs_from_preorder_traversal.TestSolution Coverage Results" MODIFIED="1590331367877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_search_rotated_sorted_array_ii_TestSolution_test_search_1.coverage" NAME="Unittests for test_search_rotated_sorted_array_ii.TestSolution.test_search_1 Coverage Results" MODIFIED="1538529070666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest_5.coverage" NAME="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5 Coverage Results" MODIFIED="1592426557886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_463_island_perimeter_TestSolution_test_islandPerimeter.coverage" NAME="Unittests for test_463_island_perimeter.TestSolution.test_islandPerimeter Coverage Results" MODIFIED="1589213659061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_rotate_image_TestSolution_test_rotate.coverage" NAME="Unittests for test_rotate_image.TestSolution.test_rotate Coverage Results" MODIFIED="1536618247131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest_2.coverage" NAME="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2 Coverage Results" MODIFIED="1592426445634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_minimum_size_subarray_sum_TestSolution_test_minSubArrayLen_three.coverage" NAME="Unittests for test_minimum_size_subarray_sum.TestSolution.test_minSubArrayLen_three Coverage Results" MODIFIED="1544153786275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_315_count_of_smaller_numbers_after_self_TestSolution.coverage" NAME="Unittests for test_315_count_of_smaller_numbers_after_self.TestSolution Coverage Results" MODIFIED="1591459943711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_super_ugly_number_TestSolution.coverage" NAME="Unittests for test_super_ugly_number.TestSolution Coverage Results" MODIFIED="1546273145205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -861,26 +867,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="3" />
-          <entry key="py" value="863" />
+          <entry key="py" value="865" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="863" />
+          <entry key="Python" value="865" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="7771" />
-          <entry key="dummy" value="72" />
-          <entry key="py" value="211552" />
+          <entry key="dummy" value="73" />
+          <entry key="py" value="212133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="72" />
-          <entry key="Python" value="219323" />
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="Python" value="219904" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -893,19 +899,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N611_Valid_Triangle_Number.py">
+        <entry file="file://$PROJECT_DIR$/problems/N1471_The_K_Strongest_Values_In_An_Array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="63">
+              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_611_valid_triangle_number.py">
+        <entry file="file://$PROJECT_DIR$/test/test_1471_the_k_strongest_values_in_an_array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="231">
+              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -934,9 +940,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/problems/N565_Array_Nesting.py" />
-        <option value="$PROJECT_DIR$/problems/N341_Flatten_Nested_List_Iterator.py" />
-        <option value="$PROJECT_DIR$/test/test_914_x_of_a_kind_in_a_deck_of_cards.py" />
         <option value="$PROJECT_DIR$/problems/N914_X_Of_A_Kind_In_A_Deck_Of_Cards.py" />
         <option value="$PROJECT_DIR$/problems/HouseRobber.py" />
         <option value="$PROJECT_DIR$/test/test_house_robber_ii.py" />
@@ -985,6 +988,9 @@
         <option value="$PROJECT_DIR$/problems/N130_Surrounded_Regions.py" />
         <option value="$PROJECT_DIR$/test/test_611_valid_triangle_number.py" />
         <option value="$PROJECT_DIR$/problems/N611_Valid_Triangle_Number.py" />
+        <option value="$PROJECT_DIR$/problems/N171_The_K_Strongest_Values_In_An_Array.py" />
+        <option value="$PROJECT_DIR$/test/test_1471_the_k_strongest_values_in_an_array.py" />
+        <option value="$PROJECT_DIR$/problems/N1471_The_K_Strongest_Values_In_An_Array.py" />
       </list>
     </option>
   </component>
@@ -1053,7 +1059,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_611_valid_triangle_number.TestSolution">
+  <component name="RunManager" selected="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1083,7 +1089,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_130_surrounded_regions.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1094,11 +1100,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_130_surrounded_regions.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_1471_the_k_strongest_values_in_an_array.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_130_surrounded_regions.TestSolution.test_solve_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1109,11 +1115,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_130_surrounded_regions.TestSolution.test_solve_1&quot;" />
+      <option name="_new_target" value="&quot;test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_130_surrounded_regions.TestSolution.test_solve_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1124,11 +1130,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_130_surrounded_regions.TestSolution.test_solve_2&quot;" />
+      <option name="_new_target" value="&quot;test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_611_valid_triangle_number.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1139,11 +1145,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_611_valid_triangle_number.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_611_valid_triangle_number.TestSolution.test_triangleNumber" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1154,24 +1160,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_611_valid_triangle_number.TestSolution.test_triangleNumber&quot;" />
+      <option name="_new_target" value="&quot;test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_130_surrounded_regions.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_130_surrounded_regions.TestSolution.test_solve_1" />
-      <item itemvalue="Python tests.Unittests for test_130_surrounded_regions.TestSolution.test_solve_2" />
-      <item itemvalue="Python tests.Unittests for test_611_valid_triangle_number.TestSolution.test_triangleNumber" />
-      <item itemvalue="Python tests.Unittests for test_611_valid_triangle_number.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_1" />
+      <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2" />
+      <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5" />
+      <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_611_valid_triangle_number.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_611_valid_triangle_number.TestSolution.test_triangleNumber" />
-        <item itemvalue="Python tests.Unittests for test_130_surrounded_regions.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_130_surrounded_regions.TestSolution.test_solve_2" />
-        <item itemvalue="Python tests.Unittests for test_130_surrounded_regions.TestSolution.test_solve_1" />
+        <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6" />
+        <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5" />
+        <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2" />
+        <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_1" />
       </list>
     </recent_temporary>
   </component>
@@ -1189,35 +1195,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution_test_triangleNumber - 2020.06.17 at 15h 27m 56s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution.test_triangleNumber" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution - 2020.06.17 at 16h 40m 06s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution - 2020.06.17 at 15h 28m 08s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest - 2020.06.17 at 16h 40m 10s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution - 2020.06.17 at 15h 30m 23s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest_1 - 2020.06.17 at 16h 40m 13s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution - 2020.06.17 at 15h 42m 14s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest_2 - 2020.06.17 at 16h 40m 15s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution_test_triangleNumber - 2020.06.17 at 15h 43m 54s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution.test_triangleNumber" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest_2 - 2020.06.17 at 16h 40m 51s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution - 2020.06.17 at 15h 44m 06s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution - 2020.06.17 at 16h 41m 01s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution - 2020.06.17 at 15h 45m 11s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest_5 - 2020.06.17 at 16h 44m 38s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution - 2020.06.17 at 15h 47m 18s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution - 2020.06.17 at 16h 44m 52s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution_test_triangleNumber - 2020.06.17 at 15h 49m 33s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution.test_triangleNumber" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution_test_getStrongest_6 - 2020.06.17 at 16h 47m 54s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_611_valid_triangle_number_TestSolution - 2020.06.17 at 15h 49m 43s.xml">
-      <configuration name="Unittests for test_611_valid_triangle_number.TestSolution" configurationId="tests" />
+    <history-entry file="Unittests_for_test_1471_the_k_strongest_values_in_an_array_TestSolution - 2020.06.17 at 16h 48m 02s.xml">
+      <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1718,6 +1724,16 @@
           <line>22</line>
           <option name="timeStamp" value="228" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1471_The_K_Strongest_Values_In_An_Array.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1471_The_K_Strongest_Values_In_An_Array.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1891,20 +1907,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problems/N914_X_Of_A_Kind_In_A_Deck_Of_Cards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_house_robber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_house_robber_ii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -2242,6 +2244,13 @@
     <entry file="file://$PROJECT_DIR$/problems/NumberIslands.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N611_Valid_Triangle_Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_611_valid_triangle_number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -2252,10 +2261,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems/N611_Valid_Triangle_Number.py">
+    <entry file="file://$PROJECT_DIR$/test/test_1471_the_k_strongest_values_in_an_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="231">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/N1471_The_K_Strongest_Values_In_An_Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
