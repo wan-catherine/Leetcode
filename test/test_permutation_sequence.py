@@ -12,3 +12,9 @@ class TestSolution(TestCase):
         res = solution.getPermutation(4,9)
         self.assertEqual(res, "2314")
 
+    def test_getPermutation_1(self):
+        self.assertEqual("132", Solution().getPermutation(3,2))
+
+    def test_getPermutation_2(self):
+        self.assertEqual("123", Solution().getPermutation(3,1))
+
