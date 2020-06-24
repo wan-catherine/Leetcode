@@ -7,7 +7,7 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    def generateTrees(self, n):
+    def generateTrees_before(self, n):
         """
         :type n: int
         :rtype: List[TreeNode]
@@ -43,44 +43,3 @@ class Solution:
                         root.right = nright
                         res.append(root)
         return res
-
-
-
-
-    #     res = [None, [node1], [node2,node3]]
-    #     i = 3
-    #     while i <= n:
-    #         temp = []
-    #         for j in range(1,i+1):
-    #             node = TreeNode(j)
-    #             for treeleft in res[j-1]:
-    #                 for treeright in res[i-j]:
-    #                     node.left = self.copyTree(treeleft)
-    #                     node.right = self.increaseTree(res,i,j)
-    #             temp.append(node)
-    #         res.append(temp)
-    #     return res[-1]
-    #
-    # def copyTree(self, root):
-    #     return copy.deepcopy(root)
-    #
-    # def increaseTree(self, res, i, j):
-    #     if i == j:
-    #         return None
-    #     newTree = copy.deepcopy(res[i-j])
-    #     stack = [newTree]
-    #     while len(stack) > 0:
-    #         node = stack[-1]
-    #         if node.left != None:
-    #             stack.append(node.left)
-    #             node = node.left
-    #             continue
-    #         node.val += j
-    #         stack.pop()
-    #         if node.right != None:
-    #             node = node.right
-    #             stack.append(node)
-    #             continue
-    #     return newTree
-
-
