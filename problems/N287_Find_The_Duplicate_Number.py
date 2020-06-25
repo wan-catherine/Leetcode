@@ -22,6 +22,7 @@ class Solution(object):
     # first access, set it to negative , if it's a duplicated number,
     # then , when second access , if a number is a negative , it means
     # it's the second time to access, then we know it's the duplicate number
+    # But this one also modify the array
     def findDuplicate_modify_array(self, nums):
         index = nums[0]
         while True:
