@@ -23,7 +23,7 @@ class Solution:
                     res[i].append(newL)
         return res[len(nums) -1]
 
-    def permuteUnique(selfs, nums):
+    def permuteUnique_before(selfs, nums):
         ans = [[]]
         for n in nums:
             new_ans = []
@@ -36,3 +36,21 @@ class Solution:
             ans = new_ans
 
         return ans
+
+    def permuteUnique(self, nums):
+        self.length = len(nums)
+        nums.sort()
+        res = []
+        self.backtracking([], nums, res)
+        return res
+
+    def backtracking(self, path,  nums, res):
+        if len(path) == self.length:
+            res.append(path[:])
+            return
+        for i in range(len(nums)):
+            if i+1 < len(nums) and nums[i] == nums[i+1]:
+                continue
+            path.append(nums[i])
+            self.backtracking(path, nums[:i]+nums[i+1:], res)
+            path.pop()
