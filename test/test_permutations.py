@@ -16,7 +16,7 @@ class TestSolution(TestCase):
         self.assertTrue(l[0] in res)
         self.assertEqual(len(l), len(res))
 
-    def test_permute(self):
+    def test_permute_1(self):
         solution = Solution()
         res = solution.permute([1])
         self.assertEqual([[1]],res)
