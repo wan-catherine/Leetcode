@@ -11,3 +11,8 @@ class TestSolution(TestCase):
 ]
         res = solution.uniquePathsWithObstacles(input)
         self.assertEqual(2, res)
+
+    def test_uniquePathsWithObstacles_1(self):
+        input = [[1]]
+        res = Solution().uniquePathsWithObstacles(input)
+        self.assertEqual(0, res)

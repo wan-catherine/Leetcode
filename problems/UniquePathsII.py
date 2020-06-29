@@ -1,5 +1,5 @@
 class Solution:
-    def uniquePathsWithObstacles(self, obstacleGrid):
+    def uniquePathsWithObstacles_before(self, obstacleGrid):
         """
         :type obstacleGrid: List[List[int]]
         :rtype: int
@@ -39,3 +39,37 @@ class Solution:
                 else:
                     res[i][j] = res[i - 1][j] + res[i][j - 1]
         return res[n - 1][m - 1]
+
+    def uniquePathsWithObstacles(self, obstacleGrid):
+        if not obstacleGrid or not obstacleGrid[0]:
+            return 0
+
+        rows = len(obstacleGrid)
+        cols = len(obstacleGrid[0])
+
+        dp = [[1]* cols for _ in range(rows)]
+
+        for row in range(rows):
+            if obstacleGrid[row][0] == 1:
+                j = row
+                while j < rows:
+                    dp[j][0] = 0
+                    j += 1
+                break
+
+        for col in range(cols):
+            if obstacleGrid[0][col] == 1:
+                j = col
+                while j < cols:
+                    dp[0][j] = 0
+                    j += 1
+                break
+
+        for row in range(1, rows):
+            for col in range(1, cols):
+                if obstacleGrid[row][col] == 1:
+                    dp[row][col] = 0
+                    continue
+                dp[row][col] = dp[row-1][col] + dp[row][col-1]
+        return dp[-1][-1]
+
