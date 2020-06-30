@@ -10,7 +10,7 @@ class TestSolution(TestCase):
             ['A', 'D', 'E', 'E']
         ]
         res = solution.exist(board, "ABCCED")
-        res2=solution.exist(board, "SEE")
+        res2 = solution.exist(board, "SEE")
         res3 = solution.exist(board, "ABCB")
         self.assertEqual(res, True)
         self.assertEqual(res2, True)
