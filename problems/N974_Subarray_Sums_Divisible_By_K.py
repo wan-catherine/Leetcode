@@ -30,8 +30,8 @@ class Solution(object):
 
         count = 0
         for key, value in remainder_count_mapping.items():
-            count += value * (value-1) //2
+            count += value * (value-1) //2  #when value >= 2, it means we find prefix_i and prefix_j which satifise : (prefix_i - prefix_j) % k == 0 , permutation here .
             if key == 0:
-                count += value
+                count += value  # when key == 0, it means each one of them can be a subarray 
         return count
 
