@@ -41,3 +41,13 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.maxProduct([0,-2,0])
         self.assertEqual(0, res)
+
+    def test_maxProduct_1(self):
+        solution = Solution()
+        res = solution.maxProduct([0,2])
+        self.assertEqual(2, res)
+
+    def test_maxProduct_2(self):
+        solution = Solution()
+        res = solution.maxProduct([-3,0,1,-2])
+        self.assertEqual(1, res)

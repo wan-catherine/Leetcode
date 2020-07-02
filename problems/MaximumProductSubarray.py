@@ -1,5 +1,8 @@
+from math import inf
+
+
 class Solution(object):
-    def maxProduct(self, nums):
+    def maxProduct_before(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -48,3 +51,16 @@ class Solution(object):
 
         return res/left if res/left > res/right else res/right
 
+    """
+    the maximum product must either include the first element or end with the last element.
+    1. all positive integer or has even number of negative integer, then include both first and end
+    2. has odd number of negative integer, so either the include the first element or include the end element
+    3. for zero, keep it
+    """
+    def maxProduct(self, nums):
+        prefix = nums
+        suffix = nums[::-1]
+        for i in range(1, len(nums)):
+            prefix[i] *= (prefix[i-1] or 1)
+            suffix[i] *= (suffix[i-1] or 1)
+        return max(prefix+suffix)
