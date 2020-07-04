@@ -1,4 +1,5 @@
 import bisect
+import collections
 from collections import deque
 
 
@@ -65,7 +66,7 @@ class Solution(object):
     The best is try O(1) time find the high and low in the window : mononic stack 
     
     """
-    def longestSubarray(self, nums, limit):
+    def longestSubarray_while(self, nums, limit):
         length = len(nums)
         maximum, minimum = deque(), deque()
         left, res = 0, 0
@@ -85,3 +86,23 @@ class Solution(object):
             res = max(res, i - left + 1)
         return res
 
+    """
+    Use If not while here to main a sliding window which only grow never shrink. 
+    If when A[i] is added in the window which cause > limit, then the window needs to keep same lenght
+    so i (left) should plus 1. 
+    
+    """
+    def longestSubarray(self, A, limit):
+        maxd = collections.deque()
+        mind = collections.deque()
+        i = 0
+        for a in A:
+            while len(maxd) and a > maxd[-1]: maxd.pop()
+            while len(mind) and a < mind[-1]: mind.pop()
+            maxd.append(a)
+            mind.append(a)
+            if maxd[0] - mind[0] > limit:
+                if maxd[0] == A[i]: maxd.popleft()
+                if mind[0] == A[i]: mind.popleft()
+                i += 1
+        return len(A) - i
