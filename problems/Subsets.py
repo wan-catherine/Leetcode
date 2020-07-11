@@ -1,5 +1,5 @@
 class Solution:
-    def subsets(self, nums):
+    def subsets_before(self, nums):
         """
         :type nums: List[int]
         :rtype: List[List[int]]
@@ -26,6 +26,29 @@ class Solution:
         for i in res:
             result.extend(i)
         return result
+
+    # 20200711
+    """
+    Backtracking
+    The key point is : use [] --> nums , if we use nums --> [], it will has a lot of duplicated array.
+    """
+    def subsets(self, nums):
+        res = []
+        if not nums:
+            return res
+
+        self.length = len(nums)
+        self.backtrack(res, nums, [], 0)
+        return res
+
+    def backtrack(self, res, nums, temp, start):
+        res.append(temp[:])
+        for i in range(start, self.length):
+            temp.append(nums[i])
+            self.backtrack(res, nums, temp, i + 1)
+            temp.pop()
+
+
 
 
 
