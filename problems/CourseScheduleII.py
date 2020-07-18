@@ -1,3 +1,6 @@
+import collections
+
+
 class Solution:
     def findOrder_old(self, numCourses, prerequisites):
         """
@@ -55,6 +58,12 @@ class Solution:
                 break
         return self.result if flag else []
 
+    """
+    status has three value : 
+        1 : visited ans success add into res
+        0: not visited yet
+        -1: during the visiting , but not add into res
+    """
     def dfs(self, i):
         if self.status[i] == 1:
             return True
@@ -72,7 +81,7 @@ class Solution:
         self.result = [i] + self.result   # add the new one in the head of self.result
         return True
 
-    def findOrder(self, numCourses, prerequisites):
+    def findOrder_(self, numCourses, prerequisites):
         graph = {}
         indegree_count = [0] * numCourses
         for pair in prerequisites:
@@ -90,8 +99,5 @@ class Solution:
                     if not indegree_count[node]:
                         zero_indegree.append(node)
         return [] if sum(indegree_count) else res
-
-
-
 
 
