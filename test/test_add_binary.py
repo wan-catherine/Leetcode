@@ -12,3 +12,8 @@ class TestSolution(TestCase):
         res = solution.addBinary("1010","1011")
         self.assertEqual(res,"10101")
 
+    def test_addBinary_1(self):
+        solution = Solution()
+        res = solution.addBinary("110010", "10111")
+        self.assertEqual(res,"1001001")
+
