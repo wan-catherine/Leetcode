@@ -1,5 +1,5 @@
 class Solution(object):
-    def findMin(self, nums):
+    def findMin_before(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -18,3 +18,13 @@ class Solution(object):
             if nums[i] < nums[i-1]:
                 return nums[i]
             i += 1
+
+    def findMin(self, nums):
+        left, right = 0, len(nums) - 1
+        while left < right:
+            mid = (right - left) // 2 + left
+            if nums[mid] < nums[right]:
+                right = mid
+            else:
+                left = mid + 1
+        return nums[left]
