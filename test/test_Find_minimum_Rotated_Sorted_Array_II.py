@@ -26,3 +26,8 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.findMin([3,3,3,3,3,3,3,3,1,3])
         self.assertEqual(1, res)
+
+    def test_findMin_1(self):
+        solution = Solution()
+        res = solution.findMin([1, 3, 3])
+        self.assertEqual(1, res)
