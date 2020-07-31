@@ -5,25 +5,22 @@ class Solution(object):
         :type wordDict: List[str]
         :rtype: bool
         """
-        dictstr = ''.join(wordDict)
-        for i in set(s):
-            if i not in dictstr:
-                return False
-        return self.helper(s, wordDict)
+        return self.helper(s, wordDict, {})
 
-    def helper(self, s, wordDict):
+    def helper(self, s, wordDict, memo):
+        if s in memo:
+            return memo[s]
         if s == "":
             return True
-        while s != "":
-            l = [word for word in wordDict if s[0:len(word)] == word]
-            if l == None or len(l) == 0:
-                return False
-            # l.sort(key=len)
-            # l=l[::-1]
-            for w in l:
-                if self.helper(s[len(w):], wordDict) == True:
-                    return True
-            return False
+
+        for word in wordDict:
+            if not s.startswith(word):
+                continue
+            if self.helper(s[len(word):], wordDict, memo):
+                return True
+        memo[s] = False
+        return False
+
 
     def wordBreak(self, s, wordDict):
         res = [False] * len(s)
