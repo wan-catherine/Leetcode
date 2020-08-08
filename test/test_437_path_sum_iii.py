@@ -8,3 +8,11 @@ class TestSolution(TestCase):
 
     def test_pathSum_1(self):
         self.assertEqual(2, Solution().pathSum(list_to_tree_node([1,null,2,null,3,null,4,null,5]), 3))
+
+    def test_pathSum_2(self):
+        self.assertEqual(0, Solution().pathSum(list_to_tree_node([]), 1))
+
+    def test_pathSum_3(self):
+        self.assertEqual(4, Solution().pathSum(list_to_tree_node([0,1,1]), 1))
+
+

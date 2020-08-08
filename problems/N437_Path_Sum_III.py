@@ -1,3 +1,5 @@
+import collections
+
 from .Utility_Tree import TreeNode
 
 class Solution(object):
@@ -24,4 +26,23 @@ class Solution(object):
         return res
 
     def pathSum(self, root, sum):
-        pass
+        if not root:
+            return 0
+        return self.count_(root, sum, {})
+
+    def count_(self, node, sum, counter):
+        res = 0
+        if sum == node.val:
+            res += 1
+        if sum-node.val in counter:
+            res += counter[sum-node.val]
+        counter = {k + node.val:v for k,v in counter.items()}
+        if node.val in counter:
+            counter[node.val] += 1
+        else:
+            counter[node.val] = 1
+        if node.left:
+            res += self.count_(node.left, sum, counter)
+        if node.right:
+            res += self.count_(node.right, sum, counter)
+        return res
