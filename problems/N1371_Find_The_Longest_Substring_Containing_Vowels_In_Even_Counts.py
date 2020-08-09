@@ -8,7 +8,7 @@ which means s[:j+1] and s[:i] have same odd/even for containing vowels:
      s[:j+1] and s[:i] both contain vowels in even
 => then s[:j+1] - s[:i] = s[i:j+1] is the one .
 
-Use hashmap to save the key - earliest index of s 
+Use hashmap to save the key - earliest index of s
 """
 class Solution(object):
     def findTheLongestSubstring(self, s):
@@ -16,8 +16,27 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        vowels = {'a':0, 'e':1, 'i':2, 'o':3, 'u':4}
         length = len(s)
         index_mapping = {0:-1}
+
+        res = 0
+        key = 0
+        for i in range(length):
+            if s[i] in vowels:
+                key ^= (1 << vowels[s[i]])   # this is the amazing way to do status compression. we don't need to count the number , only know it's odd or even
+            if key not in index_mapping:
+                index_mapping[key] = i
+            res = max(res, i - index_mapping[key])
+        return res
+
+    def findTheLongestSubstring_(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        length = len(s)
+        index_mapping = {0: -1}
         count = [0] * 5
 
         res = 0
