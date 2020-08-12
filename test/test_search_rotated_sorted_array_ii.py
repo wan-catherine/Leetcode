@@ -36,3 +36,8 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.search([1,3,1,1,1], 3)
         self.assertEqual(res, True)
+
+    def test_search_6(self):
+        solution = Solution()
+        res = solution.search([3,1,1,1], 3)
+        self.assertEqual(res, True)
