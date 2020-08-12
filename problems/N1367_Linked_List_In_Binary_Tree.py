@@ -1,4 +1,6 @@
-from .Utility import ListNode, TreeNode
+from .Utility import ListNode
+from .Utility_Tree import TreeNode
+
 class Solution(object):
     def isSubPath(self, head, root):
         """
