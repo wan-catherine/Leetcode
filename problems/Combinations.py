@@ -1,5 +1,5 @@
 class Solution:
-    def combine(self, n, k):
+    def combine_2019(self, n, k):
         """
         :type n: int
         :type k: int
@@ -21,3 +21,20 @@ class Solution:
                     lcopy.append(j)
                     res[i].append(lcopy)
         return res[k - 1]
+
+    def combine(self, n, k):
+        if k < 1:
+            return None
+
+        res = []
+        nums = [i for i in range(1, n+1)]
+        self.dfs(nums, k , [], res)
+        return res
+
+    def dfs(self, nums, k, temp, res):
+        if k == 0:
+            res.append(temp[:])
+        for i in range(len(nums)):
+            temp.append(nums[i])
+            self.dfs(nums[i+1:] , k - 1, temp, res)
+            temp.pop()
