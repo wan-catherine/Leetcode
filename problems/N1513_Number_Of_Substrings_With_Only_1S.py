@@ -1,5 +1,5 @@
 class Solution(object):
-    def numSub(self, s):
+    def numSub_two_pointers(self, s):
         """
         :type s: str
         :rtype: int
@@ -15,4 +15,12 @@ class Solution(object):
                 start = end
             end += 1
         return res % (10 ** 9 + 7)
+
+    def numSub(self, s):
+        arr = s.split('0')
+        res = 0
+        for li in arr:
+            length = len(li)
+            res += (1+length)*length//2
+        return res % (10**9 + 7)
 
