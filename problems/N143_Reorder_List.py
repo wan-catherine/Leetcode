@@ -40,3 +40,11 @@ class Solution(object):
             l1.next = l2
             l1 = n_l1
             l2 = n_l2
+
+        # while l1 and l2:
+        #     new_l1 = l1.next
+        #     new_l2 = l2.next
+        #     l2.next = new_l1
+        #     l1.next = l2
+        #     l1 = new_l1
+        #     l2 = new_l2
