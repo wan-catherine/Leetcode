@@ -17,7 +17,20 @@ class Solution:
         self.helper(root, sum, res, temp)
         return res
 
-    def helper(self, root, sum, res, temp):
+    def helper(self, node, sum, temp, res):
+        if not node:
+            return
+        val = sum - node.val
+        temp.append(node.val)
+        if not node.right and not node.left and val == 0:
+            res.append(temp[:])
+            return
+        if node.left:
+            self.helper(node.left, val, temp[:], res)
+        if node.right:
+            self.helper(node.right, val, temp[:], res)
+
+    def helper_before(self, root, sum, res, temp):
         if root == None:
             return
         if root.left == None and root.right == None:
