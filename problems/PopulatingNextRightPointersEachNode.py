@@ -9,7 +9,7 @@ class TreeLinkNode:
 class Solution:
     # @param root, a tree link node
     # @return nothing
-    def connect(self, root):
+    def connect_before(self, root):
         if root == None:
             return []
         self.helper(root)
@@ -25,3 +25,23 @@ class Solution:
             # print(str(node.right.val) + " --> " + str(node.next.left.val))
         self.helper(node.left)
         self.helper(node.right)
+
+    def connect(self, root: 'Node') -> 'Node':
+        if not root:
+            return
+        parent = root
+        while parent:
+            if not parent.left:
+                break
+            cur = parent.left
+            cur.next = parent.right
+            cur = cur.next
+            node = parent.next
+            while node:
+                cur.next = node.left
+                cur = cur.next
+                cur.next = node.right
+                cur = cur.next
+                node = node.next
+            parent = parent.left
+        return root
