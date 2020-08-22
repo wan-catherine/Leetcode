@@ -34,7 +34,7 @@ class Solution(object):
     1. only one character, then extend to left and right : a -> bab -> cbabc
     2. two characters, then extend to left and right : aa -> baab -> cbaabc
     """
-    def countSubstrings(self, s):
+    def countSubstrings_two_pass(self, s):
         if not s:
             return 0
 
@@ -60,6 +60,26 @@ class Solution(object):
                     break
         return count
 
+    """
+    Manacher's Algorithm
+    
+    Notice how to get the number of palindromic substrings
+    """
+    def countSubstrings(self, s):
+        s_new = '#'.join("^{}*".format(s))
+        l, r, length = 0, -1, len(s_new)
+        p = [0] * length
 
+        for i in range(1, length-1):
+            if i < r:
+                j = r - i + l
+                p[i] = min(p[j], r - i)
 
+            while s_new[i - p[i] - 1] == s_new[i + p[i] + 1]:
+                p[i] += 1
+
+            if i + p[i] > r:
+                l = i - p[i]
+                r = i + p[i]
+        return sum([(i+1)//2 for i in p])
 
