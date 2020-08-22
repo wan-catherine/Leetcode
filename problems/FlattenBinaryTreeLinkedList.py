@@ -1,12 +1,12 @@
 # Definition for a binary tree node.
 class TreeNode:
-    def __init__(self, x):
+    def __init__(self, x=0):
         self.val = x
         self.left = None
         self.right = None
 
 class Solution:
-    def flatten(self, root):
+    def flatten_before(self, root):
         """
         :type root: TreeNode
         :rtype: void Do not return anything, modify root in-place instead.
@@ -38,4 +38,28 @@ class Solution:
         for i in res[1:]:
             node.right = TreeNode(i)
             node = node.right
+
+    def flatten(self, root):
+        """
+        :type root: TreeNode
+        :rtype: None Do not return anything, modify root in-place instead.
+        """
+        if not root:
+            return
+
+        preorder = []
+        self.helper(root, preorder)
+        # print(preorder)
+        root.left = None
+        cur = root
+        for val in preorder[1:]:
+            cur.right = TreeNode(val)
+            cur = cur.right
+
+    def helper(self, node, arr):
+        if not node:
+            return
+        arr.append(node.val)
+        self.helper(node.left, arr)
+        self.helper(node.right, arr)
 
