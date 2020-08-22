@@ -52,7 +52,7 @@ class Solution(object):
             return s[0]
         return res
 
-    def longestPalindrome(self, s):
+    def longestPalindrome_before(self, s):
         if len(s) == 1 or s == s[::-1]:
             return s
 
@@ -72,6 +72,25 @@ class Solution(object):
 
         return s[start: start + max_len]
 
+    def longestPalindrome(self, s):
+        s_new = '#'.join('^{}*'.format(s)) #^ and $ signs are sentinels appended to each end to avoid bounds checking
+        l, r, length = 0, -1, len(s_new)
+        p = [0] * length
+        index = 0
+        for i in range(1, length-1):  #need to use [1,lenght-2] ro exclude '^ and *' , if we check the bounds, we can use [0, lenght-1]
+            k = 0
+            if i < r:
+                j = r - i + l
+                k = min(p[j], r - i)
+            while s_new[i-k-1] == s_new[i+k+1]:
+                k += 1
 
+            p[i] = k
+            if i + k > r:
+                l = i - k
+                r = i + k
+            if p[i] > p[index]:
+                index = i
+        return s[(index - p[index]) // 2 : (index + p[index]) // 2]
 
 
