@@ -1,4 +1,5 @@
 import collections
+from collections import deque
 
 """
 During the contest , I actually wrote all the necessary steps . use the list to save all intervals and use binary search to find the 
@@ -9,7 +10,7 @@ KEY POINT:
 I found if the len(interval) < m , then there is no need to add it into the list . This actually save a lot of time.
 """
 class Solution(object):
-    def findLatestStep(self, arr, m):
+    def findLatestStep_myself(self, arr, m):
         """
         :type arr: List[int]
         :type m: int
@@ -68,5 +69,64 @@ class Solution(object):
             groups[index-l_num:index+r_num+1] = [l_num + r_num + 1]*(l_num + r_num + 1)
             if m in groups:
                 res = i
+        return res
+
+    """
+    O(N)
+    Key point : 
+        We don't need to update all position from [i, j] to the latest length. We only care about the leftmost and rightmost .
+        Because for all other in the middle, we won't use the value again. All we care about the border value. 
+        So we can only update sizes[pos-left], sizes[pos+right]
+    """
+    def findLatestStep_n(self, arr, m):
+        length = len(arr)
+        count = [0] * (length + 1)
+        sizes = [0] * (length + 2)
+        res = -1
+        for i, pos in enumerate(arr):
+            left, right = sizes[pos-1], sizes[pos+1]
+            sizes[pos], sizes[pos-left], sizes[pos+right] = [right + left + 1] * 3
+            count[left] -= 1
+            count[right] -= 1
+            count[right+left+1] += 1
+            if count[m] > 0:
+                res = i + 1
+        return res
+
+    """
+    Sliding windows 
+    use a window to track the length of '1''s most day. 
+    
+    days[i] means set ith position to '1' at days[i] (from 1-index)
+    
+    """
+    def findLatestStep(self, arr, m):
+        length = len(arr)
+        if m == length:
+            return length
+
+        days = [0] * (length + 1)
+        for i, pos in enumerate(arr):
+            days[pos] = i + 1
+
+        queue = deque()
+        res = -1
+        for i in range(1, length+1):
+            while queue and days[queue[-1]] < days[i]:
+                queue.pop()
+            while queue and i - queue[0] >= m:
+                queue.popleft()
+            queue.append(i)
+            if i < m:
+                continue
+
+            max_day = days[queue[0]]
+            left, right = 10**6, 10**6 # this is a great way to deal with boarder condition
+            if i - m >= 1:
+                left = days[i-m]
+            if i + 1 <= length:
+                right = days[i+1]
+            if max_day < left and max_day < right:
+                res = max(res, min(left, right) - 1)
         return res
 
