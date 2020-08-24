@@ -1,5 +1,5 @@
 class Solution(object):
-    def solve(self, board):
+    def solve_before(self, board):
         """
         :type board: List[List[str]]
         :rtype: None Do not return anything, modify board in-place instead.
@@ -49,9 +49,36 @@ class Solution(object):
                 return True
         return False
 
+    def solve(self, board):
+        if not board or not board[0]:
+            return
+        rows, cols = len(board), len(board[0])
+        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        stack = []
+        update = [['p'] * cols for _ in range(rows)]
 
+        for row in range(rows):
+            for col in range(cols):
+                if (row > 0 and row < rows - 1) and (col > 0 and col < cols - 1):
+                    continue
+                if board[row][col] != 'O' or update[row][col] == '1':
+                    continue
+                stack.append((row, col))
+                while stack:
+                    pos = stack.pop()
+                    update[pos[0]][pos[1]] = '1'
+                    for i, j in directions:
+                        new_row, new_col = pos[0] + i, pos[1] + j
+                        if new_row < 0 or new_row >= rows or new_col < 0 or new_col >= cols:
+                            continue
+                        if update[new_row][new_col] != '1' and board[new_row][new_col] == 'O':
+                            stack.append((new_row, new_col))
+                            update[new_row][new_col] == '1'
 
+        for row in range(rows):
+            for col in range(cols):
+                if update[row][col] != '1' and board[row][col] == 'O':
+                    board[row][col] = 'X'
 
-
-
+        return board
 
