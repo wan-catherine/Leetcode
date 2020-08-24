@@ -1,3 +1,6 @@
+import collections
+
+
 class Solution:
     # topological sort
     def canFinish_old(self, numCourses, prerequisites):
@@ -57,4 +60,26 @@ class Solution:
         self.status[i] = 1
         return True
 
-
+    """
+    calculate all indegree. 
+    """
+    def canFinish(self, numCourses, prerequisites):
+        graph = collections.defaultdict(set)
+        indegree = collections.defaultdict(int)
+        for c, c_p in prerequisites:
+            graph[c_p].add(c)
+            indegree[c] += 1
+        visited = [0]*numCourses
+        stack = [i for i in range(numCourses) if i not in indegree]
+        count = 0
+        while stack:
+            course = stack.pop()
+            visited[course] = 1
+            for c in graph[course]:
+                if visited[c]:
+                    continue
+                indegree[c] -= 1
+                if not indegree[c]:
+                    stack.append(c)
+            count += 1
+        return count == numCourses

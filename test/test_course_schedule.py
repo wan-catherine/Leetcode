@@ -36,3 +36,8 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.canFinish(4,[[0,1],[3,1],[1,3],[3,2]])
         self.assertEqual(False, res)
+
+    def test_canFinish_3(self):
+        solution = Solution()
+        res = solution.canFinish(4, [[1,0],[2,0],[3,1],[3,2]])
+        self.assertEqual(True, res)
