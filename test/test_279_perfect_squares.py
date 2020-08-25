@@ -1,5 +1,5 @@
 from unittest import TestCase
-from problems.N297_Perfect_Squares import Solution
+from problems.N279_Perfect_Squares import Solution
 
 class TestSolution(TestCase):
     def test_numSquares(self):
