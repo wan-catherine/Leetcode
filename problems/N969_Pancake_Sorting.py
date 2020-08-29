@@ -3,7 +3,7 @@ Each time, find the largest one and flip it to the top, then flip it to the bott
 The bottom line is there are only two number in the array , we can directly check and finish.
 """
 class Solution(object):
-    def pancakeSort(self, A):
+    def pancakeSort_before(self, A):
         """
         :type A: List[int]
         :rtype: List[int]
@@ -28,3 +28,36 @@ class Solution(object):
         res.append(len(a))
         a = a[::-1][:-1]
         self.recusive(a, res)
+
+    def pancakeSort(self, A):
+        res = []
+        self.helper(A, res)
+        return res
+
+    def helper(self, arr, res):
+        sort_arr = sorted(arr)
+        if sort_arr == arr:
+            return
+        stack = []
+        for i, val in enumerate(arr):
+            while stack and arr[stack[-1]] < val:
+                stack.pop()
+            stack.append(i)
+        length = len(stack)
+        arr_len = len(arr)
+        if length == arr_len:
+            res.append(length)
+            return
+
+        if stack[0] == arr_len - 1:
+            self.helper(arr[:-1], res)
+        elif stack[0] == 0:
+            res.append(arr_len)
+            arr = arr[::-1]
+            self.helper(arr[:-1], res)
+        else:
+            res.append(stack[0] + 1)
+            arr = arr[:stack[0] + 1][::-1] + arr[stack[0] + 1:]
+            arr = arr[::-1]
+            res.append(arr_len)
+            self.helper(arr[:-1], res)
