@@ -1,12 +1,12 @@
 # Definition for a binary tree node.
 class TreeNode:
-    def __init__(self, x):
+    def __init__(self, x=0):
         self.val = x
         self.left = None
         self.right = None
 
 class Solution:
-    def deleteNode(self, root, key):
+    def deleteNode_old(self, root, key):
         if not root:
             return None
         if root.val > key:
@@ -100,3 +100,50 @@ class Solution:
             else:
                 current = current.left
         return parent_node, current
+
+    def deleteNode(self, root, key):
+        dummy = TreeNode()
+        dummy.left = root
+        dummy_root = dummy
+        nodes = self.search(dummy, dummy.left, key)
+        if not nodes:
+            return root
+        # print(nodes[0].val, nodes[1].val)
+        if nodes[0].left == nodes[1]:
+            flag = True
+        else:
+            flag = False
+        node = self.delete(nodes[1])
+        if flag:
+            nodes[0].left = node
+        else:
+            nodes[0].right = node
+        return dummy_root.left
+
+    def search(self, prev, node, key):
+        if not node:
+            return
+        if node.val > key:
+            return self.search(node, node.left, key)
+        elif node.val < key:
+            return self.search(node, node.right, key)
+        else:
+            return prev, node
+
+    def delete(self, node):
+        if not node.left and not node.right:
+            return None
+        elif not node.left and node.right:
+            return node.right
+        elif node.left and not node.right:
+            return node.left
+        else:
+            left = node.left
+            right = node.right
+            while left.right:
+                left = left.right
+            left.right = right.left
+            right.left = node.left
+            node.left = None
+            node.right = None
+            return right
