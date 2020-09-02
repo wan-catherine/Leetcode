@@ -21,3 +21,13 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.containsNearbyAlmostDuplicate([1,5,9,1,5,9], 2, 3)
         self.assertEqual(False, res)
+
+    def test_containsNearbyAlmostDuplicate_1(self):
+        solution = Solution()
+        res = solution.containsNearbyAlmostDuplicate([-1,-1], 1, -1)
+        self.assertEqual(False, res)
+
+    def test_containsNearbyAlmostDuplicate_2(self):
+        solution = Solution()
+        res = solution.containsNearbyAlmostDuplicate([-3,3], 2, 4)
+        self.assertEqual(False, res)
