@@ -10,3 +10,8 @@ class TestSolution(TestCase):
              [0, 1, 1],
              [0, 0, 1]]
         self.assertEqual(3, Solution().largestOverlap(A, B))
+
+    def test_largestOverlap_1(self):
+        A = [[0,1],[1,1]]
+        B = [[1,1],[1,0]]
+        self.assertEqual(2, Solution().largestOverlap(A, B))

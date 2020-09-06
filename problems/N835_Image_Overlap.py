@@ -33,9 +33,27 @@ class Solution(object):
     
     Genius
     """
-    def largestOverlap(self, A, B):
+    def largestOverlap_1_dimension(self, A, B):
         length = len(A)
         la = [i // length * 100 + i % length for i in range(length * length) if A[i // length][i % length]]
         lb = [i // length * 100 + i % length for i in range(length * length) if B[i // length][i % length]]
+        # print(list(i - j for i in la for j in lb))
         c = collections.Counter(i - j for i in la for j in lb)
         return max(c.values() or [0])
+
+    # fastest solution
+    def largestOverlap(self, A, B):
+        d = collections.defaultdict(int)
+        length = len(A)
+        a, b = [], []
+        for i in range(length):
+            for j in range(length):
+                if A[i][j]:
+                    a.append((i, j))
+                if B[i][j]:
+                    b.append((i,j))
+        d[0] = 0
+        for r, c in a:
+            for i, j in b:
+                d[(r-i, c-j)] += 1   #the sliding pattern.
+        return max(d.values())
