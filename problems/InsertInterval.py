@@ -5,7 +5,7 @@ class Interval:
         self.end = e
 
 class Solution:
-    def insert(self, intervals, newInterval):
+    def insert_before(self, intervals, newInterval):
         """
         :type intervals: List[Interval]
         :type newInterval: Interval
@@ -33,3 +33,33 @@ class Solution:
         else:
             res.append(newInterval)
         return res
+
+    def insert(self, intervals, newInterval):
+        """
+        :type intervals: List[List[int]]
+        :type newInterval: List[int]
+        :rtype: List[List[int]]
+        """
+        res = []
+        l, r = newInterval
+        s, e = newInterval
+        for i, li in enumerate(intervals):
+            if l > li[1]:
+                continue
+            s = l if l < li[0] else li[0]
+            break
+        for j, li in enumerate(intervals[::-1]):
+            if li[0] > r:
+                continue
+            e = li[1] if r <= li[1] else r
+            break
+        if [s, e] not in intervals:
+            intervals.append([s, e])
+        for i, j in intervals:
+            if j < s:
+                res.append([i, j])
+            elif i > e:
+                res.append([i, j])
+            elif i == s and j == e:
+                res.append([i, j])
+        return sorted(res, key=lambda li: li[0])
