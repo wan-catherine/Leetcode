@@ -72,7 +72,7 @@ class Solution(object):
         return s[start: start + max_len]
 
     # Manacher's algorithm
-    def longestPalindrome_(self, s):
+    def longestPalindrome(self, s):
         s_new = '#'.join('^{}*'.format(s)) #^ and $ signs are sentinels appended to each end to avoid bounds checking
         l, r, length = 0, -1, len(s_new)
         p = [0] * length
@@ -94,7 +94,7 @@ class Solution(object):
         return s[(index - p[index]) // 2 : (index + p[index]) // 2]
 
     # 20200914 update, o(n^2)
-    def longestPalindrome(self, s):
+    def longestPalindrome_(self, s):
         length = len(s)
         if length == 1:
             return s
