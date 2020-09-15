@@ -62,7 +62,6 @@ class Solution(object):
             odd = s[i - max_len - 1: i + 1]
             even = s[i - max_len: i + 1]
             if i - max_len - 1 >= 0 and odd == odd[::-1]:
-
                 start = i - max_len - 1
                 max_len += 2
                 continue
@@ -72,7 +71,8 @@ class Solution(object):
 
         return s[start: start + max_len]
 
-    def longestPalindrome(self, s):
+    # Manacher's algorithm
+    def longestPalindrome_(self, s):
         s_new = '#'.join('^{}*'.format(s)) #^ and $ signs are sentinels appended to each end to avoid bounds checking
         l, r, length = 0, -1, len(s_new)
         p = [0] * length
@@ -92,5 +92,27 @@ class Solution(object):
             if p[i] > p[index]:
                 index = i
         return s[(index - p[index]) // 2 : (index + p[index]) // 2]
+
+    # 20200914 update, o(n^2)
+    def longestPalindrome(self, s):
+        length = len(s)
+        if length == 1:
+            return s
+        ans = ''
+        for i in range(1, length):
+            r = 0
+            while i - r - 1 >= 0 and i + r + 1 < length and s[i - r - 1] == s[i + r + 1]:
+                r += 1
+
+            if 2 * r + 1 > len(ans):
+                ans = s[i - r:i + r + 1]
+            r = 0
+            if s[i] != s[i - 1]:
+                continue
+            while i - r - 2 >= 0 and i + r + 1 < length and s[i - r - 2] == s[i + r + 1]:
+                r += 1
+            if 2 * r + 2 > len(ans):
+                ans = s[i - r - 1:i + r + 1]
+        return ans
 
 
