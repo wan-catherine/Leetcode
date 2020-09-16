@@ -33,4 +33,5 @@ class Solution(object):
                             val += dp[new_row][new_col]
                     temp[row][col] = val
             dp = temp
+            print(dp)
         return dp[i][j] % (10**9 + 7)
