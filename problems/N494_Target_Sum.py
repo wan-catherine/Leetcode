@@ -81,17 +81,39 @@ class Solution(object):
     target = (S + sum(nums)) // 2 
     
     so we now need to find total ways of subsets of nums which equals to target.
-    
     """
     def findTargetSumWays(self, nums, S):
         nums_sum = sum(nums)
         if (S + nums_sum) % 2 or nums_sum < abs(S):
             return 0
         target = (S + nums_sum) // 2
+        return self.count_subsets_2d_array(nums, target)
+
+    """
+    This is another DP problems : count of subsets with sum equal to given sum. 
+    dp[i][j] : ends with ith (index-zero) element in the nums, the different ways of subsets for nums[:i+1] with sum equal to j . 
+    
+    count : including the ith element  + excluding the ith element
+    dp[i][j] = dp[i-1][j-nums[i]] + dp[i-1][j]
+    """
+    def count_subsets_2d_array(self, nums, target):
+        rows = len(nums)
+        dp = [[0]*(target+1) for _ in range(rows)]
+        dp[0][0] = 1 if nums[0] else 2  #if nums[0] == 0 , then both including and excluding it can get sum: 0.
+        dp[0][nums[0]] = 1 if nums[0] else dp[0][0] #Notice , need to use dp[0][0], not zero.
+
+        for i in range(1, rows):
+            for j in range(target+1):
+                dp[i][j] = dp[i-1][j] + (dp[i-1][j-nums[i]] if j-nums[i] >= 0 else 0)
+        return dp[-1][-1]
+
+    """
+    This is much clearer than 2d_array method, but hard to understand without it.  
+    """
+    def count_subsets_1d_array(self, nums, target):
         dp = [0] * (target + 1)
         dp[0] = 1
         for num in nums:
             for j in range(target, num-1, -1):
                 dp[j] += dp[j - num]
-
         return dp[-1]
