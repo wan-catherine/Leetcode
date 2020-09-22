@@ -13,3 +13,9 @@ class TestSolution(TestCase):
 
     def test_majorityElement_3(self):
         self.assertListEqual([1], Solution().majorityElement([1,1,1,2,3,4,5,6]))
+
+    def test_majorityElement_4(self):
+        self.assertListEqual([1], Solution().majorityElement([1,2,3,1,4,1,5,6]))
+
+    def test_majorityElement_5(self):
+        self.assertListEqual([1, 2], Solution().majorityElement([1,2,2,3,2,1,1,3]))
