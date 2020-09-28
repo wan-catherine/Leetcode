@@ -30,6 +30,11 @@ class Solution(object):
             left += 1
         return (left, last_product)
 
+    """
+    How to understand : res += i - left + 1
+    Each time, when we include a new element , the it means we can get i - left + 1 new subarray . 
+    For example : [1,2,3] , then we add [4], it can get [4],[3,4],[2,3,4],[1,2,3,4]. 
+    """
     def numSubarrayProductLessThanK(self, nums, k):
         if k <= 1 or not nums:
             return 0
