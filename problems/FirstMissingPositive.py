@@ -18,7 +18,7 @@ if not , then swap them
 This is a method to sort the array in O(n) for 1<=array[i]<=len(array).
 """
 class Solution:
-    def firstMissingPositive(self, nums):
+    def firstMissingPositive_before(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -40,6 +40,29 @@ class Solution:
                 return i + 1
         return length + 1
 
+    # update 20200930
+    def firstMissingPositive(self, nums):
+        if not nums:
+            return 1
 
+        length = len(nums)
+        i = 0
+        while i < length:
+            if not nums[i] or nums[i] > length or nums[i] <= 0:
+                nums[i] = None
+                i += 1
+            elif nums[i] != i + 1:
+                if nums[nums[i] - 1] == nums[i]:
+                    nums[i] = None
+                    i += 1
+                    continue
+                nums[nums[i] - 1], nums[i] = nums[i], nums[nums[i] - 1]
+            else:
+                i += 1
+
+        for i in range(length):
+            if not nums[i]:
+                return i + 1
+        return length + 1
 
 
