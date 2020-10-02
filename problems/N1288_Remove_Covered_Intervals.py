@@ -16,6 +16,8 @@ class Solution(object):
         return res
 
     def removeCoveredIntervals(self, intervals):
+        # this is the key part
+        # sort increasing by the first one, and decreasing by the second.
         intervals.sort(key=lambda li:(li[0], -li[1]))
         count = 0
         c, d = intervals[0]
