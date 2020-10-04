@@ -10,7 +10,7 @@
 because it needs same operations 1XXXXXX ^ 1100000 -> 1100000 ^ 1100000 = 0.
 
 1100000 -> 100000 needs 1 operation.
-100000 -> 0, where 100000 is 2^k, needs 2^(k-1) - 1 operations.
+100000 -> 0, where 100000 is 2^k, needs 2^(k+1) - 1 operations.
 
 In total,
 f(n) = f((b >> 1) ^ b ^ n) + 1 + b - 1,
