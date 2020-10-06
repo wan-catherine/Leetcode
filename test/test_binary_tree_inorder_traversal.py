@@ -1,13 +1,7 @@
 from unittest import TestCase
-from problems.BinaryTreeInorderTraversal import Solution, TreeNode
+from problems.BinaryTreeInorderTraversal import Solution
+from problems.Utility_Tree import list_to_tree_node, null
 
 class TestSolution(TestCase):
     def test_inorderTraversal(self):
-        solution = Solution()
-        root = TreeNode(1)
-        root.left = None
-        root.right = TreeNode(2)
-        root.right.left = TreeNode(3)
-        root.right.right = None
-        res = solution.inorderTraversal(root)
-        self.assertEqual([1,3,2], res)
+        self.assertListEqual([1,3,2], Solution().inorderTraversal(list_to_tree_node([1,null,2,3])))

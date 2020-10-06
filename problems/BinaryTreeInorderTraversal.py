@@ -1,4 +1,7 @@
 # Definition for a binary tree node.
+from collections import deque
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -6,7 +9,7 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    def inorderTraversal(self, root):
+    def inorderTraversal_before(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
@@ -35,4 +38,21 @@ class Solution:
                     stack[-1].left = None
         return res
 
-
+    def inorderTraversal(self, root):
+        if not root:
+            return []
+        res = []
+        stack = deque()
+        stack.append(root)
+        while stack:
+            node = stack[-1]
+            if node.left:
+                stack.append(node.left)
+                node.left = None
+            else:
+                res.append(node.val)
+                stack.pop()
+                if node.right:
+                    stack.append(node.right)
+                    node.right = None
+        return res
