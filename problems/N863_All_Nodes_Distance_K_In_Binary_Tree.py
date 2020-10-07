@@ -1,6 +1,6 @@
 """
 Use BFS
-First need to find all node's parent to convert a directed graph(tree) to undirected graph. 
+First need to find all node's parent to convert a directed graph(tree) to undirected graph.
 """
 class Solution(object):
     def distanceK(self, root, target, K):
