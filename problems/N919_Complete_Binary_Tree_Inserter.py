@@ -1,7 +1,12 @@
+"""
+The key point here is how to find the parent node.
+It's a complete binary tree which means for ith node (1-index), it's left child is 2*i, and right child is 2*i + 1.
+So we can use this feature to quickly find the parent node.
+"""
 from collections import deque
 
 from problems.Utility_Tree import TreeNode, list_to_tree_node
-class CBTInserter(object):
+class CBTInserter_myself(object):
 
     def __init__(self, root):
         """
@@ -69,7 +74,45 @@ class CBTInserter(object):
         """
         return self.root
 
-    
+
+class CBTInserter(object):
+
+    def __init__(self, root):
+        """
+        :type root: TreeNode
+        """
+        self.nodes = [root]
+        i = 0
+        while True:
+            node = self.nodes[i]
+            if node.left:
+                self.nodes.append(node.left)
+            if node.right:
+                self.nodes.append(node.right)
+            i += 1
+            if i >= len(self.nodes):
+                break
+
+    def insert(self, v):
+        """
+        :type v: int
+        :rtype: int
+        """
+        node = TreeNode(v)
+        self.nodes.append(node)
+        parent = self.nodes[len(self.nodes) // 2 - 1]
+        if len(self.nodes) % 2:
+            parent.right = node
+        else:
+            parent.left = node
+        return parent.val
+
+    def get_root(self):
+        """
+        :rtype: TreeNode
+        """
+        return self.nodes[0]
+
 root = list_to_tree_node([1,2,3,4,5])
 obj = CBTInserter(root)
 print(obj.insert(6))
