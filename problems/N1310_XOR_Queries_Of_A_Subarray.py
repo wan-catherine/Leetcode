@@ -25,6 +25,8 @@ class Solution(object):
         return res
 
     """
+    0^x = x
+    x^x = 0
     x^y^z^x == x^x^y^z == 0^y^z == y^z
     """
     def xorQueries(self, arr, queries):
