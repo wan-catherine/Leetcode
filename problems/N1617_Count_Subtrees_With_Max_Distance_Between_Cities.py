@@ -34,6 +34,7 @@ class Solution(object):
 
         res = [0]*(n-1)
         for mask in range(1 << n):
+            # filter out which contains only one node.
             if mask & (mask - 1) == 0:
                 continue
             d = get_max_diameter(mask)
