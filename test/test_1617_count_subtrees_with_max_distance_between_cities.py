@@ -11,3 +11,6 @@ class TestSolution(TestCase):
     def test_countSubgraphsForEachDiameter_2(self):
         self.assertListEqual([2,1], Solution().countSubgraphsForEachDiameter(n = 3, edges = [[1,2],[2,3]]))
 
+    def test_countSubgraphsForEachDiameter_3(self):
+        self.assertListEqual([3,2,1], Solution().countSubgraphsForEachDiameter(4, [[1,3],[1,4],[2,3]]))
+
