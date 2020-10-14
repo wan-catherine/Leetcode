@@ -37,7 +37,7 @@ class Solution:
             dp[1][i] = dp[0][i-1] + nums[i]
         return max(dp[0][-1], dp[1][-1])
 
-    def rob(self, nums):
+    def rob_(self, nums):
         if not nums:
             return 0
         nums_len = len(nums)
@@ -46,3 +46,24 @@ class Solution:
         ignore_fist = self.rob_help(nums[1:])
         ignore_last = self.rob_help(nums[:nums_len-1])
         return max(ignore_fist, ignore_last)
+
+    def rob(self, nums):
+        length = len(nums)
+        if length == 1:
+            return nums[0]
+        dp = [[0, 0] for _ in range(length)]
+        dp[0][1] = nums[0]
+        for i in range(length - 2):
+            dp[i + 1][0] = max(dp[i + 1][0], dp[i][1], dp[i][0])
+            dp[i + 1][1] = max(dp[i + 1][1], dp[i][0] + nums[i+1])
+        res = max(dp[length - 2])
+        print(dp)
+        dp = [[0, 0] for _ in range(length)]
+
+        dp[1][1] = nums[1]
+        print(dp)
+        for i in range(1, length - 1):
+            dp[i + 1][0] = max(dp[i + 1][0], dp[i][1], dp[i][0])
+            dp[i + 1][1] = max(dp[i + 1][1], dp[i][0] + nums[i+1])
+        print(dp)
+        return max(res, *dp[length - 1])
