@@ -1,3 +1,4 @@
+import sys
 from math import inf
 
 """
@@ -35,7 +36,7 @@ d[0][*][1] = -prices[i]
 """
 
 class Solution:
-    def maxProfit(self, k, prices):
+    def maxProfit_before(self, k, prices):
         n = len(prices)
         if k >= n//2:
             return self.maxProfit_without_k(prices)
@@ -60,3 +61,25 @@ class Solution:
             d_0 = max(d_0, d_1 + prices[i])
             d_1 = max(d_1, last_d_0 - prices[i])
         return d_0
+    """
+    Base cases:
+    when days = -1, it means it's not even start . so dp[-1][k][0]= 0, dp[-1][k][1] = -infinity means there is no possibility for this case.
+    when k = 0, it means we don't even buy/sell, so dp[i][0][0] = 0, dp[i][0][1] = -infinity
+    """
+    def maxProfit(self, k, prices):
+        n = len(prices)
+        if k >= n // 2:
+            return self.maxProfit_without_k(prices)
+        dp = [[[0] * 2 for _ in range(k + 1)] for _ in range(n)]
+
+        for i in range(k + 1):
+            dp[-1][i][0], dp[-1][i][1] = 0, -sys.maxsize
+        for i in range(n):
+            dp[i][0][0], dp[i][0][1] = 0, -sys.maxsize
+
+        for i in range(n):
+            for j in range(1, k + 1):
+                dp[i][j][0] = max(dp[i - 1][j][0], dp[i - 1][j][1] + prices[i])
+                dp[i][j][1] = max(dp[i - 1][j][1], dp[i - 1][j - 1][0] - prices[i])
+
+        return dp[n - 1][k][0]
