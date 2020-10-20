@@ -4,7 +4,7 @@ for target :
 when we get the least number which larger than target :
 the diff = sum - target
 if diff is even, then it means we can flip the sign of diff// 2 .
-if diff is odd , then we need to add more number (x+1 or even x+2 ) until we can get even diff.  
+if diff is odd , then we need to add more number (x+1 or even x+2 ) until we can get even diff.
 """
 class Solution(object):
     def reachNumber(self, target):
