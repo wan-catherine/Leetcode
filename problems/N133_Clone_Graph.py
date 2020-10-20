@@ -7,7 +7,7 @@ class Node:
 class Solution:
     # @param node, a undirected graph node
     # @return a undirected graph node
-    def cloneGraph(self, node):
+    def cloneGraph_before(self, node):
         if not node:
             return node
         created = {}
