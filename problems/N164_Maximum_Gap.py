@@ -7,7 +7,7 @@ Radix Sort:
     5. then get new array from buckets, then do it again.
 
 Notice :
-    We need empty bucket for each loop 
+    We need empty bucket for each loop
 """
 class Solution(object):
     def maximumGap(self, nums):
