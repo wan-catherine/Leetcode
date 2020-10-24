@@ -1,5 +1,5 @@
 class Solution:
-    def grayCode(self, n):
+    def grayCode_before(self, n):
         """
         :type n: int
         :rtype: List[int]
@@ -27,4 +27,17 @@ class Solution:
         res = []
         for i in before:
             res.append(int(i, 2))
+        return res
+
+    def grayCode(self, n):
+        if n == 0:
+            return [0]
+        if n == 1:
+            return [0, 1]
+        res = [0, 1]
+        for i in range(2, n+1):
+            arr = res[::-1]
+            for j, v in enumerate(arr):
+                arr[j] += 2**(i-1)
+            res.extend(arr)
         return res
