@@ -9,7 +9,8 @@ class Solution(object):
 
         for i in range(2, n + 1):
             k = 1
-            while k <= i:
+            maximum = int(i**0.5) + 1
+            while k <= maximum:
                 square = k ** 2
                 if square > i:
                     break
