@@ -13,3 +13,6 @@ class TestSolution(TestCase):
 
     def test_removeStones_3(self):
         self.assertEqual(4, Solution().removeStones([[3,2],[3,1],[4,4],[1,1],[0,2],[4,0]]))
+
+    def test_removeStones_4(self):
+        self.assertEqual(8, Solution().removeStones([[4,4],[5,5],[3,1],[1,4],[1,1],[2,3],[0,3],[2,4],[3,5]]))
