@@ -1,4 +1,6 @@
 import heapq
+import sys
+
 
 class Maxpq:
     def __init__(self):
@@ -13,6 +15,8 @@ class Maxpq:
     def remove(self, h):
         self.pq.remove(-h)
         heapq.heapify(self.pq)
+
+
 
 """
 Split the buildings into two different events : start and end event. 
@@ -84,3 +88,54 @@ class Solution(object):
             if res[-1][1] + hp[0][0]:
                 res += [x, -hp[0][0]],
         return res[1:]
+
+    def getSkyline(self, buildings):
+        root = SegTree(0, sys.maxsize, 0)
+        res = []
+
+        for x, y, h in buildings:
+            root.set_status(x, y, h)
+
+        def dfs(node):
+            if not node.left:
+                res.append([node.start, node.status])
+            else:
+                dfs(node.left)
+                dfs(node.right)
+        dfs(root)
+        length = len(res)
+        ans = []
+        for i in range(length):
+            if not ans or ans[-1][1] != res[i][1]:
+                ans.append(res[i])
+        if ans and ans[0][1] == 0:
+            return ans[1:]
+        return ans
+
+
+class SegTree:
+    def __init__(self, start, end, status, left=None, right=None):
+        self.start =start
+        self.end = end
+        self.status = status   # highest height in [start, end]
+        self.left =left
+        self.right = right
+
+    def set_status(self, s, e, h):
+        if s >= self.end or e <= self.start:
+            return
+        if s <= self.start and e >= self.end and not self.left and self.status > h:
+            return
+        if s <= self.start and e >= self.end and h >= self.status:
+            self.left = None
+            self.right = None
+            self.status = h
+            return
+        if not self.left:
+            mid = self.start + (self.end - self.start) // 2
+            self.left = SegTree(self.start, mid, self.status)
+            self.right = SegTree(mid, self.end, self.status)
+
+        self.left.set_status(s, e, h)
+        self.right.set_status(s, e, h)
+        self.status = max(self.left.status, self.right.status)
