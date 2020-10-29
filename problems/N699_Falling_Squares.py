@@ -1,6 +1,15 @@
 import bisect
 
+"""
+Key point : 
+the interval here is left close, right open : [l, l+s).
+if start = 1, the side = 2, then [1,2] is the new one, it's not include 3: [1,3). 
+So for the left point, we need to use : bisect.bisect/bisect.bisect_right to find the rightmost index. 
+Because we need to after all possible point . so the hight of it should be height[i-1] . 
+We can use both bisect.bisect or bisect.bisect_right, because , for pos , we can only have one duplicated pos. 
 
+For the right point, because it's not included , so we need to find the leftmost index. we can know height[i:j] = [high, height[j-1]]. 
+"""
 class Solution(object):
     def fallingSquares_(self, positions):
         """
@@ -22,7 +31,7 @@ class Solution(object):
     """
     brute force
     """
-    def fallingSquares(self, positions):
+    def fallingSquares_bruteforce(self, positions):
         res = []
         intervals = []
         cur = 0
@@ -39,3 +48,4 @@ class Solution(object):
             cur = max(cur, height)
             res.append(cur)
         return res
+
