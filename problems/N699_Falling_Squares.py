@@ -52,21 +52,48 @@ class Solution(object):
         return res
 
     def fallingSquares(self, positions):
-        pos, height, res = [0], [0], []
-        cur = 0
+        root = SegTree(0, 10**8+1, 0)
+        res = []
+        maximum = 0
         for l, s in positions:
-            left_index = bisect.bisect(pos, l)
-            right = l + s - 1
-            mh = 0
-            r = left_index
-            while r < len(height) and height[r] <= right:
-                mh = max(mh, height[r])
-                r += 1
-            mh += s
-            height[left_index:r] = [mh]
-            pos[left_index:r] = [left_index]
-            cur = max(cur, mh)
-            res.append(cur)
+            cur = root.get_status(l, l + s)
+            maximum = max(maximum, cur + s)
+            root.set_status(l, l+s, cur+s)
+            res.append(maximum)
         return res
+
+class SegTree:
+    def __init__(self, start, end, status):
+        self.start = start
+        self.end = end
+        self.status = status
+        self.left, self.right = None, None
+
+    def get_status(self, a, b):
+        if a <= self.start and b >= self.end:
+            return self.status
+        if a >= self.end or b <= self.start:
+            return 0
+        if not self.left:
+            return self.status
+        l = self.left.get_status(a, b)
+        r = self.right.get_status(a, b)
+        return max(l, r)
+
+    def set_status(self, a, b, s):
+        if a <= self.start and b >= self.end:
+            self.left, self.right = None, None
+            self.status = s
+            return
+        if a >= self.end or b <= self.start:
+            return
+        if not self.left:
+            mid = (self.end - self.start) // 2 + self.start
+            self.left = SegTree(self.start, mid, self.status)
+            self.right = SegTree(mid, self.end, self.status)
+        self.left.set_status(a, b, s)
+        self.right.set_status(a, b, s)
+        self.status = max(self.left.status, self.right.status)
+
 
 
