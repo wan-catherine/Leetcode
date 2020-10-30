@@ -2,6 +2,8 @@ import bisect
 
 """
 Key point : 
+pos/height : show skyline. There is no intervals here!!!
+
 the interval here is left close, right open : [l, l+s).
 if start = 1, the side = 2, then [1,2] is the new one, it's not include 3: [1,3). 
 So for the left point, we need to use : bisect.bisect/bisect.bisect_right to find the rightmost index. 
@@ -11,7 +13,7 @@ We can use both bisect.bisect or bisect.bisect_right, because , for pos , we can
 For the right point, because it's not included , so we need to find the leftmost index. we can know height[i:j] = [high, height[j-1]]. 
 """
 class Solution(object):
-    def fallingSquares_(self, positions):
+    def fallingSquares(self, positions):
         """
         :type positions: List[List[int]]
         :rtype: List[int]
@@ -48,4 +50,23 @@ class Solution(object):
             cur = max(cur, height)
             res.append(cur)
         return res
+
+    def fallingSquares(self, positions):
+        pos, height, res = [0], [0], []
+        cur = 0
+        for l, s in positions:
+            left_index = bisect.bisect(pos, l)
+            right = l + s - 1
+            mh = 0
+            r = left_index
+            while r < len(height) and height[r] <= right:
+                mh = max(mh, height[r])
+                r += 1
+            mh += s
+            height[left_index:r] = [mh]
+            pos[left_index:r] = [left_index]
+            cur = max(cur, mh)
+            res.append(cur)
+        return res
+
 
