@@ -21,7 +21,7 @@ Explanation
 """
 
 class Solution(object):
-    def uniqueLetterString(self, s):
+    def uniqueLetterString_(self, s):
         """
         :type s: str
         :rtype: int
@@ -38,4 +38,23 @@ class Solution(object):
         for v in index:
             k, j = index[v]
             res += (length - j) * (j - k)
+        return res % (10**9 + 7)
+
+    """
+    DP:
+    BBBBBBBBBBBBBBBBBOABCDOABCOABC
+                 ^    ^   ^
+                 s    f   i
+
+    dp[i] = dp[i-1] + (i-f) - (f-s)
+    """
+    def uniqueLetterString(self, s):
+        res, dp = 0, 0
+        first, second = [-1]*26, [-1]*26
+        for i, v in enumerate(s):
+            index = ord(v) - ord('A')
+            dp = dp + i - first[index] - (first[index] - second[index])
+            res += dp
+            second[index] = first[index]
+            first[index] = i
         return res % (10**9 + 7)
