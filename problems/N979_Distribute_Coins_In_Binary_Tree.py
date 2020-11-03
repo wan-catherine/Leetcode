@@ -1,3 +1,9 @@
+"""
+Consider the flow on the edge .
+for a node , how many coins does it have to make his left and right children balance?
+if a child has more coins, it needs to move node.val - 1 to his parents , if a child has less than one coins,
+it needs get some coins from his parent. 
+"""
 class Solution(object):
     def distributeCoins(self, root):
         """
