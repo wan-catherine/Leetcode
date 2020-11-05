@@ -36,7 +36,7 @@ class Solution:
     The key point here is to find the first temp value. 
     This one can't use k, just related to the ith.
     """
-    def getPermutation(self, n, k):
+    def getPermutation_(self, n, k):
         nums = [str(i) for i in range(1, n + 1)]
         res = []
         for i in range(1, n + 1):
@@ -53,3 +53,32 @@ class Solution:
                 del nums[j - 1]
 
         return ''.join(res)
+
+    """
+    Here is a trick to make things easier. 
+    k -= 1. 
+    so k // count, it will get the right index(0-based). 
+    For example: 
+         for [5,5,5]. 
+         9//5 = 1, 10//5 = 2 ==> k=10, the index is 1, k=11, the index is 2. 
+         
+        if we don't minor one , then it needs to check if k % 5 == 0. 
+        k = 10 ==> k // 5 = 2, then it should get the index = 2 - 1 = 1 . 
+        k = 11 ==> k // 5 = 2 , then it should get index = 2 (no need minor 1).
+    """
+    def getPermutation(self, n, k):
+        def permutation_count(k):
+            count = 1
+            for i in range(1, k+1):
+                count *= i
+            return count
+        k -= 1
+        res = []
+        nums = [i + 1 for i in range(n)]
+        for i in range(1, n+1):
+            count = permutation_count(n-i)
+            index = k // count
+            res.append(nums[index])
+            del nums[index]
+            k -= count * index
+        return ''.join(map(str, res + nums))
