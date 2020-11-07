@@ -1,3 +1,7 @@
+"""
+Use Manacher's algorithm to find the longest palindrome string centered at i.
+So we can just find the maximum length palindrome string with the left end point at 0.
+"""
 class Solution(object):
     def shortestPalindrome(self, s):
         """
@@ -21,6 +25,7 @@ class Solution(object):
             if i+k>r:
                 r = i+k
                 l = i-k
+            # when i == k + 1, it means from [0:k+1] is a palindrome
             if i == k + 1:
                 index = max(index, (i + p[i])//2)
         return s[index:][::-1] + s
