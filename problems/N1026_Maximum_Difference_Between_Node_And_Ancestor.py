@@ -1,5 +1,8 @@
+import sys
+
+
 class Solution(object):
-    def maxAncestorDiff(self, root):
+    def maxAncestorDiff_before(self, root):
         """
         :type root: TreeNode
         :rtype: int
@@ -9,7 +12,6 @@ class Solution(object):
         def dfs(node):
             nonlocal  res
             if node in memo:
-
                 return memo[node]
             n_min, n_max = node.val, node.val
             if node.left:
@@ -26,6 +28,27 @@ class Solution(object):
         dfs(root)
         return res
 
+    def maxAncestorDiff(self, root) -> int:
+        res = 0
+
+        def helper(node):
+            nonlocal res
+            lmin, lmax, rmin, rmax = sys.maxsize, -sys.maxsize, sys.maxsize, -sys.maxsize
+            if not node:
+                return (lmin, lmax)
+            if not node.right and not node.left:
+                return (node.val, node.val)
+            else:
+                lmin, lmax = helper(node.left)
+                rmin, rmax = helper(node.right)
+                m = abs(node.val - min(lmin, rmin))
+                n = abs(node.val - max(lmax, rmax))
+                res = max(res, m, n)
+
+                return (min(lmin, rmin, node.val), max(lmax, rmax, node.val))
+
+        helper(root)
+        return res
 
 
 
