@@ -28,7 +28,7 @@ class Solution:
 
 
     def trap(self, height):
-        height = [float(inf)] + height + [float(inf)]
+        height = [float(inf)] + height
         stack = []
         res = 0
         for index, value in enumerate(height):
@@ -36,7 +36,7 @@ class Solution:
             while stack and height[stack[-1]] < value:
                 cur = stack.pop()
                 previous = stack[-1]
-                if height[previous] != float(inf) and height[index] != float(inf):
+                if height[previous] != float(inf) :
                     res += (min(height[index], height[previous]) - height[cur]) * (index - previous - 1)
             stack.append(index)
         return res
