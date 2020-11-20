@@ -26,3 +26,8 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.search([2, 1], 1)
         self.assertEqual(1, res)
+
+    def test_search_1(self):
+        solution = Solution()
+        res = solution.search([5,1,3], 3)
+        self.assertEqual(2, res)
