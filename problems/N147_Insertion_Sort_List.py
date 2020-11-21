@@ -1,7 +1,7 @@
 from .Utility import ListNode
 
 class Solution(object):
-    def insertionSortList(self, head):
+    def insertionSortList_(self, head):
         """
         :type head: ListNode
         :rtype: ListNode
@@ -29,4 +29,19 @@ class Solution(object):
             prev_first.next = current
             current = prev.next
 
+        return dummy.next
+
+    """
+    20201120 update
+    """
+    def insertionSortList(self, head):
+        dummy = ListNode(0)
+        while head:
+            start = dummy
+            while start.next and start.next.val < head.val:
+                start = start.next
+            next_node = start.next
+            start.next = head
+            head = head.next
+            start.next.next = next_node
         return dummy.next
