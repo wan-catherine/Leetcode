@@ -40,7 +40,7 @@ Here are some key points:
     
     events.sort(key=lambda x: (x[0], x[2], x[2]*x[1]))
     
-For python, heapq is minimum queue, so we use - height to turn it inot maximum queue. 
+For python, heapq is minimum queue, so we use - height to turn it into maximum queue. 
 heapq doesn's support remove. so we need to write a wrapper . remove on the list, then heapq.heapify. But this causes TLE!!!
 """
 class Solution(object):
@@ -74,7 +74,7 @@ class Solution(object):
         3. If #1 or #2 changes the current highest building, update the res. res[-1] contains the last height. If the current height is 
             not same as it , then update the res(maybe higher, maybe shorter).
     """
-    def getSkyline_(self, buildings):
+    def getSkyline(self, buildings):
         # sort by
         # 1. x - we sweep line from left to right
         # 2. event type - we add building before remove ， also descreasing by height.
@@ -89,7 +89,7 @@ class Solution(object):
                 res += [x, -hp[0][0]],
         return res[1:]
 
-    def getSkyline(self, buildings):
+    def getSkyline_segmenttree(self, buildings):
         root = SegTree(0, sys.maxsize, 0)
         res = []
 
@@ -97,6 +97,7 @@ class Solution(object):
             root.set_status(x, y, h)
 
         def dfs(node):
+            # find all leaves' node.
             if not node.left:
                 res.append([node.start, node.status])
             else:
@@ -106,6 +107,8 @@ class Solution(object):
         length = len(res)
         ans = []
         for i in range(length):
+            # in the segment tree, there might several nodes which have the same height. so we only add the first one.
+            #segment tree actually is binary split the intervals.
             if not ans or ans[-1][1] != res[i][1]:
                 ans.append(res[i])
         if ans and ans[0][1] == 0:
@@ -124,6 +127,7 @@ class SegTree:
     def set_status(self, s, e, h):
         if s >= self.end or e <= self.start:
             return
+        # here it means self.start ~ self.end is a straght line, no children (left == None and right == None)
         if s <= self.start and e >= self.end and not self.left and self.status > h:
             return
         if s <= self.start and e >= self.end and h >= self.status:
