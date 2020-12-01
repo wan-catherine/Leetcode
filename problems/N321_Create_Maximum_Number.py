@@ -43,6 +43,8 @@ class Solution(object):
                 stack.pop()
                 discard -= 1
             stack.append(i)
+        # here we need to stack[:k], because we only pop when stack[-1]<i and discard > 0.
+        # [4,8,1], k = 1, then stack will be [8, 1].
         return stack[:k]
 
     def merge_slow(self, num1, num2):
