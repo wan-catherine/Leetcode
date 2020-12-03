@@ -13,7 +13,7 @@ Here are two key points here :
 
     so we need to keep shrink the range of lo and hi : hi = mid
 
-    here also notic : mid = lo + (hi - lo) // 2
+    here also notice : mid = lo + (hi - lo) // 2
     if we want to shrink the range, two ways to do :
         a. lo = mid + 1
         b. hi = mid
