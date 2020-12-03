@@ -16,3 +16,8 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.countPrimes(2)
         self.assertEqual(0, res)
+
+    def test_countPrimes_1(self):
+        solution = Solution()
+        res = solution.countPrimes(5000000)
+        self.assertEqual(348513, res)
