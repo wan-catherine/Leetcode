@@ -52,6 +52,15 @@ class Solution(object):
         return res/left if res/left > res/right else res/right
 
     """
+    Detailed Explanation:
+    A lot of people asked about why can we get the max by calculating the products from start and end, Here is all you should know:
+    First, Consider there is no zero, and if we get the products of all the numbers:
+    1) We will have a negative result if there are odd numbers of negative -> max ((product of (0, last negative)), (product of (first negative, last num))
+    2) We will have a positive result if there are even numbers of negative -> product of all the numbers
+    Above all, we can get the max by going through the array from both start and end, then we won't miss any situations
+    If there is a zero, that means we would have two subproblems(unless the zero is at index 0 or last index), if two zeros, 3 subs, all the way up. We still can calculate from the very beginning and end at the same time, then we would get the result.
+
+
     the maximum product must either include the first element or end with the last element.
     1. all positive integer or has even number of negative integer, then include both first and end
     2. has odd number of negative integer, so either the include the first element or include the end element

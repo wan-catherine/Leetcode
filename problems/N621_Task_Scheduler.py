@@ -1,3 +1,6 @@
+import collections
+
+
 class Solution(object):
     def leastInterval(self, tasks, n):
         """
@@ -77,3 +80,22 @@ class Solution(object):
             idle_slots -= min(nums[i], max_val)
 
         return idle_slots + len(tasks) if idle_slots >0  else len(tasks)
+
+    def leastInterval(self, tasks, n):
+        """
+        :type tasks: List[str]
+        :type n: int
+        :rtype: int
+        """
+        count = collections.Counter(tasks)
+        length = len(tasks)
+        arr = count.most_common()
+        total = (arr[0][1] - 1) * (n + 1)
+
+        left = 0
+        for t, c in arr:
+            if c >= arr[0][1]:
+                left += c - arr[0][1] + 1
+            else:
+                break
+        return max(length, total + left)
