@@ -1,5 +1,5 @@
 class Solution:
-    def generateMatrix(self, n):
+    def generateMatrix_(self, n):
         """
         :type n: int
         :rtype: List[List[int]]
@@ -42,3 +42,36 @@ class Solution:
         round += 1
         n -= 2
         self.oneCycle(res, n, round, num)
+
+    def generateMatrix(self, n):
+        table = [[0] * n for _ in range(n)]
+        if n % 2:
+            times = (n+1) // 2
+        else:
+            times = n//2
+
+        k = 0
+        for time in range(times):
+            for col in range(time, n - time - 1):
+                k += 1
+                table[time][col] = k
+                if k == n*n:
+                    return table
+            for row in range(time, n - time - 1):
+                k += 1
+                table[row][n - 1 - time] = k
+                if k == n*n:
+                    return table
+            for col in range(n - 1 - time, time, -1):
+                k += 1
+                table[n - 1 - time][col] = k
+                if k == n*n:
+                    return table
+            for row in range(n - 1 - time, time, -1):
+                k += 1
+                table[row][time] = k
+                if k == n*n:
+                    return table
+
+        table[time][time] = k + 1
+        return table
