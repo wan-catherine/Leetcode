@@ -1,5 +1,5 @@
 class Solution:
-    def spiralOrder(self, matrix):
+    def spiralOrder_(self, matrix):
         """
         :type matrix: List[List[int]]
         :rtype: List[int]
@@ -52,6 +52,24 @@ class Solution:
         m -= 2
         n -= 2
         self.oneCycle(res, m, n, matrix, round)
+
+    def spiralOrder(self, matrix):
+        m, n = len(matrix), len(matrix[0])
+        i, j, di, dj = 0, 0, 0, 1
+        count = 1
+        res = []
+        while count <= m * n:
+            count += 1
+            res.append(matrix[i][j])
+            matrix[i][j] = None
+            while count <= m * n and matrix[(i + di) % m][(j + dj) % n] == None:
+                di, dj = dj, -di
+
+            i += di
+            j += dj
+
+        return res
+
 
 
 
