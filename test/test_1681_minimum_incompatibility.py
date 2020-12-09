@@ -12,4 +12,7 @@ class TestSolution(TestCase):
         self.assertEqual(-1, Solution().minimumIncompatibility(nums = [5,3,3,6,3,3], k = 3))
 
     def test_minimumIncompatibility_3(self):
-        self.assertEqual(4, Solution().minimumIncompatibility([2,9,4,7,6,8,2,1,10,1,5,4], 2))
+        self.assertEqual(15, Solution().minimumIncompatibility([2,9,4,7,6,8,2,1,10,1,5,4], 2))
+
+    def test_minimumIncompatibility_4(self):
+        self.assertEqual(8, Solution().minimumIncompatibility([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16], 8))
