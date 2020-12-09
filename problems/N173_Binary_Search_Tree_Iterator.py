@@ -6,7 +6,7 @@
 #         self.right = None
 from .Utility_Tree import TreeNode
 
-class BSTIterator(object):
+class BSTIterator_List(object):
     def __init__(self, root):
         """
         :type root: TreeNode
@@ -46,6 +46,29 @@ class BSTIterator(object):
             self.index += 1
             return ans
 
+"""
+This way we can implement next() and hasNext() to run in average O(1) time and use O(h) memory, where h is the height of the tree. 
+Because all nodes will not be visited than twice. 
+first, we add it into self.stack, second we will return its val. So average will be O(1). 
+"""
+class BSTIterator(object):
+    def __init__(self, root):
+        self.stack = []
+
+    def push_left(self, node):
+        while node:
+            self.stack.append(node)
+            node = node.left
+
+    def next(self):
+        if not self.hasNext():
+            return
+        node = self.stack.pop()
+        self.push_left(node.right)
+        return node.val
+
+    def hasNext(self):
+        return len(self.stack)
 
 # Your BSTIterator will be called like this:
 # i, v = BSTIterator(root), []
