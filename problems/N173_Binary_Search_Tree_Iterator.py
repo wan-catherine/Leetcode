@@ -50,6 +50,7 @@ class BSTIterator_List(object):
 This way we can implement next() and hasNext() to run in average O(1) time and use O(h) memory, where h is the height of the tree. 
 Because all nodes will not be visited than twice. 
 first, we add it into self.stack, second we will return its val. So average will be O(1). 
+It's actually a way to do loop in-order traverse. 
 """
 class BSTIterator(object):
     def __init__(self, root):
