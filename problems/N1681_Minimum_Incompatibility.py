@@ -107,7 +107,7 @@ class Solution:
         dfs(0, 1, nums[0], nums[0], 0)
         return res
 
-    def minimumIncompatibility(self, nums, k: int) -> int:
+    def minimumIncompatibility_fast(self, nums, k: int) -> int:
         f = collections.Counter(nums)
         if any(f[num] > k for num in f):
             return -1
@@ -139,6 +139,37 @@ class Solution:
 
         DFS(0, 0)
         return res
+
+    def minimumIncompatibility(self, nums, k: int) -> int:
+        f = collections.Counter(nums)
+        if any(f[num] > k for num in f):
+            return -1
+        length = len(nums)
+        dp = [[sys.maxsize] * length for _ in range(1<<length) ]
+        for i in range(length):
+            dp[1<<i][i] = 0
+        c = length // k
+        # nums.sort()
+        for state in range(1<<length):
+            for last_idx in range(length):
+                if (state & (1 << last_idx)) == 0:
+                    continue
+                for new_idx in range(length):
+                    if (state & (1 << new_idx)):
+                        continue
+                    # if nums[last_idx] == nums[new_idx]:
+                    #     continue
+                    new_state = (state | (1 << new_idx))
+                    t = state
+                    chose_num_count = 0
+                    while t:
+                        chose_num_count += (t % 2)
+                        t //= 2
+                    if chose_num_count % c == 0:
+                        dp[new_state][new_idx] = min(dp[new_state][new_idx], dp[state][last_idx])
+                    elif nums[new_idx] > nums[last_idx]:
+                        dp[new_state][new_idx] = min(dp[new_state][new_idx], dp[state][last_idx] + nums[new_idx] - nums[last_idx])
+        return min(dp[-1])
 
 
 
