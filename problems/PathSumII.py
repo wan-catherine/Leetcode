@@ -6,7 +6,7 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    def pathSum(self, root, sum):
+    def pathSum_(self, root, sum):
         """
         :type root: TreeNode
         :type sum: int
@@ -41,3 +41,23 @@ class Solution:
             self.helper(root.left, sum-root.val, res, temp.copy())
         if root.right:
             self.helper(root.right, sum-root.val, res, temp.copy())
+
+    def pathSum(self, root: TreeNode, sum: int) :
+        if not root:
+            return []
+        res = []
+
+        def dfs(node, cur, ans):
+            if not node.left and not node.right:
+                if cur + node.val == sum:
+                    ans.append(node.val)
+                    res.append(ans)
+                return
+            new_ans = ans + [node.val]
+            if node.left:
+                dfs(node.left, cur + node.val, new_ans[:])
+            if node.right:
+                dfs(node.right, cur + node.val, new_ans[:])
+
+        dfs(root, 0, [])
+        return res
