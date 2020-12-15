@@ -39,7 +39,7 @@ class Solution:
             node.right = TreeNode(i)
             node = node.right
 
-    def flatten(self, root):
+    def flatten_(self, root):
         """
         :type root: TreeNode
         :rtype: None Do not return anything, modify root in-place instead.
@@ -62,4 +62,45 @@ class Solution:
         arr.append(node.val)
         self.helper(node.left, arr)
         self.helper(node.right, arr)
+
+    def flatten_recursive(self, root: TreeNode) -> None:
+        """
+        Do not return anything, modify root in-place instead.
+        """
+        if not root:
+            return root
+
+        def helper(node):
+            if not node.left and not node.right:
+                return (node, node)
+            end = node
+            right = node.right
+            if node.left:
+                ls, le = helper(node.left)
+                node.right = ls
+                end = le
+                node.left = None
+            if right:
+                rs, re = helper(right)
+                end.right = rs
+                end = re
+            return (node, end)
+
+        helper(root)
+
+    def flatten(self, root: TreeNode) -> None:
+        if not root:
+            return
+
+        self.flatten(root.left)
+        self.flatten(root.right)
+        left,right = root.left, root.right
+        root.left = None
+        root.right = left
+        while root.right:
+            root = root.right
+        root.right = right
+
+
+
 
