@@ -10,7 +10,7 @@ class TreeNode:
 
 class Solution:
     #pre-order traversal tree and check the val is ordered by ascend
-    def isValidBST(self, root):
+    def isValidBST_(self, root):
         """
         :type root: TreeNode
         :rtype: bool
@@ -76,5 +76,37 @@ class Solution:
             return False
         return self.isBST(root.left, min, root.val) and self.isBST(root.right, root.val, max)
 
+    def isValidBST(self, root):
+        """
+        :type root: TreeNode
+        :rtype: bool
+        """
+        if not root:
+            return True
+
+        def check(node):
+            if not node:
+                return True, None, None
+            if not node.left and not node.right:
+                return True, node.val, node.val
+
+            l, lm, ln = check(node.left)
+            r, rm, rn = check(node.right)
+
+            if not l or not r:
+                return False, None, None
+            if lm != None and rm == None:
+                if node.val > lm:
+                    return True, node.val, ln
+            elif rm != None and lm == None:
+                if node.val < rn:
+                    return True, rm, node.val
+            else:
+                if node.val > lm and node.val < rn:
+                    return True, rm, ln
+            return False, None, None
+
+        res, _, _ = check(root)
+        return res
 
 
