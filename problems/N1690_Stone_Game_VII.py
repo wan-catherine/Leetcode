@@ -1,3 +1,6 @@
+"""
+dp[i][j] : the maximum difference the first player can get for i ~ j (includsive)
+"""
 class Solution(object):
     def stoneGameVII(self, stones):
         """
