@@ -5,7 +5,7 @@ a b c | d e f g
 
 So we can know there should be some left part all add K, and then right part all subtract K.
 But we don't know the index to sperate them, so we have to loop all possible index (0~length-1).
-index means the last index which add K . 
+index means the last index which add K .
 """
 class Solution(object):
     def smallestRangeII(self, A, K):
