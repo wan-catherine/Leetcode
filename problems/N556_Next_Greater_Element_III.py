@@ -1,5 +1,5 @@
 class Solution(object):
-    def nextGreaterElement(self, n):
+    def nextGreaterElement_(self, n):
         """
         :type n: int
         :rtype: int
@@ -30,4 +30,44 @@ class Solution(object):
         else:
             res = int(''.join([str(i) for i in digits]))
         return res if 2**31 - res > 0 else -1
+
+    def nextGreaterElement(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        chars = []
+        while n:
+            chars.append(n % 10)
+            n //= 10
+        if sorted(chars) == chars:
+            return -1
+        length = len(chars)
+
+        def helper(idx):
+            for i in range(idx + 1, length):
+                if chars[i] < chars[idx]:
+                    return i
+            return length
+
+        index = length
+        res = [None, None]
+        for i in range(length):
+            if i >= index:
+                break
+            idx = helper(i)
+            if idx >= length:
+                continue
+            else:
+                # we only update res when it's none or larger.
+                # see test_nextGreaterElement_3
+                if (res[1] and res[1] > idx) or not res[1]:
+                    res = [i, idx]
+                    index = min(index, idx)
+        chars[res[0]], chars[res[1]] = chars[res[1]], chars[res[0]]
+        chars = sorted(chars[:res[1]], reverse=True) + chars[res[1]:]
+        num = int(''.join(str(i) for i in chars[::-1]))
+        if num > 2 ** 31:
+            return -1
+        return num
 

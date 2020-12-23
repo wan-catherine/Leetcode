@@ -1,4 +1,4 @@
-from problems.Utility_Tree import TreeNode,list_to_tree_node, null
+from problems.Utility_Tree import TreeNode,list_to_tree_node, null, treenode_to_list
 
 """
 This problem seems similar like : 449. Serialize and Deserialize BST, but actually it can't use the same preorder/inorder to deserialize. 
@@ -49,4 +49,4 @@ deser = Codec()
 res = ser.serialize(root)
 print(res)
 ans = deser.deserialize(res)
-print(ans)
+print(treenode_to_list(ans))
