@@ -1,5 +1,5 @@
 """
-Smiliar as 297. 
+Smiliar as 297.
 """
 class Node(object):
     def __init__(self, val=None, children=None):
