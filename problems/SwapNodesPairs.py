@@ -5,7 +5,7 @@ class ListNode:
         self.next = None
 
 class Solution:
-    def swapPairs(self, head):
+    def swapPairs_(self, head):
         """
         :type head: ListNode
         :rtype: ListNode
@@ -28,4 +28,26 @@ class Solution:
                 break
             after = before.next
 
+        return head
+
+    def swapPairs(self, head):
+        if not head or not head.next:
+            return head
+
+        first = head
+        previous = ListNode(0)
+        previous.next = head
+        flag = False
+        while first:
+            second = first.next
+            if not second:
+                break
+            first.next = second.next
+            second.next = first
+            previous.next = second
+            if not flag:
+                head = second
+                flag = True
+            previous = first
+            first = first.next
         return head

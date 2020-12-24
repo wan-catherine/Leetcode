@@ -23,8 +23,13 @@ class TestSolution(TestCase):
         res = solution.swapPairs(create_link_list([1,2,3,4]))
         self.assertEqual([2,1,4,3], convert_to_list(res))
 
-    def test_swapPairs(self):
+    def test_swapPairs_1(self):
         solution = Solution()
         res = solution.swapPairs(None)
         self.assertEqual(None, res)
+
+    def test_swapPairs_2(self):
+        solution = Solution()
+        res = solution.swapPairs(create_link_list([1,2,3]))
+        self.assertEqual([2,1,3], convert_to_list(res))
 
