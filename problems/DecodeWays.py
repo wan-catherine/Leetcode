@@ -49,7 +49,7 @@ class Solution:
             print(len(before))
         return len(before)
 
-    def numDecodings(self, s):
+    def numDecodings_(self, s):
         if s == None or len(s) < 0 or s[0] == "0":
             return 0
         if len(s) == 1:
@@ -76,6 +76,21 @@ class Solution:
             i += 1
 
         return res
+
+    def numDecodings(self, s):
+        if not s or s[0] == '0':
+            return 0
+        length = len(s)
+        dp = [0] * (length + 1)
+        dp[0] = 1
+        dp[1] = 1
+
+        for i in range(1, length):
+            dp[i + 1] += dp[i] if s[i] != '0' else 0
+            val = int(s[i - 1:i + 1])
+            if val >= 10 and val <= 26:
+                dp[i + 1] += dp[i - 1]
+        return dp[-1]
 
 
 
