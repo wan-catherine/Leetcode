@@ -1,5 +1,7 @@
 import heapq
-
+"""
+We need to consume the apple which rot earlier.
+"""
 
 class Solution(object):
     def eatenApples(self, apples, days):
