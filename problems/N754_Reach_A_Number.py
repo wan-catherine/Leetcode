@@ -7,7 +7,7 @@ if diff is even, then it means we can flip the sign of diff// 2 .
 if diff is odd , then we need to add more number (x+1 or even x+2 ) until we can get even diff.
 """
 class Solution(object):
-    def reachNumber(self, target):
+    def reachNumber_(self, target):
         """
         :type target: int
         :rtype: int
@@ -29,4 +29,13 @@ class Solution(object):
                 else:
                     return times
 
+    def reachNumber(self, target):
+        target = abs(target)
+        cur, i = 0, 0
+        while cur < target or (cur - target) % 2:
+            i += 1
+            cur += i
+            if cur == target:
+                return i
+        return i
 
