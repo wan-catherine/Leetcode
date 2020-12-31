@@ -27,6 +27,7 @@ class Solution(object):
             ids[key] = node
             return mapping[key]
         get_key(root)
+        print(mapping)
         return res
 
 
