@@ -14,3 +14,6 @@ class TestSolution(TestCase):
 
     def test_widthOfBinaryTree_3(self):
         self.assertEqual(8, Solution().widthOfBinaryTree(list_to_tree_node([1,1,1,1,1,1,1,null,null,null,1,null,null,null,null,2,2,2,2,2,2,2,null,2,null,null,2,null,2])))
+
+    def test_widthOfBinaryTree_4(self):
+        self.assertEqual(1, Solution().widthOfBinaryTree(list_to_tree_node([1,null,2])))

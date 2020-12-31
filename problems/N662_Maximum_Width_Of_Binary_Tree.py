@@ -40,7 +40,7 @@ class Solution(object):
             if not flag:
                 return res
 
-    def widthOfBinaryTree(self, root):
+    def widthOfBinaryTree_(self, root):
         if not root:
             return 0
 
@@ -58,5 +58,28 @@ class Solution(object):
                 stack.append((node.right, level+1, 2*pos+1))
         return res
 
+    """
+    Think about heap which is a complete binary tree. for any index i, its left child is at : 2*i, and its right child is at : 2*i + 1. 
+    So this way we can give each node a position. 
+    But this position might be super big 2**3000 at most. 
+    So we can use diff . each position - the leftest position. 
+    """
+    def widthOfBinaryTree(self, root):
+        stack = [(root, 0)]
+        res = 1
+        while stack:
+            new_stack = []
+
+            for node, idx in stack:
+                if node.left:
+                    new_stack.append((node.left, idx*2))
+                if node.right:
+                    new_stack.append((node.right, idx*2 + 1))
+            if not new_stack:
+                break
+            diff = new_stack[0][1]
+            stack = [(node, idx - diff) for node, idx in new_stack]
+            res = max(res, stack[-1][1] + 1)
+        return res
 
 
