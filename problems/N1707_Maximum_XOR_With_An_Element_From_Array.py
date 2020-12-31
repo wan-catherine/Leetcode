@@ -6,8 +6,68 @@ class TrieNode:
         self.one = None
         self.zero = None
 
+
+class Trie:
+    def __init__(self):
+        self.root = {}
+
+    def insert(self, n):
+        d = self.root
+        for i in range(31, -1, -1):
+            if n & (1 << i):
+                if 1 not in d:
+                    d[1] = {}
+                d = d[1]
+            else:
+                if 0 not in d:
+                    d[0] = {}
+                d = d[0]
+
+    def xor(self, n):
+        res = 0
+        d = self.root
+        for i in range(31, -1, -1):
+            cur = n & (1 << i)
+            if cur:
+                if 0 in d:
+                    res += (1 << i)
+                    d = d[0]
+                else:
+                    d = d[1]
+            elif cur == 0:
+                if 1 in d:
+                    res += (1 << i)
+                    d = d[1]
+                else:
+                    d = d[0]
+        return res
+
 class Solution(object):
     def maximizeXor(self, nums, queries):
+        nums.sort()
+        mapping = collections.defaultdict(list)
+        for i, li in enumerate(queries):
+            mapping[tuple(li)].append(i)
+        length = len(queries)
+        res = [0] * length
+        queries = sorted(mapping.keys(), key=lambda x: x[1])
+        i, lnums = 0, len(nums)
+        trie = Trie()
+        for x, m in queries:
+            if m < nums[0]:
+                val = -1
+            else:
+                while i < lnums:
+                    if nums[i] > m:
+                        break
+                    trie.insert(nums[i])
+                    i += 1
+                val = trie.xor(x)
+            for index in mapping[(x, m)]:
+                res[index] = val
+        return res
+
+    def maximizeXor_(self, nums, queries):
         """
         :type nums: List[int]
         :type queries: List[List[int]]
