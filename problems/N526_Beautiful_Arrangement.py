@@ -4,7 +4,7 @@ from N to 1 will be more efficient .
 becausre position i = 1 can hold any number
 """
 class Solution(object):
-    def countArrangement(self, N):
+    def countArrangement_(self, N):
         """
         :type N: int
         :rtype: int
@@ -51,5 +51,29 @@ class Solution(object):
                 count += self.dfs(index+1, temp, index_nums, N)
         return count
 
+    # update at 20210103
+    def countArrangement(self, n: int) -> int:
+        mapping = [[] for _ in range(n + 1)]
+        for i in range(1, n + 1):
+            for j in range(1, n + 1):
+                if not j % i or not i % j:
+                    mapping[i].append(j)
+        visited = [0] * (n + 1)
+
+        def dfs(index):
+            if index == n:
+                for num in mapping[n]:
+                    if not visited[num]:
+                        return 1
+            count = 0
+            for num in mapping[index]:
+                if visited[num]:
+                    continue
+                visited[num] = 1
+                count += dfs(index + 1)
+                visited[num] = 0
+            return count
+
+        return dfs(1)
 
 
