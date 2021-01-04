@@ -5,7 +5,7 @@ There are two situations :
     2. the redundant edge doesn't connect to root
         then there is one vertice have 2 indegrees which means one of its edge is the answer.
         But we can't randomly delete one of them. We need to keep the one from root / sibling to it . and
-        delete the one from it's children to it .  
+        delete the one from it's children to it .
 """
 class Solution(object):
     def findRedundantDirectedConnection(self, edges):
