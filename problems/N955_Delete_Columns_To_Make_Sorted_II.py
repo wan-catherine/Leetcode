@@ -1,5 +1,5 @@
 class Solution(object):
-    def minDeletionSize(self, A):
+    def minDeletionSize_(self, A):
         """
         :type A: List[str]
         :rtype: int
@@ -10,6 +10,7 @@ class Solution(object):
             is_sorted2 = is_sorted[:]
             for i in range(n - 1):
                 if A[i][j] > A[i + 1][j] and is_sorted[i] == 0:
+                    print(j)
                     res += 1
                     break
                 is_sorted2[i] |= A[i][j] < A[i + 1][j]

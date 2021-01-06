@@ -20,3 +20,5 @@ class TestSolution(TestCase):
     def test_minDeletionSize_5(self):
         self.assertEqual(4, Solution().minDeletionSize(["bwwdyeyfhc","bchpphbtkh","hmpudwfkpw","lqeoyqkqwe","riobghmpaa","stbheblgao","snlaewujlc","tqlzolljas","twdkexzvfx","wacnnhjdis"]))
 
+    def test_minDeletionSize_6(self):
+        self.assertEqual(6, Solution().minDeletionSize(["hdbbaomiyk","amcdtrnhjn","fheqnqdkjq","mfeluiclbm","jkexmcstwn","egfmxwjxdj","ayhowbifcx","swhykufgfk","vxhdwxuhwj","johfdcfojv","rnircklfcm","lzkwfqomcz","fvkkhzomgb","aukuoedptv","eimzwmlgxj","ptmnmgppso","oknfgdtweb","mtnukewwir","nlowbhwjdm","tcovbbvuuw","ilqyvtgnfv","nrqgupdyyg","wnrdwmsnzt","rosqrtdeus","bysheeghqg","ciswvgqqlf","uwteztkmqf","tbumqubzdb","dqxbfiwuvm","atxbvdiywo"]))
