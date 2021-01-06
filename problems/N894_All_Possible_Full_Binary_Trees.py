@@ -35,7 +35,7 @@ class Solution(object):
         return res
 
     # update at 20210106
-    def allPossibleFBT(self, N: int) :
+    def allPossibleFBT_complexity(self, N: int) :
         if not N % 2:
             return []
 
@@ -92,3 +92,27 @@ class Solution(object):
                 create_tree(node, node, ans, seq)
             arr = ans
         return arr
+
+    # dp
+    def allPossibleFBT(self, N):
+        if not N % 2:
+            return []
+
+        memo = {0: [], 1: [TreeNode(0)]}
+        if N in memo:
+            return memo[N]
+
+        for n in range(3, N + 1, 2):
+            res = []
+            for i in range(1, n, 2):
+                # print(i, n-i-1, n)
+                left = memo[i]
+                right = memo[n - i - 1]
+                for l in left:
+                    for r in right:
+                        root = TreeNode(0)
+                        root.left = l
+                        root.right = r
+                        res.append(root)
+            memo[n] = res
+        return memo[N]
