@@ -8,7 +8,7 @@ class Solution(object):
     def __init__(self):
         self.memo = {}
 
-    def allPossibleFBT(self, N):
+    def allPossibleFBT_best(self, N):
         """
         :type N: int
         :rtype: List[TreeNode]
@@ -34,3 +34,61 @@ class Solution(object):
         self.memo[N] = res
         return res
 
+    # update at 20210106
+    def allPossibleFBT(self, N: int) :
+        if not N % 2:
+            return []
+
+        arr = set([TreeNode(0)])
+
+        def copy_tree(root):
+            if root:
+                r = TreeNode(0)
+                r.left = copy_tree(root.left)
+                r.right = copy_tree(root.right)
+                return r
+            else:
+                return
+
+        def encode_tree(root):
+            res = []
+            stack = [root]
+            while stack:
+                node = stack.pop()
+                if isinstance(node, TreeNode):
+                    res.append(str(node.val))
+                    if node.right:
+                        stack.append(node.right)
+                    else:
+                        stack.append('#')
+                    if node.left:
+                        stack.append(node.left)
+                    else:
+                        stack.append('#')
+                else:
+                    res.append(node)
+            return ''.join(res)
+
+        def create_tree(root, node, array, seq):
+            if not node.left and not node.right:
+                node.left = TreeNode(0)
+                node.right = TreeNode(0)
+                n = copy_tree(root)
+                key = encode_tree(n)
+                if key not in seq:
+                    seq.add(key)
+                    array.add(n)
+                node.left, node.right = None, None
+                return
+            if node.left:
+                create_tree(root, node.left, array, seq)
+            if node.right:
+                create_tree(root, node.right, array, seq)
+
+        for k in range(3, N + 1, 2):
+            ans = set()
+            seq = set()
+            for node in arr:
+                create_tree(node, node, ans, seq)
+            arr = ans
+        return arr
