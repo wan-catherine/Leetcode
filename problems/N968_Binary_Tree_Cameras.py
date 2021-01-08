@@ -1,7 +1,7 @@
 from .Utility_Tree import TreeNode
 
 class Solution(object):
-    def minCameraCover(self, root):
+    def minCameraCover_(self, root):
         """
         :type root: TreeNode
         :rtype: int
@@ -20,5 +20,38 @@ class Solution(object):
                 covered.update({node, parent, node.right, node.left})
         dfs(root, None)
         return res
+
+    # return 0: node need to be covered
+    # return 1: node has camera , covered by itself
+    # return 2: node doesn't have camera, covered by its child
+    def minCameraCover(self, root):
+        res = 0
+        def check(node):
+            nonlocal res
+            covered, camera = False, False
+            if not node.left and not node.right:
+                return 0
+            if node.left:
+                l = check(node.left)
+                if l == 0:
+                    covered, camera = True, True
+                elif l == 1:
+                    covered = True
+            if node.right:
+                r = check(node.right)
+                if r == 0:
+                    covered, camera = True, True
+                elif r == 1:
+                    covered = True
+            if camera:
+                res += 1
+                return 1
+            if covered:
+                return 2
+            return 0
+
+        status = check(root)
+        return res + (1 if status == 0 else 0)
+
 
 
