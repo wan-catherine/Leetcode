@@ -4,7 +4,7 @@ import collections
 Use DFS for graph, first , create graph!!!
 """
 class Solution(object):
-    def smallestStringWithSwaps(self, s, pairs):
+    def smallestStringWithSwaps_dfs(self, s, pairs):
         """
         :type s: str
         :type pairs: List[List[int]]
@@ -50,6 +50,43 @@ class Solution(object):
         com.add(node)
         for v in graph[node]:
             self.dfs(graph, v, visited, com )
+
+    def smallestStringWithSwaps(self, s: str, pairs) -> str:
+        length = len(s)
+        parents = [i for i in range(length)]
+        sizes = [1] * length
+
+        def find(x):
+            while x != parents[x]:
+                parents[x] = parents[parents[x]]
+                x = parents[x]
+            return x
+
+        def union(p, q):
+            pp, pq = find(p), find(q)
+            if pp == pq:
+                return
+            if sizes[pp] < sizes[pq]:
+                parents[pp] = pq
+            else:
+                parents[pq] = pp
+
+        for u, v in pairs:
+            union(u, v)
+
+        mapping = collections.defaultdict(list)
+        for i in range(length):
+            mapping[find(i)].append(s[i])
+
+        # here reverse the array, then pop it one by one
+        for gid in mapping.keys():
+            mapping[gid].sort(reverse=True)
+
+        res = []
+        for i in range(length):
+            gid = find(i)
+            res.append(mapping[gid].pop())
+        return ''.join(res)
 
 
 
