@@ -26,6 +26,7 @@ class Solution(object):
 
         def find(p):
             while p != parents[p]:
+                parents[p] = parents[parents[p]]
                 p = parents[p]
             return p
 
