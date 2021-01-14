@@ -58,6 +58,7 @@ class Solution(object):
                 parent[px] = py
                 size[py] += size[px]
 
+        #This is a good idea!!!
         for i, j in stones:
             union(i, j + 10000)
 
@@ -69,6 +70,3 @@ class Solution(object):
             if v >= 2:
                 res += 1
         return len(stones) - res
-
-    def removeStones(self, stones):
-        uf = {}
