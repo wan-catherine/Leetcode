@@ -20,7 +20,8 @@ class Solution(object):
         sizes = [1 for _ in range(n)]
 
         def find(x):
-            while parents[x] != parents[parents[x]]:
+            while parents[x] != x:
+                parents[x] = parents[parents[x]]
                 x = parents[x]
             return parents[x]
 
