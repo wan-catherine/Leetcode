@@ -1,5 +1,5 @@
 class Solution(object):
-    def countVowelStrings(self, n):
+    def countVowelStrings_before(self, n):
         """
         :type n: int
         :rtype: int
@@ -16,4 +16,18 @@ class Solution(object):
                 d[c] = num - val
                 val += t
         return sum(d.values())
+
+    """
+    dp[i][k] : number of the strings which ith char is k . 
+    """
+    def countVowelStrings(self, n):
+        dp = [[0] * 5 for _ in range(n)]
+        for k in range(5):
+            dp[0][k] = 1
+
+        for i in range(1, n):
+            for k in range(5):
+                for j in range(k+1):
+                    dp[i][k] += dp[i-1][j]
+        return sum(dp[-1])
 
