@@ -12,3 +12,10 @@ class TestSolution(TestCase):
         accounts = [["David","David0@m.co","David4@m.co","David3@m.co"],["David","David5@m.co","David5@m.co","David0@m.co"],["David","David1@m.co","David4@m.co","David0@m.co"],["David","David0@m.co","David1@m.co","David3@m.co"],["David","David4@m.co","David1@m.co","David3@m.co"]]
         output = [["David","David0@m.co","David1@m.co","David3@m.co","David4@m.co","David5@m.co"]]
         self.assertListEqual(output, Solution().accountsMerge(accounts))
+
+    def test_accountsMerge_2(self):
+        accounts = [["David", "David0@m.co", "David1@m.co"], ["David", "David3@m.co", "David4@m.co"],
+         ["David", "David4@m.co", "David5@m.co"], ["David", "David2@m.co", "David3@m.co"],
+         ["David", "David1@m.co", "David2@m.co"]]
+        output = [["David","David0@m.co","David1@m.co","David2@m.co","David3@m.co","David4@m.co","David5@m.co"]]
+        self.assertListEqual(output, Solution().accountsMerge(accounts))
