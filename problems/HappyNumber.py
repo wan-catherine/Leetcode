@@ -1,5 +1,5 @@
 class Solution:
-    def isHappy(self, n):
+    def isHappy_(self, n):
         """
         :type n: int
         :rtype: bool
@@ -20,3 +20,28 @@ class Solution:
             return False
         nums.append(res)
         return self.helper(res, nums)
+
+    """
+    Space : O(1), 
+    Use fast-slow pointer to test the cycle 
+    """
+    def isHappy(self, n):
+        def check(i):
+            s = 0
+            while i:
+                t = i % 10
+                s += t * t
+                i //= 10
+            return s
+
+        slow, fast = n, n
+        while True:
+            slow = check(slow)
+            fast = check(fast)
+            fast = check(fast)
+            print(slow, fast)
+            if slow == fast:
+                break
+        if slow == 1:
+            return True
+        return False
