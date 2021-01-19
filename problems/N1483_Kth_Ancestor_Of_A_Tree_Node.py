@@ -48,15 +48,21 @@ class TreeAncestor(object):
 
 
     def getKthAncestor(self, node, k):
-        i = self.get_i(k)
-        while k > 0:
-            node = self.ancestor[node][i]
-            k -= 2 ** i
-            i = self.get_i(k)
-            if node == -1:
-                return -1
-
+        for i in range(20):
+            if (k >> i) & 1:
+                node = self.ancestor[node][i]
+                if node == -1:
+                    return node
         return node
+        # i = self.get_i(k)
+        # while k > 0:
+        #     node = self.ancestor[node][i]
+        #     k -= 2 ** i
+        #     i = self.get_i(k)
+        #     if node == -1:
+        #         return -1
+        #
+        # return node
 
     def get_i(self, k):
         i = 0
@@ -68,8 +74,8 @@ class TreeAncestor(object):
 if __name__ == "__main__":
     treeAncestor = TreeAncestor(7, [-1, 0, 0, 1, 1, 2, 2])
     # print(treeAncestor.getKthAncestor(3, 1))
-    print(treeAncestor.getKthAncestor(5, 2))
-    # print(treeAncestor.getKthAncestor(6, 3))
+    # print(treeAncestor.getKthAncestor(5, 2))
+    print(treeAncestor.getKthAncestor(6, 3))
 
     treeAncestor = TreeAncestor(10, [-1, 0, 0, 1, 2, 0, 1, 3, 6, 1])
     print(treeAncestor.getKthAncestor(7, 3))
