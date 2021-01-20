@@ -7,3 +7,6 @@ class TestSolution(TestCase):
 
     def test_catMouseGame_1(self):
         self.assertEqual(1, Solution().catMouseGame([[1,3],[0],[3],[0,2]]))
+
+    def test_catMouseGame_2(self):
+        self.assertEqual(1, Solution().catMouseGame([[2,3],[3,4],[0,4],[0,1],[1,2]]))
