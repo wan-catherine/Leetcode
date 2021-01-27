@@ -1,6 +1,6 @@
 """
 from '110' --> '11000':
- 110 * (1 << 2) 
+ 110 * (1 << 2)
 """
 class Solution:
     def concatenatedBinary(self, n: int) -> int:
