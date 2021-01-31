@@ -36,7 +36,7 @@ class Solution(object):
                     status[(i, j, food[0], food[1],t)] = 2
                     queue.append((food[0], food[1], i, j, t))
                     status[(food[0], food[1], i, j, t)] = 1
-   
+
         def find_prev_status(mx, my, cx, cy, t):
             nonlocal rows, cols
             res = []
