@@ -7,6 +7,9 @@ here we need to consider the base situation : i = 0 or j = 0
         1. p[j-1] == '*' : d[i][j]=d[0][j]=d[0][j-2]
         2. p[j-1] != '*' : d[i][j]=d[0][j]=False
 
+    one import thing , if s == '', t = '.', then it will be false.
+    '.' : matches any single charactor but not ''.
+
 status transform formula:
 d[i][j] (i > 0, j > 0):
     if p[j-1] in [s[i-1], '.'], this means the p[j-1] matches s[i-1], then it will same as d[i-1][j-1]:
