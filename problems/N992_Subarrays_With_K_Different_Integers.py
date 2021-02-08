@@ -11,7 +11,7 @@ add one more : [1,2,1], then it has three subarrays which all end by [1]:
 add one more : [1,2,1,2], then it has 4 subarrays which all end by [2]:
     [1,2,1,2], [2,1,2], [1,2], [2]
     
-So for all arrays, the number of subarrays equals to it's lenght!!!
+So for all arrays, the number of subarrays equals to it's length!!!
 
 """
 
