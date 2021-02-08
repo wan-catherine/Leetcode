@@ -77,7 +77,7 @@ class Solution:
 
         return res
 
-    def numDecodings(self, s):
+    def numDecodings_dp(self, s):
         if not s or s[0] == '0':
             return 0
         length = len(s)
@@ -92,5 +92,28 @@ class Solution:
                 dp[i + 1] += dp[i - 1]
         return dp[-1]
 
-
+    def numDecodings(self, s: str) -> int:
+        if s[0] == '0':
+            return 0
+        s = '0' + s
+        length = len(s)
+        dp = [0] * (length)
+        dp[0] = 1
+        dp[1] = 1
+        for i in range(2, length):
+            if s[i] != '0':
+                dp[i] = dp[i - 1]
+            else:
+                if s[i - 1] not in '12':
+                    return 0
+                else:
+                    dp[i] = dp[i - 2]
+                    continue
+            if s[i - 1] not in '12':
+                continue
+            if s[i - 1] == '1':
+                dp[i] += dp[i - 2]
+            elif s[i] in '0123456':
+                dp[i] += dp[i - 2]
+        return dp[-1]
 
