@@ -13,7 +13,7 @@ class Solution(object):
 
         s1 = '#' + s1
         s2 = '#' + s2
-        s3 = '#' + s3
+        s3 = '#' +  s3
 
         dp = [[False]* (l2+1) for _ in range(l1+1)]
         for i in range(l1+1):
