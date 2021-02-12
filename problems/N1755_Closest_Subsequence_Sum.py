@@ -1,5 +1,24 @@
 import bisect
+"""
+if len(nums) < 20, then we can use brute force , the time complexity is O(2**len(nums)) 
+for getting all sums of subsets.
 
+if the possible sum is around a small range([0,1000], then we can use dp as the knapsack problem.
+dp = [0]* (len of set of sum)
+dp[sum] = dp[sum-nums[i]]
+
+but here the sum's range is very large and the len(nums) <= 40. so we need to split it into two 
+arrays , then get sums of subset of each array, then use two sum method to get the results.
+
+we need to get two sorted array of sums.
+here we can loop one sums of subset and use binary search to find the closest value in second array.
+
+we can use linear method. 
+loop one from the start(i=0) and loop another one from end(j=len(arr2)), then:
+    1. value == goal : best , diff == 0
+    2. value > goal, then j -= 1
+    3. value < goal, then i+= 1
+"""
 
 class Solution(object):
     def minAbsDifference(self, nums, goal):
