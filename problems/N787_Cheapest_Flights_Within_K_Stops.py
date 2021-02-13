@@ -122,6 +122,7 @@ class Solution(object):
                 dp[v] = min(dp[v], prev[v], prev[u] + w)
         return dp[dst] if dp[dst] != sys.maxsize else - 1
 
+    # greedy + bfs : Dijkstra's algorithms
     def findCheapestPrice(self, n, flights, src, dst, K):
         graph = collections.defaultdict(set)
         for u, v, w in flights:
