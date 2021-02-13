@@ -1,4 +1,6 @@
 import collections
+import heapq
+import sys
 from collections import deque
 from math import inf
 
@@ -95,10 +97,10 @@ class Solution(object):
             return d_new[src][dst]
 
     """
-    dp[k][c] means : kth stops , to city : c , the minimum price .
+    dp[k][c] means : up to kth stops , to city : c , the minimum price .
     dp[k][c] = min(dp[k-1][c], dp[k-1][b] + cost(b,c))
     """
-    def findCheapestPrice(self, n, flights, src, dst, K):
+    def findCheapestPrice_dp_two_dimension(self, n, flights, src, dst, K):
         dp = [[float(inf)]*n for _ in range(K+2)]
         dp[0][src] = 0
 
@@ -109,3 +111,33 @@ class Solution(object):
                 cost = flight[2]
                 dp[k][end] = min(dp[k][end], dp[k-1][start] + cost, dp[k-1][end])
         return dp[K+1][dst] if dp[K+1][dst] != float(inf) else -1
+
+    # update at 20210213
+    def findCheapestPrice_dp_one_dimension(self, n, flights, src, dst, K):
+        dp = [sys.maxisize] * n
+        dp[src] = 0
+        for _ in range(K+1):
+            prev = dp[:]
+            for u, v, w in flights:
+                dp[v] = min(dp[v], prev[v], prev[u] + w)
+        return dp[dst] if dp[dst] != sys.maxsize else - 1
+
+    def findCheapestPrice(self, n, flights, src, dst, K):
+        graph = collections.defaultdict(set)
+        for u, v, w in flights:
+            graph[u].add((v, w))
+
+        stack = [(0, src, 0)]
+        memo = {}
+        while stack:
+            cost, node, step = heapq.heappop(stack)
+            if node == dst:
+                return cost
+            if step == K + 1:
+                continue
+            for nxt, weight in graph[node]:
+                if (nxt, step+1) in memo and memo[(nxt, step+1)] < cost+weight:
+                    continue
+                memo[(nxt, step+1)] = cost+weight
+                heapq.heappush(stack, (cost+weight, nxt, step + 1))
+        return -1
