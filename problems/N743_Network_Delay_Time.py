@@ -1,10 +1,12 @@
 import collections
+import heapq
+
 """
 Dijkstra Algo
 """
 
 class Solution(object):
-    def networkDelayTime(self, times, N, K):
+    def networkDelayTime_(self, times, N, K):
         """
         :type times: List[List[int]]
         :type N: int
@@ -41,6 +43,25 @@ class Solution(object):
                 minimum = val
                 res = i
         return res
+
+    def networkDelayTime(self, times, n, k):
+        graph = collections.defaultdict(set)
+        for u, v, w in times:
+            graph[u].add((w, v))
+
+        pq = [(0, k)]
+        visited = [0]*(n+1)
+        res = 0
+        while pq:
+            w, node = heapq.heappop(pq)
+            if visited[node]:
+                continue
+            res = max(res, w)
+            visited[node] = 1
+            for wgh, nxt in graph[node]:
+                heapq.heappush(pq, (wgh+w, nxt))
+        return res if sum(visited)==n else -1
+
 
 
 
