@@ -88,9 +88,11 @@ class Solution(object):
 
     """
     Use If not while here to main a sliding window which only grow never shrink. 
-    If when A[i] is added in the window which cause > limit, then the window needs to keep same lenght
+    If when A[i] is added in the window which cause > limit, then the window needs to keep same length
     so i (left) should plus 1. 
-    
+    mononic stack : 
+    get the maximum : decreasing stack 
+    get the minimum : increasing stack
     """
     def longestSubarray(self, A, limit):
         maxd = collections.deque()
