@@ -44,7 +44,6 @@ class Solution:
                 if j == len(needle):
                     return i - j + 1
             i += 1
-
         return -1
 
     def findPattern(self, needle):
@@ -58,7 +57,6 @@ class Solution:
                 pattern[i] = j
             else:
                 pattern[i] = 0
-
         return pattern
 
 
