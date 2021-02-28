@@ -42,7 +42,7 @@ class Solution:
         return dp_table[-1][-1]
 
     # d[i][j] = m : use i eggs, for m floors, we can drop at least j times
-    def superEggDrop(self, K: int, N: int) -> int:
+    def superEggDrop_(self, K: int, N: int) -> int:
         if K > N:
             K = N
         dp_table = [[0 for i in range(N+1)] for j in range(K+1)]
@@ -65,3 +65,17 @@ class Solution:
                 floors[eggs] += 1 + floors[eggs - 1]
             drops += 1
         return drops
+
+    """
+    Update at 2021027
+    dp[i][j] : the highest level of a building we can know when we have i eggs and j chance to throw eggs . 
+    
+    """
+    def superEggDrop(self, K: int, N: int) -> int:
+        dp = [[0] * (N+1) for _ in range(K+1)]
+        for m in range(1, N+1):
+            for k in range(1, K+1):
+                dp[k][m] = dp[k][m-1] + dp[k-1][m-1] + 1
+                if dp[k][m] >= N:
+                    return m
+        return N
