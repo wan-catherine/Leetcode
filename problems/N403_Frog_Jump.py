@@ -1,5 +1,5 @@
 """
-For the first try, I didn't use memo, so there might be a lot of duplicated cases. 
+For the first try, I didn't use memo, so there might be a lot of duplicated cases.
 """
 class Solution(object):
     def canCross(self, stones):
