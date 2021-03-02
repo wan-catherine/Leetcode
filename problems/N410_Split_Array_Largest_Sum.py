@@ -39,7 +39,7 @@ class Solution(object):
     dp[i][j]: nums[0:i] divide j groups. 
     dp[i][j] = min( max(dp[k][j-1], sum(nums[j:k]) for k in [j,i]))
     """
-    def splitArray(self, nums, m):
+    def splitArray_TLE(self, nums, m):
         nums = [0] + nums
         length = len(nums)
         dp = [[sys.maxsize]*(m+1) for _ in range(length)]
