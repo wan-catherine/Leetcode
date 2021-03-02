@@ -35,3 +35,18 @@ class Solution(object):
         for i in range(1, num + 1):
             lst[i] = lst[i & (i - 1)] + 1
         return lst
+
+    def countBits(self, num: int):
+        if num == 0:
+            return [0]
+        if num == 1:
+            return [0, 1]
+        res = [0] * (num + 1)
+        res[1] = 1
+        k = 2
+        for i in range(2, num + 1):
+            if i == 2 * k:
+                k *= 2
+            res[i] = res[i - k] + 1
+
+        return res
