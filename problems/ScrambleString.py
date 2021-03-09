@@ -33,7 +33,10 @@ class Solution:
         return res
 
     """
-    dp[i][j][k]: whether the s1[i:i+k] is a scramble of s2[j:j+k] or not 
+    dp[i][j][p][q] : whether s2[i..j] is a scramble of s1[p..q] or not, because the length of those two string should be 
+    same, so we can use three dimension to show : 
+        k : length of the string 
+        dp[i][j][k]: whether the s1[i:i+k] is a scramble of s2[j:j+k] or not 
     """
     def isScramble(self, s1: str, s2: str) -> bool:
         length = len(s1)
