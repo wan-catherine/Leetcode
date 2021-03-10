@@ -2,7 +2,10 @@ from math import inf
 
 
 class Solution(object):
-    def calculateMinimumHP(self, dungeon):
+    """
+    dp[i][j] : the minimum health of the knight starts at dungeon[i][j] to save the princess
+    """
+    def calculateMinimumHP_dp(self, dungeon):
         """
         :type dungeon: List[List[int]]
         :rtype: int
@@ -17,4 +20,3 @@ class Solution(object):
             for j in range(col-2,-1,-1):
                 dp_table[i][j] = max(1, min(dp_table[i+1][j], dp_table[i][j+1]) - dungeon[i][j])
         return dp_table[0][0]
-
