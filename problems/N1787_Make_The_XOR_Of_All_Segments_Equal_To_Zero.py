@@ -4,6 +4,11 @@ from typing import List
 
 
 class Solution:
+    """
+    TLE
+    dp[i][d] : xor of the first i numbers equals d .
+    xor is a time-consuming operation for python  .
+    """
     def minChanges(self, nums: List[int], k: int) -> int:
         costs = [collections.defaultdict(int) for _ in range(k)]
         total = [0] * k
@@ -34,6 +39,11 @@ class Solution:
 
         return dp[-1][0]
 
+
+    """
+    Accepted. 
+    dp[i][j] : the most number of value not change for xor equals to j . 
+    """
     def minChanges(self, nums: List[int], k: int) -> int:
         costs = [collections.defaultdict(int) for _ in range(k)]
         length = len(nums)
