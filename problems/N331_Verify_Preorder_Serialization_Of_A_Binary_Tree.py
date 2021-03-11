@@ -34,14 +34,15 @@ class Solution(object):
         return True
 
     """
-    For node in tree, it has one indegree, two outdegree (2 children and 1 parent), except root node which has two childre no parent.
+    For node in tree, it has one indegree, two outdegree (2 children and 1 parent), 
+    except root node which has two childre no parent.
     For leaf in tree, it has one indegree (1 parent)
     
     diff = outdegree - indegree . in a tree, anytime , diff should >= 0
     if diff < 0, it means indegree > outdegree, some node has more than 2 children. 
     
     When the next nodes comes, diff -= 1 , because the node provides one indegree (include both node and leaf).
-    If it's a not leaf node, then diff += 1, because it provides two outdegrees.
+    If it's a not leaf node, then diff += 2, because it provides two outdegrees.
     
     For the last , the diff should be zero if it's a valid binary tree.
     """
