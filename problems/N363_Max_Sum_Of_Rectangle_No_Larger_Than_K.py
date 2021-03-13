@@ -1,5 +1,7 @@
 import bisect
 import sys
+from typing import List
+
 """
 Classical problem:
 1. For problems about matrix, we can think how to flat it . 
@@ -31,7 +33,7 @@ class Solution(object):
         def get_sum(arr):
             nonlocal k, cols
             sums, presum = [0], 0
-            res = -sys.maxsize
+            ans = -sys.maxsize
             for i in range(cols):
                 presum += arr[i]
                 if presum == k:
@@ -39,9 +41,11 @@ class Solution(object):
                 val = presum - k
                 index = bisect.bisect_left(sums, val)
                 if index <= i:
-                    res = max(res, presum - sums[index])
+                    # if sums[index] == val:
+                    #     return k
+                    ans = max(ans, presum - sums[index])
                 bisect.insort_left(sums, presum)
-            return res
+            return ans
 
         res = -sys.maxsize
         for up in range(rows):
@@ -52,3 +56,5 @@ class Solution(object):
                 val = get_sum(arr)
                 res = max(res, val)
         return res
+
+
