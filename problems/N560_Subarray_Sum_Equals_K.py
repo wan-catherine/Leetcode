@@ -11,6 +11,8 @@ then we know there is a subarray which sum(nums[i+1,j+1]) == k
 
 """
 import bisect
+import collections
+from typing import List
 
 
 class Solution(object):
@@ -91,3 +93,30 @@ class Solution(object):
             count += bisect.bisect(prefix_sum, temp) - bisect.bisect_left(prefix_sum, temp)
             bisect.insort_left(prefix_sum, sum)
         return count
+
+    """
+    20210319 update 
+    
+    """
+
+    def subarraySum_(self, nums: List[int], k: int) -> int:
+        length = len(nums)
+        mapping = collections.defaultdict(int)
+        prefix = 0
+        res = 0
+        for i in range(length):
+            prefix += nums[i]
+            mapping[prefix] += 1
+            if prefix == k:
+                res += mapping[prefix]
+                """
+                here we need to add mapping[0] if k != 0. 
+                because prefix == k ==> prefix - 0 == k
+                if k == 0, then we don't need to add it twice
+                """
+                if k != 0:
+                    res += mapping[0]
+            elif prefix - k in mapping:
+                res += mapping[prefix - k] - (1 if k == 0 else 0)
+        # print(mapping[k])
+        return res
