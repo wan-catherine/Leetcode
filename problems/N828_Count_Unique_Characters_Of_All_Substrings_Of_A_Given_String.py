@@ -1,3 +1,4 @@
+import collections
 import string
 """
 think about how to make a char unique in a substring. 
@@ -7,7 +8,7 @@ We can take "XA(XAXX)AX" and between "()" is the substring we need . We can see 
     2. insert ")" somewhere between the second and third 'A'
     
 For #1, we can have "A(XA" and "AX(A", two ways. For #2, we have "A)XXA", "AX)XA" and "AXX)A" three ways. 
-so totally we can have 2 * 3 = 6 different substring to make the second 'A' unique. s
+so totally we can have 2 * 3 = 6 different substring to make the second 'A' unique. 
 
 
 Explanation
@@ -48,7 +49,7 @@ class Solution(object):
 
     dp[i] = dp[i-1] + (i-f) - (f-s)
     """
-    def uniqueLetterString(self, s):
+    def uniqueLetterString_dp(self, s):
         res, dp = 0, 0
         first, second = [-1]*26, [-1]*26
         for i, v in enumerate(s):
@@ -58,3 +59,19 @@ class Solution(object):
             second[index] = first[index]
             first[index] = i
         return res % (10**9 + 7)
+
+    """
+    update 20210322
+    same idea as the first solution.
+    """
+    def uniqueLetterString(self, s: str) -> int:
+        c_index = collections.defaultdict(list)
+        for i, c in enumerate(s):
+            c_index[c].append(i)
+        length = len(s)
+        ans = 0
+        for idxes in c_index.values():
+            li = [-1] + idxes + [length]
+            for i in range(1, len(idxes) + 1):
+                ans += (li[i] - li[i - 1]) * (li[i + 1] - li[i])
+        return ans
