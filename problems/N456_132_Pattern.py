@@ -13,7 +13,7 @@ use a list to maintain the minimum number from 0 to i.
 each time, when we need to pop index from stack, we can check this number with the minvalue
 ________________________________________
 
-From above explanation, I can stop myself thinking how about the a decreasing monotonic stack from left?
+From above explanation, I can't stop myself thinking how about the a decreasing monotonic stack from left?
 this way, when nums[current] > nums[stack[-1]], it means we find j
 in the stack, those < current are possible be i
 
