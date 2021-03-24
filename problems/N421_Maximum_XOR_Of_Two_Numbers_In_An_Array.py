@@ -50,7 +50,8 @@ class Solution(object):
     the number is between 0 ≤ num < 2**31, so we can check the bit one by one (0 ~ 31)
     Use mask, if the bit is the maximum, then we set it to 1 else 0. 
     
-    The key point here is we assume there is a maximum value mask, then check num^mask is showed before, if yes , then the maximum is mask. 
+    The key point here is we assume there is a maximum value mask, then check num^mask is showed before, 
+    if yes , then the maximum is mask. 
     Then next increase mask by setting next bit as 1. 
     if no , then keep this bit as zero.
     """
