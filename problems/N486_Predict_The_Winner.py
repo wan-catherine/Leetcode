@@ -2,6 +2,9 @@
 Min-Max Strategy:
 Always pick the best and your opponent will do the same thing.
 """
+from typing import List
+
+
 class Solution(object):
     """
     dp[i][j] : for nums[i:j+1] , the maximum scores play1 can get .
@@ -33,7 +36,7 @@ class Solution(object):
         # print(dp)
         return dp[0][-1][0] >= dp[0][-1][1]
 
-    def PredictTheWinner(self, nums):
+    def PredictTheWinner_(self, nums):
         self.memo = {}
         # return self.get_score(nums, 0, len(nums)-1) >= 0
         res = self.get_score(nums, 0, len(nums)-1)
@@ -61,3 +64,22 @@ class Solution(object):
             res = (nums[r] + right[1], right[0])
         self.memo[(l,r)] = res
         return res
+
+    """
+    dp[i][j] : the maximum scores first player can get from nums[i~j] 
+    """
+    def PredictTheWinner(self, nums: List[int]) -> bool:
+        length = len(nums)
+        prefix = [0] + nums[:]
+        for i in range(length):
+            prefix[i+1] += prefix[i]
+
+        dp = [[0] * length for _ in range(length)]
+        for i in range(length):
+            dp[i][i] = nums[i]
+
+        for l in range(2, length+1):
+            for i in range(length-l+1):
+                j = i + l - 1
+                dp[i][j] = max(nums[i] + prefix[j+1] - prefix[i+1] - dp[i+1][j], nums[j] + prefix[j] - prefix[i] - dp[i][j-1])
+        return dp[0][-1] >= prefix[-1] / 2
