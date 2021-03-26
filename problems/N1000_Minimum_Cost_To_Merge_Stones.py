@@ -29,7 +29,7 @@ class Solution:
                 for k in range(2, K+1):
                     if k > l:
                         continue
-                    for m in range(i, j):
+                    for m in range(i, j, K-1):
                         dp[i][j][k] = min(dp[i][j][k], dp[i][m][1] + dp[m+1][j][k-1])
                 if dp[i][j][K] != sys.maxsize:
                     dp[i][j][1] = dp[i][j][K] + prefix[j+1] - prefix[i]
