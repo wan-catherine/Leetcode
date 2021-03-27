@@ -1,9 +1,10 @@
 import bisect
 import sys
+from typing import List
 
 
 class Solution(object):
-    def lastStoneWeightII(self, stones):
+    def lastStoneWeightII_set(self, stones):
         """
         :type stones: List[int]
         :rtype: int
@@ -24,4 +25,27 @@ class Solution(object):
             sums = new_sums
         # print(sums)
         return ans
+    """
+    Divide all numbers into two groups,
+    what is the minimum difference between the sum of two groups.
+    Now it's a easy classic knapsack problem.
 
+    Question: How is it a knapsack problem?
+    My understanding of Knapsack problem is this-
+    You are given a set of items , for each of which we have a weight w[i] and value v[i].
+    Now we have a bag for capacity W and we maximize our profit.
+    Answer:
+    w[i] = stones[i]
+    v[i] = stones[i]
+    W = sum(stones) / 2
+    """
+    def lastStoneWeightII(self, stones: List[int]) -> int:
+        total = sum(stones)
+        half = (total+1)//2
+        dp = [0] * (half + 1)
+        length = len(stones)
+        for i in range(length):
+            for j in range(half, -1, -1):
+                if j >= stones[i]:
+                    dp[j] = max(dp[j], dp[j-stones[i]] + stones[i])
+        return abs(total - dp[-1] * 2)
