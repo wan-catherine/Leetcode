@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def change_before(self, amount, coins):
         db_table = [[1] + [0] * amount]
@@ -29,3 +32,29 @@ class Solution:
                 if j - coins[i-1] >= 0:
                     dp[j] += dp[j - coins[i-1]]
         return dp[-1]
+
+    def change_three_loop(self, amount: int, coins: List[int]) -> int:
+        coins = [0] + coins
+        length = len(coins)
+        dp = [[0] * (amount+1) for _ in range(length)]
+        dp[0][0] = 1
+        for i in range(1, length):
+            for j in range(amount+1):
+                k = 0
+                while k * coins[i] <= j:
+                    dp[i][j] += dp[i-1][j - k*coins[i]]
+                    k += 1
+        return dp[-1][-1]
+
+    def change_20210328(self, amount: int, coins: List[int]) -> int:
+        coins = [0] + coins
+        length = len(coins)
+        dp = [[0] * (amount + 1) for _ in range(length)]
+        dp[0][0] = 1
+
+        for i in range(1, length):
+            for j in range(amount + 1):
+                dp[i][j] = dp[i - 1][j]
+                if j >= coins[i]:
+                    dp[i][j] += dp[i][j - coins[i]]
+        return dp[-1][-1]
