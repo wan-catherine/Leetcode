@@ -5,27 +5,17 @@ class Solution:
         :type target: int
         :rtype: bool
         """
-        if matrix == None or len(matrix) == 0 or len(matrix[0]) == 0:
-            return False
-
+        rows, cols = len(matrix), len(matrix[0])
         i = 0
-        while i < len(matrix):
-            if matrix[i][0] == target:
+        while i < rows:
+            if target == matrix[i][0]:
                 return True
-            elif matrix[i][0] > target:
-                break
-            else:
+            if target > matrix[i][0]:
+                index = bisect.bisect_left(matrix[i], target)
+                if index < cols and matrix[i][index] == target:
+                    return True
                 i += 1
-        if i < 1:
-            return False
-
-        j = 0
-        while j < len(matrix[0]):
-            if matrix[i - 1][j] == target:
-                return True
-            elif matrix[i - 1][j] < target:
-                j += 1
-            else:
+            elif target < matrix[i][0]:
                 break
         return False
 
