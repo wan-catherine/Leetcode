@@ -3,9 +3,10 @@ import sys
 TSP : travelling salesman problem
 Totally there is length different node. 
 We use bit mask as all status of those nodes :
-    dp[mask][last] : minimum length by using the several nodes (mask bit is 1 which means this node be used) , and the last node is last. 
+    dp[mask][last] : minimum length by using the several nodes (mask bit is 1 which means this node be used) , 
+    and the last node is last. 
     
-    dp[mask][last] = min(dp[mask - (1<<j)][j] + distances[(j, last)]) j != last and j in mask's 1 bit. 
+    dp[mask][last] = min(dp[mask - (1<<j)][j] + distances[(j, last)]), j != last and j in mask's 1 bit. 
     
 We also need a parent to mark all the last nodes, so we can get the real sequence. 
 """
