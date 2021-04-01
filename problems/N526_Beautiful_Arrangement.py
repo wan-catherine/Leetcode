@@ -1,7 +1,7 @@
 """
 DFS
 from N to 1 will be more efficient .
-becausre position i = 1 can hold any number
+because position i = 1 can hold any number
 """
 class Solution(object):
     def countArrangement_(self, N):
