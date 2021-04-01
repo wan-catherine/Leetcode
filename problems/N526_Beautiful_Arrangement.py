@@ -76,4 +76,23 @@ class Solution(object):
 
         return dfs(1)
 
+    # 20210331 update
+    def countArrangement(self, n: int) -> int:
+        memo = {}
 
+        def dfs(index, state):
+            nonlocal n
+            if state == (1 << n) - 1:
+                return 1
+            if (index, state) in memo:
+                return memo[(index, state)]
+            ans = 0
+            for i in range(1, n + 1):
+                if state & (1 << i - 1):
+                    continue
+                if i % (index+1) == 0 or (index+1) % i == 0:
+                    ans += dfs(index + 1, state | (1 << i - 1))
+            memo[(index, state)] = ans
+            return ans
+
+        return dfs(0, 0)
