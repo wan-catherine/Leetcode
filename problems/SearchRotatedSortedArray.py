@@ -71,7 +71,7 @@ class Solution:
         return left if left >= 0 and left < length and nums[left] == target else -1
     """
     1. check whether nums[mid] and target in the same sorted array.
-    2. if they are in the same (left or right), ten it's a normal binary search 
+    2. if they are in the same (left or right), then it's a normal binary search 
     3. if they are in the different sorted array, then :
         a. if mid in the left, move to right : left = mid + 1
         b. if mid in the right, move to left : right = mid - 1
