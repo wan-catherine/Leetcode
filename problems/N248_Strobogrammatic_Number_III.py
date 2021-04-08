@@ -20,7 +20,7 @@ low and high do not contain any leading zeros except for zero itself.
 https://leetcode-cn.com/problems/strobogrammatic-number-iii
 
 0xxxx0, 1xxxx1, 8xxxx8, 6xxxx9, 9xxxx6.
-xxxx: can means strobogrammatic number before . it can be even or odd. 
+xxxx: can means strobogrammatic number before . it can be even or odd.
 """
 class Solution:
     def strobogrammaticInRange(self, low: str, high: str) -> int:
