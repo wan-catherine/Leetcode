@@ -27,7 +27,7 @@ class Solution:
             for j in range(length - p - 1):
                 val *= sum(unused) - 1 - j
             ans += val
-            if unused[i] == 0:  # if it shows before, no matter what for the later , it will be always duplicated. 
+            if unused[i] == 0:  # if it shows before, no matter what for the later , it will be always duplicated.
                 break
             unused[i] = 0
         return N - ans + 1
