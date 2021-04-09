@@ -48,5 +48,3 @@ class Solution:
         helper(lh)
         helper(lh - 1)
         return ans
-
-
