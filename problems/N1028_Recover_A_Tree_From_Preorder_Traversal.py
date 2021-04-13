@@ -1,6 +1,6 @@
 from .Utility_Tree import TreeNode
 class Solution(object):
-    def recoverFromPreorder(self, S):
+    def recoverFromPreorder_before(self, S):
         """
         :type S: str
         :rtype: TreeNode
@@ -35,3 +35,44 @@ class Solution(object):
                 i -= count
             return root
         return helper(0)
+
+    def recoverFromPreorder(self, S: str) -> TreeNode:
+        mapping = collections.defaultdict(deque)
+        i, length = 0, len(S)
+        count = 0
+        while i < length:
+            if S[i] != '-':
+                j = i
+                while j+1 < length and S[j+1] != '-':
+                    j += 1
+                val = int(S[i:j+1])
+                mapping[count].append((i,val))
+                count = 0
+                i = j + 1
+            else:
+                count = 1
+                while i+1 < length and S[i+1] == '-':
+                    i += 1
+                    count += 1
+                i += 1
+        idx, v = mapping[0].popleft()
+        root = TreeNode(v)
+        key = 1
+        stack = [(idx,root)]
+        while key < len(mapping):
+            dq = mapping[key]
+            new_stack = []
+            for idx, node in stack:
+                while dq and dq[-1][0] > idx:
+                    i, v = dq.pop()
+                    if dq and dq[-1][0] > idx:
+                        if not node.right:
+                            node.right = TreeNode(v)
+                            new_stack.append((i, node.right))
+                    else:
+                        if not node.left:
+                            node.left = TreeNode(v)
+                            new_stack.append((i, node.left))
+            stack = new_stack
+            key += 1
+        return root
