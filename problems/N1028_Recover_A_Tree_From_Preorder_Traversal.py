@@ -1,3 +1,5 @@
+import collections
+
 from .Utility_Tree import TreeNode
 class Solution(object):
     def recoverFromPreorder_before(self, S):
@@ -37,7 +39,7 @@ class Solution(object):
         return helper(0)
 
     def recoverFromPreorder(self, S: str) -> TreeNode:
-        mapping = collections.defaultdict(deque)
+        mapping = collections.defaultdict(list)
         i, length = 0, len(S)
         count = 0
         while i < length:
