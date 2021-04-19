@@ -1,5 +1,5 @@
 class Solution:
-    def strStr(self, haystack, needle):
+    def strStr_(self, haystack, needle):
         """
         :type haystack: str
         :type needle: str
@@ -58,5 +58,31 @@ class Solution:
             else:
                 pattern[i] = 0
         return pattern
+
+    def strStr(self, haystack, needle):
+        if not needle:
+            return 0
+        lh, ln = len(haystack), len(needle)
+        pattern = [0] * ln
+        for i in range(1, ln):
+            l = pattern[i-1]
+            while l > 0 and needle[l] != needle[i]:
+                l = pattern[l-1]
+            if needle[l] == needle[i]:
+                l += 1
+            pattern[i] = l
+
+        prev = 0
+        for i in range(lh):
+            l = prev
+            while l > 0 and haystack[i] != needle[l]:
+                l = pattern[l-1]
+            if haystack[i] == needle[l]:
+                l += 1
+            prev = l
+            if l == ln:
+                return i - l + 1
+        return -1
+
 
 
