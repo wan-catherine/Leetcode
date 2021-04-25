@@ -1,3 +1,7 @@
+import heapq
+from typing import List
+
+
 class Solution(object):
     def swimInWater(self, grid):
         """
@@ -35,3 +39,27 @@ class Solution(object):
             else:
                 left = mid + 1
         return left
+
+    def swimInWater_dijkstra(self, grid: List[List[int]]) -> int:
+        rows, cols = len(grid), len(grid[0])
+        pq = [(grid[0][0], 0, 0)]
+        res = [[50*50] * cols for _ in range(rows)]
+        directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
+        visited = [[0]*cols for _ in range(rows)]
+        while pq:
+            h, r, c = heapq.heappop(pq)
+            # need to check this or it will be TLE
+            # when visited[r][c] == 1, it means it was popped before , so now the value will be larger than before
+            # no need to go next step.
+            if visited[r][c]:
+                continue
+            visited[r][c] = 1
+            res[r][c] = h
+            if r == rows - 1 and c == cols - 1:
+                break
+            for i, j in directions:
+                row, col = r + i, c + j
+                if row < 0 or row >= rows or col < 0 or col >= cols or visited[row][col]:
+                    continue
+                heapq.heappush(pq, (max(grid[row][col], res[r][c]), row, col))
+        return res[-1][-1]
