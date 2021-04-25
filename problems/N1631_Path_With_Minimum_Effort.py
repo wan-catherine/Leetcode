@@ -1,5 +1,6 @@
 import heapq
 import sys
+from typing import List
 
 
 class Solution(object):
@@ -60,4 +61,34 @@ class Solution(object):
             else:
                 left = mid + 1
         return left
+
+    def minimumEffortPath_dfs(self, heights: List[List[int]]) -> int:
+        rows, cols = len(heights), len(heights[0])
+        directions = [(1,0),(0,1),(-1,0),(0,-1)]
+        def check(effort):
+            visited = [[0] * cols for _ in range(rows)]
+            def dfs(r, c):
+                if r == rows-1 and c == cols - 1:
+                    return True
+                visited[r][c] = 1
+                for i, j in directions:
+                    row, col = r + i, c + j
+                    if row < 0 or row >= rows or col < 0 or col >= cols or abs(heights[r][c] - heights[row][col]) > effort or visited[row][col]:
+                        continue
+                    if dfs(row, col):
+                        return True
+                # visited[r][c] = 0  here , no need to reset it or will be TLE.
+                # whne visited[r][c] == 1, it means all four directions of this position can't reach the end ,
+                # so no need to try it in the future anymore.
+                return False
+            return dfs(0, 0)
+
+        l, r = 0, 10**6
+        while l < r:
+            mid = (r - l) // 2 + l
+            if check(mid):
+                r = mid
+            else:
+                l = mid + 1
+        return l
 
