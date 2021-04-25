@@ -1,6 +1,9 @@
 """
 For the first try, I didn't use memo, so there might be a lot of duplicated cases.
 """
+from typing import List
+
+
 class Solution(object):
     def canCross(self, stones):
         """
@@ -40,3 +43,22 @@ class Solution(object):
             queue = new_queue
         return False
 
+    def canCross_dp(self, stones: List[int]) -> bool:
+        if stones[1] - stones[0] != 1:
+            return False
+        mapping = {stones[i]:i for i in range(len(stones))}
+        memo = {}
+        def helper(index, k):
+            if index == len(stones) - 1:
+                return True
+            if (index, k) in memo:
+                return memo[(index, k)]
+            for i in (-1, 0, 1):
+                val = stones[index] + k + i
+                if val <= stones[index] or val not in mapping:
+                    continue
+                if helper(mapping[val], k+i):
+                    return True
+            memo[(index, k)] = False
+            return False
+        return helper(1, 1)
