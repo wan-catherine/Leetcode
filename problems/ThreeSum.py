@@ -1,3 +1,7 @@
+import collections
+from typing import List
+
+
 class Solution:
     def threeSum(self, nums):
         """
@@ -34,4 +38,24 @@ class Solution:
                     q -= 1
         return res
 
+    def threeSum_hashtable(self, nums: List[int]) -> List[List[int]]:
+        counter = collections.defaultdict(list)
+        length = len(nums)
+        nums.sort()
+        for i in range(length):
+            counter[nums[i]].append(i)
+        res = []
+        for i in range(length):
+            if i > 0 and nums[i] == nums[i-1]:
+                continue
+            two = -nums[i]
+            for j in range(i+1, length):
+                if j-1 != i and nums[j] == nums[j-1]:
+                    continue
+                val = nums[j]
+                target = two - val
+                if target not in counter or counter[target][-1] <= j:
+                    continue
+                res.append([nums[i], nums[j], target])
+        return res
 
