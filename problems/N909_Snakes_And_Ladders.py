@@ -42,6 +42,7 @@ class Solution(object):
                         row, col = num_index_mapping[board[row][col]]
                     new_stack.append((row, col))
             stack = new_stack
+            print(new_stack)
             moves += 1
         return -1
 
