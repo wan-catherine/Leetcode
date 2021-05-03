@@ -7,3 +7,6 @@ class TestSolution(TestCase):
 
     def test_canMeasureWater_1(self):
         self.assertFalse(Solution().canMeasureWater(x = 2, y = 6, z = 5))
+
+    def test_canMeasureWater_2(self):
+        self.assertTrue(Solution().canMeasureWater(34, 5, 6))
