@@ -11,3 +11,13 @@ class TestSolution(TestCase):
         solution = Solution()
         res = solution.divide(1, 1)
         self.assertEqual(1, res)
+
+    def test_divide_2(self):
+        solution = Solution()
+        res = solution.divide(-2147483648, -1)
+        self.assertEqual(2147483647, res)
+
+    def test_divide_3(self):
+        solution = Solution()
+        res = solution.divide(-2147483648, 1)
+        self.assertEqual(-2147483648, res)

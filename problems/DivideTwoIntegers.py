@@ -1,5 +1,5 @@
 class Solution:
-    def divide(self, dividend, divisor):
+    def divide_before(self, dividend, divisor):
         """
         :type dividend: int
         :type divisor: int
@@ -28,3 +28,33 @@ class Solution:
                 return -2 ** 31
             else:
                 return  count * -1
+
+    def divide(self, dividend: int, divisor: int) -> int:
+        def helper(a, b):
+            if a < b:
+                return 0
+            count = 1
+            val = b
+            while val + val <= a:
+                count += count
+                val += val
+            return count + helper(a - val, b)
+        if dividend == 0:
+            return 0
+        if divisor == 1:
+            if dividend < -2**31 or dividend > 2**31 - 1:
+                return 2**31 - 1
+            else:
+                return dividend
+        elif divisor == -1:
+            if dividend <= -2**31 or dividend > 2**31:
+                return 2**31 - 1
+            else:
+                return -dividend
+        if (dividend > 0 and divisor > 0) or (dividend < 0 and divisor < 0):
+            val = helper(abs(dividend), abs(divisor))
+        else:
+            val = -helper(abs(dividend), abs(divisor))
+        if val < -2 ** 31 or val > 2 ** 31 - 1:
+            return 2 ** 31 - 1
+        return val
