@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     # backtracking
     def subsetsWithDup(self, nums):
@@ -25,4 +28,24 @@ class Solution:
             self.toFindAllSubsets(nums, res, subset, i+1)
             subset.pop()
 
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        nums.sort()
+        length = len(nums)
+        res = []
+
+        def dfs(index, cur):
+            res.append(cur)
+            pre = None
+            for i in range(index, length):
+                if pre is not None and nums[i] == nums[pre]:
+                    continue
+                else:
+                    pre = i
+                cur.append(nums[i])
+                dfs(i + 1, cur[:])
+                cur.pop()
+
+        dfs(0, [])
+        print(res)
+        return res
 
