@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution:
-    def removeInvalidParentheses(self, s):
+    def removeInvalidParentheses_before(self, s):
         """
         :type s: str
         :rtype: List[str]
@@ -53,6 +56,46 @@ class Solution:
                     self.DFS(current, i, left, right-1, res)
                 elif left > 0:
                     self.DFS(current, i, left-1, right, res)
+
+    """
+    Key point is how to remove duplidated results. 
+    rules:
+    1. if s[index] == cur[-1], then you must choose it 
+    2. if s[index] != cur[-1], then you can choose it or you can not choose it .
+    
+    This way, if we have several same characters in the array, we can make sure that 
+    we only choose same characters from right. 
+    like ooxxxx : oox, ooxx, ooxxx, ooxxxx. 
+    
+    """
+    def removeInvalidParentheses(self, s: str) -> List[str]:
+        length = len(s)
+        res = [""]
+
+        def dfs(index, left, cur):
+            nonlocal length, res
+            if left < 0:
+                return
+            if index == length:
+                if left:
+                    return
+                if len(res[0]) < len(cur):
+                    res = [''.join(cur)]
+                elif len(res[0]) == len(cur) and len(res[0]) != 0:
+                    res.append(''.join(cur))
+                return
+            if s[index] not in '()':
+                cur.append(s[index])
+                dfs(index + 1, left, cur)
+                return
+            cur.append(s[index])
+            dfs(index + 1, left + (1 if s[index] == '(' else -1), cur[:])
+            cur.pop()
+            if not cur or s[index] != cur[-1]:
+                dfs(index + 1, left, cur[:])
+
+        dfs(0, 0, [])
+        return res
 
 
 
