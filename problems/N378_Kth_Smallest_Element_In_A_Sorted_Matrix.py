@@ -18,7 +18,7 @@ Here are two key points here :
         a. lo = mid + 1
         b. hi = mid
 
-    the reason for this is (hi - lo) // 2 might eaquals to zero, which means the mid might equals to lo , so we need to make sure :
+    the reason for this is (hi - lo) // 2 might equals to zero, which means the mid might equals to lo , so we need to make sure :
         lo = mid + 1
     for hi , then if lo + 1 = hi , hi = mid will shrink the range . if lo + 1 < hi, it obviously also shrink the range.
 """
@@ -37,6 +37,7 @@ class Solution(object):
         while lo < hi:
             mid = lo + (hi - lo) // 2
             count = self.count_of_numbers_less_or_equal(mid)
+            print(mid, count)
             if count >= k:
                 hi = mid
             else:
