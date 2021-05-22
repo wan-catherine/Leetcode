@@ -1,4 +1,7 @@
 import copy
+from typing import List
+
+
 class Solution:
     def solveNQueens(self, n):
         """
@@ -40,6 +43,42 @@ class Solution:
         diaone[row + col] = isPut
         diasecond[row - col + n - 1] = isPut
 
+    def solveNQueens(self, n: int) -> List[List[str]]:
+        status = [None] * n
+        res = []
+        def check_diagonal(row, col):
+            res = True
+            for r, c in enumerate(status):
+                if c is None:
+                    return res
+                if c + r - 1 == row + col or c - r + 1 == col - row:
+                    return False
+            return True
 
+        def dfs(r):
+            if r == n:
+                grid = [['.'] * n for _ in range(n)]
+                for r, c in enumerate(status):
+                    grid[r][c] = 'Q'
+                ans = [''.join(li) for li in grid]
+                res.append(ans)
+                return
+            if r == 0:
+                pre = None
+            else:
+                pre = status[r-1]
+            for c in range(n):
+                if pre is None:
+                    status[r] = c
+                    dfs(r+1)
+                    status[r] = None
+                else:
+                    if c in status or not check_diagonal(r,c):
+                        continue
+                    status[r] = c
+                    dfs(r+1)
+                    status[r] = None
+        dfs(0)
+        return res
 
 
