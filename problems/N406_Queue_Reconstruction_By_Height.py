@@ -1,6 +1,6 @@
 class Solution(object):
     # from small to large
-    # the method nees to take care of duplicated number
+    # the method needs to take care of duplicated number
     # o(n**2)
     def reconstructQueue_slow(self, people):
         """
