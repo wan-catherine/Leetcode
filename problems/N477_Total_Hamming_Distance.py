@@ -21,7 +21,7 @@ class Solution(object):
                 mapping[(nums[i], nums[j])] = count
                 mapping[(nums[j], nums[i])] = count
                 res += count
-        # print(mapping)
+        # print(id_time)
         return res
 
     """
