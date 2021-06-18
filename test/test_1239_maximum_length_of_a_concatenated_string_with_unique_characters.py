@@ -13,3 +13,6 @@ class TestSolution(TestCase):
 
     def test_maxLength_3(self):
         self.assertEqual(6, Solution().maxLength(["a", "abc", "d", "de", "def"]))
+
+    def test_maxLength_4(self):
+        self.assertEqual(16, Solution().maxLength(["jnfbyktlrqumowxd","mvhgcpxnjzrdei"]))
