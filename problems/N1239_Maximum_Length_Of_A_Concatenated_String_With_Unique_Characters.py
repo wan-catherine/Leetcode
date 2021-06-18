@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution(object):
     def maxLength_tle(self, arr):
         """
@@ -37,3 +40,40 @@ class Solution(object):
                     maximum = max(maximum, len(x))
         print(uniqELements)
         return maximum
+
+    def maxLength_dfs(self, arr: List[str]) -> int:
+        status = set()
+        for word in arr:
+            if len(set(word)) != len(word):
+                continue
+            val = 0
+            for c in word:
+                d = ord(c) - ord('a')
+                val += (1 << d)
+            status.add(val)
+        status = list(status)
+        # here need to append 0 in the end , to make sure it will always to run to 'index == length'
+        # for test_maxLength_4
+        status.append(0)
+        length = len(status)
+        res = 0
+        def get_n(num):
+            ans = 0
+            while num:
+                if num%2:
+                    ans += 1
+                num //= 2
+            return ans
+
+        def dfs(index, cur):
+            nonlocal res, length
+            if index == length:
+                res = max(res, get_n(cur))
+                return
+            for i in range(index, length):
+                # if we don't append 0 in the end of status, it will might skip the last one, so index == length won't execute.
+                if status[i] & cur:
+                    continue
+                dfs(i+1, status[i] | cur)
+        dfs(0, 0)
+        return res
