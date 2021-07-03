@@ -57,4 +57,27 @@ class Solution(object):
                 res = max(res, val)
         return res
 
+    def maxSumSubmatrix_(self, matrix: List[List[int]], k: int) -> int:
+        rows, cols = len(matrix), len(matrix[0])
+        res = -sys.maxsize
+        for up in range(rows):
+            arr = [0] * cols
+            for down in range(up, rows):
+                for col in range(cols):
+                    arr[col] += matrix[down][col]
+                prefix = arr[:]
+                for i in range(1, cols):
+                    prefix[i] += prefix[i-1]
+                ans = []
+                for i in range(cols):
+                    if prefix[i] <= k:
+                        res = max(res, prefix[i])
+                    index = bisect.bisect_left(ans, prefix[i] - k)
+                    if ans:
+                        val = ans[index] if index < len(ans) else ans[-1]
+                        # here need to check, or it will failed for test_maxSumSubmatrix_6
+                        if prefix[i] - val <= k:
+                            res = max(res, prefix[i] - val)
+                    bisect.insort_left(ans, prefix[i])
+        return res
 
