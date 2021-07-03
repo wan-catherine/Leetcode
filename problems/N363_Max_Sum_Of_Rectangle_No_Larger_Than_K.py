@@ -72,6 +72,7 @@ class Solution(object):
                 for i in range(cols):
                     if prefix[i] <= k:
                         res = max(res, prefix[i])
+                    # ans[index] is the val >= prefix[i] - k
                     index = bisect.bisect_left(ans, prefix[i] - k)
                     if ans:
                         val = ans[index] if index < len(ans) else ans[-1]
