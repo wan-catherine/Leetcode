@@ -47,7 +47,7 @@ class Solution(object):
     when there is a new n , which is larger than arr[-1], then append it to arr .
     when there is a new n, whhich is smaller than arr[-1], find the smallest num in arr which larger than n. 
     then use n to replace this number . 
-    This way, we can keep all numbers in array are as smaller as possble while keep the length same. 
+    This way, we can keep all numbers in array are as smaller as possible while keep the length same. 
     URL: https://www.youtube.com/watch?v=Q6KyDl_xiIg
     """
     def lengthOfLIS(self, nums):
