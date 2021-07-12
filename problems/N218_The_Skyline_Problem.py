@@ -23,10 +23,11 @@ Split the buildings into two different events : start and end event.
 Use a priority queue to maintain all valid height. 
 If there is a start event, and if it's height > current max height in the priority queue, then add it into res. 
 if it's height <= current max height, don't add it into res. 
-    add the new heigth into the priority queue. 
+    add the new height into the priority queue. 
     Because, maybe later we have end event, the higher height might be popped out before those smaller height. 
     
-If there is an end event, we first remove it from the priority queue. Then check if the remove change the max height of the priority queue.
+If there is an end event, we first remove it from the priority queue. 
+Then check if the remove change the max height of the priority queue.
 If the max height < the height of the end event, we need to add x and max height of the priority queue. 
 
 Here are some key points:
@@ -41,7 +42,8 @@ Here are some key points:
     events.sort(key=lambda x: (x[0], x[2], x[2]*x[1]))
     
 For python, heapq is minimum queue, so we use - height to turn it into maximum queue. 
-heapq doesn's support remove. so we need to write a wrapper . remove on the list, then heapq.heapify. But this causes TLE!!!
+heapq doesn't support remove. so we need to write a wrapper . remove on the list, then heapq.heapify. 
+But this causes TLE!!!
 """
 class Solution(object):
     def getSkyline_TLE(self, buildings):
@@ -69,15 +71,15 @@ class Solution(object):
 
     """
     for x, negH, R in event:
-        1. make sure current highest building is still vaild --> pop highest building if it's R < x
+        1. make sure current highest building is still valid --> pop highest building if it's R < x
         2. If event is a start of a building, push it into hp
-        3. If #1 or #2 changes the current highest building, update the res. res[-1] contains the last height. If the current height is 
-            not same as it , then update the res(maybe higher, maybe shorter).
+        3. If #1 or #2 changes the current highest building, update the res. res[-1] contains the last height. 
+            If the current height is not same as it , then update the res(maybe higher, maybe shorter).
     """
     def getSkyline(self, buildings):
         # sort by
         # 1. x - we sweep line from left to right
-        # 2. event type - we add building before remove ， also descreasing by height.
+        # 2. event type - we add building before remove ， also decreasing by height.
         events = sorted([(L, -H, R) for L, R, H in buildings] + list({(R, 0, None) for _, R, _ in buildings}))
         res, hp = [[0, 0]], [(0, float("inf"))]
         for x, negH, R in events:
@@ -85,6 +87,7 @@ class Solution(object):
                 heapq.heappop(hp)
             if negH:
                 heapq.heappush(hp, (negH, R))
+            # last height != current height
             if res[-1][1] + hp[0][0]:
                 res += [x, -hp[0][0]],
         return res[1:]
@@ -127,7 +130,7 @@ class SegTree:
     def set_status(self, s, e, h):
         if s >= self.end or e <= self.start:
             return
-        # here it means self.start ~ self.end is a straght line, no children (left == None and right == None)
+        # here it means self.start ~ self.end is a straight line, no children (left == None and right == None)
         if s <= self.start and e >= self.end and not self.left and self.status > h:
             return
         if s <= self.start and e >= self.end and h >= self.status:
