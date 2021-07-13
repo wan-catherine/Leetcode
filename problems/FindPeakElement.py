@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution(object):
-    def findPeakElement(self, nums):
+    def findPeakElement_linear(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -16,3 +19,22 @@ class Solution(object):
             i += 1
         if nums[i] > nums[i-1]:
             return i
+
+    def findPeakElement(self, nums: List[int]) -> int:
+        length = len(nums)
+        if length == 1:
+            return 0
+        if nums[0] > nums[1]:
+            return 0
+        if nums[-1] > nums[-2]:
+            return length - 1
+
+        l, r = 1, length - 1
+        while l < r:
+            mid = (r - l) // 2 + l
+            if mid > 0 and nums[mid] > nums[mid-1] and mid < length - 1 and nums[mid] > nums[mid + 1]:
+                return mid
+            if mid > 1 and nums[mid] < nums[mid-1]:
+                r = mid
+            elif mid < length - 1 and nums[mid] < nums[mid+1]:
+                l = mid + 1

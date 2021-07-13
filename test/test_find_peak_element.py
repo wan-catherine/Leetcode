@@ -17,3 +17,12 @@ class TestSolution(TestCase):
         res = solution.findPeakElement([1,2])
         self.assertEqual(1, res)
 
+    def test_findPeakElement_1(self):
+        res = Solution().findPeakElement([1,2,1])
+        self.assertEqual(1, res)
+
+    def test_findPeakElement_2(self):
+        res = Solution().findPeakElement([1,2,1,2,1])
+        self.assertEqual(1, res)
+
+
