@@ -5,7 +5,7 @@ or
 a-b<c and a-c<b and b-c<a
 
 So first sort the nums by reverse order, then fix the first num as a .
-we need to find two numbers (b and c) which b+c<a , then it will be a triangle.
+we need to find two numbers (b and c) which b+c>a , then it will be a triangle.
 Because a is the largest of (a,b,c).
 """
 class Solution(object):
