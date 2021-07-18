@@ -5,7 +5,7 @@ class ListNode:
         self.next = None
 
 class Solution:
-    def reverseKGroup(self, head, k):
+    def reverseKGroup_(self, head, k):
         """
         :type head: ListNode
         :type k: int
@@ -26,4 +26,37 @@ class Solution:
             temp = temp.next
 
         return head.next
+
+    def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
+        if k == 1:
+            return head
+        dummy = ListNode(-1)
+        dummy.next = head
+        s, e = head, head
+        first = True
+        ans = None
+        prev = dummy
+        while e:
+            t = k - 1
+            while e and t:
+                e = e.next
+                t -= 1
+            if t > 0 or not e:
+                break
+            while s != e:
+                n = s.next
+                s.next = e.next
+                e.next = s
+                s = n
+            prev.next = s
+            if first:
+                ans = s
+            first = False
+            t = k
+            while t:
+                e = e.next
+                s = s.next
+                prev = prev.next
+                t -= 1
+        return ans
 
