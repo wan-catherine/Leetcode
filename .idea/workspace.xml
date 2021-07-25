@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N495_Teemo_Attacking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_495_teemo_attacking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N1928_Minimum_Cost_To_Reach_Destination_In_Time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_N1928_Minimum_Cost_To_Reach_Destination_In_Time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/N600_Non_Negative_Integers_Without_Consecutive_Ones.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N600_Non_Negative_Integers_Without_Consecutive_Ones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/Utility_Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/Utility_Tree.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -842,85 +845,8 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2019334273">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="230" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="66" />
-          <entry key="project.open.time.11" value="29" />
-          <entry key="project.open.time.12" value="14" />
-          <entry key="project.open.time.13" value="5" />
-          <entry key="project.open.time.14" value="3" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.17" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="11" />
-          <entry key="project.open.time.8" value="25" />
-          <entry key="project.open.time.9" value="65" />
-          <entry key="project.opened" value="231" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="pstat" value="3" />
-          <entry key="py" value="867" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Profiler Session" value="3" />
-          <entry key="Python" value="867" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="7771" />
-          <entry key="dummy" value="73" />
-          <entry key="py" value="212344" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="73" />
-          <entry key="Python" value="220115" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Leetcode" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problems/N495_Teemo_Attacking.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_495_teemo_attacking.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -937,6 +863,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -1007,6 +941,7 @@
     <option name="width" value="1241" />
     <option name="height" value="777" />
   </component>
+  <component name="ProjectId" id="1tGODWi1JWzMgfeO0TeHNX6htrQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -1034,13 +969,25 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/rarry/python/PycharmProjects/Leetcode/problems/N526_Beautiful_Arrangement.py&#10;setting&#9;ACTION&#9;Database.Settings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1048,19 +995,7 @@
       <recent name="$PROJECT_DIR$/sourcecode" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_495_teemo_attacking.TestSolution">
+  <component name="RunManager" selected="Python.Aaa">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1081,7 +1016,29 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration name="Aaa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/Aaa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -1090,7 +1047,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1101,11 +1058,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1471_the_k_strongest_values_in_an_array.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1116,11 +1073,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2&quot;" />
+      <option name="_new_target" value="&quot;test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1131,11 +1088,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5&quot;" />
+      <option name="_new_target" value="&quot;test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_N1927_Sum_Game.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1146,42 +1103,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_495_teemo_attacking.TestSolution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_495_teemo_attacking.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_N1927_Sum_Game.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" />
-      <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2" />
-      <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5" />
-      <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6" />
-      <item itemvalue="Python tests.Unittests for test_495_teemo_attacking.TestSolution" />
+      <item itemvalue="Python.Aaa" />
+      <item itemvalue="Python tests.Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution" />
+      <item itemvalue="Python tests.Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms" />
+      <item itemvalue="Python tests.Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms_2" />
+      <item itemvalue="Python tests.Unittests for test_N1927_Sum_Game.TestSolution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_495_teemo_attacking.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution" />
-        <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_6" />
-        <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_5" />
-        <item itemvalue="Python tests.Unittests for test_1471_the_k_strongest_values_in_an_array.TestSolution.test_getStrongest_2" />
+        <item itemvalue="Python.Aaa" />
+        <item itemvalue="Python tests.Unittests for test_N1927_Sum_Game.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution" />
+        <item itemvalue="Python tests.Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms_2" />
+        <item itemvalue="Python tests.Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1192,6 +1135,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533428990921</updated>
+      <workItem from="1622391851484" duration="172000" />
+      <workItem from="1622392289341" duration="1017000" />
+      <workItem from="1622393585668" duration="5111000" />
+      <workItem from="1622462478514" duration="11882000" />
+      <workItem from="1622547848867" duration="10162000" />
+      <workItem from="1622634178939" duration="5383000" />
+      <workItem from="1622725966258" duration="7810000" />
+      <workItem from="1622812095174" duration="5930000" />
+      <workItem from="1622899754319" duration="15213000" />
+      <workItem from="1622989140762" duration="4469000" />
+      <workItem from="1622997453292" duration="6906000" />
+      <workItem from="1623075235957" duration="5594000" />
+      <workItem from="1623156343828" duration="7472000" />
+      <workItem from="1623239071770" duration="9175000" />
+      <workItem from="1623329113157" duration="5747000" />
+      <workItem from="1623421557548" duration="10114000" />
+      <workItem from="1623464342028" duration="1379000" />
+      <workItem from="1623503565242" duration="13282000" />
+      <workItem from="1623619920579" duration="2400000" />
+      <workItem from="1623680847301" duration="10464000" />
+      <workItem from="1623759838020" duration="7786000" />
+      <workItem from="1623848292230" duration="10258000" />
+      <workItem from="1623933728819" duration="5026000" />
+      <workItem from="1623946038869" duration="9617000" />
+      <workItem from="1624023635199" duration="2440000" />
+      <workItem from="1624034607826" duration="4289000" />
+      <workItem from="1624110638366" duration="5529000" />
+      <workItem from="1624194638027" duration="6631000" />
+      <workItem from="1624278036579" duration="3260000" />
+      <workItem from="1624362211925" duration="13988000" />
+      <workItem from="1624450763396" duration="6997000" />
+      <workItem from="1624536602596" duration="5139000" />
+      <workItem from="1624625460989" duration="6682000" />
+      <workItem from="1624714308637" duration="7088000" />
+      <workItem from="1624804425904" duration="8313000" />
+      <workItem from="1624883148271" duration="2104000" />
+      <workItem from="1624971165158" duration="6297000" />
+      <workItem from="1625055487336" duration="3061000" />
+      <workItem from="1625141235660" duration="5082000" />
+      <workItem from="1625229034588" duration="2652000" />
+      <workItem from="1625313947121" duration="9826000" />
+      <workItem from="1625419823641" duration="6255000" />
+      <workItem from="1625482904718" duration="4288000" />
+      <workItem from="1625577723355" duration="3617000" />
+      <workItem from="1625662203660" duration="7507000" />
+      <workItem from="1625745244045" duration="3265000" />
+      <workItem from="1625832692573" duration="6741000" />
+      <workItem from="1625921391861" duration="14518000" />
+      <workItem from="1626011881289" duration="2534000" />
+      <workItem from="1626093591619" duration="13849000" />
+      <workItem from="1626180623406" duration="7770000" />
+      <workItem from="1626265043797" duration="4998000" />
+      <workItem from="1626353138728" duration="4493000" />
+      <workItem from="1626440189390" duration="3576000" />
+      <workItem from="1626527513990" duration="13389000" />
+      <workItem from="1626615564970" duration="11998000" />
+      <workItem from="1626698640336" duration="2414000" />
+      <workItem from="1626786054352" duration="1813000" />
+      <workItem from="1626871426681" duration="4964000" />
+      <workItem from="1626956592951" duration="9476000" />
+      <workItem from="1627039616790" duration="5637000" />
+      <workItem from="1627132343337" duration="17399000" />
+      <workItem from="1627232410670" duration="5160000" />
     </task>
     <servers />
   </component>
@@ -1291,36 +1297,19 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1657,7 +1646,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/Utility_Tree.py</url>
-          <line>130</line>
+          <line>131</line>
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1735,6 +1724,226 @@
           <line>12</line>
           <option name="timeStamp" value="231" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1882_Process_Tasks_Using_Servers.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1696_Jump_Game_VI.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1449_Form_Largest_Integer_With_Digits_That_Add_Up_To_Target.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1888_Minimum_Number_Of_Flips_To_Make_The_Binary_String_Alternating.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1889_Minimum_Space_Wasted_From_Packaging.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1898_Maximum_Number_Of_Removable_Characters.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N773_Sliding_Puzzle.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N773_Sliding_Puzzle.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N815_Bus_Routes.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>171</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1915_Number_Of_Wonderful_Substrings.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>296</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>316</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>392</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>409</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>427</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>429</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>430</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N639_Decode_Ways_II.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N639_Decode_Ways_II.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>574</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N218_The_Skyline_Problem.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N218_The_Skyline_Problem.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1923_Longest_Common_Subpath.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/FindPeakElement.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/FindPeakElement.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>635</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>637</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>696</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>725</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>754</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>832</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>867</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>887</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>910</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>924</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/Aaa.py</url>
+          <line>937</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1746,13 +1955,98 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
-        <watch expression="self.is_border_O(row, col+1)" language="Python" />
+        <watch expression="mapping[i]" language="Python" />
       </configuration>
       <configuration name="PythonConfigurationType">
-        <watch expression="self.ancestor[j][i-1]" language="Python" />
-        <watch expression="self.ancestor[self.ancestor[j][i-1]][i-1]" language="Python" />
+        <watch expression="citations[val] , length - val + 1" language="Python" />
+        <watch expression="[nums[i], nums[j], nums[l], nums[r]]" language="Python" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1923_Longest_Common_Subpath_TestSolution_test_longest_common_subpath_1.coverage" NAME="Unittests for test_N1923_Longest_Common_Subpath.TestSolution.test_longest_common_subpath_1 Coverage Results" MODIFIED="1626135852005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_peak_element_TestSolution_test_findPeakElement.coverage" NAME="Unittests for test_find_peak_element.TestSolution.test_findPeakElement Coverage Results" MODIFIED="1626191321795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1937_Maximum_Number_Of_Points_With_Cost_TestSolution.coverage" NAME="Unittests for test_N1937_Maximum_Number_Of_Points_With_Cost.TestSolution Coverage Results" MODIFIED="1626622118004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1882_Process_Tasks_Using_Servers_TestSolution.coverage" NAME="Unittests for test_N1882_Process_Tasks_Using_Servers.TestSolution Coverage Results" MODIFIED="1622507223640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1915_Number_Of_Wonderful_Substrings_TestSolution_test_wonderful_substrings.coverage" NAME="Unittests for test_N1915_Number_Of_Wonderful_Substrings.TestSolution.test_wonderful_substrings Coverage Results" MODIFIED="1625013910519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N224_Basic_Calculator_TestSolution_test_calculate_1.coverage" NAME="Unittests for test_N224_Basic_Calculator.TestSolution.test_calculate_1 Coverage Results" MODIFIED="1624376595807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_peak_element_TestSolution.coverage" NAME="Unittests for test_find_peak_element.TestSolution Coverage Results" MODIFIED="1626191390620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution_test_find_peak_grid.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution.test_find_peak_grid Coverage Results" MODIFIED="1626225731252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution_test_find_peak_grid_3.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution.test_find_peak_grid_3 Coverage Results" MODIFIED="1626225924329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1888_Minimum_Number_Of_Flips_To_Make_The_Binary_String_Alternating_TestSolution_test_min_flips_3.coverage" NAME="Unittests for test_N1888_Minimum_Number_Of_Flips_To_Make_The_Binary_String_Alternating.TestSolution.test_min_flips_3 Coverage Results" MODIFIED="1623859341462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1896_Minimum_Cost_To_Change_The_Final_Value_Of_Expression_TestSolution.coverage" NAME="Unittests for test_N1896_Minimum_Cost_To_Change_The_Final_Value_Of_Expression.TestSolution Coverage Results" MODIFIED="1624414848051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution_test_count_of_atoms_4.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution.test_count_of_atoms_4 Coverage Results" MODIFIED="1625434529080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N639_Decode_Ways_II_TestSolution.coverage" NAME="Unittests for test_N639_Decode_Ways_II.TestSolution Coverage Results" MODIFIED="1625926904861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1884_Egg_Drop_With_2_Eggs_And_N_Floors_TestSolution_test_two_egg_drop_1.coverage" NAME="Unittests for test_N1884_Egg_Drop_With_2_Eggs_And_N_Floors.TestSolution.test_two_egg_drop_1 Coverage Results" MODIFIED="1623718553712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1898_Maximum_Number_Of_Removable_Characters_TestSolution_test_maximum_removals.coverage" NAME="Unittests for test_N1898_Maximum_Number_Of_Removable_Characters.TestSolution.test_maximum_removals Coverage Results" MODIFIED="1624467767774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution_test_count_of_atoms_2.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution.test_count_of_atoms_2 Coverage Results" MODIFIED="1625434078551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1915_Number_Of_Wonderful_Substrings_TestSolution.coverage" NAME="Unittests for test_N1915_Number_Of_Wonderful_Substrings.TestSolution Coverage Results" MODIFIED="1625076964507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_peak_element_TestSolution_test_findPeakElement_2.coverage" NAME="Unittests for test_find_peak_element.TestSolution.test_findPeakElement_2 Coverage Results" MODIFIED="1626191664047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_peak_element_TestSolution_test_findPeakElement_two.coverage" NAME="Unittests for test_find_peak_element.TestSolution.test_findPeakElement_two Coverage Results" MODIFIED="1626191442773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N639_Decode_Ways_II_TestSolution_test_num_decodings_4.coverage" NAME="Unittests for test_N639_Decode_Ways_II.TestSolution.test_num_decodings_4 Coverage Results" MODIFIED="1625926420624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1882_Process_Tasks_Using_Servers_TestSolution_test_assign_tasks.coverage" NAME="Unittests for test_N1882_Process_Tasks_Using_Servers.TestSolution.test_assign_tasks Coverage Results" MODIFIED="1622507178000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1906_Minimum_Absolute_Difference_Queries_TestSolution.coverage" NAME="Unittests for test_N1906_Minimum_Absolute_Difference_Queries.TestSolution Coverage Results" MODIFIED="1626535346039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1923_Longest_Common_Subpath_TestSolution_test_longest_common_subpath.coverage" NAME="Unittests for test_N1923_Longest_Common_Subpath.TestSolution.test_longest_common_subpath Coverage Results" MODIFIED="1626135683362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N927_Three_Equal_Parts_TestSolution_test_three_equal_parts_1.coverage" NAME="Unittests for test_N927_Three_Equal_Parts.TestSolution.test_three_equal_parts_1 Coverage Results" MODIFIED="1626529425371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time_TestSolution_test_min_skips_4.coverage" NAME="Unittests for test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time.TestSolution.test_min_skips_4 Coverage Results" MODIFIED="1623704017918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1898_Maximum_Number_Of_Removable_Characters_TestSolution_test_maximum_removals_3.coverage" NAME="Unittests for test_N1898_Maximum_Number_Of_Removable_Characters.TestSolution.test_maximum_removals_3 Coverage Results" MODIFIED="1624468120481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution_test_find_peak_grid_1.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution.test_find_peak_grid_1 Coverage Results" MODIFIED="1626225736723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N815_Bus_Routes_TestSolution_test_num_buses_to_destination.coverage" NAME="Unittests for test_N815_Bus_Routes.TestSolution.test_num_buses_to_destination Coverage Results" MODIFIED="1624834736406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1888_Minimum_Number_Of_Flips_To_Make_The_Binary_String_Alternating_TestSolution.coverage" NAME="Unittests for test_N1888_Minimum_Number_Of_Flips_To_Make_The_Binary_String_Alternating.TestSolution Coverage Results" MODIFIED="1623859476060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution_test_find_peak_grid_2.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution.test_find_peak_grid_2 Coverage Results" MODIFIED="1626224078395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony_TestSolution.coverage" NAME="Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution Coverage Results" MODIFIED="1627001116934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N224_Basic_Calculator_TestSolution_test_calculate.coverage" NAME="Unittests for test_N224_Basic_Calculator.TestSolution.test_calculate Coverage Results" MODIFIED="1624382069897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_218_the_skyline_problem_TestSolution_test_getSkyline.coverage" NAME="Unittests for test_218_the_skyline_problem.TestSolution.test_getSkyline Coverage Results" MODIFIED="1626129672852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1923_Longest_Common_Subpath_TestSolution.coverage" NAME="Unittests for test_N1923_Longest_Common_Subpath.TestSolution Coverage Results" MODIFIED="1626137391766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time_TestSolution_test_min_skips_3.coverage" NAME="Unittests for test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time.TestSolution.test_min_skips_3 Coverage Results" MODIFIED="1623703677581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N927_Three_Equal_Parts_TestSolution_test_three_equal_parts.coverage" NAME="Unittests for test_N927_Three_Equal_Parts.TestSolution.test_three_equal_parts Coverage Results" MODIFIED="1626529641180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1884_Egg_Drop_With_2_Eggs_And_N_Floors_TestSolution_test_two_egg_drop.coverage" NAME="Unittests for test_N1884_Egg_Drop_With_2_Eggs_And_N_Floors.TestSolution.test_two_egg_drop Coverage Results" MODIFIED="1623719075178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1889_Minimum_Space_Wasted_From_Packaging_TestSolution.coverage" NAME="Unittests for test_N1889_Minimum_Space_Wasted_From_Packaging.TestSolution Coverage Results" MODIFIED="1623953936617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution_test_count_of_atoms_3.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution.test_count_of_atoms_3 Coverage Results" MODIFIED="1625433948361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1449_Form_Largest_Integer_With_Digits_That_Add_Up_To_Target_TestSolution_test_largest_number.coverage" NAME="Unittests for test_N1449_Form_Largest_Integer_With_Digits_That_Add_Up_To_Target.TestSolution.test_largest_number Coverage Results" MODIFIED="1623464635733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1220_Count_Vowels_Permutation_TestSolution.coverage" NAME="Unittests for test_N1220_Count_Vowels_Permutation.TestSolution Coverage Results" MODIFIED="1625423904914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time_TestSolution.coverage" NAME="Unittests for test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time.TestSolution Coverage Results" MODIFIED="1623704144521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N149_Max_Points_On_A_Line_TestSolution_test_max_points_2.coverage" NAME="Unittests for test_N149_Max_Points_On_A_Line.TestSolution.test_max_points_2 Coverage Results" MODIFIED="1624470047429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1383_Maximum_Performance_Of_A_Team_TestSolution.coverage" NAME="Unittests for test_N1383_Maximum_Performance_Of_A_Team.TestSolution Coverage Results" MODIFIED="1622904973015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution Coverage Results" MODIFIED="1625434533028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N815_Bus_Routes_TestSolution.coverage" NAME="Unittests for test_N815_Bus_Routes.TestSolution Coverage Results" MODIFIED="1624835113861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N927_Three_Equal_Parts_TestSolution.coverage" NAME="Unittests for test_N927_Three_Equal_Parts.TestSolution Coverage Results" MODIFIED="1626531452626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1898_Maximum_Number_Of_Removable_Characters_TestSolution.coverage" NAME="Unittests for test_N1898_Maximum_Number_Of_Removable_Characters.TestSolution Coverage Results" MODIFIED="1624468155992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1872_Stone_Game_VIII_TestSolution.coverage" NAME="Unittests for test_N1872_Stone_Game_VIII.TestSolution Coverage Results" MODIFIED="1622925484644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1696_Jump_Game_VI_TestSolution.coverage" NAME="Unittests for test_N1696_Jump_Game_VI.TestSolution Coverage Results" MODIFIED="1623263491768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Aaa.coverage" NAME="Aaa Coverage Results" MODIFIED="1627238849038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N483_Smallest_Good_Base_TestSolution.coverage" NAME="Unittests for test_N483_Smallest_Good_Base.TestSolution Coverage Results" MODIFIED="1623967057317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$N1884_Egg_Drop_With_2_Eggs_And_N_Floors.coverage" NAME="N1884_Egg_Drop_With_2_Eggs_And_N_Floors Coverage Results" MODIFIED="1623718816120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1906_Minimum_Absolute_Difference_Queries_TestSolution_test_min_difference_2.coverage" NAME="Unittests for test_N1906_Minimum_Absolute_Difference_Queries.TestSolution.test_min_difference_2 Coverage Results" MODIFIED="1626535319957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1449_Form_Largest_Integer_With_Digits_That_Add_Up_To_Target_TestSolution.coverage" NAME="Unittests for test_N1449_Form_Largest_Integer_With_Digits_That_Add_Up_To_Target.TestSolution Coverage Results" MODIFIED="1623517954753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution_test_count_of_atoms.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution.test_count_of_atoms Coverage Results" MODIFIED="1625433935243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1900_The_Earliest_And_Lates_Rounds_Where_Players_Compete_TestSolution_test_earliest_and_latest_2.coverage" NAME="Unittests for test_N1900_The_Earliest_And_Lates_Rounds_Where_Players_Compete.TestSolution.test_earliest_and_latest_2 Coverage Results" MODIFIED="1625704877060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N224_Basic_Calculator_TestSolution.coverage" NAME="Unittests for test_N224_Basic_Calculator.TestSolution Coverage Results" MODIFIED="1624394853065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1927_Sum_Game_TestSolution.coverage" NAME="Unittests for test_N1927_Sum_Game.TestSolution Coverage Results" MODIFIED="1627055207923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N149_Max_Points_On_A_Line_TestSolution.coverage" NAME="Unittests for test_N149_Max_Points_On_A_Line.TestSolution Coverage Results" MODIFIED="1624470345979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1905_Count_Sub_Islands_TestSolution.coverage" NAME="Unittests for test_N1905_Count_Sub_Islands.TestSolution Coverage Results" MODIFIED="1626272141373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution Coverage Results" MODIFIED="1626226032823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution_test_find_peak_grid_4.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution.test_find_peak_grid_4 Coverage Results" MODIFIED="1626225928426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony_TestSolution_test_ways_to_build_rooms_2.coverage" NAME="Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms_2 Coverage Results" MODIFIED="1626999065226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony_TestSolution_test_ways_to_build_rooms.coverage" NAME="Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms Coverage Results" MODIFIED="1626998521534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N224_Basic_Calculator_TestSolution_test_calculate_3.coverage" NAME="Unittests for test_N224_Basic_Calculator.TestSolution.test_calculate_3 Coverage Results" MODIFIED="1624377418694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1889_Minimum_Space_Wasted_From_Packaging_TestSolution_test_min_wasted_space_2.coverage" NAME="Unittests for test_N1889_Minimum_Space_Wasted_From_Packaging.TestSolution.test_min_wasted_space_2 Coverage Results" MODIFIED="1623947689081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1696_Jump_Game_VI_TestSolution_test_max_result_2.coverage" NAME="Unittests for test_N1696_Jump_Game_VI.TestSolution.test_max_result_2 Coverage Results" MODIFIED="1623257087162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N815_Bus_Routes_TestSolution_test_num_buses_to_destination_1.coverage" NAME="Unittests for test_N815_Bus_Routes.TestSolution.test_num_buses_to_destination_1 Coverage Results" MODIFIED="1624834781907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution_test_find_peak_grid_5.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution.test_find_peak_grid_5 Coverage Results" MODIFIED="1626225931565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N224_Basic_Calculator_TestSolution_test_calculate_2.coverage" NAME="Unittests for test_N224_Basic_Calculator.TestSolution.test_calculate_2 Coverage Results" MODIFIED="1624377023607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution_test_count_of_atoms_1.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution.test_count_of_atoms_1 Coverage Results" MODIFIED="1625434018106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1696_Jump_Game_VI_TestSolution_test_max_result.coverage" NAME="Unittests for test_N1696_Jump_Game_VI.TestSolution.test_max_result Coverage Results" MODIFIED="1623262690789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1884_Egg_Drop_With_2_Eggs_And_N_Floors_TestSolution.coverage" NAME="Unittests for test_N1884_Egg_Drop_With_2_Eggs_And_N_Floors.TestSolution Coverage Results" MODIFIED="1623720033004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N773_Sliding_Puzzle_TestSolution_test_sliding_puzzle.coverage" NAME="Unittests for test_N773_Sliding_Puzzle.TestSolution.test_sliding_puzzle Coverage Results" MODIFIED="1624654579184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_363_max_sum_of_rectangle_no_larger_than_k_TestSolution_test_maxSumSubmatrix_6.coverage" NAME="Unittests for test_363_max_sum_of_rectangle_no_larger_than_k.TestSolution.test_maxSumSubmatrix_6 Coverage Results" MODIFIED="1625317922461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1900_The_Earliest_And_Lates_Rounds_Where_Players_Compete_TestSolution.coverage" NAME="Unittests for test_N1900_The_Earliest_And_Lates_Rounds_Where_Players_Compete.TestSolution Coverage Results" MODIFIED="1625705024731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1889_Minimum_Space_Wasted_From_Packaging_TestSolution_test_min_wasted_space.coverage" NAME="Unittests for test_N1889_Minimum_Space_Wasted_From_Packaging.TestSolution.test_min_wasted_space Coverage Results" MODIFIED="1623948586879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_peak_element_TestSolution_test_findPeakElement_1.coverage" NAME="Unittests for test_find_peak_element.TestSolution.test_findPeakElement_1 Coverage Results" MODIFIED="1626191534212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1879_Minimum_XOR_Sum_Of_Two_Arrays_TestSolution.coverage" NAME="Unittests for test_N1879_Minimum_XOR_Sum_Of_Two_Arrays.TestSolution Coverage Results" MODIFIED="1622422619603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1889_Minimum_Space_Wasted_From_Packaging_TestSolution_test_min_wasted_space_3.coverage" NAME="Unittests for test_N1889_Minimum_Space_Wasted_From_Packaging.TestSolution.test_min_wasted_space_3 Coverage Results" MODIFIED="1623952622464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N773_Sliding_Puzzle_TestSolution.coverage" NAME="Unittests for test_N773_Sliding_Puzzle.TestSolution Coverage Results" MODIFIED="1624654583836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1923_Longest_Common_Subpath_TestSolution_test_longest_common_subpath_3.coverage" NAME="Unittests for test_N1923_Longest_Common_Subpath.TestSolution.test_longest_common_subpath_3 Coverage Results" MODIFIED="1626136119716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
