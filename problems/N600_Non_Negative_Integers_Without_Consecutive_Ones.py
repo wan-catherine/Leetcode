@@ -56,7 +56,7 @@ class Solution:
             # if snum[0] == '0', we need to recursive call helper
             if snum[0] == '0':
                 return helper(snum[1:], False)
-            # if snum[0] == '1' which means we can use dp[len(snum[1:])] directly . 
+            # if snum[0] == '1' which means we can use dp[len(snum[1:])] directly .
             if is_prev_one:
                 return dp[len(snum) - 1]
             ans = dp[len(snum) - 1]
