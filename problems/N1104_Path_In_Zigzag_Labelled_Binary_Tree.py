@@ -15,7 +15,7 @@ class Solution(object):
                 label = val // 2
             else:
                 val = label // 2
-                label = (1 << (i-2)) - val + (1 << (i-1)) - 1
+                label = (1 << (i-2)) + (1 << (i-1)) - 1 - val
             res[i-2] = label
             i -= 1
         return res
