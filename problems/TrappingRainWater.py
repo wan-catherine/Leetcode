@@ -1,4 +1,5 @@
 from math import inf
+from typing import List
 
 
 class Solution:
@@ -39,5 +40,19 @@ class Solution:
                 if height[previous] != float(inf) :
                     res += (min(height[index], height[previous]) - height[cur]) * (index - previous - 1)
             stack.append(index)
+        return res
+
+    # update at 20210731
+    def trap(self, height: List[int]) -> int:
+        length = len(height)
+        stack = []
+        res = 0
+        for i in range(length):
+            while stack and height[stack[-1]] <= height[i]:
+                down = height[stack[-1]]
+                stack.pop()
+                if stack:
+                    res += (min(height[stack[-1]], height[i]) - down) * (i - stack[-1] - 1)
+            stack.append(i)
         return res
 
