@@ -1,5 +1,6 @@
 import collections
 import heapq
+from typing import List
 
 """
 Dijkstra Algo
@@ -62,6 +63,20 @@ class Solution(object):
                 heapq.heappush(pq, (wgh+w, nxt))
         return res if sum(visited)==n else -1
 
-
-
+    # update at 20210801
+    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+        graph = collections.defaultdict(list)
+        for u, v, t in times:
+            graph[u].append((v, t))
+        used = {k: 0}
+        stack = [k]
+        while stack:
+            new_stack = []
+            for cur in stack:
+                for nxt, t in graph[cur]:
+                    if nxt not in used or used[nxt] > used[cur] + t:
+                        used[nxt] = used[cur] + t
+                        new_stack.append(nxt)
+            stack = new_stack
+        return max(used.values()) if len(used) == n else -1
 
