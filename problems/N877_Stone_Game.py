@@ -31,6 +31,7 @@ class Solution(object):
 
     """
     dp[i][j]: the maximum diff for piles[i:j+1] 
+                the maximum diff that the current candidate can get (it might be Alex/Bob)
     """
     def stoneGame(self, piles: List[int]) -> bool:
         length = len(piles)
@@ -42,3 +43,19 @@ class Solution(object):
                 j = i + l - 1
                 dp[i][j] = max(piles[i] - dp[i+1][j], piles[j] - dp[i][j-1])
         return dp[0][-1] > 0
+
+    # update 20210805
+    def stoneGame(self, piles: List[int]) -> bool:
+        length = len(piles)
+        memo = {}
+
+        def helper(l, r):
+            if l == r:
+                return piles[l]
+            if (l, r) in memo:
+                return memo[(l, r)]
+            val = max(piles[l] - helper(l + 1, r), piles[r] - helper(l, r - 1))
+            memo[(l, r)] = val
+            return val
+
+        return True if helper(0, length - 1) > 0 else False
