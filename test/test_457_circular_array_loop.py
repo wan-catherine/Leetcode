@@ -10,3 +10,6 @@ class TestSolution(TestCase):
 
     def test_circularArrayLoop_2(self):
         self.assertFalse(Solution().circularArrayLoop([-2,1,-1,-2,-2]))
+
+    def test_circularArrayLoop_3(self):
+        self.assertFalse(Solution().circularArrayLoop([1,1,1,1,1,1,1,1,1,-5]))
