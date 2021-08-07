@@ -1,24 +1,23 @@
 class Solution(object):
-    def minCut_(self, s):
+    def minCut(self, s):
         """
         :type s: str
         :rtype: int
         """
         length = len(s)
         dp = [i + 1 for i in range(length)]
-        for i in range(1, length):
-            if self.is_palindrome(s[:i + 1]):
-                dp[i] = 1
-                continue
-            for j in range(i):
-                if self.is_palindrome(s[j + 1:i + 1]):
-                    dp[i] = min(dp[i], dp[j] + 1)
+        is_palindrome = [[0] * length for _ in range(length)]
+        for i in range(length):
+            for j in range(i + 1):
+                if s[i] == s[j] and (j == i or j + 1 == i or is_palindrome[j+1][i-1]):
+                    is_palindrome[j][i] = 1
+                    if j == 0:
+                        dp[i] = 1
+                    else:
+                        dp[i] = min(dp[i], 1 + dp[j-1])
         return dp[-1] - 1
 
-    def is_palindrome(self, s):
-        return s == s[::-1]
-
-    def minCut(self, s: str) -> int:
+    def minCut_(self, s: str) -> int:
         length = len(s)
         if s == s[::-1]:
             return 0

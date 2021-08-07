@@ -16,3 +16,6 @@ class TestSolution(TestCase):
 
     def test_minCut_4(self):
         self.assertEqual(2, Solution().minCut("leet"))
+
+    def test_minCut_5(self):
+        self.assertEqual(3, Solution().minCut("ccaacabacb"))
