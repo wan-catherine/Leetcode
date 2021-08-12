@@ -6,6 +6,8 @@ situation :
     1. i > 1
     2. i == 1
     3. i < 1 (i == 0)
+
+Count ith digit == 1.
 """
 class Solution:
     def countDigitOne(self, n: int) -> int:
