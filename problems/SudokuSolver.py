@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def solveSudoku(self, board):
         self.helper(board, 0, 0)
@@ -108,3 +111,38 @@ class Solution:
         s = set(str(i) for i in range(1,10))
         l = s.difference(existed)
         return l
+
+    # 20210821 update
+    def solveSudoku(self, board: List[List[str]]) -> None:
+        def dfs(idx):
+            if idx == len(empty):
+                return True
+            r, c = empty[idx]
+            status = [0] * 10
+            for i in range(9):
+                if board[i][c] == '.':
+                    continue
+                status[int(board[i][c])] = 1
+            for i in range(9):
+                if board[r][i] == '.':
+                    continue
+                status[int(board[r][i])] = 1
+            for i in range((r // 3) * 3, (r // 3) * 3 + 3):
+                for j in range((c // 3) * 3, (c // 3) * 3 + 3):
+                    if board[i][j] == '.':
+                        continue
+                    status[int(board[i][j])] = 1
+            for i in range(1, 10):
+                if status[i] == 1:
+                    continue
+                board[r][c] = str(i)
+                # print(board)
+                if dfs(idx + 1):
+                    return True
+                board[r][c] = '.'
+        empty = []
+        for i in range(9):
+            for j in range(9):
+                if board[i][j] == '.':
+                    empty.append((i,j))
+        dfs(0)
