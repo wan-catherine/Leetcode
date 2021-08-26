@@ -19,10 +19,9 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        # set lenght here equals to n+2 , because k can be n+1 (len = 2, j = n + 1)
+        # set length here equals to n+2 , because k can be n+1 (len = 2, j = n + 1)
+        #  dp[k+1][j] : maybe [6,5]
         dp = [[0]*(n+2) for _ in range(n+2)]
-        for i in range(1, n + 1):
-            dp[i][i] = 0
 
         for len in range(2, n+1):
             for i in range(1, n - len + 2):
