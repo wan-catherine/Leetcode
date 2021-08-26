@@ -35,7 +35,7 @@ class Solution(object):
 
     """
     For node in tree, it has one indegree, two outdegree (2 children and 1 parent), 
-    except root node which has two childre no parent.
+    except root node which has two children no parent.
     For leaf in tree, it has one indegree (1 parent)
     
     diff = outdegree - indegree . in a tree, anytime , diff should >= 0
@@ -58,3 +58,18 @@ class Solution(object):
             if i != '#':
                 diff += 2
         return diff == 0
+
+    #update 20210826
+    def isValidSerialization(self, preorder: str) -> bool:
+        stack = []
+        preorder = preorder.split(',')
+        for i, c in enumerate(preorder):
+            stack.append(c)
+            while len(stack) >= 3 and stack[-1] == stack[-2] == '#':
+                if stack[-3] == '#':
+                    return False
+                stack.pop()
+                stack.pop()
+                stack.pop()
+                stack.append('#')
+        return stack == ['#']
