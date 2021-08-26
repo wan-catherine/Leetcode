@@ -1,5 +1,8 @@
+import collections
 import sys
 from collections import deque
+from typing import List
+
 """
 Basical idea: use the prefix sum array. For j-th , find an i-th (i < j ) which prefix[j] - prefix[i] >= k 
 it's a O(N*N), so we need to do prune. 
@@ -37,13 +40,41 @@ class Solution(object):
         res = sys.maxsize
         for i in range(1, length):
             index = -sys.maxsize
-            while arr and prefix[arr[0]] <=prefix[i] - K:
+            while arr and prefix[arr[0]] <= prefix[i] - K:
                 index = arr.popleft()
             res = min(res, i - index)
             while arr and prefix[arr[-1]] >= prefix[i]:
                 arr.pop()
             arr.append(i)
-
         return -1 if res == sys.maxsize else res
+
+    def shortestSubarray(self, nums: List[int], k: int) -> int:
+        length = len(nums)
+        if k <= nums[0]:
+            return 1
+        arr = collections.deque([(nums[0], 0)])
+        res = sys.maxsize
+        prefix = nums[0]
+        for i in range(1, length):
+            prefix += nums[i]
+            if prefix >= k:
+                res = min(res, i+1)
+            index = -sys.maxsize
+            while arr:
+                if arr[0][0] + k <= prefix:
+                    index = max(index, arr[0][1])
+                    arr.popleft()
+                else:
+                    break
+            if index >= 0:
+                res = min(res, i - index)
+            while arr:
+                p, idx = arr[-1]
+                if p >= prefix:
+                    arr.pop()
+                else:
+                    break
+            arr.append((prefix, i))
+        return res if res < sys.maxsize else -1
 
 
