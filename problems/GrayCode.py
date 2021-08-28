@@ -1,3 +1,8 @@
+"""
+we have res for i, then those are already satisfied the gray code rules.
+so for i + 1, we can add then 2 ** i when equals '1' + str(num) for num in res.
+in order to make the last number of i and the first number of i+1 , we need to reverse the i+1.
+"""
 class Solution:
     def grayCode_before(self, n):
         """
