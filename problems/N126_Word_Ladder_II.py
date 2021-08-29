@@ -1,4 +1,6 @@
 import collections
+from typing import List
+
 """
 Key point:
     1. use visited to record all before visited words.
@@ -141,3 +143,49 @@ class Solution(object):
                 cur.pop()
         dfs(endWord, [endWord])
         return ans
+
+    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
+        words = set(wordList)
+        if endWord not in words:
+            return []
+        words.add(beginWord)
+        stack = [endWord]
+        parent = collections.defaultdict(set)
+        visited = set(stack)
+        while stack:
+            new_stack = set()
+            flag = True
+            for word in stack:
+                if word == beginWord:
+                    flag = False
+                lw = len(word)
+                used = set(visited)
+                for i in range(lw):
+                    for c in 'abcdefghijklmnopqrstuvwxyz':
+                        if c == word[i]:
+                            continue
+                        nw = word[:i] + c + word[i+1:]
+                        if nw not in words or nw in visited:
+                            continue
+                        used.add(nw)
+                        new_stack.add(nw)
+                        parent[word].add(nw)
+                if not flag:
+                    break
+            # here need to use new_stack, not used.
+            visited.update(new_stack)
+            if flag:
+                stack = new_stack
+            else:
+                break
+        res = []
+        def dfs(word, cur):
+            if word == beginWord:
+                res.append(cur[::-1])
+                return
+            for nxt in parent[word]:
+                cur.append(nxt)
+                dfs(nxt, cur[:])
+                cur.pop()
+        dfs(endWord, [endWord])
+        return res
