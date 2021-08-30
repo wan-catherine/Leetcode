@@ -2,7 +2,25 @@ import bisect
 from collections import deque
 from typing import List, Counter
 
+"""
+find the largest and second largest number in sums. 
+f, s = largest, second largest. 
+f - s = diff
 
+NNNNPPPPPP
+There are two situations: 
+1. diff == the smallest positive number
+2. diff == the largest negative number 
+
+Then we need to consider those two ways. 
+
+When we have the diff, then the KEY POINT is to split the snums into two array which both have len(sums)//2 numbers. 
+arr1 = xxxx which contains the diff
+arr2 = yyyy which doesn't contain the diff. 
+
+The recursive by setting snums = arr2. 
+
+"""
 class Solution:
     def recoverArray_TLE(self, n: int, sums: List[int]) -> List[int]:
         sums.sort()
