@@ -43,4 +43,6 @@ class Solution:
                 r = m
             else:
                 l = m + 1
+        # here nums[l] should be the smallest number which satifised missing number is k .
+        # so we use nums[l-1] because the while l < r ends at l >= r 
         return nums[l-1] + k - (nums[l-1] - nums[0] - l + 1) # Need to minus the number of missing number from nums[l-1] to nums[0]
