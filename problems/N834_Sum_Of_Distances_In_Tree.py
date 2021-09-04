@@ -14,7 +14,7 @@ count[root] = sum(count[i]) + 1
 res[root] = sum(res[i]) + sum(count[i])
 
 Pre order dfs traversal, update res:
-When we move our root from parent to its child i, count[i] points get 1 closer to root, n - count[i] nodes get 1 futhur to root.
+When we move our root from parent to its child i, count[i] points get 1 closer to root, n - count[i] nodes get 1 further to root.
 res[i] = res[root] - count[i] + N - count[i]
 
 return res, done.
