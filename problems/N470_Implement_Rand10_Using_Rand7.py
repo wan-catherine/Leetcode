@@ -10,7 +10,7 @@ Two points :
    For example, 2 = 1 + 1, but 10 : 3+7, 4+6, 5+5... which has more possibility than 2. 
    
    we can use ab(base7) : 00 -> 66  (7 binary method), they are all have same possibility.
-   0 ~ 48 , so when x >= 40  then reject. 
+   0 ~ 48(7*7 index) , so when x >= 40  then reject. 
 """
 class Solution(object):
     def rand10(self):
