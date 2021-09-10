@@ -11,5 +11,8 @@ class Solution:
             for j in range(i):
                 diff = nums[i] - nums[j]
                 status[i][diff] += status[j][diff] + 1
+                # key point : status[j][diff] , not status[i][diff]
+                # status[i][diff] we need to solove the [x,y] which is less than three issue.
+                # but status[j][diff] we can know it will be >= 3.
                 res += status[j][diff]
         return res
