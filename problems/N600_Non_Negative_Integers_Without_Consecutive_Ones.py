@@ -63,3 +63,34 @@ class Solution:
             ans += helper(snum[1:], True)
             return ans
         return helper(num, False)
+
+    # update at 20210910
+    def findIntegers(self, n: int) -> int:
+        if n == 0:
+            return 1
+        if n == 1:
+            return 2
+        dp = [[0, 0] for _ in range(31)]
+        dp[0][0] = 1
+        dp[1] = [1, 1]
+        for i in range(2, 31):
+            dp[i][0] = dp[i-1][0] + dp[i-1][1]
+            dp[i][1] = dp[i-1][0]
+        sn = bin(n)[2:]
+        def helper(str, prev):
+            res = 0
+            if not str:
+                return 0
+            if str == '0':
+                return 1
+            if str == '1':
+                return 2 if prev == '0' else 1
+            if str[0] == '0':
+                res += helper(str[1:], '0')
+            else:
+                res += sum(dp[len(str) - 1])
+                if prev == '0':
+                    res += helper(str[1:], '1')
+            return res
+        res = helper(sn, '0')
+        return res
