@@ -69,3 +69,24 @@ class Solution(object):
                         dp[i][j] = 1
                         break
         return dp[length-1][0]
+
+    # update at 20210911, interval DP
+    def checkValidString(self, s: str) -> bool:
+        length = len(s)
+        dp = [[False] * length for _ in range(length)]
+        for i in range(length):
+            if s[i] == '*':
+                dp[i][i] = True
+
+        for l in range(2, length + 1):
+            for i in range(length - l + 1):
+                j = i + l - 1
+                if s[i] in '(*' and s[j] in '*)':
+                    if (i+1 <= j-1 and dp[i+1][j-1]) or i + 1 > j - 1:
+                        dp[i][j] = True
+                        continue
+                for k in range(i, j):
+                    if dp[i][k] and dp[k+1][j]:
+                        dp[i][j] = True
+                        break
+        return dp[0][length-1]
