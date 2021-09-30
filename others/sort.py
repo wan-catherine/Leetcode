@@ -1,3 +1,6 @@
+import random
+
+
 def seletction_sort(nums):
     n = len(nums)
     for i in range(n):
@@ -57,6 +60,9 @@ def quick_sort(nums, low, high):
     if not nums or len(nums) <= 2 or low >= high:
         return
     def partition(arr, low, high):
+        # must use a random pivot, or it will be TLE in a long almost sorted array.
+        p = random.randint(low, high)
+        arr[p], arr[low] = arr[low], arr[p]
         i = low + 1
         j = high
         while i <= j :
