@@ -17,11 +17,11 @@ class Solution(object):
         return res % mod
 
     # explaination : https://leetcode.com/problems/sum-of-subarray-minimums/discuss/178876/stack-solution-with-very-detailed-explanation-step-by-step
-    # for one number a, all subarraies which the minute is a.
+    # for one number a, all sub-arrays which the minute is a.
     # left[a] means the count of numbers which on the left of a and all >= a
     # right[a] means the count of numbers which on the right of a and all > a
     # sum = left[a] * right[a] * a
-    # here need to notice about the duplicated number , so we choose strict less and unstrict less.
+    # here need to notice about the duplicated number , so we choose strict less and un-strict less.
     # order doesn't matter
 
     def sumSubarrayMins_other(self, A):
