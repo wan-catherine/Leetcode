@@ -3,7 +3,7 @@ The key point is maintain char_count and most_char_count.
 Need to remember how to calculate those two when looping all string.
 """
 class Solution:
-    def characterReplacement(self, s: str, k: int) -> int:
+    def characterReplacement_before(self, s: str, k: int) -> int:
         char_count = [0] * 26
         most_char_count = 0
         length = len(s)
@@ -19,4 +19,17 @@ class Solution:
                 start += 1
             res = max(res, end - start + 1)
             end += 1
+        return res
+
+    def characterReplacement(self, s: str, k: int) -> int:
+        length = len(s)
+        counter = [0] * 26
+        left, res = 0, 0
+        for i in range(length):
+            index = ord(s[i]) - ord('A')
+            counter[index] += 1
+            while i - left + 1 - max(counter) > k:
+                counter[ord[s[left]]] -= 1
+                left += 1
+            res = max(res, i - left + 1)
         return res
