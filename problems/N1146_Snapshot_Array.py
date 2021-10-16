@@ -35,7 +35,8 @@ class SnapshotArray(object):
         return self.array[index][i][1]
 
 # Your SnapshotArray object will be instantiated and called as such:
-# obj = SnapshotArray(length)
-# obj.set(index,val)
-# param_2 = obj.snap()
-# param_3 = obj.get(index,snap_id)
+obj = SnapshotArray(3)
+obj.set(0, 5)
+print(obj.snap())
+obj.set(0, 6)
+print(obj.get(0,0))
