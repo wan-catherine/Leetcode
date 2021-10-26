@@ -70,7 +70,7 @@ class JsonParser:
             elif state == State.CLOSE:
                 stop = True
             else:
-                raise  RuntimeError("Unknow state.")
+                raise RuntimeError("Unknow state.")
             if stop:
                 break
             self.index += 1
