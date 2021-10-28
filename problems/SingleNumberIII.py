@@ -39,7 +39,7 @@ class Solution:
         base = 0
         for num in nums:
             base ^= num
-        base &= ~(base - 1)
+        base &= ~(base - 1)  # lowbit(base) = base & (-base)
 
         for num in nums:
             if num & base > 0:
