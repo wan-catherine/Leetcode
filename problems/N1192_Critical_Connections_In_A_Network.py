@@ -46,7 +46,7 @@ class Solution:
     So we need to find all edges in the cycle.
     
     Use DFS to traversal the graph, and set it access time/step. 
-    and if we find for a node, it can get smaller time/step , then it means the edge inthe cycle. 
+    and if we find for a node, it can get smaller time/step , then it means the edge in the cycle. 
     
     """
     def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List[int]]:
@@ -66,7 +66,7 @@ class Solution:
                     v = min(v, dfs(t+1, node, nxt))
                 else:
                     v = min(v, times[nxt])
-            if v == t + 1:
+            if v == t + 1 and parent != -1:
                 res.append([parent, node])
             times[node] = v
             return v
