@@ -1,3 +1,4 @@
+import sys
 from math import inf
 
 from .Utility_Tree import TreeNode
@@ -19,3 +20,17 @@ class Solution:
         left_sum = max(0, left_sum)
         max_sum = max(max_sum, right_sum + left_sum + root.val)
         return max_sum, max(right_sum, left_sum) + root.val
+
+    def maxPathSum(self, root: TreeNode) -> int:
+        def helper(node, cur):
+            if not node:
+                return (cur, 0)
+            rmax, rchild = helper(node.right, cur)
+            rchild = max(0, rchild)
+            lmax, lchild = helper(node.left, cur)
+            lchild = max(0, lchild)
+            cur = max(cur, rmax, lmax, rchild + lchild + node.val)
+            return (cur, max(lchild, rchild) + node.val)
+
+        res, _ = helper(root, -sys.maxsize)
+        return res
