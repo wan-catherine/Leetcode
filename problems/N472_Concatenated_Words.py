@@ -28,7 +28,7 @@ class Solution:
             return False
         def check(word):
             length = len(word)
-            visited = [0] * length
+            visited = [0] * length # visited[index] means word[index:] is not in the words.
             return dfs(word, 0, visited)
         for word in words:
             if word and check(word):
