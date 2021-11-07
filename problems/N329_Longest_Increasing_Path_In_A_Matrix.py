@@ -45,7 +45,7 @@ class Solution(object):
         return res
 
     """
-    here memo[(i,j)] mens the longest increasing path which starts from matrix[i][j]
+    here memo[(i,j)] means the longest increasing path which starts from matrix[i][j]
     """
     def longestIncreasingPath_dfs(self, matrix: List[List[int]]) -> int:
         rows, cols = len(matrix), len(matrix[0])
