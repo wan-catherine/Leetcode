@@ -20,6 +20,7 @@ class Solution(object):
                 break
             i += 1
             cells = cur # make cells is the last one of the cycle , so then next_day(cells) will enter the cycle
+            print(cur)
         if has_cycle:
             N %= count
             for i in range(0, N):

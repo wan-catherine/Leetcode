@@ -26,3 +26,6 @@ class TestSolution(TestCase):
         output = [0,0,0,1,1,0,1,0]
         self.assertListEqual(output, Solution().prisonAfterNDays(cells, N))
 
+    def test_prisonAfterNDays_4(self):
+        self.assertListEqual([0,0,1,0,0,1,1,0], Solution().prisonAfterNDays([0,1,1,1,0,0,0,0], 99))
+
