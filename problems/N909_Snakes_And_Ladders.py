@@ -21,6 +21,7 @@ class Solution(object):
                     num_index_mapping[num] = (i, j)
                     num -= 1
             reverse = not reverse
+
         x, y = num_index_mapping[n*n]
         stack = [(n-1,0)]
         moves = 0
@@ -42,7 +43,7 @@ class Solution(object):
                         row, col = num_index_mapping[board[row][col]]
                     new_stack.append((row, col))
             stack = new_stack
-            print(new_stack)
+            # print(new_stack)
             moves += 1
         return -1
 
