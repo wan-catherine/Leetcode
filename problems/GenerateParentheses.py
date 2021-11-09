@@ -33,7 +33,7 @@ class Solution:
     # idea: dynamic programming: dp[0]=''
     # step 1: generate one pair dp[1]= ()
     # step 2: add the second pair either by inserting in () -> (()) or add afterwards ()(). dp[2] = (()), ()()
-    # step 3: add the thrid pair either by inserting in ((())), or (())() or ()(()) or ()()().
+    # step 3: add the third pair either by inserting in ((())), or (())() or ()(()) or ()()().
     # dp[3]=  ((())), (())(), ()(()), ()()(), (()()).
     # how was this done?
     # for i=3 here, j = 0,1,2.
