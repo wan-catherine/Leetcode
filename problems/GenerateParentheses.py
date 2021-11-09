@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def generateParenthesis(self, n):
         """
@@ -35,6 +38,27 @@ class Solution:
     # how was this done?
     # for i=3 here, j = 0,1,2.
     # For j=0, add all combination of (dp[0])dp[2] = ()(()), ()()().
-    # For j=1, add all combinatio of (dp[1])dp[1] = (())().
+    # For j=1, add all combination of (dp[1])dp[1] = (())().
     # For j=2, add all combination of (dp[2])dp[0]=((())), (()()).
 
+    def generateParenthesis(self, n: int) -> List[str]:
+        res = []
+
+        def dfs(used, left, cur):
+            if used == n and left == 0:
+                res.append(''.join(cur[:]))
+                return
+            if used == n:
+                cur.append(')')
+                dfs(used, left - 1, cur[:])
+            else:
+                if left > 0:
+                    cur.append(')')
+                    dfs(used, left - 1, cur[:])
+                    cur.pop()
+                if used < n:
+                    cur.append('(')
+                    dfs(used + 1, left + 1, cur[:])
+
+        dfs(0, 0, [])
+        return res
