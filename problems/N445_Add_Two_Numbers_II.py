@@ -62,3 +62,38 @@ class Solution(object):
             res = res*10 + l.val
             l = l.next
         return res
+
+    # use stack
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        first, second = [], []
+        while l1:
+            first.append(l1.val)
+            l1 = l1.next
+        while l2:
+            second.append(l2.val)
+            l2 = l2.next
+
+        dummy = ListNode()
+        carry = 0
+        while first and second:
+            f, s = first.pop(), second.pop()
+            val = f + s + carry
+            carry = val // 10
+            node = ListNode(val % 10)
+            next = dummy.next
+            dummy.next = node
+            node.next = next
+        f = first if first else second
+        while f:
+            val = f.pop() + carry
+            carry = val // 10
+            node = ListNode(val % 10)
+            next = dummy.next
+            dummy.next = node
+            node.next = next
+        if carry > 0:
+            node = ListNode(carry)
+            next = dummy.next
+            dummy.next = node
+            node.next = next
+        return dummy.next
