@@ -55,6 +55,7 @@ It's actually a way to do loop in-order traverse.
 class BSTIterator(object):
     def __init__(self, root):
         self.stack = []
+        self.push_left(root)
 
     def push_left(self, node):
         while node:
@@ -69,7 +70,7 @@ class BSTIterator(object):
         return node.val
 
     def hasNext(self):
-        return len(self.stack)
+        return len(self.stack) > 0
 
 # Your BSTIterator will be called like this:
 # i, v = BSTIterator(root), []
