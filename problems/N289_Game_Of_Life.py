@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution(object):
     def gameOfLife(self, board):
         """
@@ -11,6 +14,7 @@ class Solution(object):
         for row in range(self.rows):
             for col in range(self.cols):
                 count = self.caculate(board, changes, row, col)
+                print(row, col, count)
                 if board[row][col]:
                     if count[1] < 2 or count[1] > 3:
                         board[row][col] = 0
@@ -66,6 +70,37 @@ class Solution(object):
                 count[board[row-1][col+1]] += 1
         return count
 
+    def gameOfLife(self, board: List[List[int]]) -> None:
+        """
+        Do not return anything, modify board in-place instead.
+        """
+        directions = [(1, 0), (1, -1), (0, -1), (-1, -1), (-1, 0), (-1, 1), (0, 1), (1, 1)]
 
+        def caculate(r, c):
+            count = {0: 0, 1: 0}
+            for i, j in directions:
+                row, col = r + i, c + j
+                if row < 0 or row >= rows or col < 0 or col >= cols:
+                    continue
+                if (row, col) in changes:
+                    count[1 - board[row][col]] += 1
+                else:
+                    count[board[row][col]] += 1
+            return count
+
+        changes = set()
+        rows, cols = len(board), len(board[0])
+        for i in range(rows):
+            for j in range(cols):
+                count = caculate(i, j)
+                # print(i, j, count)
+                if board[i][j]:
+                    if count[1] < 2 or count[1] > 3:
+                        board[i][j] = 0
+                        changes.add((i, j))
+                else:
+                    if count[1] == 3:
+                        board[i][j] = 1
+                        changes.add((i, j))
 
 

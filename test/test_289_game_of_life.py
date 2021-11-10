@@ -17,7 +17,7 @@ class TestSolution(TestCase):
 ]
         self.assertListEqual(output, Solution().gameOfLife(input))
 
-    def test_gameOfLife(self):
+    def test_gameOfLife_(self):
         input = [[1,1],[1,0]]
         output = [[1,1],[1,1]]
         self.assertListEqual(output, Solution().gameOfLife(input))
