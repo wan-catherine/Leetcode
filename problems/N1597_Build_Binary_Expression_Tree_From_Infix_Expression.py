@@ -46,7 +46,7 @@ class Solution(object):
         return self.expTree(s[1:-1])
 
     """
-    First : get the postfix expression , so that we don't need to consier the parentheses and the precedence of operator
+    First : get the postfix expression , so that we don't need to consider the parentheses and the precedence of operator
         use two stacks : res and operators 
         rules：
             1. if c is a number , then directly append into res
