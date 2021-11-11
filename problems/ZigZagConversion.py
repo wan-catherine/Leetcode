@@ -36,3 +36,22 @@ class Solution:
                     multiple += 1
 
         return res
+
+    def convert(self, s: str, numRows: int) -> str:
+        if numRows == 1:
+            return s
+        arr = [[] for _ in range(numRows)]
+        i, sign = 0, 1
+        for c in s:
+            arr[i].append(c)
+            if sign == 1:
+                if sign + i >= numRows:
+                    sign = -1
+            else:
+                if sign + i < 0:
+                    sign = 1
+            i += sign
+        res = ""
+        for li in arr:
+            res += ''.join(li)
+        return res
