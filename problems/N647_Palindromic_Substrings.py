@@ -83,3 +83,29 @@ class Solution(object):
                 r = i + p[i]
         return sum([(i+1)//2 for i in p])
 
+    # update at 20211113
+    def countSubstrings(self, s: str) -> int:
+        ns = '#'.join("^{0}$".format(s))
+        length = len(ns)
+        l, r = 0, -1
+        p = [0] * length
+        for i in range(1, length - 1):
+            k = 0
+            if i < r:
+                j = l + r - i
+                k = min(p[j], r - i)
+            while ns[i - k - 1] == ns[i + k + 1]:
+                k += 1
+            p[i] = k
+            if i + k > r:
+                l = i - k
+                r = i + k
+        ans = 0
+        # print(p)
+        for i in range(1, length - 1):
+            n = p[i]
+            if ns[i] == '#':
+                ans += n // 2
+            else:
+                ans += n // 2 + 1
+        return ans
