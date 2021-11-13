@@ -15,7 +15,7 @@ class Solution(object):
     # if tx > ty : then the very last change should be (x+y, y) , then we can get (tx-ty, ty)
     # if tx <= ty : then the very last change should be (x, x+y), then we can get (tx, ty-tx)
     # about tx == ty, you can put in any of the change .
-    def reachingPoints(self, sx, sy, tx, ty):
+    def reachingPoints_tle(self, sx, sy, tx, ty):
         while tx >= sx and ty >= sy:
             if tx == sx and ty == sy:
                 return True
@@ -28,5 +28,21 @@ class Solution(object):
                 continue
             if tx <= ty:
                 ty = ty - tx
+                continue
+        return False
+
+    def reachingPoints(self, sx, sy, tx, ty):
+        while tx >= sx and ty >= sy:
+            if tx == sx and ty == sy:
+                return True
+            if sx == tx:
+                return (ty - sy) % sx == 0
+            if sy == ty:
+                return (tx - sx) % sy == 0
+            if tx > ty:
+                tx = tx % ty
+                continue
+            if tx <= ty:
+                ty = ty % tx
                 continue
         return False
