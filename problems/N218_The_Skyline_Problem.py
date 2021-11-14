@@ -1,5 +1,6 @@
 import heapq
 import sys
+from typing import List
 
 
 class Maxpq:
@@ -146,3 +147,27 @@ class SegTree:
         self.left.set_status(s, e, h)
         self.right.set_status(s, e, h)
         self.status = max(self.left.status, self.right.status)
+
+
+    """
+    Left to enter pq, right to pop pq. 
+    check the previous height and current height from the pq , if there is a change , then it's part of results. 
+    """
+    def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
+        buildlines = []
+        for l, r, h in buildings:
+            buildlines.append([l, -h, r])
+            buildlines.append([r, h, 0])
+        buildlines.sort()
+        prev = 0
+        pq = [(0, sys.maxsize)]
+        res = []
+        for l, h, r in buildlines:
+            while pq and l >= pq[0][1]:
+                heapq.heappop(pq)
+            if h < 0:
+                heapq.heappush(pq, (h, r))
+            if pq and prev != -pq[0][0]:
+                res.append([l, -pq[0][0]])
+                prev = -pq[0][0]
+        return res
