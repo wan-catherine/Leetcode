@@ -7,3 +7,7 @@ class TestSolution(TestCase):
 
     def test_minIncrementForUnique_1(self):
         self.assertEqual(6, Solution().minIncrementForUnique([3,2,1,2,1,7]))
+
+    def test_minIncrementForUnique_2(self):
+        self.assertEqual(3, Solution().minIncrementForUnique([2,2,2,1]))
+
