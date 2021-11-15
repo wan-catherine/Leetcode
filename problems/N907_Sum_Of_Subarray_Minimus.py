@@ -73,6 +73,7 @@ class Solution(object):
         return res % (10 ** 9 + 7)
 
     # update at 20211008
+    # notice we can't use equal for both left and right, or it will be duplicated .
     def sumSubarrayMins(self, arr: List[int]) -> int:
         length = len(arr)
         left, right = [sys.maxsize] * length, [sys.maxsize] * length
