@@ -73,3 +73,19 @@ class Solution:
                 if not i % primes[j]:
                     break
         return len(primes)
+
+    def countPrimes(self, n: int) -> int:
+        if n < 2:
+            return 0
+        arr = [1] * n
+        arr[0], arr[1] = 0, 0
+        for i in range(2, int(math.sqrt(n)) + 1):
+            if not arr[i]:
+                continue
+            for j in range(i, n):
+                index = i * j
+                if index >= n:
+                    break
+                # print(index)
+                arr[index] = 0
+        return sum(arr)
