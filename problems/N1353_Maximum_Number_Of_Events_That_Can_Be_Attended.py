@@ -1,4 +1,5 @@
 import heapq
+from typing import List
 
 
 class Solution(object):
@@ -34,4 +35,24 @@ class Solution(object):
             d += 1
             while h and h[0] < d:
                 heapq.heappop(h)
+        return res
+
+    """
+    attends the nearest deadline event. 
+    """
+    def maxEvents(self, events: List[List[int]]) -> int:
+        length = len(events)
+        events.sort()
+        i = 0
+        res = 0
+        pq = []
+        for day in range(1, 10 ** 5 + 1):
+            while i < length and events[i][0] <= day:
+                heapq.heappush(pq, events[i][1])
+                i += 1
+            while pq and pq[0] < day:
+                heapq.heappop(pq)
+            if pq:
+                heapq.heappop(pq)
+                res += 1
         return res
