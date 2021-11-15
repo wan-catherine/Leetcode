@@ -56,6 +56,16 @@ class Solution:
                     break
             return state
 
+        def get_next_state(cur, sticker):
+            counter = collections.Counter(sticker)
+            for i in range(length):
+                if cur & (1 << i):
+                    continue
+                if target[i] in counter and counter[target[i]] > 0:
+                    cur |= (1 << i)
+                    counter[target[i]] -= 1
+            return cur
+
         for state in range(1 << length):
             if dp[state] == sys.maxsize:
                 continue
