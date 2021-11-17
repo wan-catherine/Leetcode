@@ -58,3 +58,31 @@ class Solution:
         if val < -2 ** 31 or val > 2 ** 31 - 1:
             return 2 ** 31 - 1
         return val
+
+    def divide(self, dividend: int, divisor: int) -> int:
+        if dividend == 0:
+            return 0
+        sign = 1 if dividend * divisor > 0 else -1
+        dividend, divisor = abs(dividend), abs(divisor)
+
+        def helper(a, b):
+            if a < b:
+                return (0, a)
+            i = 0
+            count = 0
+            while (b << i) <= a:
+                i += 1
+            count += (1 << (i - 1))
+            ans, left = helper(a - (b << (i - 1)), b)
+            return (count + ans, left)
+
+        ans, left = helper(dividend, divisor)
+        if sign == 1:
+            res = ans
+        else:
+            res = ans * sign
+        if res > 2 ** 31 - 1:
+            return 2 ** 31 - 1
+        if res < -2 ** 31:
+            return -2 ** 31
+        return res
