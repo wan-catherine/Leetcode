@@ -64,25 +64,24 @@ class Solution:
             return 0
         sign = 1 if dividend * divisor > 0 else -1
         dividend, divisor = abs(dividend), abs(divisor)
-
         def helper(a, b):
             if a < b:
-                return (0, a)
+                return 0
             i = 0
             count = 0
             while (b << i) <= a:
                 i += 1
             count += (1 << (i - 1))
-            ans, left = helper(a - (b << (i - 1)), b)
-            return (count + ans, left)
+            count += helper(a - (b << (i-1)), b)
+            return count
 
-        ans, left = helper(dividend, divisor)
+        ans = helper(dividend, divisor)
         if sign == 1:
             res = ans
         else:
             res = ans * sign
         if res > 2 ** 31 - 1:
             return 2 ** 31 - 1
-        if res < -2 ** 31:
-            return -2 ** 31
+        if res < -2**31:
+            return -2**31
         return res
