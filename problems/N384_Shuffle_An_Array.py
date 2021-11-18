@@ -8,12 +8,14 @@ class Solution(object):
         :type nums: List[int]
         """
         self.nums = nums
+        self.original = nums[:]
 
     def reset(self):
         """
         Resets the array to its original configuration and return it.
         :rtype: List[int]
         """
+        self.nums = self.original[:]
         return self.nums
 
     def shuffle(self):
@@ -21,9 +23,10 @@ class Solution(object):
         Returns a random shuffling of the array.
         :rtype: List[int]
         """
-        ans = self.nums[:]
-        random.shuffle(ans)
-        return ans
+        for i in range(len(self.nums)):
+            idx = random.randrange(i, len(self.nums))
+            self.nums[i], self.nums[idx] = self.nums[idx], self.nums[i]
+        return self.nums
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(nums)
 # param_1 = obj.reset()
