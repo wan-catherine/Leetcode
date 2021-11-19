@@ -58,3 +58,49 @@ class Solution:
                     nums.append(v)
             i += 1
         return nums[0]
+
+    def calculate(self, s: str) -> int:
+        def eval(st):
+            nums = []
+            st = '+' + st
+            length = len(st)
+            i = 0
+            while i < length:
+                j = i + 1
+                if j < length and st[j] == '-':
+                    j += 1
+                while j < length and st[j].isdigit():
+                    j += 1
+
+                v = int(st[i + 1:j])
+                if st[i] == '+':
+                    nums.append(v)
+                elif st[i] == '-':
+                    nums.append(-v)
+                elif st[i] == '*':
+                    nums[-1] *= v
+                else:
+                    left = nums[-1]
+                    sign = 1 if left * v >= 0 else -1
+                    nums[-1] = abs(left) // abs(v) * sign
+                i = j
+            return sum(nums)
+
+        cur = ''
+        strings = []
+        for c in s:
+            if c == '(':
+                strings.append(cur)
+                cur = ''
+            elif c == ')':
+                val = str(eval(cur))
+                if not strings:
+                    cur = val
+                else:
+                    cur = strings.pop() + val
+            elif c == ' ':
+                continue
+            else:
+                cur += c
+        res = eval(cur)
+        return res
