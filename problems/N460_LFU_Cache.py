@@ -20,7 +20,7 @@ class LFUCache:
         self.fre2count = collections.defaultdict(int)
 
     def add_node(self, tail, node):
-        prev = tail.prev
+        prev = tail.prev 
         prev.nxt = node
         node.prev = prev
         node.nxt = tail
