@@ -1,4 +1,7 @@
 # Definition for a binary tree node.
+from typing import List
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -27,6 +30,20 @@ class Solution:
         node.right = self.helper(preorder[index+1:], inorder[index+1:])
 
         return node
+
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
+        length = len(preorder)
+        mapping = {inorder[i] : i for i in range(length)}
+        def dfs(ps, pe, ins, ine):
+            if ps > pe:
+                return None
+            root = TreeNode(preorder[ps])
+            index = mapping[preorder[ps]]
+            ll = index - index
+            root.left = dfs(ps + 1, ps + ll, ins, ins + ll)
+            root.right = dfs(ps + ll + 1, pe, index + 1, ine)
+            return root
+        dfs(0, length-1, 0, length-1)
 
 
 
