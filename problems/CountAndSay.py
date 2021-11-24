@@ -23,3 +23,19 @@ class Solution:
                 temp += str(count) + str(before[-1])
             before = temp
         return before
+
+    def countAndSay(self, n: int) -> str:
+        cur = "1"
+        while n - 1:
+            l = len(cur)
+            ncur = ''
+            i = 0
+            while i < l:
+                j = i
+                while j < l and cur[j] == cur[i]:
+                    j += 1
+                ncur += '{}{}'.format(j - i, cur[i])
+                i = j
+            cur = ncur
+            n -= 1
+        return cur
