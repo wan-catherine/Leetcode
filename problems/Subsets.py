@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def subsets_before(self, nums):
         """
@@ -48,7 +51,20 @@ class Solution:
             self.backtrack(res, nums, temp, i + 1)
             temp.pop()
 
-
+    """
+    iterate way 
+    """
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        length = len(nums)
+        val = 2 ** length
+        res = []
+        for v in range(val):
+            cur = []
+            for i in range(length):
+                if (v >> i) & 1:
+                    cur.append(nums[i])
+            res.append(cur)
+        return res
 
 
 
