@@ -38,3 +38,40 @@ class Solution:
         self.diaone[col + row] = isPut
         self.diasecond[row - col + n - 1] = isPut
 
+    def totalNQueens(self, n: int) -> int:
+        grid = [[0] * n for _ in range(n)]
+        res = 0
+
+        def check(row, col):
+            if grid[row][col]:
+                return False
+            for r in range(n):
+                if grid[r][col]:
+                    return False
+            for c in range(n):
+                if grid[row][c]:
+                    return False
+            directions = [(1, 1), (1, -1), (-1, -1), (-1, 1)]
+            for i, j in directions:
+                r, c = row, col
+                while r >= 0 and r < n and c >= 0 and c < n:
+                    if grid[r][c]:
+                        return False
+                    r += i
+                    c += j
+            return True
+
+        def dfs(index):
+            nonlocal res
+            if index == n:
+                res += 1
+                return
+            for c in range(n):
+                if not check(index, c):
+                    continue
+                grid[index][c] = 1
+                dfs(index + 1)
+                grid[index][c] = 0
+
+        dfs(0)
+        return res
