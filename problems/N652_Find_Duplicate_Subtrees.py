@@ -3,6 +3,12 @@ serialize each node and compare the serialization str.
 We use serialization gives each node a id.
 Here we try to give each node a key (node.val, left_id, right_id).
 """
+import collections
+from typing import List, Optional
+
+from Utility_Tree import TreeNode
+
+
 class Solution(object):
     def findDuplicateSubtrees(self, root):
         """
@@ -30,5 +36,26 @@ class Solution(object):
         print(mapping)
         return res
 
+    def findDuplicateSubtrees(self, root: Optional[TreeNode]) -> List[Optional[TreeNode]]:
+        mapping = collections.defaultdict(TreeNode)
+        res = []
+        visited = set()
 
+        def dfs(node):
+            nonlocal res
+            if not node:
+                return ['#']
+            ans = [str(node.val)]
+            ans.extend(dfs(node.left))
+            ans.extend(dfs(node.right))
+            key = ','.join(ans)
+            if key in mapping:
+                if key not in visited:
+                    visited.add(key)
+                    res.append(node)
+            else:
+                mapping[key] = node
+            return ans
 
+        dfs(root)
+        return res
