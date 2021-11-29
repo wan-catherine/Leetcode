@@ -21,6 +21,9 @@ when nums[i] == nums[i-1], it should remove ith day:
 dp[i][0] = dp[i-1][0]
 dp[i][1] = dp[i-1][1]
 """
+from typing import List
+
+
 class Solution(object):
     def wiggleMaxLength(self, nums):
         """
@@ -43,3 +46,19 @@ class Solution(object):
                 dp[i][0] = dp[i-1][0]
                 dp[i][1] = dp[i-1][1]
         return max(dp[-1][0], dp[-1][1])
+
+    def wiggleMaxLength(self, nums: List[int]) -> int:
+        length = len(nums)
+        dp = [[0, 0] for _ in range(length)]
+        dp[0] = [1, 1]
+        for i in range(1, length):
+            if nums[i] > nums[i - 1]:
+                dp[i][0] = dp[i - 1][0]
+                dp[i][1] = dp[i - 1][0] + 1
+            elif nums[i] < nums[i - 1]:
+                dp[i][0] = dp[i - 1][1] + 1
+                dp[i][1] = dp[i - 1][1]
+            else:
+                dp[i][0] = dp[i - 1][0]
+                dp[i][1] = dp[i - 1][1]
+        return max(dp[-1])
