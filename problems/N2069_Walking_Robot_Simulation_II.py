@@ -15,7 +15,8 @@ class Robot:
     def step(self, num: int) -> None:
         num = num % self.total
         r, c = self.pos
-        # I don't understand why need to update this !!!
+        # this is because we do : num = num % self.total.
+        # aftere a whole circle, the direction should be South.
         if num == r == c == 0:
             self.dir = 3
         while num:
