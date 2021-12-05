@@ -4,7 +4,7 @@ from collections import deque
 from typing import List
 
 """
-Basical idea: use the prefix sum array. For j-th , find an i-th (i < j ) which prefix[j] - prefix[i] >= k 
+Basic idea: use the prefix sum array. For j-th , find an i-th (i < j ) which prefix[j] - prefix[i] >= k 
 it's a O(N*N), so we need to do prune. 
 
 Use greedy idea :
