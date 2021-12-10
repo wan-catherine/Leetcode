@@ -53,5 +53,30 @@ class Solution(object):
         status = check(root)
         return res + (1 if status == 0 else 0)
 
+    # update at 20211209
+    def minCameraCover(self, root: TreeNode) -> int:
+        if not root.left and not root.right:
+            return 1
+        res = 0
+
+        def dfs(node):
+            nonlocal res
+            if not node.left and not node.right:
+                return 0
+            l, r = None, None
+            if node.left:
+                l = dfs(node.left)
+            if node.right:
+                r = dfs(node.right)
+            if l == 0 or r == 0:
+                res += 1
+                return 2
+            if l == 2 or r == 2:
+                return 1
+            return 0
+
+        status = dfs(root)
+        return res + (1 if status == 0 else 0)
+
 
 
