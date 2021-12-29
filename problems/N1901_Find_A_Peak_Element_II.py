@@ -46,3 +46,26 @@ class Solution:
             if val:
                 return val
 
+    def findPeakGrid(self, mat: List[List[int]]) -> List[int]:
+        m, n = len(mat), len(mat[0])
+        l, r = 0, m
+
+        def helper(r):
+            c = 0
+            for i in range(1, n):
+                if mat[r][i] > mat[r][c]:
+                    c = i
+            return c
+
+        while l < r:
+            mid = (r - l) // 2 + l
+            mmax = max(mat[mid])
+            umax = -1 if mid == 0 else max(mat[mid - 1])
+            dmax = -1 if mid == m - 1 else max(mat[mid + 1])
+            maximum = max(mmax, umax, dmax)
+            if maximum == mmax:
+                return [mid, helper(mid)]
+            if maximum == umax:
+                r = mid
+            else:
+                l = mid + 1
