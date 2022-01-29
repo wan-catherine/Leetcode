@@ -58,7 +58,7 @@ class Solution:
                     self.DFS(current, i, left-1, right, res)
 
     """
-    Key point is how to remove duplidated results. 
+    Key point is how to remove duplicated results. 
     rules:
     1. if s[index] == cur[-1], then you must choose it 
     2. if s[index] != cur[-1], then you can choose it or you can not choose it .
@@ -66,7 +66,6 @@ class Solution:
     This way, if we have several same characters in the array, we can make sure that 
     we only choose same characters from right. 
     like ooxxxx : oox, ooxx, ooxxx, ooxxxx. 
-    
     """
     def removeInvalidParentheses(self, s: str) -> List[str]:
         length = len(s)
