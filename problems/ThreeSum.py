@@ -59,3 +59,36 @@ class Solution:
                 res.append([nums[i], nums[j], target])
         return res
 
+    def threeSum_20220525(self, nums: List[int]) -> List[List[int]]:
+        if not nums:
+            return []
+        nums.sort()
+        length = len(nums)
+        res = []
+        pi = sys.maxsize
+        for i in range(length - 2):
+            if nums[i] == pi:
+                continue
+            target = -nums[i]
+            pi = nums[i]
+            p, q = i + 1, length - 1
+            pp, pq = sys.maxsize, sys.maxsize
+            while p < q:
+                if nums[p] == pp:
+                    p += 1
+                    continue
+                if nums[q] == pq:
+                    q -= 1
+                    continue
+                if nums[p] + nums[q] == target:
+                    res.append([nums[i], nums[p], nums[q]])
+                    pp, pq = nums[p], nums[q]
+                    p += 1
+                    q -= 1
+                elif nums[p] + nums[q] < target:
+                    pp = nums[p]
+                    p += 1
+                else:
+                    pq = nums[q]
+                    q -= 1
+        return res
