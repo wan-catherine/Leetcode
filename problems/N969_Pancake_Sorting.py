@@ -2,6 +2,9 @@
 Each time, find the largest one and flip it to the top, then flip it to the bottom
 The bottom line is there are only two number in the array , we can directly check and finish.
 """
+from typing import List
+
+
 class Solution(object):
     def pancakeSort_before(self, A):
         """
@@ -61,3 +64,19 @@ class Solution(object):
             arr = arr[::-1]
             res.append(arr_len)
             self.helper(arr[:-1], res)
+
+    def pancakeSort_20220531(self, arr: List[int]) -> List[int]:
+        res = []
+        length = len(arr)
+        sarr = sorted(arr)
+        for i in range(length - 1, -1, -1):
+            num = sarr[i]
+            for j in range(length):
+                if num == arr[j]:
+                    if j < i:
+                        res.append(j + 1)
+                        arr = arr[:j + 1][::-1] + arr[j + 1:]
+                        res.append(i + 1)
+                        arr = arr[:i + 1][::-1] + arr[i + 1:]
+                    break
+        return res
