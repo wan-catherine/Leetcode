@@ -58,3 +58,23 @@ class Solution(object):
             x *= x  #key point
             n = n >> 1
         return res
+
+    def myPow_20220602(self, x: float, n: int) -> float:
+        if n == 0:
+            return 1.0
+        flag = True if n > 0 else False
+        n = abs(n)
+        ans = 1
+
+        while n >= 1:
+            res = x
+            if n == 1:
+                ans *= res
+                break
+            cur = 1
+            while 2 * cur <= n:
+                res *= res
+                cur *= 2
+            n -= cur
+            ans *= res
+        return ans if flag else 1 / ans
