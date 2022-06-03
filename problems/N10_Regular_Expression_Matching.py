@@ -60,3 +60,24 @@ class Solution:
                     dp_table[i][j] = False
 
         return dp_table[-1][-1]
+
+    def isMatch_20220602(self, s: str, p: str) -> bool:
+        ls, lp = len(s), len(p)
+        dp = [[False] * (ls + 1) for _ in range(lp + 1)]
+        dp[0][0] = True
+        # s='aa', p='a*' , so we need to deal with the base situation.
+        for i in range(lp):
+            if p[i] != '*':
+                dp[i + 1][0] = False
+            else:
+                dp[i + 1][0] = dp[i - 1][0]
+        for i in range(lp):
+            for j in range(ls):
+                if p[i] == '*':
+                    if p[i - 1] == '.' or p[i - 1] == s[j]:
+                        dp[i + 1][j + 1] = dp[i - 1][j + 1] or dp[i + 1][j]
+                    else:
+                        dp[i + 1][j + 1] = dp[i - 1][j + 1]
+                elif p[i] == '.' or p[i] == s[j]:
+                    dp[i + 1][j + 1] = dp[i][j]
+        return dp[-1][-1]
