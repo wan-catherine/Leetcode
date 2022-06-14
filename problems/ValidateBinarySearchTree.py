@@ -1,5 +1,7 @@
 # Definition for a binary tree node.
+import sys
 from math import inf
+from typing import Optional
 
 
 class TreeNode:
@@ -109,4 +111,15 @@ class Solution:
         res, _, _ = check(root)
         return res
 
+    def isValidBST_20220614(self, root: Optional[TreeNode]) -> bool:
 
+        def check(node, mx, mi):
+            if not node:
+                return True
+            if node.val >= mx or node.val <= mi:
+                return False
+            l = check(node.left, node.val, mi)
+            r = check(node.right, mx, node.val)
+            return l and r
+
+        return check(root, sys.maxsize, -sys.maxsize)
