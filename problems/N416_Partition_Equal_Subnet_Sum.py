@@ -42,10 +42,10 @@ class Solution:
         return False
 
 # d[i][j] : by using the first i nums, the totally sum is j, then it's doable or not
-# d[i][j] seperate two situations :
+# d[i][j] has two situations :
 #         1. not used the ith num : d[i-1][j]
 #         2. used the ith num : d[i-1][j - nums[i-1]]
-# d[i][j] = d[i-1[j] or d[i-1][j - nums[i-1]]
+# d[i][j] = d[i-1][j] or d[i-1][j - nums[i-1]]
 # Here because we can reuse the number in nums, so for the second situation, it's d[i-1] not
 # d[i] (for 322, 518, it will be d[i], because the coins there is infinite)
 # also need to check if j - nums[i-1] >= 0
