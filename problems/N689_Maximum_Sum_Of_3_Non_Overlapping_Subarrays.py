@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution(object):
-    def maxSumOfThreeSubarrays(self, nums, k):
+    def maxSumOfThreeSubarrays_oneway(self, nums, k):
         """
         :type nums: List[int]
         :type k: int
@@ -24,5 +27,34 @@ class Solution(object):
                 three = two + [i+2*k]
         return three
 
+    def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:
+        length = len(nums)
+        left, right, middle = [None] * length, [None] * length, [0] * length
+        cur = sum(nums[:k])
+        middle[0] = cur
+        for i in range(1, length - k + 1):
+            cur = cur - nums[i-1] + nums[i+k-1]
+            middle[i] = cur
+        cur = sum(nums[:k])
+        li = 0
+        for i in range(k, length - k):
+            if middle[i - k] > cur:
+                cur = middle[i-k]
+                li = i-k
+            left[i] = (cur, li)
+        cur = middle[length - k]
+        ri = length - k
+        for i in range(length - 2 * k, k-1, -1):
+            if middle[i+k] >= cur:
+                cur = middle[i+k]
+                ri = i + k
+            right[i] = (cur, ri)
 
-
+        res = 0
+        ans = [-1, -1, -1]
+        for i in range(k, length - 2*k + 1):
+            val = left[i][0] + middle[i] + right[i][0]
+            if val > res:
+                res = val
+                ans = [left[i][1], i, right[i][1]]
+        return ans

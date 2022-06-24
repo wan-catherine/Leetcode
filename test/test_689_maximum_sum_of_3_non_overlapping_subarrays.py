@@ -10,3 +10,6 @@ class TestSolution(TestCase):
 
     def test_maxSumOfThreeSubarrays_2(self):
         self.assertListEqual([4,5,7], Solution().maxSumOfThreeSubarrays([4,5,10,6,11,17,4,11,1,3], 1))
+
+    def test_maxSumOfThreeSubarrays_3(self):
+        self.assertListEqual([0,1,2], Solution().maxSumOfThreeSubarrays([4,3,2,1], 1))
