@@ -82,3 +82,26 @@ class Solution:
             del nums[index]
             k -= count * index
         return ''.join(map(str, res + nums))
+
+    def getPermutation_20220701(self, n: int, k: int) -> str:
+        status = [1] * (n + 1)
+        for i in range(1, n + 1):
+            status[i] = status[i - 1] * i
+        visited = [0] * n
+
+        def helper(cur, v):
+            left = n - len(cur) - 1
+            count = status[left]
+            for i in range(n):
+                if visited[i]:
+                    continue
+                if v > count:
+                    v -= count
+                else:
+                    visited[i] = 1
+                    cur.append(str(i + 1))
+                    helper(cur, v)
+
+        res = []
+        helper(res, k)
+        return ''.join(res)
