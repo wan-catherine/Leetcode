@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def combine_2019(self, n, k):
         """
@@ -38,3 +41,18 @@ class Solution:
             temp.append(nums[i])
             self.dfs(nums[i+1:] , k - 1, temp, res)
             temp.pop()
+
+    def combine(self, n: int, k: int) -> List[List[int]]:
+        res = []
+
+        def dfs(index, cur):
+            if len(cur) == k:
+                res.append(cur[:])
+                return
+            for i in range(index, n):
+                cur.append(i + 1)
+                dfs(i + 1, cur[:])
+                cur.pop()
+
+        dfs(0, [])
+        return res

@@ -39,7 +39,7 @@ class Solution:
 
     def permuteUnique(self, nums):
         self.length = len(nums)
-        nums.sort()  #sort is the key . 
+        nums.sort()  #sort is the key .
         res = []
         self.backtracking([], nums, res)
         return res
