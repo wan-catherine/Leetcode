@@ -20,7 +20,7 @@ class Solution(object):
 
     """
     Use slide window.
-    The key pooint is how to shrink left . 
+    The key point is how to shrink left . 
     We check all 26 characters. 
     we check the longest substring which contains num unique characters which all those unique characters are no less than k . 
     """
