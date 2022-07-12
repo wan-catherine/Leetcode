@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def jump_timeout(self, nums):
         """
@@ -81,6 +84,31 @@ class Solution:
             l, r = r, nxt
         return times
 
+    """
+    O(N) DP
+    dp[i] : arrive position i, need the minimum jump . 
+        dp[i] = min(dp[i-k],...,dp[i+3],dp[i+2],dp[i+1]) + 1 
+        let's check : min(dp[i-k],...,dp[i+3],dp[i+2],dp[i+1]) == dp[i-k]
+        
+        because , when we arrive i, use dp[i] jump, if we want to arrive i + 1, we won't use less than dp[i] jumps . 
+        dp[i+1] will be dp[i] or dp[i] + 1 
+        ==> dp[i-k] <= ... <= dp[i+3] <= dp[i+2] <= dp[i+1] 
+        
+        then we need to calculate the most far position from i which can jump directly to i . 
+        
+    """
+    def jump(self, nums: List[int]) -> int:
+        length = len(nums)
+        dis = [0] * length
+        j = 0
+        for i in range(1, length):
+            while j + nums[j] < i:
+                j += 1
+            dis[i] = j
+        dp = [0] * length
+        for i in range(1, length):
+            dp[i] = dp[dis[i]] + 1
+        return dp[-1]
 
 
 
