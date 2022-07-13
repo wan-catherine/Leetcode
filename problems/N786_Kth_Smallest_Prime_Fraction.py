@@ -1,7 +1,29 @@
 import bisect
+import heapq
+from typing import List
 
 
 class Solution(object):
+    """
+    For jth , there are j fraction :
+    arr[0]/arr[j], arr[1]/arr[j], ... , arr[j-1]/arr[j]
+    and they are strictly increasing.
+    So we can use the similar method as multiple arrays merge sort.
+    """
+    def kthSmallestPrimeFraction(self, arr: List[int], k: int) -> List[int]:
+        pq = []
+        length = len(arr)
+        status = [0] * length
+        for i in range(1, length):
+            heapq.heappush(pq, (arr[0] / arr[i], arr[0], arr[i], i))
+        while k:
+            v, a, b, idx = heapq.heappop(pq)
+            k -= 1
+            if k == 0:
+                return [a, b]
+            status[idx] += 1
+            heapq.heappush(pq, (arr[status[idx]] / arr[idx], arr[status[idx]], arr[idx], idx))
+
     def kthSmallestPrimeFraction_TLE(self, A, K):
         """
         :type A: List[int]
@@ -50,3 +72,8 @@ class Solution(object):
                     ans = fraction
                     res = [A[i], A[index]]
         return res
+
+
+
+
+
