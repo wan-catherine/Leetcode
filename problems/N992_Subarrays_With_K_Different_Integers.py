@@ -1,4 +1,6 @@
 import collections
+from bisect import bisect
+from typing import List
 
 """
 exactly(K) = atMost(K) - atMost(K-1)
@@ -47,4 +49,29 @@ class Solution(object):
                 count[self.arr[end]] += 1
             res += end - start + 1  #key part
             end += 1
+        return res
+
+    def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
+        length = len(nums)
+        status = set()
+        indexes = [-1] * (length + 1)
+        l, r = 0, 0
+        res = 0
+        arr = []
+        while r < length:
+            if indexes[nums[r]] < 0:
+                status.add(nums[r])
+            else:
+                idx = bisect.bisect_left(arr, indexes[nums[r]])
+                arr.remove(arr[idx])
+            bisect.insort_left(arr, r)
+            indexes[nums[r]] = r
+            if len(status) > k:
+                l = arr[0] + 1
+                status.remove(nums[arr[0]])
+                indexes[nums[arr[0]]] = -1
+                arr = arr[1:]
+            if len(status) == k:
+                res += arr[0] - l + 1
+            r += 1
         return res
