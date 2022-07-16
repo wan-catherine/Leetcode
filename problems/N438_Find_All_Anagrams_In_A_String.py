@@ -1,3 +1,7 @@
+import collections
+from typing import List
+
+
 class Solution:
     def findAnagrams(self, s: str, p: str):
         if not s or len(s) < len(p):
@@ -39,3 +43,18 @@ class Solution:
 
         return res
 
+    def findAnagrams(self, s: str, p: str) -> List[int]:
+        ls, lp = len(s), len(p)
+        if ls < lp:
+            return []
+        cp = collections.Counter(p)
+        status = collections.Counter(s[:lp])
+        res = []
+        if cp == status:
+            res.append(0)
+        for i in range(lp, ls):
+            status[s[i - lp]] -= 1
+            status[s[i]] += 1
+            if status == cp:
+                res.append(i - lp + 1)
+        return res
