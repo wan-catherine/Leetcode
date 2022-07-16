@@ -30,7 +30,7 @@ class Solution(object):
     Then 10-letter-long sequences can be represented as 20 bits . 
     So use bit manipulation. 
     
-    Notice need to use mask + (1<<20)-1 to remove all possible '1' after 20th bits. 
+    Notice need to use mask : (1<<20)-1 to remove all possible '1' after 20th bits. 
     """
     def findRepeatedDnaSequences(self, s):
         length = len(s)
