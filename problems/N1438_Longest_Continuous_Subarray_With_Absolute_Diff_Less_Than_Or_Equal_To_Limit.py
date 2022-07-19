@@ -56,14 +56,14 @@ class Solution(object):
         return j - i + 1
 
     """
-    Mononic stack
+    Monotonic stack
     This problem is a sliding window problem, the key point here is how to easily find the high and low value in the windows.
     We can easily brute force search the whole window and update the high and low value . like the first method . O(N^2)
     
-    Or we can maiantian the window into some automatically sort contianer (treemap in java, multiset in c++)
+    Or we can maintain the window into some automatically sort container (treemap in java, multiset in c++)
     O(NlgN)
     
-    The best is try O(1) time find the high and low in the window : mononic stack 
+    The best is try O(1) time find the high and low in the window : monotonic stack 
     
     """
     def longestSubarray_while(self, nums, limit):
@@ -90,7 +90,7 @@ class Solution(object):
     Use If not while here to main a sliding window which only grow never shrink. 
     If when A[i] is added in the window which cause > limit, then the window needs to keep same length
     so i (left) should plus 1. 
-    mononic stack : 
+    monotonic stack : 
     get the maximum : decreasing stack 
     get the minimum : increasing stack
     """
