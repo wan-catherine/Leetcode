@@ -1,4 +1,5 @@
 import heapq
+from bisect import bisect
 from typing import List
 from heapq import heappop, heappush
 """
@@ -76,3 +77,34 @@ class Solution(object):
             if j == 0:  # 避免重复遍历
                 push(i + 1, 0)
         return pairs
+
+    def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
+        fl, sl = len(nums1), len(nums2)
+        res = []
+        if fl * sl <= k:
+            for i in range(fl):
+                for j in range(sl):
+                    res.append([nums1[i], nums2[j]])
+            return res
+
+        def check(num):
+            ans = 0
+            for i in range(fl):
+                index = bisect.bisect(nums2, num - nums1[i])
+                ans += index
+            return ans
+
+        l, r = nums1[0] + nums2[0], nums1[-1] + nums2[-1]
+        while l < r:
+            mid = (r - l) // 2 + l
+            if check(mid) >= k:
+                r = mid
+            else:
+                l = mid + 1
+        # print(l)
+        for i in range(fl):
+            index = bisect.bisect(nums2, l - nums1[i])
+            for j in range(index):
+                res.append([nums1[i], nums2[j]])
+        res.sort(key=lambda x: x[0] + x[1])
+        return res[:k]
