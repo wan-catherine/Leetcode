@@ -1,3 +1,7 @@
+from random import random
+from typing import List
+
+
 class Solution:
 
     def __init__(self, n: int, blacklist: List[int]):
@@ -19,4 +23,4 @@ class Solution:
         val = random.randrange(0, self.r)
         if val in self.mapping:
             return self.mapping[val]
-        return val 
+        return val
