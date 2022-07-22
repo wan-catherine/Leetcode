@@ -51,7 +51,7 @@ class Solution:
         # if we use self.counts[-1], here , the bisect.bisect will return self.length
         target = random.randint(0, self.counts[-1] - 1)
         index = bisect.bisect(self.counts, target)
-        x1, y1, x2, y2 = self.rects[index]
+        x1, y1, x2, y2 = self.rects[index-1]
         x = random.randint(x1, x2)
         y = random.randint(y1, y2)
         return [x, y]
