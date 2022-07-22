@@ -48,7 +48,7 @@ class Solution:
     def pick_biset(self) -> List[int]:
         # here mush use: self.counts[-1] - 1
         # bisect.bisect search the position which is rightest.
-        # if we use self.counts[-1], here , the bisect.bisect will return self.legnth
+        # if we use self.counts[-1], here , the bisect.bisect will return self.length
         target = random.randint(0, self.counts[-1] - 1)
         index = bisect.bisect(self.counts, target)
         x1, y1, x2, y2 = self.rects[index]
