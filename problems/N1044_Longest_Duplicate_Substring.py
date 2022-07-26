@@ -9,7 +9,7 @@ Here for my solution, I use increasing way to create the has value :
 abcd = a + b*prime, c*prime*prime, d*prime*prime*prime
 But it shows timeout. 
 
-The correct wayt is use decreasing way :
+The correct way is use decreasing way :
 abcd = a*prime*prime*prime + b*prime*prime + c*prime + d
 
 The only different is how to from previous hash value to get the current hash value.
