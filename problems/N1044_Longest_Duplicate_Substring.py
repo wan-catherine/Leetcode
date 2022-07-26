@@ -71,7 +71,7 @@ class Solution(object):
                 hash_str_mapping[cur_value] = [i]
         return ''
 
-    def get_hash_value_(self, s, start, end, previous_value, p):
+    def get_hash_value(self, s, start, end, previous_value, p):
         if previous_value == None:
             cur_value = reduce(lambda x, y: (x * 26 + y) % self.mod, s[:end], 0)
         else:
