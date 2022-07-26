@@ -1,3 +1,5 @@
+import collections
+import functools
 from functools import reduce
 """
 Binary search to find the longest duplicated substring. 
@@ -90,5 +92,41 @@ class Solution(object):
             # prime**(end-start-1) is a time-consuming operation
             value = (previous_value - s[start-1] + s[end-1]*p)/prime
         return value
+
+    def longestDupSubstring(self, s: str) -> str:
+        length = len(s)
+        si = [ord(c) - ord('a') for c in s]
+        mod = 2 ** 63 - 1
+        res = ""
+        l, r = 0, length
+
+        def getDup(num):
+            first = 26 ** num % mod
+            # nums = [i * first for i in si]
+            cur = functools.reduce(lambda a, b: (a * 26 + b) % mod, si[:num], 0)
+            mapping = collections.defaultdict(list)
+            mapping[cur].append(s[:num])
+            for i in range(1, length - num + 1):
+                cur = cur * 26 + si[i + num - 1] - si[i - 1] * first
+                cur = cur % mod
+                if cur in mapping:
+                    # print(cur, s[i:i+num])
+                    for ns in mapping[cur]:
+                        if ns == s[i:i + num]:
+                            return ns
+                mapping[cur].append(s[i:i + num])
+            # print(mapping)
+            return ""
+
+        while l < r:
+            mid = (r - l) // 2 + l
+            sub = getDup(mid)
+            if sub:
+                if len(res) < len(sub):
+                    res = sub
+                l = mid + 1
+            else:
+                r = mid
+        return res
 
 
