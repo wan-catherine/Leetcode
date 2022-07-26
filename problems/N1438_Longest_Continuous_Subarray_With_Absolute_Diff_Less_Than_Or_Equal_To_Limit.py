@@ -1,6 +1,7 @@
 import bisect
 import collections
 from collections import deque
+from typing import List
 
 
 class Solution(object):
@@ -108,3 +109,22 @@ class Solution(object):
                 if mind[0] == A[i]: mind.popleft()
                 i += 1
         return len(A) - i
+
+    def longestSubarray_20220726(self, nums: List[int], limit: int) -> int:
+        arr, length = [], len(nums)
+        mapping = collections.defaultdict(int)
+        res = 0
+        l = 0
+        for i, n in enumerate(nums):
+            if n not in mapping.keys():
+                bisect.insort_left(arr, n)
+            mapping[n] += 1
+            while arr and arr[-1] - arr[0] > limit:
+                index = bisect.bisect_left(arr, nums[l])
+                mapping[nums[l]] -= 1
+                if mapping[nums[l]] == 0:
+                    arr.pop(index)
+                    del mapping[nums[l]]
+                l += 1
+            res = max(res, sum(mapping.values()))
+        return res
