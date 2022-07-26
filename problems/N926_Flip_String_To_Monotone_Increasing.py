@@ -24,6 +24,10 @@ class Solution(object):
     
     dp[i+1][0] = dp[i][0] + (1 if S[i] == '1' else 0)
     dp[i+1][1] = min(dp[i][0], dp[i][1]) + (1 if S[i] == '0' else 0)
+    
+    Here the most import is dp[-1][1] : 
+        the last position is '1', all other position can be "000...0001111..11"
+    dp[-1][0] only means one situation : change all s into '0'
     """
     def minFlipsMonoIncr_dp(self, S):
         length = len(S)
