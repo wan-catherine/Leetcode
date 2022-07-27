@@ -1,4 +1,6 @@
 import bisect
+import sys
+from typing import List
 
 
 class Solution(object):
@@ -23,3 +25,19 @@ class Solution(object):
                 dp[i][j] = max(dp[i - 1][j], events[i][2] + dp[index][j-1])
         return dp[-1][-1]
 
+    def maxValue(self, events: List[List[int]], k: int) -> int:
+        le = len(events)
+        events.sort(key=lambda x: x[1])
+        ends = [events[i][1] for i in range(le)]
+        dp = [[0] * (k + 1) for _ in range(le + 1)]
+        for i in range(1, k + 1):
+            dp[0][i] = -sys.maxsize
+        for i in range(le):
+            for j in range(1, k + 1):
+                dp[i + 1][j] = dp[i][j]
+                index = bisect.bisect_left(ends, events[i][0])
+                dp[i + 1][j] = max(dp[i][j], dp[index][j - 1] + events[i][2])
+        res = 0
+        for i in range(1, k + 1):
+            res = max(res, dp[-1][i])
+        return res
