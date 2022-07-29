@@ -48,4 +48,45 @@ class Solution:
                     res = n
         return str(res)
 
+    """
+    https://github.com/wisdompeak/LeetCode/tree/master/String/564.Find-the-Closest-Palindrome
+    """
+
+    def nearestPalindromic_20220729(self, n: str) -> str:
+        length = len(n)
+        if length == 1:
+            return str(int(n) - 1)
+        old = int(n)
+        ni = '9' * (length - 1)
+        oi = "1" + '0' * (length - 1) + "1"
+        candidates = [ni, oi]
+        if length % 2:
+            half = int(n[:length // 2 + 1])
+            shalf = str(half)
+            plus = half + 1
+            splus = str(plus)
+            minor = half - 1
+            sminor = str(minor)
+            candidates.append(shalf + shalf[:-1][::-1])
+            candidates.append(splus + splus[:-1][::-1])
+            candidates.append(sminor + sminor[:-1][::-1])
+        else:
+            half = int(n[:length // 2])
+            shalf = str(half)
+            plus = str(half + 1)
+            minor = str(half - 1)
+            candidates.append(shalf + shalf[::-1])
+            candidates.append(plus + plus[::-1])
+            candidates.append(minor + minor[::-1])
+        res = sys.maxsize
+        for c in candidates:
+            if c == n:
+                continue
+            ic = int(c)
+            diff = abs(ic - old)
+            if diff == abs(res - old):
+                res = min(ic, res)
+            elif diff < abs(res - old):
+                res = ic
+        return str(res)
 
