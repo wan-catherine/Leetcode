@@ -1,4 +1,8 @@
 class Solution(object):
+    """
+    use nums[i-1] is key point .
+    for default , nums[i] = nums[i-1] which means : at this time, how many flips A[i] already did .
+    """
     def minKBitFlips(self, A, K):
         """
         :type A: List[int]
