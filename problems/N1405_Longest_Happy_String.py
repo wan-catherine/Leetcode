@@ -68,3 +68,33 @@ class Solution(object):
                         break
         return ''.join(res)
 
+    def longestDiverseString_20220731(self, a: int, b: int, c: int) -> str:
+        fl, sl, tl = sorted([(a, 'a'), (b, "b"), (c, "c")], reverse=True)
+        f, s, t = fl[0], sl[0], tl[0]
+
+        if (f + 1) // 2 > s + t + 1:
+            f = (s + t + 1) * 2
+        rows = f // 2
+        res = [[] for _ in range(rows)]
+        for i in range(rows):
+            res[i].append(fl[1] * 2)
+        i = 0
+        while s:
+            res[i].append(sl[1])
+            s -= 1
+            i += 1
+            i %= rows
+        while t:
+            res[i].append(tl[1])
+            t -= 1
+            i += 1
+            i %= rows
+
+        ans = ""
+        for row in res:
+            ans += ''.join(row)
+        if f % 2:
+            ans += fl[1]
+        return ans
+
+
