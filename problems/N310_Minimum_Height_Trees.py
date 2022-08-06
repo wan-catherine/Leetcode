@@ -1,4 +1,6 @@
 import collections
+from typing import List
+
 
 class Solution(object):
     def findMinHeightTrees_n_n_timeout(self, n, edges):
@@ -74,3 +76,26 @@ class Solution(object):
             stack = new_stack
         return list(nodes)
 
+    def findMinHeightTrees_20220803(self, n: int, edges: List[List[int]]) -> List[int]:
+        if not edges:
+            return [0]
+        graph = collections.defaultdict(set)
+        indegree = collections.defaultdict(int)
+        for u, v in edges:
+            graph[u].add(v)
+            graph[v].add(u)
+            indegree[v] += 1
+            indegree[u] += 1
+
+        leaves = [i for i in indegree if indegree[i] == 1]
+        nodes = set([i for i in range(n)])
+        while len(nodes) > 2:
+            nleaves = []
+            for node in leaves:
+                nodes.remove(node)
+                for nxt in graph[node]:
+                    indegree[nxt] -= 1
+                    if indegree[nxt] == 1:
+                        nleaves.append(nxt)
+            leaves = nleaves
+        return list(nodes)
