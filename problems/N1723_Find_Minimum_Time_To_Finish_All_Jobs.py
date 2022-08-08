@@ -76,7 +76,7 @@ class Solution(object):
         jobs.sort(reverse=True)
         length = len(jobs)
 
-        # the flag is an very efficent prune .
+        # the flag is an very efficient prune .
         # for those k workers, we can treat them as no different container .
         # so for the first trying, we put any of them are the same. so we can actually save (k-1)/k time.
         def dfs(val, index):
