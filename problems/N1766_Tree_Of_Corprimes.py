@@ -3,8 +3,8 @@ import math
 """
 Key part : 
 1 <= nums[i] <= 50
-so we can have a records which key : num , value : all ancertor's depth.
-this way, we can loop 1-50 instead of loop all ancertors .
+so we can have a records which key : num , value : all ancestor's depth.
+this way, we can loop 1-50 instead of loop all ancestors .
 """
 
 class Solution(object):
