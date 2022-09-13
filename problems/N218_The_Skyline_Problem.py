@@ -122,10 +122,10 @@ class Solution(object):
 
 class SegTree:
     def __init__(self, start, end, status, left=None, right=None):
-        self.start =start
+        self.start = start
         self.end = end
         self.status = status   # highest height in [start, end]
-        self.left =left
+        self.left = left
         self.right = right
 
     def set_status(self, s, e, h):
