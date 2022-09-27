@@ -123,6 +123,7 @@ class Solution(object):
         return dp[dst] if dp[dst] != sys.maxsize else - 1
 
     # greedy + bfs : Dijkstra's algorithms
+    # 20220926 timeout
     def findCheapestPrice(self, n, flights, src, dst, K):
         graph = collections.defaultdict(set)
         for u, v, w in flights:
