@@ -74,7 +74,7 @@ class Solution(object):
             if not arr[i]:
                 continue
             primes.append(i)
-            # here j can starts as i*i, better than 2*i. Let's say i = 5, we can direct consiser 25 .
+            # here j can starts as i*i, better than 2*i. Let's say i = 5, we can direct consider 25 .
             # because 2*5,3*5,4*5 all ready be solved by i = [2,3,4]
             for j in range(i*i,n,i):
                 arr[j] = False
