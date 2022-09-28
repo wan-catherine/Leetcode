@@ -55,3 +55,28 @@ class Solution:
                             dp[i][j][l] = True
                             break
         return dp[0][0][-1]
+
+    def isScramble_20220928(self, s1: str, s2: str) -> bool:
+        memo = {}
+
+        def dfs(a, b):
+            if a == b:
+                return True
+            if (a, b) in memo:
+                return memo[(a, b)]
+            la, lb = len(a), len(b)
+            if la != lb:
+                memo[(a, b)] = False
+                return False
+            if sorted(a) != sorted(b):
+                memo[(a, b)] = False
+                return False
+            ans = False
+            for i in range(1, la):
+                if (dfs(a[:i], b[:i]) and dfs(a[i:], b[i:]) or (dfs(a[:i], b[-i:]) and dfs(a[i:], b[:-i]))):
+                    memo[(a, b)] = True
+                    return True
+            memo[(a, b)] = False
+            return False
+
+        return dfs(s1, s2)
