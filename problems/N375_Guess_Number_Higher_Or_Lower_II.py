@@ -20,7 +20,7 @@ class Solution(object):
         :rtype: int
         """
         # set length here equals to n+2 , because k can be n+1 (len = 2, j = n + 1)
-        #  dp[k+1][j] : maybe [6,5]
+        #  dp[k+1][j] : maybe [6,5] ：  guess 5, [1,2,3,4] []
         dp = [[0]*(n+2) for _ in range(n+2)]
 
         for len in range(2, n+1):
