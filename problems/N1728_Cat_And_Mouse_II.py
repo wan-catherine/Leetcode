@@ -33,7 +33,7 @@ class Solution(object):
                     if (i, j) == food:
                         continue
                     queue.append((i, j, food[0], food[1], t))
-                    status[(i, j, food[0], food[1],t)] = 2
+                    status[(i, j, food[0], food[1], t)] = 2
                     queue.append((food[0], food[1], i, j, t))
                     status[(food[0], food[1], i, j, t)] = 1
 
@@ -70,7 +70,7 @@ class Solution(object):
                             continue
                         if grid[row][col] == '#':
                             break
-                        if (row,col,cx,cy,2) not in status or status[(row,col,cx,cy,2)] != 2:
+                        if (row, col, cx, cy, 2) not in status or status[(row, col, cx, cy, 2)] != 2:
                             return False
             else:
                 for i, j in directions:
@@ -80,7 +80,7 @@ class Solution(object):
                             continue
                         if grid[row][col] == '#':
                             break
-                        if (mx,my,row,col,1) not in status or status[(mx,my,row,col,1)] != 1:
+                        if (mx, my, row, col, 1) not in status or status[(mx, my, row, col, 1)] != 1:
                             return False
             return True
 
@@ -91,10 +91,10 @@ class Solution(object):
             l = len(queue)
             while l:
                 l -= 1
-                mx,my,cx,cy,t = queue.popleft()
-                s = status[(mx,my,cx,cy,t)]
+                mx, my, cx, cy, t = queue.popleft()
+                s = status[(mx, my, cx, cy, t)]
 
-                for nmx, nmy, ncx, ncy, nt in find_prev_status(mx,my,cx,cy,t):
+                for nmx, nmy, ncx, ncy, nt in find_prev_status(mx, my, cx, cy, t):
                     if (nmx, nmy, ncx, ncy, nt) in status:
                         continue
                     if nt == s:
@@ -104,6 +104,6 @@ class Solution(object):
                         status[(nmx, nmy, ncx, ncy, nt)] = 3 - nt
                         queue.append((nmx, nmy, ncx, ncy, nt))
 
-        return (mouse[0],mouse[1],cat[0], cat[1],1) in status and status[(mouse[0],mouse[1],cat[0], cat[1],1)] == 1
+        return (mouse[0], mouse[1], cat[0], cat[1], 1) in status and status[(mouse[0], mouse[1], cat[0], cat[1], 1)] == 1
 
 
