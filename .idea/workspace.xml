@@ -5,19 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N2513_Minimize_The_Maximum_Of_Two_Arrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N2514_Count_Anagrams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N2516_Take_K_Of_Each_Character_From_Left_And_Right.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N2517_Maximum_Tastiness_Of_Candy_Basket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/N2518_Number_Of_Great_Partitions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_N2513_Minimize_The_Maximum_Of_Two_Arrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_N2514_Count_Anagrams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_N2517_Maximum_Tastiness_Of_Candy_Basket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_N2518_Number_Of_Great_Partitions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Prime_Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N2523_Closest_Prime_Numbers_In_Range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_N2523_Closest_Prime_Numbers_In_Range.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/N736_Parse_Lisp_Expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N736_Parse_Lisp_Expression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/aaa.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/aaa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1135_connecting_cities_with_minimum_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1135_connecting_cities_with_minimum_cost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1178_number_of_valid_words_for_each_puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1178_number_of_valid_words_for_each_puzzle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1423_maximum_points_you_can_obtain_from_cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1423_maximum_points_you_can_obtain_from_cards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1473_paint_house_iii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1473_paint_house_iii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1478_allocate_mailboxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1478_allocate_mailboxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1686_stone_game_vi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1686_stone_game_vi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1728_cat_and_mouse_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1728_cat_and_mouse_ii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1760_minimum_limit_of_balls_in_a_bag.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1760_minimum_limit_of_balls_in_a_bag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1766_tree_of_coprimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1766_tree_of_coprimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1770_maximum_score_from_performing_multiplication_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1770_maximum_score_from_performing_multiplication_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1771_maximize_palindrome_length_from_subsequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1771_maximize_palindrome_length_from_subsequences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1775_equal_sum_arrays_with_minimum_number_of_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1775_equal_sum_arrays_with_minimum_number_of_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_1776_car_fleet_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1776_car_fleet_ii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_265_paint_house_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_265_paint_house_ii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_329_longest_increasing_path_in_a_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_329_longest_increasing_path_in_a_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_393_utf_8_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_393_utf_8_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_505_the_maze_ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_505_the_maze_ii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_630_course_schedule_iii.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_630_course_schedule_iii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_722_remove_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_722_remove_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_975_odd_even_jump.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_975_odd_even_jump.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_N2267_Check_If_There_Is_A_Valid_Parentheses_String_Path.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_N2267_Check_If_There_Is_A_Valid_Parentheses_String_Path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_N2488_Count_Subarrays_With_Median_K.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_N2488_Count_Subarrays_With_Median_K.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_N982_Triples_With_Bitwise_And_Equal_To_Zero.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_N982_Triples_With_Bitwise_And_Equal_To_Zero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_RLEIterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_RLEIterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/test_majority_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_majority_element.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1014,7 +1031,7 @@
       <recent name="$PROJECT_DIR$/sourcecode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_N2518_Number_Of_Great_Partitions.TestSolution">
+  <component name="RunManager" selected="Python tests.Python tests for test_N2523_Closest_Prime_Numbers_In_Range.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1042,21 +1059,6 @@
       <tasks />
       <arguments />
       <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.TestSolution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -1089,21 +1091,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness_3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_N2518_Number_Of_Great_Partitions.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1119,20 +1106,50 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_N2523_Closest_Prime_Numbers_In_Range.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_N2523_Closest_Prime_Numbers_In_Range.TestSolution&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_N2523_Closest_Prime_Numbers_In_Range.TestSolution.test_closest_primes_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_N2523_Closest_Prime_Numbers_In_Range.TestSolution.test_closest_primes_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python tests.Python tests for test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.TestSolution" />
       <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution" />
       <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness" />
-      <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness_3" />
       <item itemvalue="Python tests.Python tests for test_N2518_Number_Of_Great_Partitions.TestSolution" />
+      <item itemvalue="Python tests.Python tests for test_N2523_Closest_Prime_Numbers_In_Range.TestSolution" />
+      <item itemvalue="Python tests.Python tests for test_N2523_Closest_Prime_Numbers_In_Range.TestSolution.test_closest_primes_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_N2523_Closest_Prime_Numbers_In_Range.TestSolution" />
+        <item itemvalue="Python tests.Python tests for test_N2523_Closest_Prime_Numbers_In_Range.TestSolution.test_closest_primes_1" />
         <item itemvalue="Python tests.Python tests for test_N2518_Number_Of_Great_Partitions.TestSolution" />
         <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution" />
         <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness" />
-        <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness_3" />
-        <item itemvalue="Python tests.Python tests for test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -1494,7 +1511,7 @@
       <workItem from="1674864168899" duration="2150000" />
       <workItem from="1680226777031" duration="47000" />
       <workItem from="1680226833612" duration="15879000" />
-      <workItem from="1680577151013" duration="6965000" />
+      <workItem from="1680577151013" duration="9093000" />
     </task>
     <servers />
   </component>
@@ -2450,6 +2467,11 @@
           <line>26</line>
           <option name="timeStamp" value="875" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2523_Closest_Prime_Numbers_In_Range.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="876" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -2551,7 +2573,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1923_Longest_Common_Subpath_TestSolution_test_longest_common_subpath_3.coverage" NAME="Unittests for test_N1923_Longest_Common_Subpath.TestSolution.test_longest_common_subpath_3 Coverage Results" MODIFIED="1626136119716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Aaa.coverage" NAME="Aaa Coverage Results" MODIFIED="1633740553518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution_test_count_of_atoms_3.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution.test_count_of_atoms_3 Coverage Results" MODIFIED="1625433948361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$.coverage" NAME=" Coverage Results" MODIFIED="1680663211331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$.coverage" NAME=" Coverage Results" MODIFIED="1680666539925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1220_Count_Vowels_Permutation_TestSolution.coverage" NAME="Unittests for test_N1220_Count_Vowels_Permutation.TestSolution Coverage Results" MODIFIED="1625423904914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution Coverage Results" MODIFIED="1626226032823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N639_Decode_Ways_II_TestSolution.coverage" NAME="Unittests for test_N639_Decode_Ways_II.TestSolution Coverage Results" MODIFIED="1625926904861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
