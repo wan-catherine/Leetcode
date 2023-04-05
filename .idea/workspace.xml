@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="560471d1-7835-441f-94f7-06c93d42edf9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/N2045_Second_Minimum_Time_To_Reach_Destination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_N2045_Second_Minimum_Time_To_Reach_Destination.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N2513_Minimize_The_Maximum_Of_Two_Arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N2514_Count_Anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N2516_Take_K_Of_Each_Character_From_Left_And_Right.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N2517_Maximum_Tastiness_Of_Candy_Basket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/N2518_Number_Of_Great_Partitions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_N2513_Minimize_The_Maximum_Of_Two_Arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_N2514_Count_Anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_N2517_Maximum_Tastiness_Of_Candy_Basket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_N2518_Number_Of_Great_Partitions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/N736_Parse_Lisp_Expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/N736_Parse_Lisp_Expression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/aaa.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/aaa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -987,7 +995,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -1006,7 +1014,7 @@
       <recent name="$PROJECT_DIR$/sourcecode" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_N2045_Second_Minimum_Time_To_Reach_Destination.TestSolution">
+  <component name="RunManager" selected="Python tests.Python tests for test_N2518_Number_Of_Great_Partitions.TestSolution">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1036,7 +1044,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1047,11 +1055,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1062,11 +1070,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_1&quot;" />
+      <option name="_new_target" value="&quot;test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1077,11 +1085,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_2&quot;" />
+      <option name="_new_target" value="&quot;test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1092,11 +1100,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_3&quot;" />
+      <option name="_new_target" value="&quot;test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness_3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_N2045_Second_Minimum_Time_To_Reach_Destination.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_N2518_Number_Of_Great_Partitions.TestSolution" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1107,24 +1115,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_N2045_Second_Minimum_Time_To_Reach_Destination.TestSolution&quot;" />
+      <option name="_new_target" value="&quot;test_N2518_Number_Of_Great_Partitions.TestSolution&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution" />
-      <item itemvalue="Python tests.Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_2" />
-      <item itemvalue="Python tests.Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_1" />
-      <item itemvalue="Python tests.Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_3" />
-      <item itemvalue="Python tests.Python tests for test_N2045_Second_Minimum_Time_To_Reach_Destination.TestSolution" />
+      <item itemvalue="Python tests.Python tests for test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.TestSolution" />
+      <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution" />
+      <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness" />
+      <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness_3" />
+      <item itemvalue="Python tests.Python tests for test_N2518_Number_Of_Great_Partitions.TestSolution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_N2045_Second_Minimum_Time_To_Reach_Destination.TestSolution" />
-        <item itemvalue="Python tests.Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution" />
-        <item itemvalue="Python tests.Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_3" />
-        <item itemvalue="Python tests.Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_1" />
-        <item itemvalue="Python tests.Python tests for test_N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.TestSolution.test_kth_smallest_product_2" />
+        <item itemvalue="Python tests.Python tests for test_N2518_Number_Of_Great_Partitions.TestSolution" />
+        <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution" />
+        <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness" />
+        <item itemvalue="Python tests.Python tests for test_N2517_Maximum_Tastiness_Of_Candy_Basket.TestSolution.test_maximum_tastiness_3" />
+        <item itemvalue="Python tests.Python tests for test_N2516_Take_K_Of_Each_Character_From_Left_And_Right.TestSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -1214,7 +1222,279 @@
       <workItem from="1634475698131" duration="1810000" />
       <workItem from="1634568721487" duration="7095000" />
       <workItem from="1634653562918" duration="7076000" />
-      <workItem from="1634734944423" duration="5481000" />
+      <workItem from="1634734944423" duration="10537000" />
+      <workItem from="1634820148893" duration="7233000" />
+      <workItem from="1634907502691" duration="7164000" />
+      <workItem from="1635002931434" duration="15565000" />
+      <workItem from="1635094330206" duration="4153000" />
+      <workItem from="1635172606377" duration="7792000" />
+      <workItem from="1635253409756" duration="7269000" />
+      <workItem from="1635339550296" duration="2985000" />
+      <workItem from="1635424547695" duration="17975000" />
+      <workItem from="1635513892320" duration="3977000" />
+      <workItem from="1635601510451" duration="10732000" />
+      <workItem from="1635701491577" duration="2654000" />
+      <workItem from="1635773070955" duration="5260000" />
+      <workItem from="1635855907744" duration="11449000" />
+      <workItem from="1635945046146" duration="7450000" />
+      <workItem from="1636029304474" duration="11488000" />
+      <workItem from="1636150163470" duration="7172000" />
+      <workItem from="1636204797089" duration="12997000" />
+      <workItem from="1636293810220" duration="5527000" />
+      <workItem from="1636301675760" duration="21000" />
+      <workItem from="1636301706924" duration="14894000" />
+      <workItem from="1636386200348" duration="15258000" />
+      <workItem from="1636462833775" duration="22636000" />
+      <workItem from="1636551693475" duration="14709000" />
+      <workItem from="1636641416988" duration="19068000" />
+      <workItem from="1636721529528" duration="12881000" />
+      <workItem from="1636817170190" duration="26004000" />
+      <workItem from="1636904247179" duration="10360000" />
+      <workItem from="1636982715879" duration="14149000" />
+      <workItem from="1637070276478" duration="10191000" />
+      <workItem from="1637154619048" duration="13219000" />
+      <workItem from="1637239745948" duration="10425000" />
+      <workItem from="1637329629821" duration="3502000" />
+      <workItem from="1637417803036" duration="3459000" />
+      <workItem from="1637534123593" duration="1333000" />
+      <workItem from="1637543070313" duration="598000" />
+      <workItem from="1637609743092" duration="3472000" />
+      <workItem from="1637677188447" duration="6518000" />
+      <workItem from="1637781691798" duration="8438000" />
+      <workItem from="1637845879570" duration="6321000" />
+      <workItem from="1637934866755" duration="10001000" />
+      <workItem from="1638022020059" duration="13234000" />
+      <workItem from="1638115937693" duration="7002000" />
+      <workItem from="1638191181012" duration="4867000" />
+      <workItem from="1638278602140" duration="6252000" />
+      <workItem from="1638364464812" duration="6216000" />
+      <workItem from="1638451237882" duration="14324000" />
+      <workItem from="1638536518058" duration="10675000" />
+      <workItem from="1638625065180" duration="2446000" />
+      <workItem from="1638642879129" duration="8040000" />
+      <workItem from="1638715668464" duration="4561000" />
+      <workItem from="1638798139471" duration="3540000" />
+      <workItem from="1638884139968" duration="5450000" />
+      <workItem from="1638992767085" duration="5375000" />
+      <workItem from="1639052859483" duration="4024000" />
+      <workItem from="1639139483776" duration="5086000" />
+      <workItem from="1639232845793" duration="7190000" />
+      <workItem from="1639319699948" duration="3751000" />
+      <workItem from="1639432543513" duration="3248000" />
+      <workItem from="1639517542891" duration="609000" />
+      <workItem from="1639596733228" duration="1267000" />
+      <workItem from="1639784546160" duration="3090000" />
+      <workItem from="1639860953618" duration="3869000" />
+      <workItem from="1640119300043" duration="1237000" />
+      <workItem from="1640206712099" duration="687000" />
+      <workItem from="1640290028308" duration="1115000" />
+      <workItem from="1640485996678" duration="4386000" />
+      <workItem from="1640545454116" duration="1213000" />
+      <workItem from="1640633275911" duration="1900000" />
+      <workItem from="1640797974276" duration="5477000" />
+      <workItem from="1640887849711" duration="4562000" />
+      <workItem from="1641004737777" duration="442000" />
+      <workItem from="1641089880057" duration="5925000" />
+      <workItem from="1641228162173" duration="3184000" />
+      <workItem from="1641339158630" duration="2080000" />
+      <workItem from="1641693861034" duration="4251000" />
+      <workItem from="1641699253802" duration="2259000" />
+      <workItem from="1641747805609" duration="1646000" />
+      <workItem from="1641817500375" duration="1195000" />
+      <workItem from="1642200112173" duration="1339000" />
+      <workItem from="1642259859053" duration="8552000" />
+      <workItem from="1642381188430" duration="1693000" />
+      <workItem from="1642459440460" duration="5279000" />
+      <workItem from="1642511385724" duration="5660000" />
+      <workItem from="1642642073651" duration="605000" />
+      <workItem from="1642867857933" duration="5624000" />
+      <workItem from="1642947488036" duration="2123000" />
+      <workItem from="1643289651307" duration="2716000" />
+      <workItem from="1643475871487" duration="9937000" />
+      <workItem from="1643567147423" duration="3279000" />
+      <workItem from="1643729859002" duration="1196000" />
+      <workItem from="1643894676564" duration="647000" />
+      <workItem from="1643992870696" duration="1589000" />
+      <workItem from="1644076780235" duration="3270000" />
+      <workItem from="1644240560716" duration="2968000" />
+      <workItem from="1645981240917" duration="4103000" />
+      <workItem from="1646093194304" duration="2607000" />
+      <workItem from="1646223664996" duration="5783000" />
+      <workItem from="1646349214140" duration="4754000" />
+      <workItem from="1646442471294" duration="947000" />
+      <workItem from="1646613086519" duration="1201000" />
+      <workItem from="1647012392447" duration="1200000" />
+      <workItem from="1647138105169" duration="4327000" />
+      <workItem from="1647259163498" duration="6268000" />
+      <workItem from="1647347713659" duration="5717000" />
+      <workItem from="1647434479848" duration="3287000" />
+      <workItem from="1647654765737" duration="630000" />
+      <workItem from="1647708227861" duration="8019000" />
+      <workItem from="1647895581705" duration="1374000" />
+      <workItem from="1647990400780" duration="282000" />
+      <workItem from="1648083484807" duration="981000" />
+      <workItem from="1648825698703" duration="2567000" />
+      <workItem from="1648906282594" duration="11122000" />
+      <workItem from="1649368066746" duration="4047000" />
+      <workItem from="1649422767571" duration="3486000" />
+      <workItem from="1649718693409" duration="598000" />
+      <workItem from="1649851008464" duration="597000" />
+      <workItem from="1651547154178" duration="672000" />
+      <workItem from="1651604838947" duration="3303000" />
+      <workItem from="1651674155106" duration="1794000" />
+      <workItem from="1651843902835" duration="3161000" />
+      <workItem from="1652020990156" duration="2822000" />
+      <workItem from="1652306249670" duration="1419000" />
+      <workItem from="1652712719594" duration="13287000" />
+      <workItem from="1652820068540" duration="851000" />
+      <workItem from="1652875266315" duration="13407000" />
+      <workItem from="1653142309290" duration="4558000" />
+      <workItem from="1653224995707" duration="1196000" />
+      <workItem from="1653309575382" duration="9335000" />
+      <workItem from="1653392125312" duration="6774000" />
+      <workItem from="1653484648211" duration="8388000" />
+      <workItem from="1653612505862" duration="971000" />
+      <workItem from="1653659149819" duration="6435000" />
+      <workItem from="1653741414136" duration="8188000" />
+      <workItem from="1653828606689" duration="5908000" />
+      <workItem from="1653953053623" duration="782000" />
+      <workItem from="1654020524321" duration="3774000" />
+      <workItem from="1654180568847" duration="11419000" />
+      <workItem from="1654271809658" duration="3741000" />
+      <workItem from="1654347218543" duration="13168000" />
+      <workItem from="1654440384948" duration="598000" />
+      <workItem from="1654601247486" duration="3265000" />
+      <workItem from="1654732671078" duration="1620000" />
+      <workItem from="1654779398713" duration="7919000" />
+      <workItem from="1654876549808" duration="6856000" />
+      <workItem from="1655041375375" duration="2444000" />
+      <workItem from="1655226658141" duration="9235000" />
+      <workItem from="1655301770133" duration="4401000" />
+      <workItem from="1655383833408" duration="5633000" />
+      <workItem from="1655475813171" duration="2762000" />
+      <workItem from="1655558347547" duration="5118000" />
+      <workItem from="1655817261756" duration="5048000" />
+      <workItem from="1655910670621" duration="3086000" />
+      <workItem from="1655988254838" duration="8372000" />
+      <workItem from="1656090850706" duration="8639000" />
+      <workItem from="1656185035244" duration="6403000" />
+      <workItem from="1656423233824" duration="2397000" />
+      <workItem from="1656507490042" duration="7360000" />
+      <workItem from="1656604212740" duration="901000" />
+      <workItem from="1656693216799" duration="6138000" />
+      <workItem from="1656763713210" duration="10482000" />
+      <workItem from="1656860095489" duration="5712000" />
+      <workItem from="1656956263852" duration="2064000" />
+      <workItem from="1657033185792" duration="4145000" />
+      <workItem from="1657155533368" duration="598000" />
+      <workItem from="1657200175367" duration="1797000" />
+      <workItem from="1657291836076" duration="2053000" />
+      <workItem from="1657376044468" duration="16268000" />
+      <workItem from="1657462334549" duration="7426000" />
+      <workItem from="1657641015886" duration="9114000" />
+      <workItem from="1657715213481" duration="9161000" />
+      <workItem from="1657803026247" duration="7706000" />
+      <workItem from="1657889268100" duration="5036000" />
+      <workItem from="1657980777269" duration="12129000" />
+      <workItem from="1658071432922" duration="1968000" />
+      <workItem from="1658241991076" duration="10996000" />
+      <workItem from="1658316916294" duration="6368000" />
+      <workItem from="1658418741163" duration="7499000" />
+      <workItem from="1658494500616" duration="7960000" />
+      <workItem from="1658587828963" duration="5092000" />
+      <workItem from="1658679358532" duration="9439000" />
+      <workItem from="1658840219549" duration="13791000" />
+      <workItem from="1658926844016" duration="5964000" />
+      <workItem from="1659013271513" duration="7760000" />
+      <workItem from="1659106893891" duration="10430000" />
+      <workItem from="1659195189870" duration="10855000" />
+      <workItem from="1659288461586" duration="3372000" />
+      <workItem from="1659364963347" duration="1025000" />
+      <workItem from="1659486473573" duration="2203000" />
+      <workItem from="1659526814150" duration="7242000" />
+      <workItem from="1659616296064" duration="599000" />
+      <workItem from="1659704186407" duration="13822000" />
+      <workItem from="1659793832274" duration="9670000" />
+      <workItem from="1659889203508" duration="8618000" />
+      <workItem from="1659961772612" duration="4804000" />
+      <workItem from="1660048663927" duration="1196000" />
+      <workItem from="1660169366556" duration="1729000" />
+      <workItem from="1660220832130" duration="1622000" />
+      <workItem from="1660309226459" duration="2006000" />
+      <workItem from="1660392525857" duration="7242000" />
+      <workItem from="1660491071882" duration="7567000" />
+      <workItem from="1660653019833" duration="598000" />
+      <workItem from="1660868574126" duration="597000" />
+      <workItem from="1661005541802" duration="12856000" />
+      <workItem from="1661094087016" duration="7790000" />
+      <workItem from="1661183628362" duration="4648000" />
+      <workItem from="1661354382438" duration="2367000" />
+      <workItem from="1661528556415" duration="3566000" />
+      <workItem from="1661654824009" duration="2215000" />
+      <workItem from="1661818950438" duration="1272000" />
+      <workItem from="1661872613837" duration="764000" />
+      <workItem from="1661964797494" duration="1491000" />
+      <workItem from="1662914104220" duration="7559000" />
+      <workItem from="1663094052787" duration="12856000" />
+      <workItem from="1663425846804" duration="12563000" />
+      <workItem from="1663593768298" duration="10497000" />
+      <workItem from="1663702222914" duration="7724000" />
+      <workItem from="1663715805833" duration="1793000" />
+      <workItem from="1663767380030" duration="2107000" />
+      <workItem from="1664027994063" duration="10695000" />
+      <workItem from="1664111366406" duration="1980000" />
+      <workItem from="1664202265466" duration="8718000" />
+      <workItem from="1664280504606" duration="14508000" />
+      <workItem from="1664408062769" duration="7162000" />
+      <workItem from="1664468202650" duration="4725000" />
+      <workItem from="1664544999013" duration="1197000" />
+      <workItem from="1664632827680" duration="16216000" />
+      <workItem from="1664723746813" duration="3115000" />
+      <workItem from="1664891006050" duration="5955000" />
+      <workItem from="1664971154722" duration="598000" />
+      <workItem from="1665068275050" duration="3378000" />
+      <workItem from="1665150396334" duration="7508000" />
+      <workItem from="1665282002466" duration="5678000" />
+      <workItem from="1665521182917" duration="2338000" />
+      <workItem from="1665590308693" duration="599000" />
+      <workItem from="1665844225879" duration="10003000" />
+      <workItem from="1665886037184" duration="3879000" />
+      <workItem from="1665963922975" duration="694000" />
+      <workItem from="1666220863034" duration="7642000" />
+      <workItem from="1666491770615" duration="3470000" />
+      <workItem from="1666654427933" duration="2925000" />
+      <workItem from="1666785299957" duration="4519000" />
+      <workItem from="1667052640932" duration="12789000" />
+      <workItem from="1667222193963" duration="841000" />
+      <workItem from="1667390069795" duration="1196000" />
+      <workItem from="1667566286042" duration="4890000" />
+      <workItem from="1667701843771" duration="3764000" />
+      <workItem from="1667916984973" duration="7454000" />
+      <workItem from="1668256333199" duration="15510000" />
+      <workItem from="1668903892738" duration="7415000" />
+      <workItem from="1668959684852" duration="1572000" />
+      <workItem from="1669818458194" duration="8562000" />
+      <workItem from="1669899518191" duration="1333000" />
+      <workItem from="1670250199545" duration="1731000" />
+      <workItem from="1670341490681" duration="4292000" />
+      <workItem from="1670725763676" duration="5705000" />
+      <workItem from="1670802632685" duration="6346000" />
+      <workItem from="1670856439024" duration="10552000" />
+      <workItem from="1671330461930" duration="4232000" />
+      <workItem from="1671471879203" duration="1201000" />
+      <workItem from="1672858372118" duration="4839000" />
+      <workItem from="1672971133938" duration="1284000" />
+      <workItem from="1673904409879" duration="2091000" />
+      <workItem from="1673984553628" duration="2316000" />
+      <workItem from="1674153609143" duration="4598000" />
+      <workItem from="1674253448159" duration="1412000" />
+      <workItem from="1674508751221" duration="2298000" />
+      <workItem from="1674653899847" duration="598000" />
+      <workItem from="1674761633605" duration="3490000" />
+      <workItem from="1674864168899" duration="2150000" />
+      <workItem from="1680226777031" duration="47000" />
+      <workItem from="1680226833612" duration="15879000" />
+      <workItem from="1680577151013" duration="6965000" />
     </task>
     <servers />
   </component>
@@ -1338,13 +1618,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/MergeKSortedLists.py</url>
-          <line>18</line>
+          <line>22</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/ReverseNodesKGroup.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/ImplementStrStr.py</url>
@@ -1403,7 +1678,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/Subsets.py</url>
-          <line>14</line>
+          <line>17</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1443,7 +1718,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/BinaryTreeInorderTraversal.py</url>
-          <line>16</line>
+          <line>17</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1458,7 +1733,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/ConstructBinaryTreePreorderInorderTraversal.py</url>
-          <line>14</line>
+          <line>17</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1643,7 +1918,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/N124_Binary_Tree_Maximum_Path_Sum.py</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1808,12 +2083,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/N218_The_Skyline_Problem.py</url>
-          <line>116</line>
+          <line>117</line>
           <option name="timeStamp" value="335" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/N218_The_Skyline_Problem.py</url>
-          <line>108</line>
+          <line>109</line>
           <option name="timeStamp" value="336" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1852,29 +2127,328 @@
           <option name="timeStamp" value="391" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/aaa.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="393" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/aaa.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="394" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/aaa.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="396" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/problems/aaa.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="397" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/problems/N2040_Kth_Smallest_Product_Of_Two_Sorted_Arrays.py</url>
           <line>54</line>
           <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2045_Second_Minimum_Time_To_Reach_Destination.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N621_Task_Scheduler.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2025_Maximum_Number_Of_Ways_To_Partition_An_Array.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2050_Parallel_Courses_III.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N76_Minimum_Window_Substring.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1192_Critical_Connections_In_A_Network.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N772_Basic_Calculator_III.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N802_Find_Eventual_Safe_States.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/MedianOfTwoSortedArrays.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N957_Prison_Cells_After_N_Days.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N289_Game_Of_Life.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1326_Minimum_Number_Of_Taps_To_Open_To_Water_A_Garden.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="482" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1326_Minimum_Number_Of_Taps_To_Open_To_Water_A_Garden.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N218_The_Skyline_Problem.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N945_Minimum_Increment_To_Make_Array_Unique.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N304_Range_Sum_Query_2d_immutable.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="490" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1151_Minimum_Swaps_To_Group_All_1s_Together.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="495" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2086_Minimum_Number_Of_Buckets_Required_To_Collect_Rainwater_From_Houses.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="506" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_flatten_binary_tree_linked_list.py</url>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2081_Sum_Of_K_Mirror_Numbers.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2070_Most_Beautiful_Item_For_Each_Query.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="512" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2069_Walking_Robot_Simulation_II.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="514" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2064_Minimized_Maximum_Of_Products_Distributed_To_Any_Store.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="515" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1231_Divide_Chocolate.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="530" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2151_Maximum_Good_People_Based_On_Statements.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="i == 6" language="Python" />
+          <url>file://$PROJECT_DIR$/problems/N2213_Longest_Substring_Of_One_Repeating_Character.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="i == 6" language="Python" />
+          <url>file://$PROJECT_DIR$/problems/N2213_Longest_Substring_Of_One_Repeating_Character.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="569" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2267_Check_If_There_Is_A_Valid_Parentheses_String_Path.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="575" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2271_Maximum_White_Tiles_Covered_By_A_Carpet.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="577" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2271_Maximum_White_Tiles_Covered_By_A_Carpet.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="579" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2271_Maximum_White_Tiles_Covered_By_A_Carpet.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="580" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2276_Count_Integers_In_Intervals.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N253_Meeting_Rooms_II.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N689_Maximum_Sum_Of_3_Non_Overlapping_Subarrays.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N689_Maximum_Sum_Of_3_Non_Overlapping_Subarrays.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N689_Maximum_Sum_Of_3_Non_Overlapping_Subarrays.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2322_Minimum_Score_After_Removals_On_A_Tree.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2328_Number_Of_Increasing_Paths_In_A_Grid.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="643" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2334_Subarray_With_Elements_Greater_Than_Varying_Threshold.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="655" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2337_Move_Pieces_To_Obtain_A_String.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="657" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2335_Minimum_Amount_Of_Time_To_Fill_Cups.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="658" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N786_Kth_Smallest_Prime_Fraction.py</url>
+          <option name="timeStamp" value="664" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N488_Zuma_Game.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="729" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N736_Parse_Lisp_Expression.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="737" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2382_Maximum_Segment_Sum_After_Removals.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="738" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2382_Maximum_Segment_Sum_After_Removals.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="739" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2412_Minimum_Money_Required_Before_Transactions.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="742" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1976_Number_Of_Ways_To_Arrive_At_Destination.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="750" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N1976_Number_Of_Ways_To_Arrive_At_Destination.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="751" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N787_Cheapest_Flights_Within_K_Stops.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="756" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N736_Parse_Lisp_Expression.py</url>
+          <option name="timeStamp" value="760" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2440_Create_Components_With_Same_Value.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="791" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2458_Height_Of_Binary_Tree_After_Subtree_Removal_Queries.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="807" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2463_Minimum_Total_Distance_Traveled.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="815" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2484_Count_Palindromic_Subsequences.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="841" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2488_Count_Subarrays_With_Median_K.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="843" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2537_Count_The_Number_Of_Good_Subarrays.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="860" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2493_Divide_Nodes_Into_The_Maximum_Number_Of_Groups.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="862" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2499_Minimum_Total_Cost_To_Make_Arrays_Unequal.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="865" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2513_Minimize_The_Maximum_Of_Two_Arrays.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="868" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2514_Count_Anagrams.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="869" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2516_Take_K_Of_Each_Character_From_Left_And_Right.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="872" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2516_Take_K_Of_Each_Character_From_Left_And_Right.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="873" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/problems/N2517_Maximum_Tastiness_Of_Candy_Basket.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="875" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1887,19 +2461,25 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
-        <watch expression="mapping[i]" language="Python" />
+        <watch expression="stack[0]" language="Python" />
+        <watch expression="l" language="Python" />
+        <watch expression="&quot;ccbcacccbcac&quot;" language="Python" />
       </configuration>
       <configuration name="PythonConfigurationType">
-        <watch expression="457* 3 - 953" language="Python" />
+        <watch expression="mapping[u]" language="Python" />
+        <watch expression="dp[j]" language="Python" />
+        <watch expression="mapping[v]" language="Python" />
+        <watch expression="s[j:i+1]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1889_Minimum_Space_Wasted_From_Packaging_TestSolution.coverage" NAME="Unittests for test_N1889_Minimum_Space_Wasted_From_Packaging.TestSolution Coverage Results" MODIFIED="1623953936617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$N2069_Walking_Robot_Simulation_II.coverage" NAME="N2069_Walking_Robot_Simulation_II Coverage Results" MODIFIED="1638557879978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1888_Minimum_Number_Of_Flips_To_Make_The_Binary_String_Alternating_TestSolution_test_min_flips_3.coverage" NAME="Unittests for test_N1888_Minimum_Number_Of_Flips_To_Make_The_Binary_String_Alternating.TestSolution.test_min_flips_3 Coverage Results" MODIFIED="1623859341462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1896_Minimum_Cost_To_Change_The_Final_Value_Of_Expression_TestSolution.coverage" NAME="Unittests for test_N1896_Minimum_Cost_To_Change_The_Final_Value_Of_Expression.TestSolution Coverage Results" MODIFIED="1624414848051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1889_Minimum_Space_Wasted_From_Packaging_TestSolution_test_min_wasted_space.coverage" NAME="Unittests for test_N1889_Minimum_Space_Wasted_From_Packaging.TestSolution.test_min_wasted_space Coverage Results" MODIFIED="1623948586879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1634606184890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$aaa.coverage" NAME="aaa Coverage Results" MODIFIED="1674509756327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N224_Basic_Calculator_TestSolution_test_calculate_1.coverage" NAME="Unittests for test_N224_Basic_Calculator.TestSolution.test_calculate_1 Coverage Results" MODIFIED="1624376595807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N815_Bus_Routes_TestSolution.coverage" NAME="Unittests for test_N815_Bus_Routes.TestSolution Coverage Results" MODIFIED="1624835113861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1923_Longest_Common_Subpath_TestSolution_test_longest_common_subpath_1.coverage" NAME="Unittests for test_N1923_Longest_Common_Subpath.TestSolution.test_longest_common_subpath_1 Coverage Results" MODIFIED="1626135852005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -1922,6 +2502,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution_test_find_peak_grid_2.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution.test_find_peak_grid_2 Coverage Results" MODIFIED="1626224078395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1905_Count_Sub_Islands_TestSolution.coverage" NAME="Unittests for test_N1905_Count_Sub_Islands.TestSolution Coverage Results" MODIFIED="1626272141373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution_test_count_of_atoms_1.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution.test_count_of_atoms_1 Coverage Results" MODIFIED="1625434018106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$visual.coverage" NAME="visual Coverage Results" MODIFIED="1655393553453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1449_Form_Largest_Integer_With_Digits_That_Add_Up_To_Target_TestSolution_test_largest_number.coverage" NAME="Unittests for test_N1449_Form_Largest_Integer_With_Digits_That_Add_Up_To_Target.TestSolution.test_largest_number Coverage Results" MODIFIED="1623464635733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony_TestSolution_test_ways_to_build_rooms.coverage" NAME="Unittests for test_N1916_Count_Ways_To_Build_Rooms_In_An_Ant_Colony.TestSolution.test_ways_to_build_rooms Coverage Results" MODIFIED="1626998521534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1915_Number_Of_Wonderful_Substrings_TestSolution_test_wonderful_substrings.coverage" NAME="Unittests for test_N1915_Number_Of_Wonderful_Substrings.TestSolution.test_wonderful_substrings Coverage Results" MODIFIED="1625013910519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -1946,6 +2527,9 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N815_Bus_Routes_TestSolution_test_num_buses_to_destination.coverage" NAME="Unittests for test_N815_Bus_Routes.TestSolution.test_num_buses_to_destination Coverage Results" MODIFIED="1624834736406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1906_Minimum_Absolute_Difference_Queries_TestSolution_test_min_difference_2.coverage" NAME="Unittests for test_N1906_Minimum_Absolute_Difference_Queries.TestSolution.test_min_difference_2 Coverage Results" MODIFIED="1626535319957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution_test_count_of_atoms_2.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution.test_count_of_atoms_2 Coverage Results" MODIFIED="1625434078551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$N304_Range_Sum_Query_2d_immutable.coverage" NAME="N304_Range_Sum_Query_2d_immutable Coverage Results" MODIFIED="1636994300034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$MedianOfTwoSortedArrays.coverage" NAME="MedianOfTwoSortedArrays Coverage Results" MODIFIED="1636245458424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
+    <SUITE FILE_PATH="coverage/Leetcode$N2276_Count_Integers_In_Intervals.coverage" NAME="N2276_Count_Integers_In_Intervals Coverage Results" MODIFIED="1653336588361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1898_Maximum_Number_Of_Removable_Characters_TestSolution.coverage" NAME="Unittests for test_N1898_Maximum_Number_Of_Removable_Characters.TestSolution Coverage Results" MODIFIED="1624468155992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$N1884_Egg_Drop_With_2_Eggs_And_N_Floors.coverage" NAME="N1884_Egg_Drop_With_2_Eggs_And_N_Floors Coverage Results" MODIFIED="1623718816120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time_TestSolution_test_min_skips_3.coverage" NAME="Unittests for test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time.TestSolution.test_min_skips_3 Coverage Results" MODIFIED="1623703677581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -1967,7 +2551,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1923_Longest_Common_Subpath_TestSolution_test_longest_common_subpath_3.coverage" NAME="Unittests for test_N1923_Longest_Common_Subpath.TestSolution.test_longest_common_subpath_3 Coverage Results" MODIFIED="1626136119716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Aaa.coverage" NAME="Aaa Coverage Results" MODIFIED="1633740553518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N726_Number_Of_Atoms_TestSolution_test_count_of_atoms_3.coverage" NAME="Unittests for test_N726_Number_Of_Atoms.TestSolution.test_count_of_atoms_3 Coverage Results" MODIFIED="1625433948361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Leetcode$.coverage" NAME=" Coverage Results" MODIFIED="1634745410061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$.coverage" NAME=" Coverage Results" MODIFIED="1680663211331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1220_Count_Vowels_Permutation_TestSolution.coverage" NAME="Unittests for test_N1220_Count_Vowels_Permutation.TestSolution Coverage Results" MODIFIED="1625423904914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution Coverage Results" MODIFIED="1626226032823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N639_Decode_Ways_II_TestSolution.coverage" NAME="Unittests for test_N639_Decode_Ways_II.TestSolution Coverage Results" MODIFIED="1625926904861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -1976,6 +2560,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1901_Find_A_Peak_Element_II_TestSolution_test_find_peak_grid_1.coverage" NAME="Unittests for test_N1901_Find_A_Peak_Element_II.TestSolution.test_find_peak_grid_1 Coverage Results" MODIFIED="1626225736723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1927_Sum_Game_TestSolution.coverage" NAME="Unittests for test_N1927_Sum_Game.TestSolution Coverage Results" MODIFIED="1627055207923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_find_peak_element_TestSolution_test_findPeakElement_1.coverage" NAME="Unittests for test_find_peak_element.TestSolution.test_findPeakElement_1 Coverage Results" MODIFIED="1626191534212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Leetcode$N2025_Maximum_Number_Of_Ways_To_Partition_An_Array.coverage" NAME="N2025_Maximum_Number_Of_Ways_To_Partition_An_Array Coverage Results" MODIFIED="1635006592554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/problems" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time_TestSolution_test_min_skips_4.coverage" NAME="Unittests for test_N1883_Minimum_Skips_To_Arrive_At_Meeting_On_Time.TestSolution.test_min_skips_4 Coverage Results" MODIFIED="1623704017918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N815_Bus_Routes_TestSolution_test_num_buses_to_destination_1.coverage" NAME="Unittests for test_N815_Bus_Routes.TestSolution.test_num_buses_to_destination_1 Coverage Results" MODIFIED="1624834781907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Leetcode$Unittests_for_test_N1900_The_Earliest_And_Lates_Rounds_Where_Players_Compete_TestSolution_test_earliest_and_latest_2.coverage" NAME="Unittests for test_N1900_The_Earliest_And_Lates_Rounds_Where_Players_Compete.TestSolution.test_earliest_and_latest_2 Coverage Results" MODIFIED="1625704877060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />

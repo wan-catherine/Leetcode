@@ -13,7 +13,7 @@ class Solution:
                 return get_val(tokens[-1])
             else:
                 x, y = map(int, map(get_val, tokens[1:]))
-                if tokens[0] == ADD:
+                if tokens[0] == ADD: 
                     return str(x + y)
                 else:
                     return str(x * y)
