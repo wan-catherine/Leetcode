@@ -10,4 +10,4 @@ def get_prime(n):
     for i in range(2, n + 1):
         if prime[i]:
             res.append(i)
-    return res 
+    return res
