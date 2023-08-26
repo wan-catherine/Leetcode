@@ -5,7 +5,7 @@ class Solution:
     def maximizeTheProfit(self, n: int, offers: List[List[int]]) -> int:
         length = len(offers)
         dp = [0] * (n + 1)
-        offers.sort(key=lambda x:(x[1],x[0],-x[2]))
+        offers.sort(key=lambda x:(x[1],x[0],-x[2])) # sort is the key part
         idx = 0
         for i in range(n):
             dp[i+1] = dp[i]
