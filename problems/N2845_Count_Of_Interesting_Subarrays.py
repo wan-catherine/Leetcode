@@ -39,7 +39,7 @@ class Solution:
             a += 1
         return res
 
-    # hash prefix 
+    # hash prefix
     def countInterestingSubarrays(self, nums: List[int], modulo: int, k: int) -> int:
         mapping = collections.defaultdict(int)
         mapping[0] = 1
