@@ -1,7 +1,9 @@
 import sys
 from typing import List
 
-
+"""
+add pre/last item 
+"""
 class Solution:
     def incremovableSubarrayCount(self, nums: List[int]) -> int:
         length = len(nums)
