@@ -61,11 +61,11 @@ def quick_sort(nums, low, high):
         return
     def partition(arr, low, high):
         # must use a random pivot, or it will be TLE in a long almost sorted array.
-        p = random.randint(low, high)
-        arr[p], arr[low] = arr[low], arr[p]
+        # p = random.randint(low, high)
+        # arr[p], arr[low] = arr[low], arr[p]
         i = low + 1
         j = high
-        while i <= j :
+        while i <= j:
             if arr[i] <= arr[low]:
                 i += 1
                 continue
@@ -111,6 +111,7 @@ if __name__ == "__main__":
     # quick_sort(arr, 0, len(arr)-1)
     # print(arr)
     arr = [2,3,2,3,2,1,1,1,5,3,5,3,2,1,4]
-    # quick_sort(arr, 0, len(arr)-1)
+    arr = [5,1,6,4,7]
+    quick_sort(arr, 0, len(arr)-1)
     quick_3way_sort(arr, 0, len(arr)-1)
     print(arr)

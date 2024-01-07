@@ -1,4 +1,7 @@
 # Definition for singly-linked list.
+from typing import Optional
+
+
 class ListNode:
     def __init__(self, x):
         self.val = x
@@ -33,6 +36,25 @@ class Solution:
             if before.next != cur:
                 before.next = None
         return fake.next
+
+    def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head:
+            return head
+        res = ListNode()
+        d = res
+        val = None
+        cur = head
+        t = 0
+        while cur:
+            t = cur
+            while t and t.next and t.next.val == cur.val:
+                t = t.next
+            if t == cur:
+                d.next = cur
+                d = d.next
+            cur = t.next
+        d.next = cur
+        return res.next
 
 
         
