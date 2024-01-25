@@ -73,10 +73,9 @@ class Solution(object):
             num = sarr[i]
             for j in range(length):
                 if num == arr[j]:
-                    if j < i:
-                        res.append(j + 1)
-                        arr = arr[:j + 1][::-1] + arr[j + 1:]
-                        res.append(i + 1)
-                        arr = arr[:i + 1][::-1] + arr[i + 1:]
-                    break
+                    res.append(j + 1)
+                    arr = arr[:j + 1][::-1] + arr[j + 1:]
+                    res.append(i + 1)
+                    arr = arr[:i + 1][::-1] + arr[i + 1:]
+                break
         return res
