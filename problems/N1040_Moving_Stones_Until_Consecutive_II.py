@@ -25,7 +25,8 @@ class Solution(object):
                 break
 
             if stones[j] - stones[i] + 1 == length:
-                m = stones[j] - stones[i] + 1 - (j - i + 1)
+                # m = stones[j] - stones[i] + 1 - (j - i + 1)
+                m = length - (j - i + 1)
             else:
                 if j - 1 - i + 1 == length - 1:
                     m = 2
