@@ -1,3 +1,6 @@
+import collections
+
+
 class Solution:
     def longestDecomposition(self, text: str) -> int:
         def helper(s, cur):
@@ -17,3 +20,20 @@ class Solution:
             return ans
 
         return helper(text, 0)
+
+    '''
+    2024.1.27
+    There is only one way for the largest possible value of k.
+    '''
+    def longestDecomposition_2024(self, text: str) -> int:
+        length = len(text)
+        l, r = 0, length - 1
+        left, right = collections.deque(), collections.deque()
+        res = 0
+        for i in range(length):
+            left.append(text[l + i])
+            right.appendleft(text[r - i])
+            if left == right:
+                res += 1
+                left, right = collections.deque(), collections.deque()
+        return res
