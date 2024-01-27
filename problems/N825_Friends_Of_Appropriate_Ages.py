@@ -39,6 +39,6 @@ class Solution(object):
         for i in range(15, 121):
             if not age_count[i]:
                 continue
-            res += (prefix_age_sum[i] - prefix_age_sum[i // 2 + 7] - age_count[i // 2 +7]) * age_count[i]
+            res += (prefix_age_sum[i] - prefix_age_sum[i // 2 + 7] - age_count[i // 2 + 7]) * age_count[i]
             res += age_count[i] * (age_count[i] - 1)
         return res
