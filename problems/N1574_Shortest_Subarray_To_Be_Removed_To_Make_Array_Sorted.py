@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution(object):
     def findLengthOfShortestSubarray(self, arr):
         """
@@ -51,3 +54,29 @@ class Solution(object):
                 cur = max(cur, i + 1 + length - j)
                 break
         return cur
+
+    def findLengthOfShortestSubarray(self, arr: List[int]) -> int:
+        length = len(arr)
+        left, right = [arr[0]], [arr[-1]]
+        i = 1
+        while i < length and arr[i] >= left[-1]:
+            left.append(arr[i])
+            i += 1
+        if i == length:
+            return 0
+        j = length - 2
+        while j >= 0 and arr[j] <= right[-1]:
+            right.append(arr[j])
+            j -= 1
+        right = right[::-1]
+
+        ll, lr = len(left), len(right)
+        res = max(ll, lr)
+        i = ll - 1
+        c = 0
+        while i >= 0:
+            idx = bisect.bisect_left(right, left[i])
+            res = max(res, ll - c + lr - idx)
+            c += 1
+            i -= 1
+        return length - res
