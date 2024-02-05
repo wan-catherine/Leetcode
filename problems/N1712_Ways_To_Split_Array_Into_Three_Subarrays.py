@@ -1,4 +1,5 @@
 import bisect
+from typing import List
 
 
 class Solution(object):
@@ -35,3 +36,24 @@ class Solution(object):
                 continue
             res += l - s + 1
         return res % (10**9 + 7)
+
+    def waysToSplit(self, nums: List[int]) -> int:
+        length = len(nums)
+        prefix = [0]
+        for n in nums:
+            prefix.append(prefix[-1] + n)
+
+        res = 0
+        for i in range(1, length):
+            left = prefix[i]
+            m = 2 * left
+            il = bisect.bisect_left(prefix, m)
+            il = max(i + 1, il)
+            n = (prefix[-1] + left) // 2
+            if (prefix[-1] - left) // 2 < left:
+                break
+            ir = bisect.bisect_right(prefix, n)
+            if ir == length + 1:
+                ir -= 1
+            res += ir - il if ir > il else 0
+        return res % (10 ** 9 + 7)
