@@ -1,4 +1,6 @@
 import collections
+from typing import List
+
 """
 See : https://leetcode.com/problems/sum-of-distances-in-tree/discuss/130583/C%2B%2BJavaPython-Pre-order-and-Post-order-DFS-O(N)
 
@@ -59,4 +61,46 @@ class Solution(object):
 
         post_traversal(0, -1)
         pre_traversal(0, -1)
+        return res
+
+    def sumOfDistancesInTree_20240817(self, n: int, edges: List[List[int]]) -> List[int]:
+        graph = collections.defaultdict(list)
+        for u, v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
+        subTree = [0] * n
+
+        def dfs_tree(cur, parent):
+            v = 1
+            for nxt in graph[cur]:
+                if nxt == parent:
+                    continue
+                v += dfs_tree(nxt, cur)
+            subTree[cur] = v
+            return v
+
+        dfs_tree(0, -1)
+
+        root = [0] * n
+
+        def dfs_root(cur, parent):
+            v = 0
+            for nxt in graph[cur]:
+                if nxt == parent:
+                    continue
+                v += dfs_root(nxt, cur)
+            root[cur] = v + subTree[cur] - 1
+            return root[cur]
+
+        res = [0] * n
+        res[0] = dfs_root(0, -1)
+
+        def dfs(cur, parent):
+            for nxt in graph[cur]:
+                if nxt == parent:
+                    continue
+                res[nxt] = res[cur] - subTree[nxt] + n - subTree[nxt]
+                dfs(nxt, cur)
+
+        dfs(0, -1)
         return res
