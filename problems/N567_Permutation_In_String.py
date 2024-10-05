@@ -1,3 +1,6 @@
+import collections
+
+
 class Solution:
     def checkInclusion_mymethod(self, s1: str, s2: str) -> bool:
         if not s2 or len(s2) < len(s1):
@@ -69,6 +72,16 @@ class Solution:
                     window[c] -= 1
         return False
 
-
-
-
+    def checkInclusion_2024(self, s1: str, s2: str) -> bool:
+        lf, ls = len(s1), len(s2)
+        if ls < lf:
+            return False
+        cf, cur = collections.Counter(s1), collections.Counter(s2[:lf])
+        if cf == cur:
+            return True
+        for i in range(ls - lf):
+            cur[s2[i]] -= 1
+            cur[s2[i+lf]] += 1
+            if cf == cur:
+                return True
+        return False
