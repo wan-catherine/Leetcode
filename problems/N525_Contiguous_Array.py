@@ -7,7 +7,7 @@ use prefix sum to check
 create a dictionary which key is the sum of the first i nums
 and value is the first index for such sum
 
-so if the same same shows again which means during this index from the last time,
+so if the same shows again which means during this index from the last time,
 all numbers between them are sum = 0
 
 for example:
