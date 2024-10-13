@@ -1,8 +1,6 @@
 import bisect
 import heapq
 import sys
-from collections import deque
-
 
 class Solution(object):
     def smallestRange_before(self, nums):
