@@ -1,3 +1,7 @@
+import heapq
+from asyncio import PriorityQueue
+
+
 class Solution(object):
     def longestDiverseString(self, a, b, c):
         """
@@ -96,5 +100,37 @@ class Solution(object):
         if f % 2:
             ans += fl[1]
         return ans
+
+    def longestDiverseString_20241016(self, a: int, b: int, c: int) -> str:
+        pq = []
+        if a > 0:
+            heapq.heappush(pq, (-a, "a"))
+        if b > 0:
+            heapq.heappush(pq, (-b, "b"))
+        if c > 0:
+            heapq.heappush(pq, (-c, "c"))
+
+        res = []
+        while pq:
+            if len(pq) == 1:
+                res.append(pq[0][1] * min(2, (-pq[0][0])))
+                break
+            first, second = heapq.heappop(pq), heapq.heappop(pq)
+            fv, fc = -first[0], first[1]
+            sv, sc = -second[0], second[1]
+            k = min(1 + fv - sv, 2)
+            res.append(fc * k)
+            res.append(sc)
+
+            fv -= k
+            sv -= 1
+
+            if fv > 0:
+                heapq.heappush(pq, (-fv, fc))
+            if sv > 0:
+                heapq.heappush(pq, (-sv, sc))
+        return ''.join(res)
+
+
 
 
