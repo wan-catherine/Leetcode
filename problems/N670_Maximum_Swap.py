@@ -36,5 +36,21 @@ class Solution(object):
         num_li[index], num_li[stack[stack_index]] = num_li[stack[stack_index]], num_li[index]
         return int("".join([str(i) for i in num_li]))
 
+    def maximumSwap_20241017(self, num: int) -> int:
+        li = list(str(num))
+        for j in range(len(li)):
+            m = li[j]
+            idx = j
+            flag = False
+            for i in range(j+1, len(li)):
+                if li[i] != li[j] and li[i] >= m:
+                    m = li[i]
+                    idx = i
+                    flag = True
+            if flag:
+                li[j], li[idx] = li[idx], li[j]
+                break
+        return int(''.join(li))
+
 
 
