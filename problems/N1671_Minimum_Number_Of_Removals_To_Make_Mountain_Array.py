@@ -1,4 +1,5 @@
 import bisect
+from typing import List
 
 
 class Solution(object):
@@ -50,3 +51,32 @@ class Solution(object):
             s = max(s, prefix[i] + suffix[i] + 1)
 
         return length - s
+
+    def minimumMountainRemovals_20241030(self, nums: List[int]) -> int:
+        l = len(nums)
+
+        def helper(li):
+            if not li:
+                return 0
+            arr = [li[0]]
+            length = 1
+            for i, n in enumerate(li[1:]):
+                index = bisect.bisect_left(arr, n)
+                if index == 0:
+                    continue
+                if index >= length:
+                    length += 1
+                    bisect.insort_left(arr, n)
+                else:
+                    arr[index] = n
+            return length
+
+        res = 1
+        for i in range(1, l - 1):
+            left, right = [-n for n in nums[:i + 1][::-1]], [-n for n in nums[i:]]
+            ll, rr = helper(left), helper(right)
+            if ll == 1 or rr == 1:
+                continue
+            res = max(ll + rr - 1, res)
+
+        return l - res
