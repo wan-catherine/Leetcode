@@ -2,7 +2,7 @@ import collections
 
 
 class Solution:
-    def takeCharacters(self, s: str, k: int) -> int:
+    def takeCharacters_old(self, s: str, k: int) -> int:
         if k == 0:
             return 0
         length = len(s)
@@ -27,4 +27,38 @@ class Solution:
         res = length
         res = min(res, check(ss))
         res = min(res, check(ss[::-1]))
+        return res
+
+    def takeCharacters(self, s: str, k: int) -> int:
+        if k == 0:
+            return 0
+        length = len(s)
+        ct = collections.Counter(s)
+
+        def check(ct):
+            if 'a' not in ct or ct['a'] < k:
+                return False
+            if 'b' not in ct or ct['b'] < k:
+                return False
+            if 'c' not in ct or ct['c'] < k:
+                return False
+            return True
+
+        if not check(ct):
+            return -1
+        s += s
+        res = length
+        cur = collections.Counter()
+        j = 0
+        for i in range(length):
+            while j < 2 * length and not check(cur):
+                cur[s[j]] += 1
+                j += 1
+            if j == 2 * length:
+                break
+            if i == 0 or j > length - 1:
+                res = min(res, j - i)
+            else:
+                res = min(res, length - i)
+            cur[s[i]] -= 1
         return res
