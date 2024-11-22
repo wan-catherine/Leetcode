@@ -29,8 +29,10 @@ class Solution(object):
             res = max(res, memo[str_p], memo[str_q])
         return res
 
+    """
+    find when two rows can statisfy the condition : when they are have flip 0/1.
+    """
     def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:
-        row, col = len(matrix), len(matrix[0])
         ct = collections.Counter()
         res = 0
         for row in matrix:
