@@ -1,7 +1,7 @@
 """
     Check if start and target are same if without _'s;
-    Check if all positions of L's in start are no greater than those in target;
-    Check if all positions of R's in start are no less than those in target;
+    Check if all positions of L's in start are no smaller than those in target;
+    Check if all positions of R's in start are no larger than those in target;
     If all above 3 are yes, return true; otherwise return false.
 """
 class Solution:
