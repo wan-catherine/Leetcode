@@ -16,3 +16,6 @@ class TestSolution(TestCase):
 
     def test_max_two_events_4(self):
         self.assertEqual(85, Solution().maxTwoEvents([[10,83,53],[63,87,45],[97,100,32],[51,61,16]]))
+
+    def test_max_two_events_5(self):
+        self.assertEqual(165, Solution().maxTwoEvents([[66,97,90],[98,98,68],[38,49,63],[91,100,42],[92,100,22],[1,77,50],[64,72,97]]))
