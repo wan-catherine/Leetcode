@@ -58,3 +58,27 @@ class Solution(object):
                 res = val
                 ans = [left[i][1], i, right[i][1]]
         return ans
+
+
+    def maxSumOfThreeSubarrays_20241228(self, nums: List[int], k: int) -> List[int]:
+        length = len(nums)
+        arr = [sum(nums[:k])]
+        for i in range(k, length):
+            arr.append(arr[-1] - nums[i - k] + nums[i])
+        fmax = [0, arr[0]]
+        sarr = [[k, 0, arr[k]]]
+        cur = arr[0] + arr[k] + arr[2 * k]
+        res = [0, k, 2 * k]
+        for i in range(k, length - 2 * k + 1):
+            val = arr[i] + fmax[1]
+            if val > sarr[-1][2]:
+                sarr.append([i, fmax[0], val])
+            else:
+                sarr.append(sarr[-1])
+            t = arr[i + k] + sarr[-1][2]
+            if t > cur:
+                cur = t
+                res = [sarr[-1][1], sarr[-1][0], i + k]
+            if fmax[1] < arr[i - k + 1]:
+                fmax = [i - k + 1, arr[i - k + 1]]
+        return res
