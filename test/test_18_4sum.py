@@ -8,7 +8,7 @@ class TestSolution(TestCase):
   [-2, -1, 1, 2],
   [-2,  0, 0, 2]
 ]
-        res = Solution().fourSum([1, 0, -1, 0, -2, 2], 0)
+        res = Solution().fourSum_fast([1, 0, -1, 0, -2, 2], 0)
         for li in res:
             self.assertIn(li, output)
         self.assertEqual(len(output), len(res))
