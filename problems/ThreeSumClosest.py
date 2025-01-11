@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def threeSumClosest(self, nums, target):
         """
@@ -29,6 +32,28 @@ class Solution:
             elif abs(minsum - target) > abs(moresum - target) and abs(moresum - target) < abs(lesssum - target):
                 minsum = moresum
         return minsum
+
+    def threeSumClosest_20250111(self, nums: List[int], target: int) -> int:
+        length = len(nums)
+        res = sys.maxsize
+        nums.sort()
+        pi = -1001
+        for i in range(length):
+            if pi == nums[i]:
+                continue
+            pi = nums[i]
+            l, r = i + 1, length - 1
+            while l < r:
+                val = nums[i] + nums[l] + nums[r]
+                if val == target:
+                    return target
+                if val > target:
+                    r -= 1
+                else:
+                    l += 1
+                if abs(val - target) < abs(res - target):
+                    res = val
+        return res
 
 
 
