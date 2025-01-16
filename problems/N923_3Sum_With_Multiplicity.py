@@ -1,4 +1,5 @@
 import collections
+from typing import List
 
 
 class Solution(object):
@@ -67,4 +68,34 @@ class Solution(object):
                 elif i < k and j < k:
                     res += counts[i] * counts[j] * counts[k]
         return res % (10 ** 9 + 7)
+
+    def threeSumMulti_20250115(self, arr: List[int], target: int) -> int:
+        ct = collections.Counter(arr)
+        length = len(ct)
+        values = sorted(set(arr))
+        M = 10**9 + 7
+        res = 0
+        if target % 3 == 0 and target // 3 in ct.keys():
+            res += ct[target // 3] * (ct[target // 3] - 1) * (ct[target // 3] - 2) // 6
+            res %= M
+        for k, v in ct.items():
+            if v < 2:
+                continue
+            val = 2 * k
+            if val > target:
+                continue
+            left = target - val
+            if left == k:
+                continue
+            if left in ct.keys():
+                res += ct[left] * v * (v - 1)//2
+                res %= M
+        for i in range(length - 2):
+            for j in range(i + 1, length - 1):
+                for k in range(j + 1, length):
+                    val = values[i] + values[j] + values[k]
+                    if val == target:
+                        res += ct[values[i]] * ct[values[j]] * ct[values[k]]
+                        res %= M
+        return res
 
