@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution(object):
     def numSubarrayProductLessThanK_self(self, nums, k):
         """
@@ -48,4 +51,26 @@ class Solution(object):
                 temp //= nums[left]
                 left += 1
             res += i - left + 1
+        return res
+
+    def numSubarrayProductLessThanK_20250115(self, nums: List[int], k: int) -> int:
+        length = len(nums)
+        if k == 0:
+            return 0
+        cur = 1
+        j = 0
+        res = 0
+        pj = 0
+        for i in range(length):
+            if j < i:
+                j = i
+                pj = i
+            while j < length and cur * nums[j] < k:
+                cur *= nums[j]
+                j += 1
+            if j > i:
+                res += (j - i + 1) * (j - i) // 2
+                res -= (pj - i + 1) * (pj - i) // 2 # duplicated part
+                pj = j
+                cur //= nums[i]
         return res
