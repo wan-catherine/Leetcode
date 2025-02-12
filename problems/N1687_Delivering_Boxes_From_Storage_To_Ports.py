@@ -1,6 +1,7 @@
 import sys
 """
 dp[i] : ship all i boxes, the minimum number of trips needed. 
+Must first use greedy , then consider the next boxes after greedy .
 We need to consider two situation : 
 1. greedy, we will carry as many boxes as possbile ( <=maxBoxes, <=maxWeight) 
     Here is problem:
