@@ -54,3 +54,24 @@ class Solution:
                 if i + j >= k:
                     res += counter[i] * counter[j]
         return res
+
+    def countExcellentPairs_20250214(self, nums: List[int], k: int) -> int:
+        ct = collections.Counter(nums)
+        nums = ct.keys()
+        arr = []
+        length = len(nums)
+        for n in nums:
+            bisect.insort_left(arr, bin(n).count('1'))
+        res = 0
+        j = length - 1
+        for i in range(length):
+            while j >=0 and arr[i] + arr[j] >= k:
+                j -= 1
+
+            if j < i:
+                res += 1 + (length - i - 1) * 2
+            elif j == i:
+                res += (length - i - 1) * 2
+            else:
+                res += (length - j - 1) * 2
+        return res
