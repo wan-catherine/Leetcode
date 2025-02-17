@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution(object):
     def longestOnes_compare(self, A, K):
         """
@@ -38,4 +41,19 @@ class Solution(object):
                 start += 1
             end += 1
         return end - start
+
+    def longestOnes_20250217(self, nums: List[int], k: int) -> int:
+        length = len(nums)
+        res, j = 0, 0
+        for i in range(length):
+            while j < length and k > 0:
+                if nums[j] == 0:
+                    k -= 1
+                j += 1
+            while j < length and nums[j] == 1:
+                j += 1
+            res = max(res, j - i)
+            if nums[i] == 0:
+                k += 1
+        return res
 
