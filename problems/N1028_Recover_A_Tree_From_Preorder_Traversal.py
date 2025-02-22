@@ -1,4 +1,5 @@
 import collections
+from typing import Optional
 
 from .Utility_Tree import TreeNode
 class Solution(object):
@@ -78,3 +79,35 @@ class Solution(object):
             stack = new_stack
             key += 1
         return root
+
+    def recoverFromPreorder_20250222(self, traversal: str) -> Optional[TreeNode]:
+        i = 0
+        arr = []
+        length = len(traversal)
+        while i < length:
+            j = i
+            while j < length and traversal[j] == '-':
+                j += 1
+            num = j - i
+            i = j
+            while j < length and traversal[j] != '-':
+                j += 1
+            val = int(traversal[i:j])
+            arr.append((val, num))
+            i = j
+        ll = len(arr)
+
+        def helper(idx):
+            v, d = arr[idx]
+            node = TreeNode(v)
+            lf, rf = 0, 0
+            if idx + 1 < ll and arr[idx + 1][1] == d + 1:
+                lf, node.left = helper(idx + 1)
+            ridx = lf + idx + 1
+            if ridx < ll and arr[ridx][1] == d + 1:
+                rf, node.right = helper(ridx)
+            return (1 + lf + rf, node)
+
+        _, root = helper(0)
+        return root
+
