@@ -27,3 +27,14 @@ class Solution:
                 break
         return length - maximum
 
+    def minOperations_20250223(self, nums: List[int]) -> int:
+        length = len(nums)
+        snums = sorted(set(nums))
+        ll = len(snums)
+        j = 0
+        res = length
+        for i in range(ll):
+            while j < ll and snums[j] - snums[i] + 1 <= length:
+                res = min(res, length - (j - i + 1))
+                j += 1
+        return res
