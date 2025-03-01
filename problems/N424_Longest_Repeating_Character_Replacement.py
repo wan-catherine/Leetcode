@@ -2,6 +2,9 @@
 The key point is maintain char_count and most_char_count.
 Need to remember how to calculate those two when looping all string.
 """
+import string
+
+
 class Solution:
     def characterReplacement_before(self, s: str, k: int) -> int:
         char_count = [0] * 26
@@ -32,4 +35,21 @@ class Solution:
                 counter[ord[s[left]]] -= 1
                 left += 1
             res = max(res, i - left + 1)
+        return res
+
+    def characterReplacement_20250301(self, s: str, k: int) -> int:
+        length = len(s)
+        res = 0
+        for c in string.ascii_uppercase:
+            cur = k
+            i, j = 0, 0
+            while j < length:
+                if s[j] != c:
+                    cur -= 1
+                while i < j and cur < 0:
+                    if s[i] != c:
+                        cur += 1
+                    i += 1
+                res = max(res, j - i + 1)
+                j += 1
         return res
