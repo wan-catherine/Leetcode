@@ -75,3 +75,22 @@ class Solution(object):
                 res += arr[0] - l + 1
             r += 1
         return res
+
+    def subarraysWithKDistinct_20250317(self, nums: List[int], k: int) -> int:
+        length = len(nums)
+        def atMost(m):
+            if m == 0:
+                return 0
+            j, res = 0, 0
+            status = collections.defaultdict(int)
+            for i in range(length):
+                while j < length and (nums[j] in status or len(status) < m):
+                    status[nums[j]] += 1
+                    j += 1
+                res += j - i
+                if status[nums[i]] == 1:
+                    del status[nums[i]]
+                else:
+                    status[nums[i]] -= 1
+            return res
+        return atMost(k) - atMost(k-1)
