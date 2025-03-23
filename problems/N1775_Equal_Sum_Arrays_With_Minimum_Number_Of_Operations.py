@@ -1,4 +1,6 @@
 import collections
+import heapq
+from typing import List
 
 """
 Greedy. 
@@ -37,4 +39,29 @@ class Solution(object):
                 if diff <= 0:
                     return res
         return -1
+
+    def minOperations_20250323(self, nums1: List[int], nums2: List[int]) -> int:
+        lf, ls = len(nums1), len(nums2)
+        if lf > ls * 6 or lf * 6 < ls:
+            return -1
+        t1, t2 = sum(nums1), sum(nums2)
+        if t1 == t2:
+            return 0
+        if t1 < t2:
+            return self.minOperations_20250323(nums2, nums1)
+        first = [-n for n in nums1]
+        heapq.heapify(first)
+        heapq.heapify(nums2)
+        diff = t1 - t2
+        res = 0
+        while diff > 0:
+            f, s = -first[0] if first else 0, nums2[0] if nums2 else 0
+            if f - 1 >= 6 - s:
+                diff -= min(f - 1, diff)
+                heapq.heappop(first)
+            else:
+                diff -= min(6 - s, diff)
+                heapq.heappop(nums2)
+            res += 1
+        return res
 
