@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution(object):
     def maxSum(self, nums1, nums2):
         """
@@ -39,5 +42,29 @@ class Solution(object):
 
         return max(dp[-1][0], dp[-1][1]) %(10**9 + 7)
 
+    def maxSum_20250323(self, nums1: List[int], nums2: List[int]) -> int:
+        lf, ls = len(nums1), len(nums2)
+        points = []
+        i, j = 0, 0
+        while i < lf and j < ls:
+            if nums1[i] == nums2[j]:
+                points.append([i, j])
+                i += 1
+                j += 1
+            elif nums1[i] < nums2[j]:
+                i += 1
+            else:
+                j += 1
+        if len(points) == 0:
+            return max(sum(nums1), sum(nums2))
+        cur = 0
+        pi, pj = -1, -1
+        for i, j in points:
+            piv, pjv = sum(nums1[pi+1:i]), sum(nums2[pj+1:j])
+            cur += max(piv, pjv)
+            cur += nums1[i]
+            pi, pj = i, j
+        cur += max(sum(nums1[pi+1:]), sum(nums2[pj+1:]))
+        return cur
 
 
