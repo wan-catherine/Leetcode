@@ -1,7 +1,7 @@
 class BIT:
     def __init__(self, n):
         self.n = n
-        self.arr = [0] * (n + 1)
+        self.arr = [0] * (n + 1) # all arrays are 1-index
 
     def update(self, i, delta):
         idx = i
