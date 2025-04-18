@@ -39,3 +39,19 @@ class Solution:
             cur = ncur
             n -= 1
         return cur
+
+    def countAndSay_20250418(self, n: int) -> str:
+        cur = [1]
+        if n == 1:
+            return "1"
+        while n > 1:
+            status = [1, cur[0]]
+            for i in cur[1:]:
+                if i == status[-1]:
+                    status[-2] += 1
+                else:
+                    status.append(1)
+                    status.append(i)
+            cur = status
+            n -= 1
+        return ''.join([str(i) for i in cur])
