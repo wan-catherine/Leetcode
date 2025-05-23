@@ -28,3 +28,24 @@ class Solution:
 
         return diff + sum(nums)
 
+    def maximumValueSum_20250523(self, nums: List[int], k: int, edges: List[List[int]]) -> int:
+        length = len(nums)
+        arr = []
+        for n in nums:
+            arr.append((n ^ k) - n)
+        arr.sort(reverse=True)
+
+        md, cd = 0, 0
+        for i in range(0, length, 2):
+            cd += arr[i]
+            if i + 1 == length:
+                break
+            cd += arr[i + 1]
+            if cd > md:
+                md = cd
+
+        return md + sum(nums)
+
+
+
+
