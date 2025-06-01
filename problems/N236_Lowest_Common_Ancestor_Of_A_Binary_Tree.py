@@ -41,4 +41,31 @@ class Solution(object):
         if not left:
             return right
 
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        def dfs(n, node, arr):
+            if node == n:
+                arr.append(node)
+                return True
+            if node == None:
+                return False
+            if dfs(n, node.left, arr) or dfs(n, node.right, arr):
+                arr.append(node)
+                return True
+            return False
+        parr, qarr = [], []
+        dfs(p, root, parr)
+        dfs(q, root, qarr)
+        lp, lq = len(parr), len(qarr)
+        i, j = lp - 1, lq - 1
+        while i >= 0 and j >= 0:
+            if parr[i] == qarr[j]:
+                i -= 1
+                j -= 1
+            else:
+                break
+        if i >= 0:
+            return parr[i+1]
+        return qarr[j+1]
+
+
 
