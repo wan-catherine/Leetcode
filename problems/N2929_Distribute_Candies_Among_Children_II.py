@@ -13,5 +13,6 @@ class Solution:
         limitPlusOne = limit + 1
         oneChildExceedsLimit = ways(n - limitPlusOne)
         twoChildrenExceedLimit = ways(n - 2 * limitPlusOne)
+        threeChildrenExceedLimit = ways(n - 3 * limitPlusOne)
         # Principle of Inclusion-Exclusion (PIE)
-        return ways(n) - 3 * oneChildExceedsLimit + 3 * twoChildrenExceedLimit
+        return ways(n) - 3 * oneChildExceedsLimit + 3 * twoChildrenExceedLimit - 3 * threeChildrenExceedLimit
