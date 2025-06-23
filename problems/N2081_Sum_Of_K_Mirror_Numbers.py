@@ -6,8 +6,8 @@ we can know for num : xyz, there are two ways to create a palindrome number from
 
 so we can start from the length = 1 and loop all numbers then create palindrome numbers.
 xyz -> calculate to get zyx
-then xyz * 10 ** 3 + zyx  ==> xyzzyx
-xyz // 10 * 10 ** 3 + zyx  ==> xyzyx
+then xyz * (10 ** 3) + zyx  ==> xyzzyx
+xyz // 10 * (10 ** 3) + zyx  ==> xyzyx
 """
 
 class Solution:
